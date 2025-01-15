@@ -21,11 +21,13 @@ I am a 3rd-year undergraduate student studying computer science and technology a
 
 
 # 🔥 News
-- *2025.01*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2025](https://biomedicalimaging.org/2025) was accepted!
-- *2024.04*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2024](https://biomedicalimaging.org/2024) was selected for oral presentation!
-- *2024.02*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2024](https://biomedicalimaging.org/2024) was accepted!
-- *2024.01*: &nbsp;🎉🎉 Our new paper for [Computers in Biology and Medicine](https://www.sciencedirect.com/journal/computers-in-biology-and-medicine) was accepted!
-- *2023.06*: &nbsp;🎉🎉 Our new paper for [ICSIP 2023](https://www.icsip.org/2023.html) was accepted!
+- *2025.01*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2025](https://biomedicalimaging.org/2025) was **Accepted**!
+- *2024.04*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2024](https://biomedicalimaging.org/2024) was selected for **Oral presentation**!
+- *2024.02*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2024](https://biomedicalimaging.org/2024) was **Accepted**!
+- *2024.01*: &nbsp;🎉🎉 Our new paper for [Computers in Biology and Medicine](https://www.sciencedirect.com/journal/computers-in-biology-and-medicine) was **Accepted**!
+- *2023.12*: &nbsp;🎉🎉 We won the **National Gold Medal** in the [China International College Students' Innovation Competition 2023](https://pilcchina.org/home).
+- *2023.08*: &nbsp;🎉🎉 We won the **National First Prize** in the [18th National Smart Car Competition for College Students](https://www.smartcar.zone/index.html).
+- *2023.06*: &nbsp;🎉🎉 Our new paper for [ICSIP 2023](https://www.icsip.org/2023.html) was **Accepted**!
 
 
 # 📝 Publications 
@@ -56,5 +58,3 @@ I am a 3rd-year undergraduate student studying computer science and technology a
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.

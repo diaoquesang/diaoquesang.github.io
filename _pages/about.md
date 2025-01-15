@@ -74,7 +74,13 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin*,
 </div>
 </div>
 
+# 💰 Funding
+
+- *2024* National Undergraduate Innovation and Entrepreneurship Training Program (**Project Leader**)
+- *2024* Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (**Key Member**)
+
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
 

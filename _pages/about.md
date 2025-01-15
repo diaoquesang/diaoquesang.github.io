@@ -36,6 +36,14 @@ I am a 3rd-year undergraduate student studying computer science and technology a
 - *2023.08*: &nbsp;🎉🎉 We won the **National First Prize** in the [18th National Smart Car Competition for College Students](https://www.smartcar.zone/index.html)!
 - *2023.06*: &nbsp;🎉🎉 Our new paper for [ICSIP 2023](https://www.icsip.org/2023.html) was **Accepted**!
 
+# 🎖 Honors
+- *2023-2024* National Scholarship (**Top 0.4%**)
+- *2022-2023* Zhejiang Provincial Government Scholarship (**Top 3%**)
+
+# 💰 Funding
+
+- *2024* National Undergraduate Innovation and Entrepreneurship Training Program (**Project Leader**)
+- *2024* Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (**Key Member**)
 
 # 📝 Publications 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ISBI 2025</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
@@ -74,13 +82,7 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin*,
 </div>
 </div>
 
-# 💰 Funding
 
-- *2024* National Undergraduate Innovation and Entrepreneurship Training Program (**Project Leader**)
-- *2024* Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (**Key Member**)
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 

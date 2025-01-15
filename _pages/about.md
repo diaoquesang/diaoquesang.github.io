@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a 3rd-year undergraduate student studying computer science and technology at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) where I am advised by [Prof. Changmiao Wang](https://www.sribd.cn/teacher/505) and [Prof. Ruiquan Ge](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm). I have a broad interest in Computer Vision, with a primary focus on Biomedical Imaging and Medical Image Analysis.
+I am a 3rd-year undergraduate student studying computer science and technology at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) where I am advised by [Prof. Changmiao Wang](https://www.sribd.cn/teacher/505) and [Prof. Ruiquan Ge](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm). I have a broad interest in Computer Vision and Medical Image Analysis, with a primary focus on Biomedical Imaging.
 
 
 # 🔥 News

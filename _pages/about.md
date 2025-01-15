@@ -34,7 +34,6 @@ I am a 3rd-year undergraduate student studying computer science and technology a
 
 
 # 📝 Publications 
-<span style="color:#b02418; font-weight:bold;">✝</span> co-first author | <span style="color:#b02418; font-weight:bold;">*</span> corresponding author <br> 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ISBI 2025</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   

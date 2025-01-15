@@ -40,7 +40,7 @@ I am a 3rd-year undergraduate student studying computer science and technology a
   
 [ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction]()
   
-Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge*, Changmiao Wang, Xiaopeng Fan
+Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge*, Changmiao Wang*, Xiaopeng Fan
 </div>
 </div>
 
@@ -50,7 +50,7 @@ Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, X
   
 [BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images]()
   
-Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge*, Changmiao Wang, Xiaopeng Fan
+Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge*, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang*
 </div>
 </div>
 

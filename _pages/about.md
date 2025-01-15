@@ -21,7 +21,6 @@ I am a 3rd-year undergraduate student studying computer science and technology a
 
 <a href='https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
 [![](https://img.shields.io/github/stars/diaoquesang?style=social)](https://github.com/diaoquesang)
-[![](https://img.shields.io/badge/WeChat-%E5%BE%AE%E4%BF%A1-7BB32E?style=flat&logo=wechat&logoColor=white)](../images/wechat.png)
 
 # 📖 Educations
 - *2019.06 - Present*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 

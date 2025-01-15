@@ -20,7 +20,7 @@ redirect_from:
 I am a 3rd-year undergraduate student studying computer science and technology at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) where I am advised by [Prof. Ruiquan Ge(葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) and [Prof. Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505). I have a broad interest in Computer Vision and Medical Image Analysis, with a primary focus on Biomedical Imaging.
 
 # 📖 Educations
-- *2022.08 - Present*, Undergraduate student: Computer Science and Technology, Hangzhou Dianzi University, Hangzhou, China. 
+- *2022.08 - Present*, Undergraduate student: Computer Science and Technology, Hangzhou Dianzi University, Hangzhou, China
 
 # 💻 Internships
 - *2023.06 - Present*, Healthcare Big Data Lab, Shenzhen Research Institute of Big Data, Shenzhen, China
@@ -32,8 +32,8 @@ I am a 3rd-year undergraduate student studying computer science and technology a
 - *2024.04*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2024](https://biomedicalimaging.org/2024) was selected for **Oral presentation**!
 - *2024.02*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2024](https://biomedicalimaging.org/2024) was **Accepted**!
 - *2024.01*: &nbsp;🎉🎉 Our new paper for [Computers in Biology and Medicine](https://www.sciencedirect.com/journal/computers-in-biology-and-medicine) was **Accepted**!
-- *2023.12*: &nbsp;🎉🎉 We won the **National Gold Medal** in the [China International College Students' Innovation Competition 2023](https://pilcchina.org/home).
-- *2023.08*: &nbsp;🎉🎉 We won the **National First Prize** in the [18th National Smart Car Competition for College Students](https://www.smartcar.zone/index.html).
+- *2023.12*: &nbsp;🎉🎉 We won the **National Gold Medal** in the [China International College Students' Innovation Competition 2023](https://pilcchina.org/home)!
+- *2023.08*: &nbsp;🎉🎉 We won the **National First Prize** in the [18th National Smart Car Competition for College Students](https://www.smartcar.zone/index.html)!
 - *2023.06*: &nbsp;🎉🎉 Our new paper for [ICSIP 2023](https://www.icsip.org/2023.html) was **Accepted**!
 
 

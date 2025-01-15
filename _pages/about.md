@@ -52,6 +52,15 @@ Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge*, Cheng Pan, Wenming Deng,
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Computers in Biology and Medicine</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[Accurate leukocyte detection based on deformable-DETR and multi-level feature fusion for aiding diagnosis of blood diseases]()
+  
+Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang*, Xianjun Fu, Yuxing Dai, Feiwei Qin*, Yong Peng, Yu Gao
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICSIP 2023</div><img src='images/RTUNet++.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   

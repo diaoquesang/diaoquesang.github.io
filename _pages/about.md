@@ -40,7 +40,7 @@ I am a **3rd-year undergraduate student** studying **computer science and techno
 - *2023.06*: &nbsp;🎉🎉 Our new paper for [ICSIP 2023](https://www.icsip.org/2023.html) was **Accepted**!
 ICT Industry-Teaching Integration Innovation Competition
 
-# 🎖 Honors
+# 🏅 Honors
 
 - *2023-2024* National Scholarship (**Top 0.4%**)
 - *2022-2023* Zhejiang Provincial Government Scholarship (**Top 3%**)

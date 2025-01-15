@@ -46,7 +46,7 @@ Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, X
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ISBI 2024 (Oral)</div><img src='images/BS-Diff.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images]()
+[BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images](https://ieeexplore.ieee.org/abstract/document/10635371/)
   
 Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge*, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang*
 </div>
@@ -55,7 +55,7 @@ Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge*, Cheng Pan, Wenming Deng,
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Computers in Biology and Medicine</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Accurate leukocyte detection based on deformable-DETR and multi-level feature fusion for aiding diagnosis of blood diseases]()
+[Accurate leukocyte detection based on deformable-DETR and multi-level feature fusion for aiding diagnosis of blood diseases](https://www.sciencedirect.com/science/article/pii/S0010482524000015)
   
 Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang*, Xianjun Fu, Yuxing Dai, Feiwei Qin*, Yong Peng, Yu Gao
 </div>
@@ -64,7 +64,7 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang*,
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICSIP 2023</div><img src='images/RTUNet++.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[RTUNet++: Assessment of Osteosarcoma MRI Image Segmentation leveraging Hybrid CNN-Transformer Approach with Dense Skip Connection]()
+[RTUNet++: Assessment of Osteosarcoma MRI Image Segmentation leveraging Hybrid CNN-Transformer Approach with Dense Skip Connection](https://ieeexplore.ieee.org/abstract/document/10270849)
   
 Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin*, Changmiao Wang
 </div>

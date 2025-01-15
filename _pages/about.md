@@ -39,6 +39,7 @@ I am a **3rd-year undergraduate student** studying **computer science and techno
 - *2023.08*: &nbsp;🎉🎉 We won the **National First Prize** in the [18th National Smart Car Competition for College Students](https://www.smartcar.zone/index.html)!
 - *2023.06*: &nbsp;🎉🎉 Our new paper for [ICSIP 2023](https://www.icsip.org/2023.html) was **Accepted**!
 ICT Industry-Teaching Integration Innovation Competition
+
 # 🎖 Honors
 
 - *2023-2024* National Scholarship (**Top 0.4%**)

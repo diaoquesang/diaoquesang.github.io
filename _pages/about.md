@@ -23,9 +23,9 @@ I am a **3rd-year undergraduate student** studying **computer science and techno
 - *2022.08 - Present*, Undergraduate student: Computer Science and Technology, Hangzhou Dianzi University, Hangzhou, China
 
 # 💻 Internships
-- *2023.06 - Present*, Healthcare Big Data Lab, Shenzhen Research Institute of Big Data, Shenzhen, China
-- *2023.06 - Present*, Advanced Networking and Big Data Lab, Hangzhou Dianzi University, Hangzhou, China
-- *2022.09 - 2023.09*, Smart Car Lab, Hangzhou Dianzi University, Hangzhou, China
+- *2023.06 - Present*: Healthcare Big Data Lab, Shenzhen Research Institute of Big Data, Shenzhen, China
+- *2023.06 - Present*: Advanced Networking and Big Data Lab, Hangzhou Dianzi University, Hangzhou, China
+- *2022.09 - 2023.09*: Smart Car Lab, Hangzhou Dianzi University, Hangzhou, China
 
 # 🔥 News
 - *2025.01*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2025](https://biomedicalimaging.org/2025) was **Accepted**!
@@ -42,13 +42,13 @@ ICT Industry-Teaching Integration Innovation Competition
 
 # 🏅 Honors
 
-- *2023-2024* National Scholarship (**Top 0.4%**)
-- *2022-2023* Zhejiang Provincial Government Scholarship (**Top 3%**)
+- *2023-2024*: National Scholarship (**Top 0.4%**)
+- *2022-2023*: Zhejiang Provincial Government Scholarship (**Top 3%**)
 
 # 💰 Funding
 
-- *2024* National Undergraduate Innovation and Entrepreneurship Training Program (**Project Leader**)
-- *2024* Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (**Key Member**)
+- *2024*: National Undergraduate Innovation and Entrepreneurship Training Program (**Project Leader**)
+- *2024*: Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (**Key Member**)
 
 # 📝 Publications 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ISBI 2025</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>

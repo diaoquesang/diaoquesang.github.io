@@ -55,14 +55,6 @@ ICT Industry-Teaching Integration Innovation Competition
 - *2024*: Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (**Key Member**)
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint</div><img src='images/BS-LDM.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models](https://arxiv.org/abs/2412.15670)
-  
-**Yifei Sun**, Zhanghao Chen, Hao Zheng, Wenming Deng, Jin Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang*, Ruiquan Ge*
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ISBI 2025</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -70,6 +62,15 @@ ICT Industry-Teaching Integration Innovation Competition
 [ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction]()
   
 Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge*, Changmiao Wang*, Xiaopeng Fan
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2024</div><img src='images/BS-LDM.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models](https://arxiv.org/abs/2412.15670)
+  
+**Yifei Sun**, Zhanghao Chen, Hao Zheng, Wenming Deng, Jin Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang*, Ruiquan Ge*
 </div>
 </div>
 

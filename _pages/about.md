@@ -26,8 +26,6 @@ I am a 3rd-year undergraduate student studying **Computer Science and Technology
   <div class='photo-box-image'><div><img src='images/p/4.jpg' alt="sym" width="100%"></div></div>
   <div class='photo-box-image'><div><img src='images/p/5.jpg' alt="sym" width="100%"></div></div>
   <div class='photo-box-image'><div><img src='images/p/6.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><img src='images/p/7.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><img src='images/p/8.jpg' alt="sym" width="100%"></div></div>
 </div>
 
 

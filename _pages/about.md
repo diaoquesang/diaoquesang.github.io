@@ -22,7 +22,7 @@ I am a 3rd-year undergraduate student studying **Computer Science and Technology
 <div class='paper-box'>
   <div class='paper-box-image-small'><div><div class="badge">test</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
   <div class='paper-box-image-smal'><div><div class="badge">test</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
-  <div class='paper-box-image-smal'><div><div class="badge"test</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-image-smal'><div><div class="badge">test</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
 </div>
 
 

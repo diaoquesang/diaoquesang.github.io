@@ -20,9 +20,9 @@ redirect_from:
 I am a 3rd-year undergraduate student studying **Computer Science and Technology** at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) where I am advised by [Prof. Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) and [Prof. Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505). I have a broad interest in **Computer Vision** and **Medical Image Analysis**, with a primary focus on **Biomedical Imaging**.
 
 <div class='paper-box'>
-  <div class='paper-box-image'><div><div class="badge">Computers in Biology and Medicine</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
-  <div class='paper-box-image'><div><div class="badge">Computers in Biology and Medicine</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
-  <div class='paper-box-image'><div><div class="badge">Computers in Biology and Medicine</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-image-small'><div><div class="badge">test</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-image-smal'><div><div class="badge">test</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-image-smal'><div><div class="badge"test</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
 </div>
 
 

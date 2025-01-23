@@ -116,6 +116,7 @@
         order: 1;
     }
 
+
     @include breakpoint($medium) {
         .photo-box-image{
             justify-content: left;
@@ -130,6 +131,7 @@
             max-width: 60%;
             order: 2;
         }
+    }
 
 }
 

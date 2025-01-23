@@ -20,11 +20,14 @@ redirect_from:
 I am a 3rd-year undergraduate student studying **Computer Science and Technology** at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) where I am advised by [Prof. Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) and [Prof. Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505). I have a broad interest in **Computer Vision** and **Medical Image Analysis**, with a primary focus on **Biomedical Imaging**.
 
 <div class='photo-box'>
-  <div class='photo-box-image'><div><div class="badge">test</div><img src='images/diaoquesang.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><div class="badge">test</div><img src='images/diaoquesang.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><div class="badge">test</div><img src='images/diaoquesang.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><div class="badge">test</div><img src='images/diaoquesang.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><div class="badge">test</div><img src='images/diaoquesang.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/1.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/2.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/3.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/4.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/5.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/6.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/7.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/8.jpg' alt="sym" width="100%"></div></div>
 </div>
 
 

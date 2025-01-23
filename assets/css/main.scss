@@ -62,6 +62,18 @@
         }
     }
     
+    .paper-box-image-small{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        order: 2;
+        img {
+            max-width: 300px;
+            box-shadow: 3px 3px 6px #888;
+            object-fit: cover;
+        }
+    }
+    
     .paper-box-text{
         max-width: 100%;
         order: 1;

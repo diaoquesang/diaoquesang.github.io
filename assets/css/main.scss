@@ -95,20 +95,19 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
     padding: 2em 0 2em 0;
 
     
     .photo-box-image{
         justify-content: center;
         display: flex;
+        width: 25%;
         order: 2;
         img {
             max-height: 200px;
             box-shadow: 3px 3px 6px #888;
             object-fit: cover;
         }
-        gap: 10px;
 
     }
     

@@ -19,6 +19,15 @@ redirect_from:
 
 I am a 3rd-year undergraduate student studying **Computer Science and Technology** at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) where I am advised by [Prof. Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) and [Prof. Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505). I have a broad interest in **Computer Vision** and **Medical Image Analysis**, with a primary focus on **Biomedical Imaging**.
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ISBI 2025</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div><div class='paper-box-image'><div><div class="badge">IEEE ISBI 2025</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction](http://arxiv.org/abs/2501.11276)
+  
+Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge*, Changmiao Wang*, Xiaopeng Fan
+</div>
+</div>
+
 <a href='https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
 [![](https://img.shields.io/github/stars/diaoquesang?style=social)](https://github.com/diaoquesang)
 

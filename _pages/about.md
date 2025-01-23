@@ -19,6 +19,11 @@ redirect_from:
 # 😉 About Me
 I am a 3rd-year undergraduate student studying **Computer Science and Technology** at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) where I am advised by [Prof. Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) and [Prof. Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505). I have a broad interest in **Computer Vision** and **Medical Image Analysis**, with a primary focus on **Biomedical Imaging**.
 
+
+<a href='https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
+[![](https://img.shields.io/github/stars/diaoquesang?style=social)](https://github.com/diaoquesang)
+
+
 <div class='photo-box'>
   <div class='photo-box-image'><div><img src='images/p/1.jpg' alt="sym" width="100%"></div></div>
   <div class='photo-box-image'><div><img src='images/p/2.jpg' alt="sym" width="100%"></div></div>
@@ -28,9 +33,6 @@ I am a 3rd-year undergraduate student studying **Computer Science and Technology
   <div class='photo-box-image'><div><img src='images/p/6.jpg' alt="sym" width="100%"></div></div>
 </div>
 
-
-<a href='https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
-[![](https://img.shields.io/github/stars/diaoquesang?style=social)](https://github.com/diaoquesang)
 
 
 # 📖 Educations

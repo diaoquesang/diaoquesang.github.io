@@ -105,7 +105,7 @@
         order: 2;
         padding: 0 0 0.5em 0.5em;
         img {
-            max-height: 200px;
+            max-height: 225px;
             box-shadow: none;
             object-fit: cover;
         }
@@ -121,7 +121,7 @@
     @include breakpoint($medium) {
         .photo-box-image{
             justify-content: left;
-            min-width: 225px;
+            min-width: 200px;
             max-width: 40%;
             order: 1;
         }

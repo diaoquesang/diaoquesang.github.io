@@ -23,6 +23,8 @@ I am a 3rd-year undergraduate student studying **Computer Science and Technology
   <div class='photo-box-image'><div><div class="badge">test</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
   <div class='photo-box-image'><div><div class="badge">test</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
   <div class='photo-box-image'><div><div class="badge">test</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><div class="badge">test</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><div class="badge">test</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
 </div>
 
 

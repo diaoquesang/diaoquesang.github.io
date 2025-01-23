@@ -120,6 +120,7 @@
 
     @include breakpoint($medium) {
         .photo-box-image{
+            display: none;
             justify-content: left;
             min-width: 200px;
             max-width: 40%;
@@ -127,6 +128,7 @@
         }
         
         .photo-box-text{
+            display: none;
             justify-content: left;
             padding-left: 2em;
             max-width: 60%;

@@ -14,10 +14,7 @@ redirect_from:
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-<audio loop controls>
-  <source src="music/fudahuang.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+
 <span class='anchor' id='about-me'></span>
 # 😉 About Me
 I am a 3rd-year undergraduate student studying **Computer Science and Technology** at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) where I am advised by [Prof. Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) and [Prof. Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505). I have a broad interest in **Computer Vision** and **Medical Image Analysis**, with a primary focus on **Biomedical Imaging**.
@@ -116,6 +113,22 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin*,
 </div>
 </div>
 
+# 📝 My Favorite Piece of Music 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024</div><img src='images/diaoquesang.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[赴大荒](https://www.bilibili.com/video/BV1kz421d74X/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+  
+塞壬唱片-MSR / Kirara Magic
+
+<audio loop controls>
+  <source src="music/fudahuang.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
 
 
 

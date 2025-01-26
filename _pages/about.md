@@ -66,7 +66,7 @@ ICT Industry-Teaching Integration Innovation Competition
 - *2024*: National Undergraduate Innovation and Entrepreneurship Training Program (**Project Leader**)
 - *2024*: Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (**Key Member**)
 
-# 📝 Publications 
+# 💡 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ISBI 2025</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -112,6 +112,7 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang*,
 Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin*, Changmiao Wang
 </div>
 </div>
+
 
 # 🎼 My Favorite Piece of Music 
 

@@ -113,7 +113,7 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin*,
 </div>
 </div>
 
-# 📝 My Favorite Piece of Music 
+# 🎼 My Favorite Piece of Music 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024</div><img src='images/fudahuang.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

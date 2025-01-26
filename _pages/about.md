@@ -14,7 +14,7 @@ redirect_from:
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-<audio autoplay loop>
+<audio loop controls>
   <source src="music/fudahuang.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>

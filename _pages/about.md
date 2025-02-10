@@ -114,7 +114,7 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin*,
 </div>
 
 
-# 🎼 My Favorite Piece of Music 
+# 🎼 My Favorite Music 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/Visage.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

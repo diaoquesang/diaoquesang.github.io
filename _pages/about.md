@@ -36,7 +36,7 @@ I am a 3rd-year undergraduate student studying **Computer Science and Technology
 
 
 # 📖 Educations
-- *2022.08 - Present*, Undergraduate student: Computer Science and Technology, [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), Hangzhou, China
+- *2022.08 - Present*, Undergraduate Student: Computer Science and Technology, [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), Hangzhou, China
 
 # 💻 Internships
 - *2023.06 - Present*: Healthcare Big Data Lab, [Shenzhen Research Institute of Big Data](https://www.sribd.cn/), Shenzhen, China

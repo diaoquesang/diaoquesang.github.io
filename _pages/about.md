@@ -140,6 +140,29 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin*,
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024</div><img src='images/Visage.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[Visage](https://www.bilibili.com/video/BV1kz421d74X/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+  
+塞壬唱片-MSR / Elvin Shen
+
+<audio id="myAudio" loop controls>
+  <source src="music/Visage.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<script>
+  // 页面加载完成后设置音量
+  document.addEventListener('DOMContentLoaded', function() {
+    var audio = document.getElementById('myAudio');
+    audio.volume = 0.2; // 设置音量为20%
+  });
+</script>
+
+
+</div>
+</div>
 
 
 

@@ -116,6 +116,14 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin*,
 
 # 🎼 My Favorite Music 
 
+<script>
+  // 页面加载完成后设置音量
+  document.addEventListener('DOMContentLoaded', function() {
+    var audio = document.getElementById('myAudio');
+    audio.volume = 0.2; // 设置音量为20%
+  });
+</script>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/Visage.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
@@ -128,13 +136,7 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin*,
   Your browser does not support the audio element.
 </audio>
 
-<script>
-  // 页面加载完成后设置音量
-  document.addEventListener('DOMContentLoaded', function() {
-    var audio = document.getElementById('myAudio');
-    audio.volume = 0.2; // 设置音量为20%
-  });
-</script>
+
 
 
 </div>
@@ -153,14 +155,6 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin*,
   <source src="music/fudahuang.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
-
-<script>
-  // 页面加载完成后设置音量
-  document.addEventListener('DOMContentLoaded', function() {
-    var audio = document.getElementById('myAudio');
-    audio.volume = 0.2; // 设置音量为20%
-  });
-</script>
 
 
 </div>

@@ -36,12 +36,12 @@ I am a 3rd-year undergraduate student studying **Computer Science and Technology
 
 
 # 📖 Educations
-- *2022.08 - Present*, Undergraduate student: Computer Science and Technology, Hangzhou Dianzi University, Hangzhou, China
+- *2022.08 - Present*, Undergraduate student: Computer Science and Technology, [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), Hangzhou, China
 
 # 💻 Internships
-- *2023.06 - Present*: Healthcare Big Data Lab, Shenzhen Research Institute of Big Data, Shenzhen, China
-- *2023.06 - Present*: Advanced Networking and Big Data Lab, Hangzhou Dianzi University, Hangzhou, China
-- *2022.09 - 2023.09*: Smart Car Lab, Hangzhou Dianzi University, Hangzhou, China
+- *2023.06 - Present*: Healthcare Big Data Lab, [Shenzhen Research Institute of Big Data](https://www.sribd.cn/), Shenzhen, China
+- *2023.06 - Present*: Advanced Networking and Big Data Lab, [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), Hangzhou, China
+- *2022.09 - 2023.09*: Smart Car Lab, [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), Hangzhou, China
 
 # 🔥 News
 - *2025.01*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2025](https://biomedicalimaging.org/2025) was **Accepted**!
@@ -58,13 +58,13 @@ ICT Industry-Teaching Integration Innovation Competition
 
 # 🏅 Honors
 
-- *2023-2024*: National Scholarship (**Top 0.4%**)
-- *2022-2023*: Zhejiang Provincial Government Scholarship (**Top 3%**)
+- *2023-2024*: [National Scholarship](http://www.moe.gov.cn/srcsite/A05/s7505/202412/t20241230_1172663.html) (**Top 0.4%**)
+- *2022-2023*: [Zhejiang Provincial Government Scholarship](https://student.hdu.edu.cn/2023/1110/c727a252884/page.htm) (**Top 3%**)
 
 # 💰 Funding
 
-- *2024*: National Undergraduate Innovation and Entrepreneurship Training Program (**Project Leader**)
-- *2024*: Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (**Key Member**)
+- *2024*: [National Undergraduate Innovation and Entrepreneurship Training Program](http://gjcxcy.bjtu.edu.cn/) (**Project Leader**)
+- *2024*: [Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program](https://joint.hdu.edu.cn/2024/0307/c6515a261379/page.htm) (**Key Member**)
 
 # 💡 Publications 
 

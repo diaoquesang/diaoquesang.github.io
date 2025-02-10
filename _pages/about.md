@@ -119,7 +119,7 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin*,
 <script>
   // 页面加载完成后设置音量
   document.addEventListener('DOMContentLoaded', function() {
-    var audio = document.getElementById('myAudio');
+    var audio = document.getElementByClassName('myAudio');
     audio.volume = 0.2; // 设置音量为20%
   });
 </script>
@@ -131,7 +131,7 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin*,
   
 塞壬唱片-MSR / Elvin Shen
 
-<audio id="myAudio" loop controls>
+<audio class="myAudio" loop controls>
   <source src="music/Visage.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
@@ -151,7 +151,7 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin*,
   
 塞壬唱片-MSR / Kirara Magic
 
-<audio id="myAudio" loop controls>
+<audio class="myAudio" loop controls>
   <source src="music/fudahuang.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>

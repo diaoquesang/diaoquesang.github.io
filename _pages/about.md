@@ -73,7 +73,7 @@ ICT Industry-Teaching Integration Innovation Competition
   
 [ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction](http://arxiv.org/abs/2501.11276)
   
-Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge*, Changmiao Wang*, Xiaopeng Fan
+Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge\*, Changmiao Wang\*, Xiaopeng Fan
 </div>
 </div>
 
@@ -82,7 +82,7 @@ Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, X
   
 [BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models](https://arxiv.org/abs/2412.15670)
   
-**Yifei Sun**, Zhanghao Chen, Hao Zheng, Wenming Deng, Jin Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang*, Ruiquan Ge*
+**Yifei Sun**, Zhanghao Chen, Hao Zheng, Wenming Deng, Jin Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang\*, Ruiquan Ge\*
 </div>
 </div>
 
@@ -91,7 +91,7 @@ Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, X
   
 [BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images](https://ieeexplore.ieee.org/abstract/document/10635371/)
   
-Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge*, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang*
+Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge\*, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang\*
 </div>
 </div>
 
@@ -100,7 +100,7 @@ Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge*, Cheng Pan, Wenming Deng,
   
 [Accurate leukocyte detection based on deformable-DETR and multi-level feature fusion for aiding diagnosis of blood diseases](https://www.sciencedirect.com/science/article/pii/S0010482524000015)
   
-Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang*, Xianjun Fu, Yuxing Dai, Feiwei Qin*, Yong Peng, Yu Gao
+Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang\*, Xianjun Fu, Yuxing Dai, Feiwei Qin\*, Yong Peng, Yu Gao
 </div>
 </div>
 
@@ -109,7 +109,7 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang*,
   
 [RTUNet++: Assessment of Osteosarcoma MRI Image Segmentation leveraging Hybrid CNN-Transformer Approach with Dense Skip Connection](https://ieeexplore.ieee.org/abstract/document/10270849)
   
-Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin*, Changmiao Wang
+Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin\*, Changmiao Wang
 </div>
 </div>
 

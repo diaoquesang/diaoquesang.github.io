@@ -116,15 +116,15 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin*,
 
 # 🎼 My Favorite Piece of Music 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024</div><img src='images/fudahuang.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/Visage.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[赴大荒](https://www.bilibili.com/video/BV1kz421d74X/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[Visage](https://www.bilibili.com/video/BV1kz421d74X/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
   
-塞壬唱片-MSR / Kirara Magic
+塞壬唱片-MSR / Elvin Shen
 
 <audio id="myAudio" loop controls>
-  <source src="music/fudahuang.mp3" type="audio/mpeg">
+  <source src="music/Visage.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -140,15 +140,17 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin*,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024</div><img src='images/Visage.jpg' alt="sym" width="100%"></div></div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024</div><img src='images/fudahuang.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Visage](https://www.bilibili.com/video/BV1kz421d74X/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[赴大荒](https://www.bilibili.com/video/BV1kz421d74X/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
   
-塞壬唱片-MSR / Elvin Shen
+塞壬唱片-MSR / Kirara Magic
 
 <audio id="myAudio" loop controls>
-  <source src="music/Visage.mp3" type="audio/mpeg">
+  <source src="music/fudahuang.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 

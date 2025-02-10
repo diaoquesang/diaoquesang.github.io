@@ -119,7 +119,7 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin*,
 <script>
   // 页面加载完成后设置音量
   document.addEventListener('DOMContentLoaded', function() {
-    var audio = document.getElementByClassName('myAudio');
+    var audio = document.getElementsByClassName('myAudio');
     audio.volume = 0.2; // 设置音量为20%
   });
 </script>

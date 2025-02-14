@@ -44,6 +44,7 @@ I am a 3rd-year undergraduate student studying **Computer Science and Technology
 - *2022.09 - 2023.09*: Smart Car Lab, [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), Hangzhou, China
 
 # 🔥 News
+- *2025.02*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2025](https://biomedicalimaging.org/2025) was selected for **Oral Presentation**!
 - *2025.01*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2025](https://biomedicalimaging.org/2025) was **Accepted**!
 - *2024.12*: &nbsp;🎉🎉 We won the **International Bronze Medal** in the [China International College Students' Innovation Competition 2024](https://pilcchina.org/home)!
 - *2024.11*: &nbsp;🎉🎉 We won the **National Second Prize** in the [1st ICT Industry-Teaching Integration Innovation Competition](https://gxict.bupt.edu.cn)!

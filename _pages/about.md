@@ -36,7 +36,7 @@ I am a 3rd-year undergraduate student studying **Computer Science and Technology
 
 
 # 📖 Educations
-- *2022.08 - Present*, Undergraduate Student: Computer Science and Technology, [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), Hangzhou, China
+- *2022.08 - Present*, Undergraduate student: Computer Science and Technology, [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), Hangzhou, China
 
 # 💻 Internships
 - *2023.06 - Present*: Healthcare Big Data Lab, [Shenzhen Research Institute of Big Data](https://www.sribd.cn/), Shenzhen, China
@@ -55,7 +55,6 @@ I am a 3rd-year undergraduate student studying **Computer Science and Technology
 - *2023.12*: &nbsp;🎉🎉 We won the **International Bronze Medal** in the [China International College Students' Innovation Competition 2023](https://pilcchina.org/home)!
 - *2023.08*: &nbsp;🎉🎉 We won the **National First Prize** in the [18th National Smart Car Competition for College Students](https://www.smartcar.zone/index.html)!
 - *2023.06*: &nbsp;🎉🎉 Our new paper for [ICSIP 2023](https://www.icsip.org/2023.html) was **Accepted**!
-ICT Industry-Teaching Integration Innovation Competition
 
 # 🏅 Honors
 

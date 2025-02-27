@@ -68,14 +68,6 @@ I am a 3rd-year undergraduate student studying **Computer Science and Technology
 
 # 💡 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2025</div><img src='images/GL-LCM.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images]()
-  
-**Yifei Sun**, Zhanghao Chen, Hao Zheng, Yuqing Lu, Lixin Duan, Fenglei Fan, Ahmed Elazab, Changmiao Wang\*, Ruiquan Ge\*
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ISBI 2025 (Oral)</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

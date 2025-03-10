@@ -48,6 +48,7 @@ I am a 3rd-year undergraduate student studying **Computer Science and Technology
 - *2025.01*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2025](https://biomedicalimaging.org/2025) was **Accepted**!
 - *2024.12*: &nbsp;🎉🎉 We won the **International Bronze Medal** in the [China International College Students' Innovation Competition 2024](https://pilcchina.org/home)!
 - *2024.11*: &nbsp;🎉🎉 We won the **National Second Prize** in the [1st ICT Industry-Teaching Integration Innovation Competition](https://gxict.bupt.edu.cn)!
+- *2024.04*: &nbsp;🎉🎉 I was awarded as one of the [Top 10 Students of HDU-ITMO Joint Institute](https://mp.weixin.qq.com/s/RFjA5qvCV8Tyaz0dk7Jwhg)!
 - *2024.04*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2024](https://biomedicalimaging.org/2024) was selected for **Oral Presentation**!
 - *2024.02*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2024](https://biomedicalimaging.org/2024) was **Accepted**!
 - *2024.01*: &nbsp;🎉🎉 Our new paper for [Computers in Biology and Medicine](https://www.sciencedirect.com/journal/computers-in-biology-and-medicine) was **Accepted**!

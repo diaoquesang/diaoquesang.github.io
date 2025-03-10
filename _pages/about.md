@@ -59,8 +59,8 @@ I am a 3rd-year undergraduate student studying **Computer Science and Technology
 # 🏅 Honors
 
 - *2023-2024*: [National Scholarship](http://www.moe.gov.cn/srcsite/A05/s7505/202412/t20241230_1172663.html) (**Top 0.4%**)
-- *2023-2024*: [HDU Stars of Innovation Candidate](https://tuanwei.hdu.edu.cn/2024/0409/c275a263268/page.htm) (**Top 15**)
 - *2023-2024*: [Top 10 Students of HDU-ITMO Joint Institute](https://mp.weixin.qq.com/s/RFjA5qvCV8Tyaz0dk7Jwhg) (**Top 1.25%**)
+- *2023-2024*: [HDU Stars of Innovation Candidate](https://tuanwei.hdu.edu.cn/2024/0409/c275a263268/page.htm) (**Top 15**)
 - *2022-2023*: [Zhejiang Provincial Government Scholarship](https://student.hdu.edu.cn/2023/1110/c727a252884/page.htm) (**Top 3%**)
 
 # 💰 Funding

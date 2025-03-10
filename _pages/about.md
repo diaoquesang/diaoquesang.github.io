@@ -114,9 +114,6 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin\*
 </div>
 </div>
 
-# ⚖️ IP
-
-
 # 🎼 My Favorite Music 
 
 <script>

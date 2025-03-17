@@ -25,6 +25,8 @@ redirect_from:
 
 <a href='https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
 [![](https://img.shields.io/github/stars/diaoquesang?style=social)](https://github.com/diaoquesang)
+[![](https://img.shields.io/github/followers/diaoquesang)](https://img.shields.io/github/followers/diaoquesang)
+
 
 
 <div class='photo-box'>

@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "😉 About Me"
-    url: "/#about-me"
+    url: "/#-about-me"
 
   - title: "📖 Educations"
     url: "/#-educations"
@@ -22,4 +22,4 @@ main:
     url: "/#-publications"
 
   - title: "🎼 My Favorite Music"
-    url: "/#my-favorite-music"
+    url: "/#-my-favorite-music"

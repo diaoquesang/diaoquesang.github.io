@@ -122,7 +122,7 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin\*
 </div>
 </div>
 
-# 🏘️ Organizations
+# 🏫 Organizations
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chairman</div><img src='images/SU.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

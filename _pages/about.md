@@ -124,7 +124,29 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin\*
 
 # 🏘️ Clubs
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chairman</div><img src='images/HUAWEI.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[HDU-ITMO Student Union](https://joint.hdu.edu.cn/main.htm)
 
+*2024.9 - Present*: Chairman
+*2023.9 - 2024.9*: Minister
+*2022.9 - 2023.9*: Member
+  
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Vice Chairman</div><img src='images/HUAWEI.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[HDU-ITMO Technology and Innovation Association](https://joint.hdu.edu.cn/main.htm)
+
+*2024.9 - Present*: Vice Chairman
+*2023.9 - 2024.9*: Minister
+*2022.9 - 2023.9*: Member
+  
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Member</div><img src='images/HUAWEI.jpg' alt="sym" width="100%"></div></div>

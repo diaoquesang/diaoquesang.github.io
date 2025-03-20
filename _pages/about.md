@@ -127,7 +127,7 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin\*
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Member</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Member</div><img src='images/HUAWEI.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [Huawei Smart Base Association](https://edu.hicomputing.huawei.com/AIeducationbase)

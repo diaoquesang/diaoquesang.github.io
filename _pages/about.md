@@ -23,6 +23,8 @@ redirect_from:
 
 📫 How to reach me: [szhsxhsyf@hdu.edu.cn](szhsxhsyf@hdu.edu.cn).
 
+🥳 Open Source Projects: [A Paper List for Medical Anomaly Detection](https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection), [Bone Suppression in Chest X-Rays: A Deep Survey](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays).
+
 <a href='https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
 	<img alt="GitHub User's stars" src="https://img.shields.io/github/stars/diaoquesang">
 	<img alt="GitHub followers" src="https://img.shields.io/github/followers/diaoquesang">

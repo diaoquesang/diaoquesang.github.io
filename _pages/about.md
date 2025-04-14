@@ -24,8 +24,8 @@ redirect_from:
 📫 How to reach me: [szhsxhsyf@hdu.edu.cn](szhsxhsyf@hdu.edu.cn).
 
 <a href='https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
-[![](https://img.shields.io/github/stars/diaoquesang?style=social)](https://github.com/diaoquesang)
-[![](https://img.shields.io/github/followers/diaoquesang)](https://github.com/diaoquesang)
+	<img alt="GitHub User's stars" src="https://img.shields.io/github/stars/diaoquesang">
+	<img alt="GitHub followers" src="https://img.shields.io/github/followers/diaoquesang">
 
 
 

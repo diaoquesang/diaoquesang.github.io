@@ -188,6 +188,16 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Member</div><img src='images/FC.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[HDU Fight Club](https://www.thepaper.cn/newsDetail_forward_11946303)
+
+*2022.9 - Present*: Member
+  
+</div>
+</div>
+
 # 🎼 My Favorite Music 
 
 <script>

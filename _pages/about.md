@@ -82,7 +82,6 @@ redirect_from:
 
 # 💡 Publications 
 
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ISBI 2025 (Oral)</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
@@ -125,6 +124,26 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang\*
 [RTUNet++: Assessment of Osteosarcoma MRI Image Segmentation leveraging Hybrid CNN-Transformer Approach with Dense Skip Connection](https://ieeexplore.ieee.org/abstract/document/10270849)
   
 Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin\*, Changmiao Wang
+</div>
+</div>
+
+# 🧑🏻‍💻 Software
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.01</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[Intelligent Diagnosis System for Ophthalmic Diseases Based on Binocular Fundus Medical Imaging]()
+  
+Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.11</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[Diffusion Model-Based Bone Suppression System for Chest X-Ray]()
+  
+**Yifei Sun**, Ruihan Yang, Zhanghao Chen
 </div>
 </div>
 

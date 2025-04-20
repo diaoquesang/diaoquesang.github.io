@@ -129,7 +129,7 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin\*
 
 # 🧑🏻‍💻 Software
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.01</div><img src='images/IDSODBBFMI.mp4' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.01</div><img src='images/IDSODBBFMI.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [Intelligent Diagnosis System for Ophthalmic Diseases Based on Binocular Fundus Medical Imaging]()
@@ -138,7 +138,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.11</div><img src='images/DMBBSSCXR.mp4' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.11</div><img src='images/DMBBSSCXR.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [Diffusion Model-Based Bone Suppression System for Chest X-Ray]()

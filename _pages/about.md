@@ -181,6 +181,21 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin\*
   });
 </script>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.04</div><img src='images/haidi.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[海底](https://www.bilibili.com/video/BV1qp4y1t7DJ/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+  
+凤凰传奇
+
+<audio class="myAudio" loop controls>
+  <source src="music/haidi.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.03</div><img src='images/chiling.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   

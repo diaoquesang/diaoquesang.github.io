@@ -54,6 +54,7 @@ redirect_from:
 - *2025.04*: &nbsp;🎉🎉 I have reached **100 citations** in my [Google Scholar academic profile](https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN)!
 - *2025.04*: &nbsp;🎉🎉 I was invited to be a **Reviewer** for [ACM MM 2025](https://acmmm2025.org/)!
 - *2025.02*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2025](https://biomedicalimaging.org/2025) was selected for **Oral Presentation**!
+- *2025.01*: &nbsp;🎉🎉 Our paper for [Computers in Biology and Medicine](https://www.sciencedirect.com/journal/computers-in-biology-and-medicine) was selected for **ESI Top 1% Highly Cited Paper**!
 - *2025.01*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2025](https://biomedicalimaging.org/2025) was **Accepted**!
 - *2024.12*: &nbsp;🎉🎉 We won the **International Bronze Medal** in the [China International College Students' Innovation Competition 2024](https://pilcchina.org/home)!
 - *2024.11*: &nbsp;🎉🎉 We won the **National Second Prize** in the [1st ICT Industry-Teaching Integration Innovation Competition](https://gxict.bupt.edu.cn)!
@@ -110,7 +111,7 @@ Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge\*, Cheng Pan, Wenming Deng
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Computers in Biology and Medicine</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Computers in Biology and Medicine (ESI Highly Cited Paper)</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [Accurate leukocyte detection based on deformable-DETR and multi-level feature fusion for aiding diagnosis of blood diseases](https://www.sciencedirect.com/science/article/pii/S0010482524000015)

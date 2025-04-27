@@ -219,9 +219,12 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 塞壬唱片-MSR/Nocturne & Heretic/FROOT JOOCE
 
 <audio class="myAudio" loop controls>
-  <source src="music/haidi.mp3" type="audio/mpeg">
+  <source src="music/Battleplan Extinguished Sins.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.04</div><img src='images/haidi.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

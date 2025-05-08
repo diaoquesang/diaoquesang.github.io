@@ -28,7 +28,6 @@ redirect_from:
 <a href='https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
 	<img alt="GitHub User's stars" src="https://img.shields.io/github/stars/diaoquesang">
 	<img alt="GitHub followers" src="https://img.shields.io/github/followers/diaoquesang">
- 	![](https://komarev.com/ghpvc/?username=diaoquesang&label=PROFILE+VIEWS)
 
 
 

@@ -26,8 +26,8 @@ redirect_from:
 🥳 Open Source Projects: [1] [A Paper List for Medical Anomaly Detection](https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection), [2] [Bone Suppression in Chest X-Rays: A Deep Survey](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays), [3] [A Paper List for Prototypical Learning](https://github.com/BeistMedAI/Paper-List-for-Prototypical-Learning), [4] [A Paper List for Cell Detection](https://github.com/li00000011/Paper-List-for-Cell-Detection).
 
 <a href='https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
-	<img alt="GitHub User's stars" src="https://img.shields.io/github/stars/diaoquesang">
-	<img alt="GitHub followers" src="https://img.shields.io/github/followers/diaoquesang">
+[![GitHub User's stars](https://img.shields.io/github/stars/diaoquesang)](https://github.com/diaoquesang)
+[![GitHub followers](https://img.shields.io/github/followers/diaoquesang)](https://github.com/diaoquesang)
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=diaoquesang&countColor=%23263759&style=flat&labelStyle=none)](https://visitorbadge.io/status?path=diaoquesang)
 
 

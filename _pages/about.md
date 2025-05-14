@@ -31,7 +31,7 @@ redirect_from:
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=diaoquesang&countColor=%23263759&style=flat&labelStyle=none)](https://visitorbadge.io/status?path=diaoquesang)
 
 
-<div class='photo-box'>
+<div class='photo-box' style="overflow-x: auto; white-space: nowrap;">
   <div class='photo-box-image'><div><img src='images/p/1.jpg' alt="sym" width="100%"></div></div>
   <div class='photo-box-image'><div><img src='images/p/2.jpg' alt="sym" width="100%"></div></div>
   <div class='photo-box-image'><div><img src='images/p/3.jpg' alt="sym" width="100%"></div></div>

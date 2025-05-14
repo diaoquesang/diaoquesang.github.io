@@ -32,21 +32,13 @@ redirect_from:
 
 
 
-<div class="gallery-container">
-  <div class="gallery-wrapper">
-    <div class="column">
-      <img src="images/p/1.jpg" alt="Image 1">
-      <img src="images/p/2.jpg" alt="Image 2">
-    </div>
-    <div class="column">
-      <img src="images/p/3.jpg" alt="Image 3">
-      <img src="images/p/4.jpg" alt="Image 4">
-    </div>
-    <div class="column">
-      <img src="images/p/5.jpg" alt="Image 5">
-      <img src="images/p/6.jpg" alt="Image 6">
-    </div>
-  </div>
+<div class='photo-box'>
+  <div class='photo-box-image'><div><img src='images/p/1.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/2.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/3.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/4.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/5.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/6.jpg' alt="sym" width="100%"></div></div>
 </div>
 
 # 📖 Educations

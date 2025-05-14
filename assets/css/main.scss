@@ -94,18 +94,12 @@
             width: 100%;
             padding: 20px 0;
             scrollbar-width: none; 
-            -ms-overflow-style: none; 
-        }
-
-        .scroll-container::-webkit-scrollbar {
-            display: none;
         }
 
         .image-row {
             display: flex;
             gap: 15px;
             padding: 0 15px;
-            min-width: fit-content;
         }
 
         .image-group {

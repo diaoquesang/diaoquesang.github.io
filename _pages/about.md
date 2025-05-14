@@ -67,6 +67,7 @@ redirect_from:
 - *2023.06*: &nbsp;🎉🎉 Our new paper for [ICSIP 2023](https://www.icsip.org/2023.html) was **Accepted**!
 
 # 🏅 Honors
+- *2024-2025*: [Top 10 Student Candidates of HDU](https://mp.weixin.qq.com/s/KN5BBltP9OrdEPli11RE6A) (**Top 15**)
 - *2024-2025*: [HDU Stars of Innovation](https://tuanwei.hdu.edu.cn/2025/0425/c275a277893/page.htm) (**Top 10**)
 - *2024-2025*: [Top 10 Students of HDU-ITMO Joint Institute](https://mp.weixin.qq.com/s/lcgUXEJ5ITtSLiq1ltnagw) (**Top 1.25%**)
 - *2023-2024*: [National Scholarship](http://www.moe.gov.cn/srcsite/A05/s7505/202412/t20241230_1172663.html) (**Top 0.4%**)

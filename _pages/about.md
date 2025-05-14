@@ -21,7 +21,7 @@ redirect_from:
 
 🔭 I'm currently focused on **Medical Image Analysis** and **Computer Vision**, but also have a deep interest in all areas of **Computer Science**.
 
-🛠️ Academic services: Reviewer for **ACM MM**.
+🛠️ Academic services: Reviewer for **ACM MM 2025**.
 
 📫 How to reach me: [szhsxhsyf@hdu.edu.cn](mailto:szhsxhsyf@hdu.edu.cn).
 

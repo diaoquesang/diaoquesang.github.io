@@ -89,6 +89,40 @@
 
 }
 
+.scroll-container {
+            overflow-x: auto;
+            width: 100%;
+            padding: 20px 0;
+            scrollbar-width: none; 
+            -ms-overflow-style: none; 
+        }
+
+        .scroll-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        .image-row {
+            display: flex;
+            gap: 15px;
+            padding: 0 15px;
+            min-width: fit-content;
+        }
+
+        .image-group {
+            flex: 0 0 calc(33.333% - 10px); 
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .image-group img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
 .photo-box {
     display: flex;
     justify-content: center;

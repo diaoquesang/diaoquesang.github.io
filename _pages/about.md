@@ -83,12 +83,12 @@ redirect_from:
 
 # 💰 Funding
 
-- *2025*: [Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program](https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp) (**Key Member**)
-- *2025*: [Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program](https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp) (**Key Member**)
-- *2025*: [Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program](https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp) (**Key Member**)
-- *2025*: [Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program](https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp) (**Key Member**)
-- *2024*: [National Undergraduate Innovation and Entrepreneurship Training Program](http://gjcxcy.bjtu.edu.cn/) (**Project Leader**)
-- *2024*: [Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program](https://joint.hdu.edu.cn/2024/0307/c6515a261379/page.htm) (**Key Member**)
+- *2025*: [Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (浙江省大学生科技创新活动计划暨新苗人才计划项目)](https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp) (**Key Member**)
+- *2025*: [Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (浙江省大学生科技创新活动计划暨新苗人才计划项目)](https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp) (**Key Member**)
+- *2025*: [Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (浙江省大学生科技创新活动计划暨新苗人才计划项目)](https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp) (**Key Member**)
+- *2025*: [Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (浙江省大学生科技创新活动计划暨新苗人才计划项目)](https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp) (**Key Member**)
+- *2024*: [National Undergraduate Innovation and Entrepreneurship Training Program (国家级大学生创新创业训练计划项目)](http://gjcxcy.bjtu.edu.cn/) (**Project Leader**)
+- *2024*: [Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (浙江省大学生科技创新活动计划暨新苗人才计划项目)](https://joint.hdu.edu.cn/2024/0307/c6515a261379/page.htm) (**Key Member**)
 
 # 💡 Publications 
 

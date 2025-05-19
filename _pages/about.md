@@ -90,7 +90,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ISBI 2025 (Oral)</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction](http://arxiv.org/abs/2501.11276)
+[ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction](http://arxiv.org/abs/2501.11276) [:octocat:](https://github.com/justinhxy/ITFC)
   
 Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge\*, Changmiao Wang\*, Xiaopeng Fan
 </div>
@@ -99,7 +99,7 @@ Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, X
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2024</div><img src='images/BS-LDM.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models](https://arxiv.org/abs/2412.15670)
+[BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models](https://arxiv.org/abs/2412.15670) [:octocat:](https://github.com/diaoquesang/BS-LDM)
   
 **Yifei Sun**, Zhanghao Chen, Hao Zheng, Wenming Deng, Jin Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang\*, Ruiquan Ge\*
 </div>
@@ -108,7 +108,7 @@ Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, X
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ISBI 2024 (Oral)</div><img src='images/BS-Diff.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images](https://ieeexplore.ieee.org/abstract/document/10635371/)
+[BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images](https://ieeexplore.ieee.org/abstract/document/10635371/) [:octocat:](https://github.com/Benny0323/BS-Diff)
   
 Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge\*, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang\*
 </div>
@@ -117,7 +117,7 @@ Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge\*, Cheng Pan, Wenming Deng
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Computers in Biology and Medicine (ESI Highly Cited Paper)</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Accurate leukocyte detection based on deformable-DETR and multi-level feature fusion for aiding diagnosis of blood diseases](https://www.sciencedirect.com/science/article/pii/S0010482524000015)
+[Accurate leukocyte detection based on deformable-DETR and multi-level feature fusion for aiding diagnosis of blood diseases](https://www.sciencedirect.com/science/article/pii/S0010482524000015) [:octocat:](https://github.com/justlfc03/mfds-detr)
   
 Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang\*, Xianjun Fu, Yuxing Dai, Feiwei Qin\*, Yong Peng, Yu Gao
 </div>

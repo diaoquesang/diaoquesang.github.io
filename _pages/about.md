@@ -52,6 +52,7 @@ redirect_from:
 - *2022.09 - 2023.09*: Smart Car Lab, [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), Hangzhou, China
 
 # 🔥 News
+- *2025.05*: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!
 - *2025.04*: &nbsp;🎉🎉 I have reached **100 citations** in my [Google Scholar academic profile](https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN)!
 - *2025.04*: &nbsp;🎉🎉 I was invited to be a **Reviewer** for [ACM MM 2025](https://acmmm2025.org/)!
 - *2025.02*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2025](https://biomedicalimaging.org/2025) was selected for **Oral Presentation**!

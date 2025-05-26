@@ -109,12 +109,6 @@ redirect_from:
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
-- *2025*: [Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program](https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp) (**Key Member**)
-- *2025*: [Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program](https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp) (**Key Member**)
-- *2025*: [Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program](https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp) (**Key Member**)
-- *2025*: [Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program](https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp) (**Key Member**)
-- *2024*: [National Undergraduate Innovation and Entrepreneurship Training Program](http://gjcxcy.bjtu.edu.cn/) (**Project Leader**)
-- *2024*: [Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program](https://joint.hdu.edu.cn/2024/0307/c6515a261379/page.htm) (**Key Member**)
 
 # 💡 Publications 
 
@@ -189,38 +183,35 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 
 <div style="height: 400px; overflow: auto; font-size: 15px;">
 	<ul>
-		
+		<li><i>2025</i>: 一种不完整多模态分层特征融合网络的MCI转换分类方法 (<b>受理</b>, <b>第四发明人</b>)</li>
+		<li><i>2025</i>: 一种基于选择性状态空间融合的眼科影像分类方法 (<b>公开</b>, <b>第二发明人</b>)</li>
+		<li><i>2025</i>: 一种基于NRGMFF和fMRI的脑疾病分类方法 (<b>受理</b>, <b>第二发明人</b>)</li>
+		<li><i>2025</i>: 一种基于GL-LCM模型的高分辨率胸部X光图像骨抑制方法 (<b>初审合格</b>, <b>第一发明人</b>)</li>
+		<li><i>2024</i>: 基于不完整三模态共注意融合的轻度认知障碍转换预测方法 (<b>公开</b>, <b>第四发明人</b>)</li>
+		<li><i>2024</i>: 一种基于多模态注意力融合网络的ADHD分类诊断方法 (<b>公开</b>, <b>第六发明人</b>)</li>
+		<li><i>2024</i>: 一种基于BS-LDM模型的高分辨率胸部X光图像骨抑制方法 (<b>公开</b>, <b>第一发明人</b>)</li>
+		<li><i>2023</i>: 一种基于TC-DiffRecon模型的纹理协调的MRI图像重建方法 (<b>公开</b>, <b>第四发明人</b>)</li>
+		<li><i>2023</i>: 一种基于条件扩散模型的胸部X光图像骨抑制方法 (<b>公开</b>, <b>第一发明人</b>)</li>
 	</ul>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
-- *2025*: 一种不完整多模态分层特征融合网络的MCI转换分类方法 (**受理**, **第四发明人**)
-- *2025*: 一种基于选择性状态空间融合的眼科影像分类方法 (**公开**, **第二发明人**)
-- *2025*: 一种基于NRGMFF和fMRI的脑疾病分类方法 (**受理**, **第二发明人**)
-- *2025*: 一种基于GL-LCM模型的高分辨率胸部X光图像骨抑制方法 (**初审合格**, **第一发明人**)
-- *2024*: 基于不完整三模态共注意融合的轻度认知障碍转换预测方法 (**公开**, **第四发明人**)
-- *2024*: 一种基于多模态注意力融合网络的ADHD分类诊断方法 (**公开**, **第六发明人**)
-- *2024*: 一种基于BS-LDM模型的高分辨率胸部X光图像骨抑制方法 (**公开**, **第一发明人**)
-- *2023*: 一种基于TC-DiffRecon模型的纹理协调的MRI图像重建方法 (**公开**, **第四发明人**)
-- *2023*: 一种基于条件扩散模型的胸部X光图像骨抑制方法 (**公开**, **第一发明人**)
 
 ## Computer Software Copyrights (计算机软件著作权)
 
 <div style="height: 400px; overflow: auto; font-size: 15px;">
 	<ul>
-		
+		<li><i>2025</i>: 基于双目眼底医学影像的眼科疾病智能诊断系统 (<b>授权</b>, <b>第三著作权人</b>)</li>
+		<li><i>2024</i>: 医用智能辅助肺癌CT影像分类软件 (<b>授权</b>, <b>第三著作权人</b>)</li>
+		<li><i>2024</i>: 脑结构MRI图像分析软件 (<b>受理</b>, <b>第二著作权人</b>)</li>
+		<li><i>2024</i>: 医用智能MRI-PET跨模态转换系统 (<b>授权</b>, <b>第一著作权人</b>)</li>
+		<li><i>2024</i>: 多模态脑成像分析与ADHD诊断软件 (<b>受理</b>, <b>第六著作权人</b>)</li>
+		<li><i>2024</i>: 基于扩散模型的胸部X射线骨抑制系统 (<b>授权</b>, <b>第一著作权人</b>)</li>
+		<li><i>2024</i>: 数字安全大会通用门户网站平台 (<b>授权</b>, <b>第一著作权人</b>)</li>
+		<li><i>2024</i>: 数字安全大会通用门户小程序软件 (<b>授权</b>, <b>第一著作权人</b>)</li>
 	</ul>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
-
-- *2025*:  基于双目眼底医学影像的眼科疾病智能诊断系统 (**授权**, **第三著作权人**)
-- *2024*:  医用智能辅助肺癌CT影像分类软件 (**授权**, **第三著作权人**)
-- *2024*:  脑结构MRI图像分析软件 (**受理**, **第二著作权人**)
-- *2024*:  医用智能MRI-PET跨模态转换系统 (**授权**, **第一著作权人**)
-- *2024*:  多模态脑成像分析与ADHD诊断软件 (**受理**, **第六著作权人**)
-- *2024*:  基于扩散模型的胸部X射线骨抑制系统 (**授权**, **第一著作权人**)
-- *2024*:  数字安全大会通用门户网站平台 (**授权**, **第一著作权人**)
-- *2024*:  数字安全大会通用门户小程序软件 (**授权**, **第一著作权人**)
 
 
 # 🏫 Clubs

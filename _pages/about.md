@@ -74,22 +74,6 @@ redirect_from:
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
-- *2025.05*: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!
-- *2025.04*: &nbsp;🎉🎉 I have reached **100 citations** in my [Google Scholar academic profile](https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN)!
-- *2025.04*: &nbsp;🎉🎉 I was invited to be a **Reviewer** for [ACM MM 2025](https://acmmm2025.org/)!
-- *2025.02*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2025](https://biomedicalimaging.org/2025) was selected for **Oral Presentation**!
-- *2025.01*: &nbsp;🎉🎉 Our paper for [Computers in Biology and Medicine](https://www.sciencedirect.com/journal/computers-in-biology-and-medicine) was selected for **ESI Top 1% Highly Cited Paper**!
-- *2025.01*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2025](https://biomedicalimaging.org/2025) was **Accepted**!
-- *2024.12*: &nbsp;🎉🎉 We won the **International Bronze Medal** in the [China International College Students' Innovation Competition 2024](https://pilcchina.org/home)!
-- *2024.11*: &nbsp;🎉🎉 We won the **National Second Prize** in the [1st ICT Industry-Teaching Integration Innovation Competition](https://gxict.bupt.edu.cn)!
-- *2024.04*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2024](https://biomedicalimaging.org/2024) was selected for **Oral Presentation**!
-- *2024.02*: &nbsp;🎉🎉 Our new paper for [IEEE ISBI 2024](https://biomedicalimaging.org/2024) was **Accepted**!
-- *2024.01*: &nbsp;🎉🎉 Our new paper for [Computers in Biology and Medicine](https://www.sciencedirect.com/journal/computers-in-biology-and-medicine) was **Accepted**!
-- *2023.12*: &nbsp;🎉🎉 We won the **National Gold Medal** in the [China International College Students' Innovation Competition 2023](https://pilcchina.org/home)!
-- *2023.12*: &nbsp;🎉🎉 We won the **International Bronze Medal** in the [China International College Students' Innovation Competition 2023](https://pilcchina.org/home)!
-- *2023.08*: &nbsp;🎉🎉 We won the **National First Prize** in the [18th National Smart Car Competition for College Students](https://www.smartcar.zone/index.html)!
-- *2023.06*: &nbsp;🎉🎉 Our new paper for [ICSIP 2023](https://www.icsip.org/2023.html) was **Accepted**!
-
 # 🏅 Honors
 
 <div style="height: 400px; overflow: auto; font-size: 15px;">
@@ -111,24 +95,16 @@ redirect_from:
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 
-- *2025*: [Top 10 Student Candidates of HDU](https://mp.weixin.qq.com/s/KN5BBltP9OrdEPli11RE6A) (**Top 15**)
-- *2025*: [HDU Stars of Innovation](https://tuanwei.hdu.edu.cn/2025/0425/c275a277893/page.htm) (**Top 10**)
-- *2025*: [Top 10 Students of HDU-ITMO Joint Institute](https://mp.weixin.qq.com/s/lcgUXEJ5ITtSLiq1ltnagw) (**Top 1.25%**)
-- *2025*: First-Class Scholarship of Hangzhou Dianzi University (**Top 5%**)
-- *2024*: [National Scholarship](http://www.moe.gov.cn/srcsite/A05/s7505/202412/t20241230_1172663.html) (**Top 0.4%**)
-- *2024*: First-Class Scholarship of Hangzhou Dianzi University (**Top 5%**)
-- *2024*: [HDU Stars of Innovation Candidate](https://tuanwei.hdu.edu.cn/2024/0409/c275a263268/page.htm) (**Top 15**)
-- *2024*: [Top 10 Students of HDU-ITMO Joint Institute](https://mp.weixin.qq.com/s/RFjA5qvCV8Tyaz0dk7Jwhg) (**Top 1.25%**)
-- *2024*: First-Class Scholarship of Hangzhou Dianzi University (**Top 5%**)
-- *2023*: [Zhejiang Provincial Government Scholarship](https://student.hdu.edu.cn/2023/1110/c727a252884/page.htm) (**Top 3%**)
-- *2023*: First-Class Scholarship of Hangzhou Dianzi University (**Top 5%**)
-- *2023*: First-Class Scholarship of Hangzhou Dianzi University (**Top 5%**)
-
 # 💰 Funding
 
 <div style="height: 400px; overflow: auto; font-size: 15px;">
 	<ul>
-		
+		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>)</li>
+		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>)</li>
+		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>)</li>
+		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>)</li>
+		<li><i>2024</i>: <a href="http://gjcxcy.bjtu.edu.cn/">National Undergraduate Innovation and Entrepreneurship Training Program</a> (<b>Project Leader</b>)</li>
+		<li><i>2024</i>: <a href="https://joint.hdu.edu.cn/2024/0307/c6515a261379/page.htm">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>)</li>
 	</ul>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>

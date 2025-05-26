@@ -92,9 +92,20 @@ redirect_from:
 
 # 🏅 Honors
 
-<div style="height: 60px; overflow: auto; font-size: 15px;">
+<div style="height: 400px; overflow: auto; font-size: 15px;">
 	<ul>
-		
+		<li><i>2025</i>: <a href="https://mp.weixin.qq.com/s/KN5BBltP9OrdEPli11RE6A">Top 10 Student Candidates of HDU</a> (<b>Top 15</b>)</li>
+		<li><i>2025</i>: <a href="https://tuanwei.hdu.edu.cn/2025/0425/c275a277893/page.htm">HDU Stars of Innovation</a> (<b>Top 10</b>)</li>
+		<li><i>2025</i>: <a href="https://mp.weixin.qq.com/s/lcgUXEJ5ITtSLiq1ltnagw">Top 10 Students of HDU-ITMO Joint Institute</a> (<b>Top 1.25%</b>)</li>
+		<li><i>2025</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>Top 5%</b>)</li>
+		<li><i>2024</i>: <a href="http://www.moe.gov.cn/srcsite/A05/s7505/202412/t20241230_1172663.html">National Scholarship</a> (<b>Top 0.4%</b>)</li>
+		<li><i>2024</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>Top 5%</b>)</li>
+		<li><i>2024</i>: <a href="https://tuanwei.hdu.edu.cn/2024/0409/c275a263268/page.htm">HDU Stars of Innovation Candidate</a> (<b>Top 15</b>)</li>
+		<li><i>2024</i>: <a href="https://mp.weixin.qq.com/s/RFjA5qvCV8Tyaz0dk7Jwhg">Top 10 Students of HDU-ITMO Joint Institute</a> (<b>Top 1.25%</b>)</li>
+		<li><i>2024</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>Top 5%</b>)</li>
+		<li><i>2023</i>: <a href="https://student.hdu.edu.cn/2023/1110/c727a252884/page.htm">Zhejiang Provincial Government Scholarship</a> (<b>Top 3%</b>)</li>
+		<li><i>2023</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>Top 5%</b>)</li>
+		<li><i>2023</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>Top 5%</b>)</li>
 	</ul>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
@@ -114,6 +125,13 @@ redirect_from:
 - *2023*: First-Class Scholarship of Hangzhou Dianzi University (**Top 5%**)
 
 # 💰 Funding
+
+<div style="height: 400px; overflow: auto; font-size: 15px;">
+	<ul>
+		
+	</ul>
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 - *2025*: [Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program](https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp) (**Key Member**)
 - *2025*: [Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program](https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp) (**Key Member**)
@@ -193,6 +211,13 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 
 ## National Invention Patents (国家发明专利)
 
+<div style="height: 400px; overflow: auto; font-size: 15px;">
+	<ul>
+		
+	</ul>
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
+
 - *2025*: 一种不完整多模态分层特征融合网络的MCI转换分类方法 (**受理**, **第四发明人**)
 - *2025*: 一种基于选择性状态空间融合的眼科影像分类方法 (**公开**, **第二发明人**)
 - *2025*: 一种基于NRGMFF和fMRI的脑疾病分类方法 (**受理**, **第二发明人**)
@@ -204,6 +229,13 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 - *2023*: 一种基于条件扩散模型的胸部X光图像骨抑制方法 (**公开**, **第一发明人**)
 
 ## Computer Software Copyrights (计算机软件著作权)
+
+<div style="height: 400px; overflow: auto; font-size: 15px;">
+	<ul>
+		
+	</ul>
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 - *2025*:  基于双目眼底医学影像的眼科疾病智能诊断系统 (**授权**, **第三著作权人**)
 - *2024*:  医用智能辅助肺癌CT影像分类软件 (**授权**, **第三著作权人**)

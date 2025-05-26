@@ -53,7 +53,7 @@ redirect_from:
 
 # 🔥 News
 
-<div style="height: 300px; overflow: auto; font-size: 15px;">
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
 		<li><i>2025.05</i>: &nbsp;🎉🎉 We won the <b>National Third Prize</b> in the <a href="http://www.fwwb.org.cn/">16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition</a>!</li>
 		<li><i>2025.04</i>: &nbsp;🎉🎉 I have reached <b>100 citations</b> in my <a href="https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN">Google Scholar academic profile</a>!</li>
@@ -76,7 +76,7 @@ redirect_from:
 
 # 🏅 Honors
 
-<div style="height: 300px; overflow: auto; font-size: 15px;">
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
 		<li><i>2025</i>: <a href="https://mp.weixin.qq.com/s/KN5BBltP9OrdEPli11RE6A">Top 10 Student Candidates of HDU</a> (<b>Top 15</b>)</li>
 		<li><i>2025</i>: <a href="https://tuanwei.hdu.edu.cn/2025/0425/c275a277893/page.htm">HDU Stars of Innovation</a> (<b>Top 10</b>)</li>
@@ -97,7 +97,7 @@ redirect_from:
 
 # 💰 Funding
 
-<div style="height: 300px; overflow: auto; font-size: 15px;">
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
 		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>)</li>
 		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>)</li>
@@ -181,7 +181,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 
 ## National Invention Patents (国家发明专利)
 
-<div style="height: 300px; overflow: auto; font-size: 15px;">
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
 		<li><i>2025</i>: 一种不完整多模态分层特征融合网络的MCI转换分类方法 (<b>受理</b>, <b>第四发明人</b>)</li>
 		<li><i>2025</i>: 一种基于选择性状态空间融合的眼科影像分类方法 (<b>公开</b>, <b>第二发明人</b>)</li>
@@ -199,7 +199,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 
 ## Computer Software Copyrights (计算机软件著作权)
 
-<div style="height: 300px; overflow: auto; font-size: 15px;">
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
 		<li><i>2025</i>: 基于双目眼底医学影像的眼科疾病智能诊断系统 (<b>授权</b>, <b>第三著作权人</b>)</li>
 		<li><i>2024</i>: 医用智能辅助肺癌CT影像分类软件 (<b>授权</b>, <b>第三著作权人</b>)</li>

@@ -32,6 +32,7 @@ redirect_from:
 [![GitHub followers](https://img.shields.io/github/followers/diaoquesang)](https://github.com/diaoquesang)
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=diaoquesang&countColor=%23263759&style=flat&labelStyle=none)](https://visitorbadge.io/status?path=diaoquesang)
 
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
 
 
 <div class='photo-box'>
@@ -42,6 +43,9 @@ redirect_from:
   <div class='photo-box-image'><div><img src='images/p/5.jpg' alt="sym" width="100%"></div></div>
   <div class='photo-box-image'><div><img src='images/p/6.jpg' alt="sym" width="100%"></div></div>
 </div>
+
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 # 📖 Educations
 - *2022.08 - Present*, Undergraduate student: Computer Science and Technology, [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), Hangzhou, China

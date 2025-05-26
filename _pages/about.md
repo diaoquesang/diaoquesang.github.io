@@ -53,24 +53,26 @@ redirect_from:
 
 # 🔥 News
 
-<div style="height: 60px; overflow: auto; font-size: 15px;">
+<div style="height: 400px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
-		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
-		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
-		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
-		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
-		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
-		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
-		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
-		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
-		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
-		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
-		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
-		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
+		<li><i>2025.05</i>: &nbsp;🎉🎉 We won the <b>National Third Prize</b> in the <a href="http://www.fwwb.org.cn/">16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition</a>!</li>
+		<li><i>2025.04</i>: &nbsp;🎉🎉 I have reached <b>100 citations</b> in my <a href="https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN">Google Scholar academic profile</a>!</li>
+		<li><i>2025.04</i>: &nbsp;🎉🎉 I was invited to be a <b>Reviewer</b> for <a href="https://acmmm2025.org/">ACM MM 2025</a>!</li>
+		<li><i>2025.02</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2025">IEEE ISBI 2025</a> was selected for <b>Oral Presentation</b>!</li>
+		<li><i>2025.01</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">Computers in Biology and Medicine</a> was selected for <b>ESI Top 1% Highly Cited Paper</b>!</li>
+		<li><i>2025.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2025">IEEE ISBI 2025</a> was <b>Accepted</b>!</li>
+		<li><i>2024.12</i>: &nbsp;🎉🎉 We won the <b>International Bronze Medal</b> in the <a href="https://pilcchina.org/home">China International College Students' Innovation Competition 2024</a>!</li>
+		<li><i>2024.11</i>: &nbsp;🎉🎉 We won the <b>National Second Prize</b> in the <a href="https://gxict.bupt.edu.cn">1st ICT Industry-Teaching Integration Innovation Competition</a>!</li>
+		<li><i>2024.04</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2024">IEEE ISBI 2024</a> was selected for <b>Oral Presentation</b>!</li>
+		<li><i>2024.02</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2024">IEEE ISBI 2024</a> was <b>Accepted</b>!</li>
+		<li><i>2024.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">Computers in Biology and Medicine</a> was <b>Accepted</b>!</li>
+		<li><i>2023.12</i>: &nbsp;🎉🎉 We won the <b>National Gold Medal</b> in the <a href="https://pilcchina.org/home">China International College Students' Innovation Competition 2023</a>!</li>
+		<li><i>2023.12</i>: &nbsp;🎉🎉 We won the <b>International Bronze Medal</b> in the <a href="https://pilcchina.org/home">China International College Students' Innovation Competition 2023</a>!</li>
+		<li><i>2023.08</i>: &nbsp;🎉🎉 We won the <b>National First Prize</b> in the <a href="https://www.smartcar.zone/index.html">18th National Smart Car Competition for College Students</a>!</li>
+		<li><i>2023.06</i>: &nbsp;🎉🎉 Our new paper for <a href="https://www.icsip.org/2023.html">ICSIP 2023</a> was <b>Accepted</b>!</li>	
 	</ul>
 </div>
-<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ scrollable</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 - *2025.05*: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!
 - *2025.04*: &nbsp;🎉🎉 I have reached **100 citations** in my [Google Scholar academic profile](https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN)!
@@ -89,6 +91,15 @@ redirect_from:
 - *2023.06*: &nbsp;🎉🎉 Our new paper for [ICSIP 2023](https://www.icsip.org/2023.html) was **Accepted**!
 
 # 🏅 Honors
+
+<div style="height: 60px; overflow: auto; font-size: 15px;">
+	<ul>
+		
+	</ul>
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
+
+
 - *2025*: [Top 10 Student Candidates of HDU](https://mp.weixin.qq.com/s/KN5BBltP9OrdEPli11RE6A) (**Top 15**)
 - *2025*: [HDU Stars of Innovation](https://tuanwei.hdu.edu.cn/2025/0425/c275a277893/page.htm) (**Top 10**)
 - *2025*: [Top 10 Students of HDU-ITMO Joint Institute](https://mp.weixin.qq.com/s/lcgUXEJ5ITtSLiq1ltnagw) (**Top 1.25%**)

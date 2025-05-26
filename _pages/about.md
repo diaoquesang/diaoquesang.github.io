@@ -187,7 +187,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-# 🪙 Copyrights
+# 🪙 Intellectual Properties
 
 ## National Invention Patents (国家发明专利)
 

@@ -53,7 +53,7 @@ redirect_from:
 
 # 🔥 News
 
-<div style="height: 400px; overflow: auto; font-size: 15px;">
+<div style="height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
 		<li><i>2025.05</i>: &nbsp;🎉🎉 We won the <b>National Third Prize</b> in the <a href="http://www.fwwb.org.cn/">16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition</a>!</li>
 		<li><i>2025.04</i>: &nbsp;🎉🎉 I have reached <b>100 citations</b> in my <a href="https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN">Google Scholar academic profile</a>!</li>

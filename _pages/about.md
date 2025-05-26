@@ -232,7 +232,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
   });
 </script>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.05</div><img src='images/Battleplan Extinguished Sins.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Rank 1</div><img src='images/Battleplan Extinguished Sins.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [Battleplan Extinguished Sins](https://www.bilibili.com/video/BV1HWNHevEgG/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
@@ -247,37 +247,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.04</div><img src='images/haidi.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[海底](https://www.bilibili.com/video/BV1qp4y1t7DJ/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
-  
-凤凰传奇
-
-<audio class="myAudio" loop controls>
-  <source src="music/haidi.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.03</div><img src='images/chiling.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[赤伶](https://www.bilibili.com/video/BV1cPRsYSEUA/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
-  
-HITA
-
-<audio class="myAudio" loop controls>
-  <source src="music/chiling.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.02</div><img src='images/Radiant.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Rank 2</div><img src='images/Radiant.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [Radiant](https://www.bilibili.com/video/BV1QU4y1u7D7/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
@@ -292,16 +262,15 @@ HITA
 </div>
 </div>
 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.01</div><img src='images/Visage.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Rank 3</div><img src='images/haidi.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Visage](https://www.bilibili.com/video/BV1hz4y1N7jp/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[海底](https://www.bilibili.com/video/BV1qp4y1t7DJ/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
   
-塞壬唱片-MSR/Elvin Shen
+凤凰传奇
 
 <audio class="myAudio" loop controls>
-  <source src="music/Visage.mp3" type="audio/mpeg">
+  <source src="music/haidi.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -310,20 +279,7 @@ HITA
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.12</div><img src='images/fudahuang.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[赴大荒](https://www.bilibili.com/video/BV1kz421d74X/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
-  
-塞壬唱片-MSR/Kirara Magic
 
-<audio class="myAudio" loop controls>
-  <source src="music/fudahuang.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-</div>
-</div>
 
 
 

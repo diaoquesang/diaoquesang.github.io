@@ -35,7 +35,7 @@ redirect_from:
 <div style="margin-top: 30px;"></div>
 
 
-<div style="overflow: auto; font-size: 15px;aspect-ratio: 2.63 / 1;">
+<div style="overflow: auto; font-size: 15px;aspect-ratio: 2.65 / 1;">
 
 
 <div class='photo-box'>

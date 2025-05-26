@@ -158,6 +158,17 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
+# ⚖️ Patents
+- *2025*: 一种不完整多模态分层特征融合网络的MCI 转换分类方法 (受理)
+- *2025*: 一种基于选择性状态空间融合的眼科影像分类方法 (公开)
+- *2025*: 一种基于 NRGMFF 和 fMRI 的脑疾病分类方法 (受理)
+- *2025*: 一种基于 GL-LCM 模型的高分辨率胸部 X 光图像骨抑制方法 (受理)
+- *2024*: 基于不完整三模态共注意融合的轻度认知障碍转换预测方法 (公开)
+- *2024*: 一种基于多模态注意力融合网络的 ADHD 分类诊断方法 (公开)
+- *2024*: 一种基于 BS-LDM 模型的高分辨率胸部 X 光图像骨抑制方法 (公开)
+- *2023*: 一种基于 TC-DiffRecon 模型的纹理协调的 MRI 图像重建方法 (公开)
+- *2023*: 一种基于条件扩散模型的胸部 X 光图像骨抑制方法 (公开)
+
 # 🏫 Clubs
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chairman</div><img src='images/SU.jpg' alt="sym" width="100%"></div></div>

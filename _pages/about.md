@@ -52,6 +52,26 @@ redirect_from:
 - *2022.09 - 2023.09*: Smart Car Lab, [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), Hangzhou, China
 
 # 🔥 News
+
+<div style="height: 60px; overflow: auto; font-size: 15px;">
+	<ul>
+		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
+		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
+		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
+		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
+		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
+		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
+		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
+		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
+		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
+		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
+		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
+		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
+		<li> <i>2025.05</i>: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!</li>
+	</ul>
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ scrollable</div>
+
 - *2025.05*: &nbsp;🎉🎉 We won the **National Third Prize** in the [16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/)!
 - *2025.04*: &nbsp;🎉🎉 I have reached **100 citations** in my [Google Scholar academic profile](https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN)!
 - *2025.04*: &nbsp;🎉🎉 I was invited to be a **Reviewer** for [ACM MM 2025](https://acmmm2025.org/)!

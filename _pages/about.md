@@ -63,7 +63,7 @@ redirect_from:
 
 <div><img src='images/p/9.jpg' width="30%">
 
-<i>2022.08 - Present</i>, Undergraduate Student: Computer Science, <a href="https://www.hdu.edu.cn/main.htm">ITMO University</a>, Saint Petersburg, Russia
+<i>2022.08 - Present</i>, Undergraduate Student: Computer Science, <a href="https://en.itmo.ru/">ITMO University</a>, Saint Petersburg, Russia
 
 </div>
 

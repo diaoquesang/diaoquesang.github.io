@@ -61,7 +61,7 @@ redirect_from:
 	</ul>
 </div>
 
-<div style="margin-top: 30px;"></div>
+<div style="margin-top: 10px;"></div>
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/caa9f769-f2fd-482c-aaa5-f9e9d0acc67f' width="30%">
 	<ul>

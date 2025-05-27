@@ -68,9 +68,24 @@ redirect_from:
 </div>
 
 # 💻 Internships
-- *2023.06 - Present*: Healthcare Big Data Lab, [Shenzhen Research Institute of Big Data](https://www.sribd.cn/), Shenzhen, China
-- *2023.06 - Present*: Advanced Networking and Big Data Lab, [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), Hangzhou, China
-- *2022.09 - 2023.09*: Smart Car Lab, [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), Hangzhou, China
+
+<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/fed68c18-ae52-48d1-9c45-703a3555f77a' width="20%" style="margin: 20px 10px 20px 10px;">
+	<ul style="margin-top: 10px;">
+		<li><i>2023.06 - Present</i>: Healthcare Big Data Lab, <a href="https://www.sribd.cn/">Shenzhen Research Institute of Big Data</a>, Shenzhen, China</li>
+	</ul>
+</div>
+
+<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/fed68c18-ae52-48d1-9c45-703a3555f77a' width="20%" style="margin: 20px 10px 20px 10px;">
+	<ul style="margin-top: 10px;">
+		<li><i>2023.06 - Present</i>: Advanced Networking and Big Data Lab, <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, China</li>
+	</ul>
+</div>
+
+<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/fed68c18-ae52-48d1-9c45-703a3555f77a' width="20%" style="margin: 20px 10px 20px 10px;">
+	<ul style="margin-top: 10px;">
+		<li><i>2022.09 - 2023.09</i>: Smart Car Lab, <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, China</li>
+	</ul>
+</div>
 
 # 🔥 News
 

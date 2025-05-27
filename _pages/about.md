@@ -56,8 +56,16 @@ redirect_from:
 # 📖 Educations
 
 <div><img src='images/p/9.jpg' width="30%">
+	
+<i>2022.08 - Present</i>, Undergraduate Student: Computer Science and Technology, <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, China
 
-- *2022.08 - Present*, Undergraduate student: Computer Science and Technology, [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), Hangzhou, China
+</div>
+
+<div><img src='images/p/9.jpg' width="30%">
+
+<i>2022.08 - Present</i>, Undergraduate Student: Computer Science, <a href="https://www.hdu.edu.cn/main.htm">ITMO University</a>, Saint Petersburg, Russia
+
+</div>
 
 # 💻 Internships
 - *2023.06 - Present*: Healthcare Big Data Lab, [Shenzhen Research Institute of Big Data](https://www.sribd.cn/), Shenzhen, China

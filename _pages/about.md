@@ -54,6 +54,9 @@ redirect_from:
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 # 📖 Educations
+
+<div><img src='images/p/9.jpg' width="30%">
+
 - *2022.08 - Present*, Undergraduate student: Computer Science and Technology, [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), Hangzhou, China
 
 # 💻 Internships

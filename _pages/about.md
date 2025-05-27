@@ -57,13 +57,15 @@ redirect_from:
 
 <div style="display: flex; align-items: center;"><img src='images/p/9.jpg' width="30%">
 	<ul>
-		<li style="width: 70%;"><i>2022.08 - Present</i>, Undergraduate Student: Computer Science and Technology, <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, China</li>
+		<li><i>2022.08 - Present</i>, Undergraduate Student: Computer Science and Technology, <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, China</li>
 	</ul>
 </div>
 
+<div style="margin-top: 30px;"></div>
+
 <div style="display: flex; align-items: center;"><img src='images/p/9.jpg' width="30%">
 	<ul>
-		<li style="width: 70%;"><i>2022.08 - Present</i>, Undergraduate Student: Computer Science, <a href="https://en.itmo.ru/">ITMO University</a>, Saint Petersburg, Russia</li>
+		<li><i>2022.08 - Present</i>, Undergraduate Student: Computer Science, <a href="https://en.itmo.ru/">ITMO University</a>, Saint Petersburg, Russia</li>
 	</ul>
 </div>
 

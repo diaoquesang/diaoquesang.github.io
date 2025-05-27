@@ -68,7 +68,7 @@ redirect_from:
 
 # 💻 Internships
 
-<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/f62cab73-8e9d-4412-b9ea-4ecc872c3247' width="20%" style="margin: 20px 10px 20px 10px;">
+<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/c80da538-2637-44f5-b732-245afeefd76e' width="20%" style="margin: 20px 10px 20px 10px;">
 	<ul style="margin-top: 10px;">
 		<li><i>2023.06 - Present</i>: Healthcare Big Data Lab, <a href="https://www.sribd.cn/">Shenzhen Research Institute of Big Data</a>, Shenzhen, China</li>
 	</ul>

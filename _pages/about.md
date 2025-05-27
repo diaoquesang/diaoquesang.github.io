@@ -56,13 +56,13 @@ redirect_from:
 # 📖 Educations
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/fed68c18-ae52-48d1-9c45-703a3555f77a' width="20%" style="margin: 20px 10px 20px 10px;">
-	<ul style="margin-top: 5px;">
-		<li><i>2022.08 - Present</i>, Undergraduate Student: Computer Science and Technology, <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, China 🇨🇳</li>
+	<ul style="margin-top: 10px;">
+		<li><i>2022.08 - Present</i>, Undergraduate Student: Computer Science and Technology, <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, China</li>
 	</ul>
 </div>
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/caa9f769-f2fd-482c-aaa5-f9e9d0acc67f' width="20%" style="margin: 20px 10px 20px 10px;">
-	<ul style="margin-top: 5px;>
+	<ul style="margin-top: 10px;">
 		<li><i>2022.08 - Present</i>, Undergraduate Student: Computer Science, <a href="https://en.itmo.ru/">ITMO University</a>, Saint Petersburg, Russia</li>
 	</ul>
 </div>

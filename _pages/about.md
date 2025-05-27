@@ -37,7 +37,6 @@ redirect_from:
 
 <div style="overflow: auto; font-size: 15px;aspect-ratio: 2.65 / 1;">
 
-
 <div class='photo-box'>
   <div class='photo-box-image'><div><img src='images/p/9.jpg' alt="sym" width="100%"></div></div>
   <div class='photo-box-image'><div><img src='images/p/8.jpg' alt="sym" width="100%"></div></div>
@@ -69,7 +68,7 @@ redirect_from:
 
 # 💻 Internships
 
-<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/fed68c18-ae52-48d1-9c45-703a3555f77a' width="20%" style="margin: 20px 10px 20px 10px;">
+<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/f62cab73-8e9d-4412-b9ea-4ecc872c3247' width="20%" style="margin: 20px 10px 20px 10px;">
 	<ul style="margin-top: 10px;">
 		<li><i>2023.06 - Present</i>: Healthcare Big Data Lab, <a href="https://www.sribd.cn/">Shenzhen Research Institute of Big Data</a>, Shenzhen, China</li>
 	</ul>

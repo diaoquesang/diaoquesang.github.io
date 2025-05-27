@@ -283,7 +283,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Member</div><img src='images/HUAWEI.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Huawei Smart Base Association](https://edu.hicomputing.huawei.com/AIeducationbase)
+[HDU Huawei Smart Base Association](https://edu.hicomputing.huawei.com/AIeducationbase)
 
 *2023.3 - Present*: Member
   

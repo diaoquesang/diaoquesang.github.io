@@ -300,6 +300,11 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 
 # 🎼 My Favorite Music 
 
+### “音乐可以直达心灵深处，音乐是世界上唯一能以秒为单位，在瞬间改变人情绪状态的艺术。”
+
+<div style="text-align:right;">——中央音乐学院原副院长周海宏教授</div>
+
+
 <script>
   // 页面加载完成后设置音量
   document.addEventListener('DOMContentLoaded', function() {
@@ -309,7 +314,6 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
             }
   });
 </script>
-
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/Battleplan Extinguished Sins.jpg' alt="sym" width="100%"></div></div>

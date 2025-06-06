@@ -303,38 +303,57 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 <script>
 // 页面加载完成后设置音量
 document.addEventListener('DOMContentLoaded', function () {
-      var audios = document.getElementsByClassName('myAudio');
-      let currentPlayingIndex = -1; // 当前播放的音频索引，默认为 -1，表示无音频播放
+  var audios = document.getElementsByClassName('myAudio');
+  let currentPlayingIndex = -1; // 当前播放的音频索引，默认为 -1，表示无音频播放
 
-      // 随机播放功能
-      function playRandomAudio() {
-        let randomIndex;
-        do {
-          randomIndex = Math.floor(Math.random() * audios.length); // 生成随机索引
-        } while (randomIndex === currentPlayingIndex); // 如果随机到当前播放的音频，重新生成
+  // 随机播放功能
+  function playRandomAudio() {
+    let randomIndex;
+    do {
+      randomIndex = Math.floor(Math.random() * audios.length); // 生成随机索引
+    } while (randomIndex === currentPlayingIndex); // 如果随机到当前播放的音频，重新生成
 
-        // 暂停所有音频并重置播放时间
-        for (let i = 0; i < audios.length; i++) {
-          audios[i].pause();
-          audios[i].currentTime = 0;
-        }
+    // 暂停所有音频并重置播放时间
+    for (let i = 0; i < audios.length; i++) {
+      audios[i].pause();
+      audios[i].currentTime = 0;
+    }
 
-        // 播放新选中的音频
-        audios[randomIndex].play();
-        currentPlayingIndex = randomIndex; // 更新当前播放的音频索引
-      }
+    // 播放新选中的音频
+    audios[randomIndex].play();
+    currentPlayingIndex = randomIndex; // 更新当前播放的音频索引
+  }
 
-      // 设置音量
-      for (let i = 0; i < audios.length; i++) {
-        audios[i].volume = 0.2; // 设置音量为20%
-      }
+  // 顺序播放功能
+  function playSequentialAudio() {
+    // 暂停所有音频并重置播放时间
+    for (let i = 0; i < audios.length; i++) {
+      audios[i].pause();
+      audios[i].currentTime = 0;
+    }
 
-      // 绑定“随机播放”按钮的点击事件
-      document.getElementById('random-play').addEventListener('click', playRandomAudio);
-    });
+    // 播放下一首音频
+    currentPlayingIndex = (currentPlayingIndex + 1) % audios.length;
+    audios[currentPlayingIndex].play();
+  }
+
+  // 设置音量
+  for (let i = 0; i < audios.length; i++) {
+    audios[i].volume = 0.2; // 设置音量为20%
+  }
+
+  // 绑定“随机播放”按钮的点击事件
+  document.getElementById('random-play').addEventListener('click', playRandomAudio);
+
+  // 绑定“顺序播放”按钮的点击事件
+  document.getElementById('sequential-play').addEventListener('click', playSequentialAudio);
+});
 </script>
 
+<!-- 随机播放按钮 -->
 <button id="random-play">随机播放</button>
+<!-- 顺序播放按钮 -->
+<button id="sequential-play">顺序播放</button>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Rank 1</div><img src='images/Battleplan Extinguished Sins.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

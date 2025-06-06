@@ -301,40 +301,72 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 # 🎼 My Favorite Music 
 
 <script>
-// 页面加载完成后设置音量
 document.addEventListener('DOMContentLoaded', function () {
   var audios = document.getElementsByClassName('myAudio');
-  let currentPlayingIndex = -1; // 当前播放的音频索引，默认为 -1，表示无音频播放
+  let currentPlayingIndex = -1; // 当前播放的音频索引，默认为 -1
+  let playMode = 'sequential'; // 默认播放模式：sequential（顺序播放）
 
-  // 随机播放功能
+  // 切换播放模式
+  function switchPlayMode() {
+    const modes = ['sequential', 'random', 'loop'];
+    const currentModeIndex = modes.indexOf(playMode);
+    const nextModeIndex = (currentModeIndex + 1) % modes.length;
+    playMode = modes[nextModeIndex]; // 切换到下一个模式
+
+    // 更新按钮文本
+    document.getElementById('mode-switch').innerText = `模式：${playMode === 'sequential' ? '顺序播放' : playMode === 'random' ? '随机播放' : '单曲循环'}`;
+
+    // 如果有音频正在播放，根据新的模式决定是否继续播放
+    if (currentPlayingIndex !== -1) {
+      if (playMode === 'loop') {
+        // 单曲循环直接继续播放当前音频
+        audios[currentPlayingIndex].play();
+      } else {
+        // 否则根据模式重新播放
+        playCurrentMode();
+      }
+    }
+  }
+
+  // 随机播放一首音频
   function playRandomAudio() {
     let randomIndex;
     do {
-      randomIndex = Math.floor(Math.random() * audios.length); // 生成随机索引
-    } while (randomIndex === currentPlayingIndex); // 如果随机到当前播放的音频，重新生成
+      randomIndex = Math.floor(Math.random() * audios.length);
+    } while (randomIndex === currentPlayingIndex);
 
-    // 暂停所有音频并重置播放时间
-    for (let i = 0; i < audios.length; i++) {
-      audios[i].pause();
-      audios[i].currentTime = 0;
-    }
-
-    // 播放新选中的音频
-    audios[randomIndex].play();
-    currentPlayingIndex = randomIndex; // 更新当前播放的音频索引
+    playAudioAt(randomIndex);
   }
 
-  // 顺序播放功能
+  // 顺序播放下一首音频
   function playSequentialAudio() {
-    // 暂停所有音频并重置播放时间
+    currentPlayingIndex = (currentPlayingIndex + 1) % audios.length;
+    playAudioAt(currentPlayingIndex);
+  }
+
+  // 根据当前播放模式播放音频
+  function playCurrentMode() {
+    if (playMode === 'random') {
+      playRandomAudio();
+    } else if (playMode === 'sequential') {
+      playSequentialAudio();
+    } else if (playMode === 'loop') {
+      // 单曲循环模式下，继续播放当前音频
+      if (currentPlayingIndex !== -1) {
+        audios[currentPlayingIndex].play();
+      }
+    }
+  }
+
+  // 播放指定索引的音频
+  function playAudioAt(index) {
     for (let i = 0; i < audios.length; i++) {
       audios[i].pause();
       audios[i].currentTime = 0;
     }
 
-    // 播放下一首音频
-    currentPlayingIndex = (currentPlayingIndex + 1) % audios.length;
-    audios[currentPlayingIndex].play();
+    audios[index].play();
+    currentPlayingIndex = index;
   }
 
   // 暂停所有音频
@@ -350,23 +382,35 @@ document.addEventListener('DOMContentLoaded', function () {
     audios[i].volume = 0.2; // 设置音量为20%
   }
 
-  // 绑定“随机播放”按钮的点击事件
-  document.getElementById('random-play').addEventListener('click', playRandomAudio);
+  // 绑定播放模式切换按钮
+  document.getElementById('mode-switch').addEventListener('click', switchPlayMode);
 
-  // 绑定“顺序播放”按钮的点击事件
-  document.getElementById('sequential-play').addEventListener('click', playSequentialAudio);
+  // 绑定播放按钮
+  document.getElementById('play').addEventListener('click', playCurrentMode);
 
-  // 绑定“暂停”按钮的点击事件
-  document.getElementById('pause-all').addEventListener('click', pauseAllAudio);
+  // 绑定暂停按钮
+  document.getElementById('pause').addEventListener('click', pauseAllAudio);
+
+  // 为每个音频绑定结束事件
+  for (let i = 0; i < audios.length; i++) {
+    audios[i].addEventListener('ended', function () {
+      if (playMode === 'random') {
+        playRandomAudio();
+      } else if (playMode === 'sequential') {
+        playSequentialAudio();
+      }
+      // 单曲循环模式下，音频播放结束后不会自动切换
+    });
+  }
 });
 </script>
 
-<!-- 随机播放按钮 -->
-<button id="random-play">随机播放</button>
-<!-- 顺序播放按钮 -->
-<button id="sequential-play">顺序播放</button>
+<!-- 播放模式切换按钮 -->
+<button id="mode-switch">模式：顺序播放</button>
+<!-- 播放按钮 -->
+<button id="play">播放</button>
 <!-- 暂停按钮 -->
-<button id="pause-all">暂停</button>
+<button id="pause">暂停</button>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Rank 1</div><img src='images/Battleplan Extinguished Sins.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

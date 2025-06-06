@@ -304,7 +304,6 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 
 <div style="text-align:right;">——中央音乐学院原副院长周海宏教授</div>
 
-
 <script>
   // 页面加载完成后设置音量
   document.addEventListener('DOMContentLoaded', function() {

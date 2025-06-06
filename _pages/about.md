@@ -299,115 +299,16 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 
 # 🎼 My Favorite Music 
+
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-  var audios = document.getElementsByClassName('myAudio');
-  let currentPlayingIndex = -1; // 当前播放的音频索引，默认为 -1
-  let playMode = 'sequential'; // 默认播放模式：sequential（顺序播放）
-
-  // 切换播放模式
-  function switchPlayMode() {
-    const modes = ['sequential', 'random', 'loop'];
-    const currentModeIndex = modes.indexOf(playMode);
-    const nextModeIndex = (currentModeIndex + 1) % modes.length;
-    playMode = modes[nextModeIndex]; // 切换到下一个模式
-
-    // 更新按钮文本
-    document.getElementById('mode-switch').innerText = `模式：${playMode === 'sequential' ? '顺序播放' : playMode === 'random' ? '随机播放' : '单曲循环'}`;
-
-    // 如果有音频正在播放，根据新的模式决定是否继续播放
-    if (currentPlayingIndex !== -1 && playMode !== 'loop') {
-      playCurrentMode();
-    }
-  }
-
-  // 随机播放一首音频
-  function playRandomAudio() {
-    let randomIndex;
-    do {
-      randomIndex = Math.floor(Math.random() * audios.length);
-    } while (randomIndex === currentPlayingIndex);
-
-    playAudioAt(randomIndex);
-  }
-
-  // 顺序播放下一首音频
-  function playSequentialAudio() {
-    currentPlayingIndex = (currentPlayingIndex + 1) % audios.length;
-    playAudioAt(currentPlayingIndex);
-  }
-
-  // 单曲循环模式下继续播放当前音频
-  function playLoopAudio() {
-    if (currentPlayingIndex !== -1) {
-      audios[currentPlayingIndex].play();
-    }
-  }
-
-  // 根据当前播放模式播放音频
-  function playCurrentMode() {
-    if (playMode === 'random') {
-      playRandomAudio();
-    } else if (playMode === 'sequential') {
-      playSequentialAudio();
-    } else if (playMode === 'loop') {
-      playLoopAudio();
-    }
-  }
-
-  // 播放指定索引的音频
-  function playAudioAt(index) {
-    for (let i = 0; i < audios.length; i++) {
-      audios[i].pause();
-      audios[i].currentTime = 0;
-    }
-
-    audios[index].play();
-    currentPlayingIndex = index;
-  }
-
-  // 暂停所有音频
-  function pauseAllAudio() {
-    for (let i = 0; i < audios.length; i++) {
-      audios[i].pause();
-    }
-    currentPlayingIndex = -1; // 重置当前播放索引
-  }
-
-  // 设置音量
-  for (let i = 0; i < audios.length; i++) {
-    audios[i].volume = 0.2; // 设置音量为20%
-  }
-
-  // 绑定播放模式切换按钮
-  document.getElementById('mode-switch').addEventListener('click', switchPlayMode);
-
-  // 绑定播放按钮
-  document.getElementById('play').addEventListener('click', playCurrentMode);
-
-  // 绑定暂停按钮
-  document.getElementById('pause').addEventListener('click', pauseAllAudio);
-
-  // 为每个音频绑定结束事件
-  for (let i = 0; i < audios.length; i++) {
-    audios[i].addEventListener('ended', function () {
-      if (playMode === 'random') {
-        playRandomAudio();
-      } else if (playMode === 'sequential') {
-        playSequentialAudio();
-      }
-      // 单曲循环模式下，音频播放结束后不会自动切换
-    });
-  }
-});
+  // 页面加载完成后设置音量
+  document.addEventListener('DOMContentLoaded', function() {
+    var audios = document.getElementsByClassName('myAudio');
+    for (var i = 0; i < audios.length; i++) {
+                audios[i].volume = 0.2; // 设置音量为20%
+            }
+  });
 </script>
-
-<!-- 播放模式切换按钮 -->
-<button id="mode-switch">模式：顺序播放</button>
-<!-- 播放按钮 -->
-<button id="play">播放</button>
-<!-- 暂停按钮 -->
-<button id="pause">暂停</button>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Rank 1</div><img src='images/Battleplan Extinguished Sins.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

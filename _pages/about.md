@@ -327,6 +327,21 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024</div><img src='images/fudahuang.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[赴大荒](https://www.bilibili.com/video/BV1kz421d74X/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+
+塞壬唱片-MSR / Kirara Magic
+
+<audio class="myAudio" loop controls>
+  <source src="music/fudahuang.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2023</div><img src='images/shun.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
@@ -336,6 +351,21 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 
 <audio class="myAudio" loop controls>
   <source src="music/shun.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2023</div><img src='images/Visage.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Visage](https://www.bilibili.com/video/BV1hz4y1N7jp/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+
+塞壬唱片-MSR / Elvin Shen
+
+<audio class="myAudio" loop controls>
+  <source src="music/Visage.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -372,7 +402,20 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2018</div><img src='images/chiling.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+[赤伶](https://www.bilibili.com/video/BV1cPRsYSEUA/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+
+HITA
+
+<audio class="myAudio" loop controls>
+  <source src="music/chiling.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
 
 
 

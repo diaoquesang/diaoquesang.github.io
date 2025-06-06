@@ -310,7 +310,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
   });
 </script>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Rank 1</div><img src='images/Battleplan Extinguished Sins.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/Battleplan Extinguished Sins.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [Battleplan Extinguished Sins](https://www.bilibili.com/video/BV1HWNHevEgG/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
@@ -325,7 +325,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Rank 2</div><img src='images/Radiant.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2021</div><img src='images/Radiant.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [Radiant](https://www.bilibili.com/video/BV1QU4y1u7D7/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
@@ -340,7 +340,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Rank 3</div><img src='images/haidi.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2021</div><img src='images/haidi.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [海底](https://www.bilibili.com/video/BV1qp4y1t7DJ/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)

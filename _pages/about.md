@@ -326,7 +326,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </script>
 
-<!-- 随机播放按钮 -->
 <button id="random-play">随机播放</button>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Rank 1</div><img src='images/Battleplan Extinguished Sins.jpg' alt="sym" width="100%"></div></div>

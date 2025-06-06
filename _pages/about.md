@@ -337,6 +337,14 @@ document.addEventListener('DOMContentLoaded', function () {
     audios[currentPlayingIndex].play();
   }
 
+  // 暂停所有音频
+  function pauseAllAudio() {
+    for (let i = 0; i < audios.length; i++) {
+      audios[i].pause();
+    }
+    currentPlayingIndex = -1; // 重置当前播放索引
+  }
+
   // 设置音量
   for (let i = 0; i < audios.length; i++) {
     audios[i].volume = 0.2; // 设置音量为20%
@@ -347,6 +355,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // 绑定“顺序播放”按钮的点击事件
   document.getElementById('sequential-play').addEventListener('click', playSequentialAudio);
+
+  // 绑定“暂停”按钮的点击事件
+  document.getElementById('pause-all').addEventListener('click', pauseAllAudio);
 });
 </script>
 
@@ -354,6 +365,8 @@ document.addEventListener('DOMContentLoaded', function () {
 <button id="random-play">随机播放</button>
 <!-- 顺序播放按钮 -->
 <button id="sequential-play">顺序播放</button>
+<!-- 暂停按钮 -->
+<button id="pause-all">暂停</button>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Rank 1</div><img src='images/Battleplan Extinguished Sins.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

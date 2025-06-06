@@ -301,14 +301,33 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 # 🎼 My Favorite Music 
 
 <script>
-  // 页面加载完成后设置音量
-  document.addEventListener('DOMContentLoaded', function() {
-    var audios = document.getElementsByClassName('myAudio');
-    for (var i = 0; i < audios.length; i++) {
-                audios[i].volume = 0.2; // 设置音量为20%
-            }
-  });
+// 页面加载完成后设置音量
+document.addEventListener('DOMContentLoaded', function() {
+	var audios = document.getElementsByClassName('myAudio');
+	for (var i = 0; i < audios.length; i++) {
+		audios[i].volume = 0.2; // 设置音量为20%
+    }
+	// 随机播放功能
+	function playRandomAudio() {
+	const randomIndex = Math.floor(Math.random() * audios.length);
+	for (var i = 0; i < audios.length; i++) {
+	  if (i === randomIndex) {
+	    audios[i].play(); // 播放选中的音频
+	  } else {
+	    audios[i].pause(); // 暂停其他音频
+	    audios[i].currentTime = 0; // 重置其他音频的播放时间
+	  }
+	}
+      }
+
+
+      // 监听“随机播放”按钮的点击事件
+      document.getElementById('random-play').addEventListener('click', playRandomAudio);});
+
 </script>
+
+<!-- 随机播放按钮 -->
+<button id="random-play">随机播放</button>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Rank 1</div><img src='images/Battleplan Extinguished Sins.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

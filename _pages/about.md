@@ -299,7 +299,6 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 
 # 🎼 My Favorite Music 
-
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   var audios = document.getElementsByClassName('myAudio');
@@ -317,14 +316,8 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('mode-switch').innerText = `模式：${playMode === 'sequential' ? '顺序播放' : playMode === 'random' ? '随机播放' : '单曲循环'}`;
 
     // 如果有音频正在播放，根据新的模式决定是否继续播放
-    if (currentPlayingIndex !== -1) {
-      if (playMode === 'loop') {
-        // 单曲循环直接继续播放当前音频
-        audios[currentPlayingIndex].play();
-      } else {
-        // 否则根据模式重新播放
-        playCurrentMode();
-      }
+    if (currentPlayingIndex !== -1 && playMode !== 'loop') {
+      playCurrentMode();
     }
   }
 
@@ -344,6 +337,13 @@ document.addEventListener('DOMContentLoaded', function () {
     playAudioAt(currentPlayingIndex);
   }
 
+  // 单曲循环模式下继续播放当前音频
+  function playLoopAudio() {
+    if (currentPlayingIndex !== -1) {
+      audios[currentPlayingIndex].play();
+    }
+  }
+
   // 根据当前播放模式播放音频
   function playCurrentMode() {
     if (playMode === 'random') {
@@ -351,10 +351,7 @@ document.addEventListener('DOMContentLoaded', function () {
     } else if (playMode === 'sequential') {
       playSequentialAudio();
     } else if (playMode === 'loop') {
-      // 单曲循环模式下，继续播放当前音频
-      if (currentPlayingIndex !== -1) {
-        audios[currentPlayingIndex].play();
-      }
+      playLoopAudio();
     }
   }
 

@@ -310,6 +310,8 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
   });
 </script>
 
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/Battleplan Extinguished Sins.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
@@ -319,6 +321,21 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 
 <audio class="myAudio" loop controls>
   <source src="music/Battleplan Extinguished Sins.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2023</div><img src='images/shun.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[瞬](https://www.bilibili.com/video/BV1fV41157dV/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+  
+郑润泽
+
+<audio class="myAudio" loop controls>
+  <source src="music/shun.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 

@@ -262,6 +262,8 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin<s
 [Intelligent Diagnosis System for Ophthalmic Diseases Based on Binocular Fundus Medical Imaging]()
   
 Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
+
+![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
 </div>
 </div>
 
@@ -272,6 +274,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
   
 **Yifei Sun**, Ruihan Yang, Zhanghao Chen
 
+![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
 </div>
 </div>
 

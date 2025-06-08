@@ -151,10 +151,12 @@ h1:before, .anchor:before {
 .badge {
     padding-left: 1rem;
     padding-right: 1rem;
-    position: absolute;
+    position: relative;
     margin-top: .5em;
     margin-left: -.5em;
     color: white;
     background-color: #00369f;
     font-size: .8em;
+    width: fit-content;
+    top: 24px;
 }

@@ -157,6 +157,8 @@ redirect_from:
 [IHFNet: Incomplete Multimodal Hierarchical Feature Fusion Network for Mild Cognitive Impairment Conversion Prediction]() [[🧑🏻‍💻 Code]](https://github.com/sunyzhi55/IHFNet)
   
 Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Xiang Wan, Ahmed Elazab, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
+
+![](https://img.shields.io/badge/Multi--Modal%20Fusion-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
 </div>
 </div>
 
@@ -166,6 +168,8 @@ Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Xiang Wan, Ahmed Elazab, 
 [NRGMFF: Enhanced fMRI-Based Brain Disorder Diagnosis via Narrative Report Generation and Multimodal Feature Fusion]() [[🧑🏻‍💻 Code]](https://github.com/BeistMedAI/NRGMFF)
   
 Junhao Jia, **Yifei Sun**, Shuo Jiang, Cheng Yang, Yuting Shi, Feiwei Qin<sup>†</sup>, Changmiao Wang<sup>†</sup>
+
+![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Multi--Modal%20Fusion-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
 </div>
 </div>
 
@@ -175,6 +179,8 @@ Junhao Jia, **Yifei Sun**, Shuo Jiang, Cheng Yang, Yuting Shi, Feiwei Qin<sup>�
 [FDHIFusion: A Frequency Domain High-order Interaction Network for Infrared and Visible Image Fusion]() [[🧑🏻‍💻 Code]](https://github.com/RicoVVV/FDHIFusion)
   
 Yuxin Zhang, Ruiquan Ge<sup>†</sup>, **Yifei Sun**, Yunzhan Fu, Zhihui Wang, Ahmed Elazab, Changmiao Wang<sup>†</sup>
+
+![](https://img.shields.io/badge/Unsupervised-224B8D) ![](https://img.shields.io/badge/Multi--Modal%20Fusion-224B8D)
 </div>
 </div>
 
@@ -184,6 +190,8 @@ Yuxin Zhang, Ruiquan Ge<sup>†</sup>, **Yifei Sun**, Yunzhan Fu, Zhihui Wang, A
 [GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images]() [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/GL-LCM) [[🌐 Project Page]](https://diaoquesang.github.io/GL-LCM-Project-Page/)
   
 **Yifei Sun**, Zhanghao Chen, Hao Zheng, Yuqing Lu, Lixin Duan, Fenglei Fan, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
+
+![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
 </div>
 </div>
 
@@ -193,6 +201,8 @@ Yuxin Zhang, Ruiquan Ge<sup>†</sup>, **Yifei Sun**, Yunzhan Fu, Zhihui Wang, A
 [ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction](http://arxiv.org/abs/2501.11276) [[🧑🏻‍💻 Code]](https://github.com/justinhxy/ITFC)
   
 Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge<sup>†</sup>, Changmiao Wang<sup>†</sup>, Xiaopeng Fan
+
+![](https://img.shields.io/badge/Multi--Modal%20Fusion-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
 </div>
 </div>
 
@@ -202,6 +212,8 @@ Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, X
 [BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models](https://arxiv.org/abs/2412.15670) [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/BS-LDM) [[🌐 Project Page]](https://benny0323.github.io/BS-LDM-Project-Page/)
   
 **Yifei Sun**, Zhanghao Chen, Hao Zheng, Wenming Deng, Jin Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
+
+![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
 </div>
 </div>
 
@@ -211,6 +223,8 @@ Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, X
 [BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images](https://ieeexplore.ieee.org/abstract/document/10635371/) [[🧑🏻‍💻 Code]](https://github.com/Benny0323/BS-Diff)
   
 Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>
+
+![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
 </div>
 </div>
 
@@ -220,6 +234,8 @@ Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, 
 [Accurate leukocyte detection based on deformable-DETR and multi-level feature fusion for aiding diagnosis of blood diseases](https://www.sciencedirect.com/science/article/pii/S0010482524000015) [[🧑🏻‍💻 Code]](https://github.com/justlfc03/mfds-detr)
   
 Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<sup>†</sup>, Xianjun Fu, Yuxing Dai, Feiwei Qin<sup>†</sup>, Yong Peng, Yu Gao
+
+![](https://img.shields.io/badge/Object%20Detection-224B8D)
 </div>
 </div>
 
@@ -231,7 +247,6 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<s
 Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin<sup>†</sup>, Changmiao Wang
 
 ![](https://img.shields.io/badge/Segmentation-224B8D)
-
 </div>
 </div>
 

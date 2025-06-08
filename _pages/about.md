@@ -146,6 +146,14 @@ redirect_from:
 
 
 # 💡 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review 2025</div><img src='images/FDHIFusion.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[FDHIFusion: A Frequency Domain High-order Interaction Network for Infrared and Visible Image Fusion]() [[🧑🏻‍💻 Code]](https://github.com/RicoVVV/FDHIFusion)
+  
+Yuxin Zhang, Ruiquan Ge\*, **Yifei Sun**, Yunzhan Fu, Zhihui Wang, Ahmed Elazab, Changmiao Wang\*
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review 2025</div><img src='images/GL-LCM.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

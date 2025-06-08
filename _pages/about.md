@@ -151,7 +151,7 @@ redirect_from:
   
 [NRGMFF: Enhanced fMRI-Based Brain Disorder Diagnosis via Narrative Report Generation and Multimodal Feature Fusion]() [[🧑🏻‍💻 Code]](https://github.com/BeistMedAI/NRGMFF)
   
-Junhao Jia, **Yifei Sun**, Shuo Jiang, Yuting Shi, Ruoyu Liang, Chi Zhang, Yangming Li, Feiwei Qin\*, Changmiao Wang\*
+Junhao Jia, **Yifei Sun**, Shuo Jiang, Cheng Yang, Yuting Shi, Feiwei Qin\*, Changmiao Wang\*
 </div>
 </div>
 

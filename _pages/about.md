@@ -449,6 +449,21 @@ HITA
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2013</div><img src='images/Cry For Me.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Cry For Me](https://www.bilibili.com/video/BV1EP9qY5EcX/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+
+Michita
+
+<audio class="myAudio" loop controls>
+  <source src="music/Cry For Me.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
+
 
 
 

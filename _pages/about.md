@@ -146,8 +146,9 @@ redirect_from:
 
 
 # 💡 Publications 
+<div style="margin-bottom: 5px; font-size: small; margin-top: 0px;"><sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author(s)</div>
 
-<sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author(s)
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review 2025</div><img src='images/IHFNet.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

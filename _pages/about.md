@@ -147,7 +147,7 @@ redirect_from:
 
 # 💡 Publications 
 
-<div style="margin-bottom: 5px; font-size: small; margin-top: 0px;"><sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author(s)</div>
+<div style="margin-bottom: 5px; font-size: small; margin-top: 0px;"><sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author(s), Under Review × 5, Conference × 3, Journal × 1</div>
 
 <div style="max-height: 600px; overflow: auto; font-size: 15px;">
 

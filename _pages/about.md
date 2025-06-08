@@ -146,6 +146,8 @@ redirect_from:
 
 
 # 💡 Publications 
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
+
 <div style="margin-bottom: 5px; font-size: small; margin-top: 0px;"><sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author(s)</div>
 
 
@@ -230,6 +232,9 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<s
 Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin<sup>†</sup>, Changmiao Wang
 </div>
 </div>
+
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 # 🧑🏻‍💻 Software
 

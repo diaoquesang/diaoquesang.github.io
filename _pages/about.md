@@ -149,7 +149,7 @@ redirect_from:
 
 <div style="margin-bottom: 5px; font-size: small; margin-top: 0px;"><sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author(s)</div>
 
-<div style="max-height: 500px; overflow: auto; font-size: 15px;">
+<div style="max-height: 600px; overflow: auto; font-size: 15px;">
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review 2025</div><img src='images/IHFNet.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -236,7 +236,7 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin<s
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 # 🧑🏻‍💻 Software
-<div style="max-height: 500px; overflow: auto; font-size: 15px;">
+<div style="max-height: 600px; overflow: auto; font-size: 15px;">
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.01</div><img src='images/IDSODBBFMI.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -295,7 +295,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 
 
 # 🏫 Clubs
-<div style="max-height: 500px; overflow: auto; font-size: 15px;">
+<div style="max-height: 600px; overflow: auto; font-size: 15px;">
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chairman</div><img src='images/SU.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -365,7 +365,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
   });
 </script>
 
-<div style="max-height: 500px; overflow: auto; font-size: 15px;">
+<div style="max-height: 600px; overflow: auto; font-size: 15px;">
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/Deadman.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

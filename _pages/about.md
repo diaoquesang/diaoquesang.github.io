@@ -229,6 +229,9 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<s
 [RTUNet++: Assessment of Osteosarcoma MRI Image Segmentation leveraging Hybrid CNN-Transformer Approach with Dense Skip Connection](https://ieeexplore.ieee.org/abstract/document/10270849)
   
 Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin<sup>†</sup>, Changmiao Wang
+
+![](https://img.shields.io/badge/Segmentation-224B8D)
+
 </div>
 </div>
 
@@ -253,6 +256,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 [Diffusion Model-Based Bone Suppression System for Chest X-Ray]()
   
 **Yifei Sun**, Ruihan Yang, Zhanghao Chen
+
 </div>
 </div>
 

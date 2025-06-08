@@ -93,13 +93,13 @@ redirect_from:
 		<li><i>2025.05</i>: &nbsp;🎉🎉 We won the <b>National Third Prize</b> in the <a href="http://www.fwwb.org.cn/">16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition</a>!</li>
 		<li><i>2025.04</i>: &nbsp;🎉🎉 I have reached <b>100 citations</b> in my <a href="https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN">Google Scholar academic profile</a>!</li>
 		<li><i>2025.04</i>: &nbsp;🎉🎉 I was invited to be a <b>Reviewer</b> for <a href="https://acmmm2025.org/">ACM MM 2025</a>!</li>
-		<li><i>2025.02</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2025">IEEE ISBI 2025</a> was selected for <b>Oral Presentation</b>!</li>
+		<li><i>2025.02</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was selected for <b>Oral Presentation</b>!</li>
 		<li><i>2025.01</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">Computers in Biology and Medicine</a> was selected for <b>ESI Top 1% Highly Cited Paper</b>!</li>
-		<li><i>2025.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2025">IEEE ISBI 2025</a> was <b>Accepted</b>!</li>
+		<li><i>2025.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was <b>Accepted</b>!</li>
 		<li><i>2024.12</i>: &nbsp;🎉🎉 We won the <b>International Bronze Medal</b> in the <a href="https://pilcchina.org/home">China International College Students' Innovation Competition 2024</a>!</li>
 		<li><i>2024.11</i>: &nbsp;🎉🎉 We won the <b>National Second Prize</b> in the <a href="https://gxict.bupt.edu.cn">1st ICT Industry-Teaching Integration Innovation Competition</a>!</li>
-		<li><i>2024.04</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2024">IEEE ISBI 2024</a> was selected for <b>Oral Presentation</b>!</li>
-		<li><i>2024.02</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2024">IEEE ISBI 2024</a> was <b>Accepted</b>!</li>
+		<li><i>2024.04</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was selected for <b>Oral Presentation</b>!</li>
+		<li><i>2024.02</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was <b>Accepted</b>!</li>
 		<li><i>2024.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">Computers in Biology and Medicine</a> was <b>Accepted</b>!</li>
 		<li><i>2023.12</i>: &nbsp;🎉🎉 We won the <b>National Gold Medal</b> in the <a href="https://pilcchina.org/home">China International College Students' Innovation Competition 2023</a>!</li>
 		<li><i>2023.12</i>: &nbsp;🎉🎉 We won the <b>International Bronze Medal</b> in the <a href="https://pilcchina.org/home">China International College Students' Innovation Competition 2023</a>!</li>
@@ -206,7 +206,7 @@ Yuxin Zhang, Ruiquan Ge<sup>†</sup>, **Yifei Sun**, Yunzhan Fu, Zhihui Wang, A
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ISBI 2025 (Oral)</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISBI 2025 (Oral)</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction](http://arxiv.org/abs/2501.11276) [[🧑🏻‍💻 Code]](https://github.com/justinhxy/ITFC)
@@ -217,7 +217,7 @@ Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, X
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ISBI 2024 (Oral)</div><img src='images/BS-Diff.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISBI 2024 (Oral)</div><img src='images/BS-Diff.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images](https://ieeexplore.ieee.org/abstract/document/10635371/) [[🧑🏻‍💻 Code]](https://github.com/Benny0323/BS-Diff)

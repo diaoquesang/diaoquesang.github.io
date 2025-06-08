@@ -147,6 +147,15 @@ redirect_from:
 
 # 💡 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review 2025</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images]() [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/GL-LCM)
+  
+**Yifei Sun**, Zhanghao Chen, Hao Zheng, Yuqing Lu, Lixin Duan, Fenglei Fan, Ahmed Elazab, Xiang Wan, Changmiao Wang\*, Ruiquan Ge\*
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ISBI 2025 (Oral)</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
@@ -156,7 +165,7 @@ Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, X
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2024</div><img src='images/BS-LDM.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv Preprint 2024</div><img src='images/BS-LDM.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models](https://arxiv.org/abs/2412.15670) [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/BS-LDM)

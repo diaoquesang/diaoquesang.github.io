@@ -146,6 +146,15 @@ redirect_from:
 
 
 # 💡 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review 2025</div><img src='images/IHFNet.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[IHFNet: Incomplete Multimodal Hierarchical Feature Fusion Network for Mild Cognitive Impairment Conversion Prediction]() [[🧑🏻‍💻 Code]](https://github.com/sunyzhi55/IHFNet)
+  
+Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Xiang Wan, Ahmed Elazab, Changmiao Wang\*, Ruiquan Ge\*
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review 2025</div><img src='images/NRGMFF.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   

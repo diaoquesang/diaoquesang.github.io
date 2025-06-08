@@ -147,7 +147,7 @@ redirect_from:
 
 # 💡 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review 2025</div><img src='images/GL-LCM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review 2025</div><img src='images/GL-LCM.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images]() [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/GL-LCM)

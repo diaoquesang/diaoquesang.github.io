@@ -90,6 +90,7 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
+		<li><i>2025.06</i>: &nbsp;🎉🎉 We won the <b>National Third Prize</b> in the <a href="https://culsc.cn/#/Home">10th China Undergraduate Life Sciences Contest (Innovation and Entrepreneurship Category)</a>!</li>
 		<li><i>2025.05</i>: &nbsp;🎉🎉 We won the <b>National Third Prize</b> in the <a href="http://www.fwwb.org.cn/">16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition</a>!</li>
 		<li><i>2025.04</i>: &nbsp;🎉🎉 I have reached <b>100 citations</b> in my <a href="https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN">Google Scholar academic profile</a>!</li>
 		<li><i>2025.04</i>: &nbsp;🎉🎉 I was invited to be a <b>Reviewer</b> for <a href="https://acmmm2025.org/">ACM MM 2025</a>!</li>

@@ -260,7 +260,7 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin<s
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.04</div><img src='images/IDSODBBFMI.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Intelligent Diagnosis System for Ophthalmic Diseases Based on Binocular Fundus Medical Imaging](https://github.com/diaoquesang/diaoquesang.github.io/blob/main/docs/Intelligent%20Diagnosis%20System%20for%20Ophthalmic%20Diseases%20Based%20on%20Binocular%20Fundus%20Medical%20Imaging.pdf)
+[Intelligent Diagnosis System for Ophthalmic Diseases Based on Binocular Fundus Medical Imaging](https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/9baa0c375b566c0db772ac883e905d871b414e8b/docs/Intelligent%20Diagnosis%20System%20for%20Ophthalmic%20Diseases%20Based%20on%20Binocular%20Fundus%20Medical%20Imaging.pdf)
   
 Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 

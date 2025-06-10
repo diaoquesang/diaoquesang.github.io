@@ -252,6 +252,18 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin<s
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
+# 🔖 Academic Services
+
+## Conference Reviewers
+
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
+	<ul>
+		<li><i>2025</i>: ACM Multimedia (ACM MM)</li>
+	</ul>
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
+
+
 # 🧑🏻‍💻 Software
 <div style="max-height: 600px; overflow: auto; font-size: 15px;">
 
@@ -281,18 +293,6 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 
-# 🔖 Academic Services
-
-## Conference Reviewers
-
-<div style="max-height: 300px; overflow: auto; font-size: 15px;">
-	<ul>
-		<li><i>2025</i>: ACM Multimedia (ACM MM)</li>
-	</ul>
-</div>
-<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
-
-<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 
 

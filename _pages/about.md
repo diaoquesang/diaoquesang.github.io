@@ -271,7 +271,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.11</div><img src='images/DMBBSSCXR.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Diffusion Model-Based Bone Suppression System for Chest X-Ray](https://github.com/diaoquesang/diaoquesang.github.io/blob/main/docs/Diffusion%20Model-Based%20Bone%20Suppression%20System%20for%20Chest%20X-Ray.pdf)
+[Diffusion Model-Based Bone Suppression System for Chest X-Ray](https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/4a5f20b16deaf9eafb948c8b39ea3a49b681b701/docs/Diffusion%20Model-Based%20Bone%20Suppression%20System%20for%20Chest%20X-Ray.pdf)
   
 **Yifei Sun**, Ruihan Yang, Zhanghao Chen
 

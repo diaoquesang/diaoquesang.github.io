@@ -88,25 +88,32 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li><i>2025.06</i>: &nbsp;🎉🎉 We won the <b>National Third Prize</b> in the <a href="https://culsc.cn/#/Home">10th China Undergraduate Life Sciences Contest (Innovation and Entrepreneurship Category)</a>!</li>
-		<li><i>2025.05</i>: &nbsp;🎉🎉 We won the <b>National Third Prize</b> in the <a href="http://www.fwwb.org.cn/">16th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition</a>!</li>
-		<li><i>2025.04</i>: &nbsp;🎉🎉 I have reached <b>100 citations</b> in my <a href="https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN">Google Scholar academic profile</a>!</li>
-		<li><i>2025.04</i>: &nbsp;🎉🎉 I was invited to be a <b>Reviewer</b> for <a href="https://acmmm2025.org/">ACM MM 2025</a>!</li>
 		<li><i>2025.02</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was selected for <b>Oral Presentation</b>!</li>
 		<li><i>2025.01</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">Computers in Biology and Medicine</a> was selected for <b>ESI Top 1% Highly Cited Paper</b>!</li>
 		<li><i>2025.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was <b>Accepted</b>!</li>
-		<li><i>2024.12</i>: &nbsp;🎉🎉 We won the <b>International Bronze Medal</b> in the <a href="https://pilcchina.org/home">China International College Students' Innovation Competition 2024</a>!</li>
-		<li><i>2024.11</i>: &nbsp;🎉🎉 We won the <b>National Second Prize</b> in the <a href="https://gxict.bupt.edu.cn">1st ICT Industry-Teaching Integration Innovation Competition</a>!</li>
 		<li><i>2024.04</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was selected for <b>Oral Presentation</b>!</li>
 		<li><i>2024.02</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was <b>Accepted</b>!</li>
 		<li><i>2024.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">Computers in Biology and Medicine</a> was <b>Accepted</b>!</li>
-		<li><i>2023.12</i>: &nbsp;🎉🎉 We won the <b>National Gold Medal</b> in the <a href="https://pilcchina.org/home">China International College Students' Innovation Competition 2023</a>!</li>
-		<li><i>2023.12</i>: &nbsp;🎉🎉 We won the <b>International Bronze Medal</b> in the <a href="https://pilcchina.org/home">China International College Students' Innovation Competition 2023</a>!</li>
-		<li><i>2023.08</i>: &nbsp;🎉🎉 We won the <b>National First Prize</b> in the <a href="https://www.smartcar.zone/index.html">18th National Smart Car Competition for College Students</a>!</li>
 		<li><i>2023.06</i>: &nbsp;🎉🎉 Our new paper for <a href="https://www.icsip.org/2023.html">ICSIP 2023</a> was <b>Accepted</b>!</li>	
 	</ul>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
+
+# 🐎 Competitions
+
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
+	<ul>
+		<li><i>2025</i>: <a href="https://culsc.cn/#/Home">China Undergraduate Life Sciences Contest (Innovation and Entrepreneurship Category)</a> (<b>National Third Prize</b>, <b>Key Member</b>)</li>
+		<li><i>2025</i>: <a href="http://www.fwwb.org.cn/">China College Students' Service Outsourcing Innovation and Entrepreneurship Competition</a> (<b>National Third Prize</b>, <b>Key Member</b>)</li>
+		<li><i>2025</i>: <a href="https://pilcchina.org/home">China International College Students' Innovation Competition</a> (<b>International Bronze Medal</b>, <b>Project Leader</b>)</li>
+		<li><i>2025</i>: <a href="https://gxict.bupt.edu.cn">ICT Industry-Teaching Integration Innovation Competition</a> (<b>National Second Prize</b>, <b>Key Member</b>)</li>
+		<li><i>2025</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<b>National Gold Medal </b>, <b>Key Member</b>)</li>
+		<li><i>2025</i>: <a href="https://pilcchina.org/home">China International College Students' Innovation Competition</a> (<b>International Bronze Medal </b>, <b>Key Member</b>)</li>
+		<li><i>2025</i>: <a href="https://www.smartcar.zone/index.html">National Smart Car Competition for College Students</a> (<b>National First Prize</b>, <b>Key Member</b>)</li>
+	</ul>
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
+
 
 # 🏅 Honors
 

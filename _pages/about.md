@@ -280,7 +280,7 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin<s
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li>ACM Multimedia (ACM MM) 2025</li>
+		<li>ACM Multimedia (<b>ACM MM</b>) <a href="https://acmmm2025.org/">2025</a></li>
 	</ul>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>

@@ -122,7 +122,7 @@ redirect_from:
 
 # 🐎 Competitions
 
-## International & National Prizes
+## 🕐 International & National Prizes
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
@@ -137,7 +137,7 @@ redirect_from:
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
-## Regional & Provincial Prizes
+## 🕑 Regional & Provincial Prizes
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
@@ -276,7 +276,7 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin<s
 
 # 🔖 Academic Services
 
-## Conference Reviewers
+## 🕐 Conference Reviewers
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
@@ -320,7 +320,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 
 # 🪙 Intellectual Properties
 
-## National Invention Patents (国家发明专利)
+## 🕐 National Invention Patents (国家发明专利)
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
@@ -338,7 +338,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 
-## Computer Software Copyrights (计算机软件著作权)
+## 🕑 Computer Software Copyrights (计算机软件著作权)
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>

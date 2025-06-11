@@ -15,6 +15,10 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<script>
+  const startTime = performance.now(); // 记录页面开始加载时间
+</script>
+
 <div id="loading">
   <div class="z z-1">Z</div>
   <div class="z z-2">Z</div>
@@ -586,18 +590,22 @@ Michita
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
-<script>
-  window.addEventListener('load', function () {
-    const loading = document.getElementById('loading');
-    if (loading) {
-      // 逐渐隐藏动画容器
-      loading.style.opacity = '0';
-      // 在动画结束后移除容器（可选）
+  <script>
+    window.addEventListener('load', function () {
+      const minDisplayDuration = 500; // 最小显示时长 0.5 秒
+      const loadDuration = performance.now() - startTime;
+      const timeToWait = Math.max(0, minDisplayDuration - loadDuration);
+
       setTimeout(() => {
-        loading.style.display = 'none';
-      }, 500); // 与 transition 时间一致
-    }
-  });
-</script>
+        const loading = document.getElementById('loading');
+        if (loading) {
+          loading.style.opacity = '0';
+          setTimeout(() => {
+            loading.style.display = 'none';
+          }, 500);
+        }
+      }, timeToWait);
+    });
+  </script>
 
 

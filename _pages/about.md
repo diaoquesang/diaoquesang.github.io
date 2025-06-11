@@ -137,7 +137,6 @@ redirect_from:
 		<li><i>2023</i>: <a href="https://pilcchina.org/home">China International College Students' Innovation Competition</a> (<b>International Bronze Medal</b>, <b>Key Member</b>)</li>
 		<li><i>2023</i>: <a href="https://www.smartcar.zone/index.html">National Smart Car Competition for College Students</a> (<b>National First Prize</b>, <b>Key Member</b>)</li>
 		<li><i>2023</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<b>Provincial Bronze Medal</b>, <b>Key Member</b>)</li>
-
 	</ul>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>

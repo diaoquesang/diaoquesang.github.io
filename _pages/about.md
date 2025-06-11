@@ -122,25 +122,34 @@ redirect_from:
 
 # 🐎 Competitions
 
+## International & National Prizes
+
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
 		<li><i>2025</i>: <a href="http://www.fwwb.org.cn/">China College Students' Service Outsourcing Innovation and Entrepreneurship Competition</a> (<b>National Third Prize</b>, <b>Key Member</b>)</li>
 		<li><i>2025</i>: <a href="https://culsc.cn/#/Home">China Undergraduate Life Sciences Contest (Innovation and Entrepreneurship Category)</a> (<b>National Third Prize</b>, <b>Key Member</b>)</li>
-		<li><i>2025</i>: <a href="http://www.3chuang.net/">National College Student E-Commerce “Innovation, Creativity and Entrepreneurship” Competition</a> (<b>Provincial Second Prize</b>, <b>Key Member</b>)</li>
-		<li><i>2025</i>: <a href="https://tiaozhanbei.net/">"Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition</a> (<b>Provincial Bronze Medal</b>, <b>Project Leader</b>)</li>
 		<li><i>2024</i>: <a href="https://pilcchina.org/home">China International College Students' Innovation Competition</a> (<b>International Bronze Medal</b>, <b>Project Leader</b>)</li>
 		<li><i>2024</i>: <a href="https://gxict.bupt.edu.cn">ICT Industry-Teaching Integration Innovation Competition</a> (<b>National Second Prize</b>, <b>Key Member</b>)</li>
-		<li><i>2024</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<b>Provincial Silver Medal</b>, <b>Project Leader</b>)</li>
-		<li><i>2024</i>: <a href="https://tiaozhanbei.net/">"Challenge Cup" China College Student Business Plan Competition</a> (<b>Provincial Bronze Medal</b>, <b>Key Member</b>)</li>
-		<li><i>2024</i>: <a href="http://www.fwwb.org.cn/">China College Students' Service Outsourcing Innovation and Entrepreneurship Competition</a> (<b>Regional Third Prize</b>, <b>Project Leader</b>)</li>
 		<li><i>2023</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<b>National Gold Medal</b>, <b>Key Member</b>)</li>
 		<li><i>2023</i>: <a href="https://pilcchina.org/home">China International College Students' Innovation Competition</a> (<b>International Bronze Medal</b>, <b>Key Member</b>)</li>
 		<li><i>2023</i>: <a href="https://www.smartcar.zone/index.html">National Smart Car Competition for College Students</a> (<b>National First Prize</b>, <b>Key Member</b>)</li>
-		<li><i>2023</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<b>Provincial Bronze Medal</b>, <b>Key Member</b>)</li>
 	</ul>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
+## Regional & Provincial Prizes
+
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
+	<ul>
+		<li><i>2025</i>: <a href="http://www.3chuang.net/">National College Student E-Commerce “Innovation, Creativity and Entrepreneurship” Competition</a> (<b>Provincial Second Prize</b>, <b>Key Member</b>)</li>
+		<li><i>2025</i>: <a href="https://tiaozhanbei.net/">"Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition</a> (<b>Provincial Bronze Medal</b>, <b>Project Leader</b>)</li>
+		<li><i>2024</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<b>Provincial Silver Medal</b>, <b>Project Leader</b>)</li>
+		<li><i>2024</i>: <a href="https://tiaozhanbei.net/">"Challenge Cup" China College Student Business Plan Competition</a> (<b>Provincial Bronze Medal</b>, <b>Key Member</b>)</li>
+		<li><i>2024</i>: <a href="http://www.fwwb.org.cn/">China College Students' Service Outsourcing Innovation and Entrepreneurship Competition</a> (<b>Regional Third Prize</b>, <b>Project Leader</b>)</li>
+		<li><i>2023</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<b>Provincial Bronze Medal</b>, <b>Key Member</b>)</li>
+	</ul>
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 # 💰 Funding
 

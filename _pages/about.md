@@ -15,18 +15,6 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-
-<div id="loading">
-  <div class="z z-1">Z</div>
-  <div class="z z-2">Z</div>
-  <div class="z z-3">Z</div>
-  <div class="z z-4">Z</div>
-</div>
-
-<script>
-  const startTime = performance.now(); // 记录页面开始加载时间
-</script>
-
 <span class='anchor' id='about-me'></span>
 # 😉 About Me
 🌱 Hi, I'm a 3rd-year undergraduate student studying **Computer Science and Technology** at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), supervised by [Prof. Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) in [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) and [Prof. Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505) in [Shenzhen Research Institute of Big Data](https://www.sribd.cn/).
@@ -591,22 +579,5 @@ Michita
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
-  <script>
-    window.addEventListener('load', function () {
-      const minDisplayDuration = 500; // 最小显示时长 0.5 秒
-      const loadDuration = performance.now() - startTime;
-      const timeToWait = Math.max(0, minDisplayDuration - loadDuration);
-
-      setTimeout(() => {
-        const loading = document.getElementById('loading');
-        if (loading) {
-          loading.style.opacity = '0';
-          setTimeout(() => {
-            loading.style.display = 'none';
-          }, 500);
-        }
-      }, timeToWait);
-    });
-  </script>
 
 

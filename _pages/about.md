@@ -128,8 +128,8 @@ redirect_from:
 		<li><i>2025</i>: <a href="http://www.fwwb.org.cn/">China College Students' Service Outsourcing Innovation and Entrepreneurship Competition</a> (<b>National Third Prize</b>, <b>Key Member</b>)</li>
 		<li><i>2024</i>: <a href="https://pilcchina.org/home">China International College Students' Innovation Competition</a> (<b>International Bronze Medal</b>, <b>Project Leader</b>)</li>
 		<li><i>2024</i>: <a href="https://gxict.bupt.edu.cn">ICT Industry-Teaching Integration Innovation Competition</a> (<b>National Second Prize</b>, <b>Key Member</b>)</li>
-		<li><i>2023</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<b>National Gold Medal </b>, <b>Key Member</b>)</li>
-		<li><i>2023</i>: <a href="https://pilcchina.org/home">China International College Students' Innovation Competition</a> (<b>International Bronze Medal </b>, <b>Key Member</b>)</li>
+		<li><i>2023</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<b>National Gold Medal</b>, <b>Key Member</b>)</li>
+		<li><i>2023</i>: <a href="https://pilcchina.org/home">China International College Students' Innovation Competition</a> (<b>International Bronze Medal</b>, <b>Key Member</b>)</li>
 		<li><i>2023</i>: <a href="https://www.smartcar.zone/index.html">National Smart Car Competition for College Students</a> (<b>National First Prize</b>, <b>Key Member</b>)</li>
 	</ul>
 </div>

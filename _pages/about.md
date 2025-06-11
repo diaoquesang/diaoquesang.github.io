@@ -15,9 +15,6 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<script>
-  const startTime = performance.now(); // 记录页面开始加载时间
-</script>
 
 <div id="loading">
   <div class="z z-1">Z</div>
@@ -25,6 +22,10 @@ redirect_from:
   <div class="z z-3">Z</div>
   <div class="z z-4">Z</div>
 </div>
+
+<script>
+  const startTime = performance.now(); // 记录页面开始加载时间
+</script>
 
 <span class='anchor' id='about-me'></span>
 # 😉 About Me

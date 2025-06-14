@@ -267,7 +267,7 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin<s
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 
-# ⚙️ Software
+# 🖱️ Software
 <div style="max-height: 600px; overflow: auto; font-size: 15px;">
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.04</div><img src='images/IDSODBBFMI.gif' alt="sym" width="100%"></div></div>

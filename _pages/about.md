@@ -122,7 +122,7 @@ redirect_from:
 
 # 🐎 Competitions
 
-## 🕐 International & National Prizes
+## International & National Prizes
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
@@ -137,7 +137,7 @@ redirect_from:
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
-## 🕑 Regional & Provincial Prizes
+## Regional & Provincial Prizes
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
@@ -168,8 +168,32 @@ redirect_from:
 
 # 💡 Publications 
 
-<div style="margin-bottom: 5px; font-size: small; margin-top: 0px;"><sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author(s), <a href='https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
+<div style="margin-bottom: 5px; font-size: small; margin-top: 0px;">
+	<sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author(s)
 </div>
+
+## Selected Journal Papers (Full List Available on [Google Scholar](https://scholar.google.com/citations?user=4anytcgAAAAJ))
+
+<div style="max-height: 600px; overflow: auto; font-size: 15px;">
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/BS-LDM.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models](https://arxiv.org/abs/2412.15670) [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/BS-LDM) [[🌐 Project Page]](https://benny0323.github.io/BS-LDM-Project-Page/)
+  
+**Yifei Sun**, Zhanghao Chen, Hao Zheng, Wenming Deng, Jin Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
+
+![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
+</div>
+</div>
+
+
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
+
+## Selected Conference Papers (Full List Available on [Google Scholar](https://scholar.google.com/citations?user=4anytcgAAAAJ))
 
 <div style="max-height: 600px; overflow: auto; font-size: 15px;">
 
@@ -184,100 +208,12 @@ redirect_from:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/BS-LDM.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models](https://arxiv.org/abs/2412.15670) [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/BS-LDM) [[🌐 Project Page]](https://benny0323.github.io/BS-LDM-Project-Page/)
-  
-**Yifei Sun**, Zhanghao Chen, Hao Zheng, Wenming Deng, Jin Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
-
-![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/NRGMFF.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[NRGMFF: Enhanced fMRI-Based Brain Disorder Diagnosis via Narrative Report Generation and Multimodal Feature Fusion]() [[🧑🏻‍💻 Code]](https://github.com/BeistMedAI/NRGMFF)
-  
-Junhao Jia, **Yifei Sun**, Shuo Jiang, Cheng Yang, Yuting Shi, Feiwei Qin<sup>†</sup>, Changmiao Wang<sup>†</sup>
-
-![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Multi--Modal%20Fusion-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/IHFNet.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[IHFNet: Incomplete Multimodal Hierarchical Feature Fusion Network for Mild Cognitive Impairment Conversion Prediction]() [[🧑🏻‍💻 Code]](https://github.com/sunyzhi55/IHFNet)
-  
-Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Xiang Wan, Ahmed Elazab, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
-
-![](https://img.shields.io/badge/Multi--Modal%20Fusion-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/FDHIFusion.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[FDHIFusion: A Frequency Domain High-order Interaction Network for Infrared and Visible Image Fusion]() [[🧑🏻‍💻 Code]](https://github.com/RicoVVV/FDHIFusion)
-  
-Yuxin Zhang, Ruiquan Ge<sup>†</sup>, **Yifei Sun**, Yunzhan Fu, Zhihui Wang, Ahmed Elazab, Changmiao Wang<sup>†</sup>
-
-![](https://img.shields.io/badge/Unsupervised-224B8D) ![](https://img.shields.io/badge/Multi--Modal%20Fusion-224B8D)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISBI 2025 (Oral)</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction](http://arxiv.org/abs/2501.11276) [[🧑🏻‍💻 Code]](https://github.com/justinhxy/ITFC)
-  
-Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge<sup>†</sup>, Changmiao Wang<sup>†</sup>, Xiaopeng Fan
-
-![](https://img.shields.io/badge/Multi--Modal%20Fusion-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISBI 2024 (Oral)</div><img src='images/BS-Diff.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images](https://ieeexplore.ieee.org/abstract/document/10635371/) [[🧑🏻‍💻 Code]](https://github.com/Benny0323/BS-Diff)
-  
-Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>
-
-![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Computers in Biology and Medicine (ESI Highly Cited Paper)</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[Accurate leukocyte detection based on deformable-DETR and multi-level feature fusion for aiding diagnosis of blood diseases](https://www.sciencedirect.com/science/article/pii/S0010482524000015) [[🧑🏻‍💻 Code]](https://github.com/justlfc03/mfds-detr)
-  
-Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<sup>†</sup>, Xianjun Fu, Yuxing Dai, Feiwei Qin<sup>†</sup>, Yong Peng, Yu Gao
-
-![](https://img.shields.io/badge/Object%20Detection-224B8D)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICSIP 2023</div><img src='images/RTUNet++.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[RTUNet++: Assessment of Osteosarcoma MRI Image Segmentation leveraging Hybrid CNN-Transformer Approach with Dense Skip Connection](https://ieeexplore.ieee.org/abstract/document/10270849)
-  
-Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin<sup>†</sup>, Changmiao Wang
-
-![](https://img.shields.io/badge/Segmentation-224B8D)
-</div>
-</div>
-
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 # 🔖 Academic Services
 
-## 🕐 Conference Reviewers
+## Conference Reviewers
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
@@ -321,7 +257,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 
 # 🪙 Intellectual Properties
 
-## 🕐 National Invention Patents (国家发明专利)
+## National Invention Patents (国家发明专利)
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
@@ -339,7 +275,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 
-## 🕑 Computer Software Copyrights (计算机软件著作权)
+## Computer Software Copyrights (计算机软件著作权)
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>

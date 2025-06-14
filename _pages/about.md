@@ -168,7 +168,8 @@ redirect_from:
 
 # 💡 Publications 
 
-<div style="margin-bottom: 5px; font-size: small; margin-top: 0px;"><sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author(s)</div>
+<div style="margin-bottom: 5px; font-size: small; margin-top: 0px;"><sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author(s), <a href='https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
+</div>
 
 <div style="max-height: 600px; overflow: auto; font-size: 15px;">
 

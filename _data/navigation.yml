@@ -1,31 +1,31 @@
 # main links
 main:
-  - title: "😉 About Me"
+  - title: "About Me"
     url: "/#-about-me"
 
-  - title: "📖 Educations"
+  - title: "Educations"
     url: "/#-educations"
     
-  - title: "💻 Internships"
+  - title: "Internships"
     url: "/#-internships"
     
-  - title: "🔥 News"
+  - title: "News"
     url: "/#-news"
     
-  - title: "🏅 Honors"
+  - title: "Honors"
     url: "/#-honors"
     
-  - title: "💰 Funding"
+  - title: "Funding"
     url: "/#-funding"
 
-  - title: "💡 Publications"
+  - title: "Publications"
     url: "/#-publications"
 
-  - title: "🔖 Academic Services"
+  - title: "Academic Services"
     url: "/#-academic-services"
 
-  - title: "🧑🏻‍💻 Software"
+  - title: "Software"
     url: "/#-software"
 
-  - title: "🎼 My Favorite Music"
+  - title: "My Favorite Music"
     url: "/#-my-favorite-music"

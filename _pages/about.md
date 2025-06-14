@@ -36,15 +36,15 @@ redirect_from:
 <div style="overflow: auto; font-size: 15px;aspect-ratio: 2.65 / 1;">
 
 <div class='photo-box'>
-  <div class='photo-box-image'><div style="overflow: visible"><div class="badge">Nanjing, China</div><img src='images/p/9.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div style="overflow: visible"><div class="badge">Hangzhou, China</div><img src='images/p/8.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div style="overflow: visible"><div class="badge">Hangzhou, China</div><img src='images/p/7.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div style="overflow: visible"><div class="badge">Hangzhou, China</div><img src='images/p/6.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div style="overflow: visible"><div class="badge">Shenzhen, China</div><img src='images/p/5.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div style="overflow: visible"><div class="badge">Tianjin, China</div><img src='images/p/4.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div style="overflow: visible"><div class="badge">Shenzhen, China</div><img src='images/p/3.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div style="overflow: visible"><div class="badge">Hefei, China</div><img src='images/p/2.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div style="overflow: visible"><div class="badge">Hangzhou, China</div><img src='images/p/1.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><div class="badge">Nanjing, China</div><img src='images/p/9.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><div class="badge">Hangzhou, China</div><img src='images/p/8.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><div class="badge">Hangzhou, China</div><img src='images/p/7.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><div class="badge">Hangzhou, China</div><img src='images/p/6.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><div class="badge">Shenzhen, China</div><img src='images/p/5.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><div class="badge">Tianjin, China</div><img src='images/p/4.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><div class="badge">Shenzhen, China</div><img src='images/p/3.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><div class="badge">Hefei, China</div><img src='images/p/2.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><div class="badge">Hangzhou, China</div><img src='images/p/1.jpg' alt="sym" width="100%"></div></div>
 </div>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
@@ -143,7 +143,7 @@ redirect_from:
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">Under Review</div><img src='images/BS-LDM.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/BS-LDM.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models](https://arxiv.org/abs/2412.15670) [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/BS-LDM) [[🌐 Project Page]](https://benny0323.github.io/BS-LDM-Project-Page/)
@@ -154,7 +154,7 @@ redirect_from:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">Computers in Biology and Medicine (ESI Highly Cited Paper)</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Computers in Biology and Medicine (ESI Highly Cited Paper)</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Accurate leukocyte detection based on deformable-DETR and multi-level feature fusion for aiding diagnosis of blood diseases](https://www.sciencedirect.com/science/article/pii/S0010482524000015) [[🧑🏻‍💻 Code]](https://github.com/justlfc03/mfds-detr)
@@ -172,7 +172,7 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<s
 
 <div style="max-height: 600px; overflow: auto; font-size: 15px;">
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">Under Review</div><img src='images/GL-LCM.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/GL-LCM.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images]() [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/GL-LCM) [[🌐 Project Page]](https://diaoquesang.github.io/GL-LCM-Project-Page/)
@@ -183,7 +183,7 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<s
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">Under Review</div><img src='images/NRGMFF.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/NRGMFF.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [NRGMFF: Enhanced fMRI-Based Brain Disorder Diagnosis via Narrative Report Generation and Multimodal Feature Fusion]() [[🧑🏻‍💻 Code]](https://github.com/BeistMedAI/NRGMFF)
@@ -194,7 +194,7 @@ Junhao Jia, **Yifei Sun**, Shuo Jiang, Cheng Yang, Yuting Shi, Feiwei Qin<sup>�
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">Under Review</div><img src='images/IHFNet.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/IHFNet.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [IHFNet: Incomplete Multimodal Hierarchical Feature Fusion Network for Mild Cognitive Impairment Conversion Prediction]() [[🧑🏻‍💻 Code]](https://github.com/sunyzhi55/IHFNet)
@@ -205,7 +205,7 @@ Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Xiang Wan, Ahmed Elazab, 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">Under Review</div><img src='images/FDHIFusion.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/FDHIFusion.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [FDHIFusion: A Frequency Domain High-order Interaction Network for Infrared and Visible Image Fusion]() [[🧑🏻‍💻 Code]](https://github.com/RicoVVV/FDHIFusion)
@@ -216,7 +216,7 @@ Yuxin Zhang, Ruiquan Ge<sup>†</sup>, **Yifei Sun**, Yunzhan Fu, Zhihui Wang, A
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">ISBI 2025 (Oral)</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISBI 2025 (Oral)</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction](http://arxiv.org/abs/2501.11276) [[🧑🏻‍💻 Code]](https://github.com/justinhxy/ITFC)
@@ -227,7 +227,7 @@ Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, X
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">ISBI 2024 (Oral)</div><img src='images/BS-Diff.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISBI 2024 (Oral)</div><img src='images/BS-Diff.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images](https://ieeexplore.ieee.org/abstract/document/10635371/) [[🧑🏻‍💻 Code]](https://github.com/Benny0323/BS-Diff)
@@ -238,7 +238,7 @@ Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">ICSIP 2023</div><img src='images/RTUNet++.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICSIP 2023</div><img src='images/RTUNet++.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [RTUNet++: Assessment of Osteosarcoma MRI Image Segmentation leveraging Hybrid CNN-Transformer Approach with Dense Skip Connection](https://ieeexplore.ieee.org/abstract/document/10270849)
@@ -269,7 +269,7 @@ Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin<s
 # 📱 Software
 <div style="max-height: 600px; overflow: auto; font-size: 15px;">
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">2025.04</div><img src='images/IDSODBBFMI.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.04</div><img src='images/IDSODBBFMI.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [Intelligent Diagnosis System for Ophthalmic Diseases Based on Binocular Fundus Medical Imaging](https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/9baa0c375b566c0db772ac883e905d871b414e8b/docs/Intelligent%20Diagnosis%20System%20for%20Ophthalmic%20Diseases%20Based%20on%20Binocular%20Fundus%20Medical%20Imaging.pdf)
@@ -280,7 +280,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">2024.11</div><img src='images/DMBBSSCXR.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.11</div><img src='images/DMBBSSCXR.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [Diffusion Model-Based Bone Suppression System for Chest X-Ray](https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/4a5f20b16deaf9eafb948c8b39ea3a49b681b701/docs/Diffusion%20Model-Based%20Bone%20Suppression%20System%20for%20Chest%20X-Ray.pdf)
@@ -316,7 +316,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 
 <div style="max-height: 600px; overflow: auto; font-size: 15px;">
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">2025</div><img src='images/Deadman.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/Deadman.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [Deadman](https://www.bilibili.com/video/BV1xg76zSErE/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
@@ -331,7 +331,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">2025</div><img src='images/zhuyu.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/zhuyu.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [珠玉](https://www.bilibili.com/video/BV13KJwzdEap/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
@@ -346,7 +346,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">2025</div><img src='images/Battleplan Extinguished Sins.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/Battleplan Extinguished Sins.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [Battleplan Extinguished Sins](https://www.bilibili.com/video/BV1HWNHevEgG/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
@@ -361,7 +361,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">2024</div><img src='images/fudahuang.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024</div><img src='images/fudahuang.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [赴大荒](https://www.bilibili.com/video/BV1kz421d74X/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
@@ -376,7 +376,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">2023</div><img src='images/shun.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2023</div><img src='images/shun.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [瞬](https://www.bilibili.com/video/BV1fV41157dV/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
@@ -391,7 +391,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">2023</div><img src='images/Visage.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2023</div><img src='images/Visage.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Visage](https://www.bilibili.com/video/BV1hz4y1N7jp/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
@@ -406,7 +406,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"div style="overflow: visible"><div class="badge">2021</div><img src='images/Radiant.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2021</div><img src='images/Radiant.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [Radiant](https://www.bilibili.com/video/BV1QU4y1u7D7/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
@@ -421,7 +421,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">2021</div><img src='images/haidi.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2021</div><img src='images/haidi.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [海底](https://www.bilibili.com/video/BV1qp4y1t7DJ/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
@@ -436,7 +436,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">2018</div><img src='images/chiling.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2018</div><img src='images/chiling.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [赤伶](https://www.bilibili.com/video/BV1cPRsYSEUA/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
@@ -451,7 +451,7 @@ HITA
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div style="overflow: visible"><div class="badge">2013</div><img src='images/Cry For Me.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2013</div><img src='images/Cry For Me.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Cry For Me](https://www.bilibili.com/video/BV1EP9qY5EcX/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)

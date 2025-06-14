@@ -76,6 +76,7 @@
             min-width: 200px;
             max-width: 40%;
             order: 1;
+            margin-left: 0.5em;
         }
         
         .paper-box-text{
@@ -83,6 +84,7 @@
             padding-left: 2em;
             max-width: 60%;
             order: 2;
+            margin-left: -0.5em;
         }
 
     }
@@ -100,7 +102,7 @@
 
     
     .photo-box-image{
-        justify-content: center;
+        justify-content: left;
         display: flex;
         width: 33%;
         order: 2;
@@ -125,6 +127,7 @@
             min-width: 200px;
             max-width: 40%;
             order: 1;
+            margin-left: 0.5em;
         }
         
         .photo-box-text{
@@ -132,6 +135,7 @@
             padding-left: 2em;
             max-width: 60%;
             order: 2;
+            margin-left: -0.5em;
         }
     }
 
@@ -153,6 +157,7 @@ h1:before, .anchor:before {
     padding-right: 1rem;
     position: relative;
     margin-top: -1em;
+    margin-left: -0.5em;
     color: white;
     background-color: #00369f;
     font-size: .8em;

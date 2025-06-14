@@ -36,15 +36,15 @@ redirect_from:
 <div style="overflow: auto; font-size: 15px;aspect-ratio: 2.65 / 1;">
 
 <div class='photo-box'>
-  <div class='photo-box-image'><div><div class="badge">Nanjing, China</div><img src='images/p/9.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><div class="badge">Hangzhou, China</div><img src='images/p/8.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><div class="badge">Hangzhou, China</div><img src='images/p/7.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><div class="badge">Hangzhou, China</div><img src='images/p/6.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><div class="badge">Shenzhen, China</div><img src='images/p/5.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><div class="badge">Tianjin, China</div><img src='images/p/4.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><div class="badge">Shenzhen, China</div><img src='images/p/3.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><div class="badge">Hefei, China</div><img src='images/p/2.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><div class="badge">Hangzhou, China</div><img src='images/p/1.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/9.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/8.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/7.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/6.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/5.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/4.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/3.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/2.jpg' alt="sym" width="100%"></div></div>
+  <div class='photo-box-image'><div><img src='images/p/1.jpg' alt="sym" width="100%"></div></div>
 </div>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>

@@ -14,9 +14,6 @@ main:
     
   - title: "🏅 Honors"
     url: "/#-honors"
-
-  - title: "🐎 Competitions"
-    url: "/#-competitions"
     
   - title: "💰 Funding"
     url: "/#-funding"
@@ -29,12 +26,6 @@ main:
 
   - title: "🧑🏻‍💻 Software"
     url: "/#-software"
-
-  - title: "🪙 Intellectual Properties"
-    url: "/#-intellectual-properties"
-
-  - title: "🏫 Clubs"
-    url: "/#-clubs"
 
   - title: "🎼 My Favorite Music"
     url: "/#-my-favorite-music"

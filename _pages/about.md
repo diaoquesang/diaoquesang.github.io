@@ -66,21 +66,21 @@ redirect_from:
 
 # 💻 Internships
 
-<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/7ba79c75-7dc1-47d2-805a-c7ede4927c15' width="20%" style="margin: 15px 10px 15px 10px;">
+<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/3eebbc26-b6c6-4985-bf8c-b5f142b4e114' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2023.06 - Present</i>: Healthcare Big Data Lab, <a href="https://www.sribd.cn/">Shenzhen Research Institute of Big Data</a>, Shenzhen, China</li>
+		<li><i>2023.06 - Present</i>: Healthcare Big Data Lab, <a href="https://www.sribd.cn/">Shenzhen Research Institute of Big Data</a>, <a href="https://www.cuhk.edu.cn/">The Chinese University of Hongkong, Shenzhen</a>, Shenzhen, China</li>
 	</ul>
 </div>
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/fed68c18-ae52-48d1-9c45-703a3555f77a' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2023.06 - Present</i>: Advanced Networking and Big Data Lab, <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, China</li>
+		<li><i>2023.06 - Present</i>: Advanced Networking and Big Data Lab, <a href="https://cs.hdu.edu.cn/main.htm">School of Computer Science</a>, <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, China</li>
 	</ul>
 </div>
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/fed68c18-ae52-48d1-9c45-703a3555f77a' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2022.09 - 2023.09</i>: Smart Car Lab, <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, China</li>
+		<li><i>2022.09 - 2023.09</i>: Smart Car Lab, <a href="https://auto.hdu.edu.cn/main.htm">School of Automation</a>, <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, China</li>
 	</ul>
 </div>
 

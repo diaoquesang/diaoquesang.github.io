@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "<div>Yifei Sun <span style="white-space: nowrap">(孙逸飞)</span></div>"
+title                    : "Yifei Sun (孙逸飞)"
 description              : "Undergraduate student at Hangzhou Dianzi University"
 repository               : "diaoquesang/diaoquesang.github.io"
 google_scholar_stats_use_cdn : true

@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Yifei Sun (孙逸飞)"
+  name             : "Yifei Sun <span style="white-space: nowrap">(孙逸飞)</span>"
   avatar           : "images/avatar.jpg"
   bio              : "<i>你未必光芒万丈<br>但始终温暖有光</i>"
   location         : "Hangzhou, China"

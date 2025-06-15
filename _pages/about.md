@@ -466,6 +466,21 @@ Monogem
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2013</div><img src='images/Staring at You.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Staring at You](https://www.bilibili.com/video/BV1FQ4y1h7y2/?spm_id_from=333.788.videopod.sections&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+
+Diane Birchz
+
+<audio class="myAudio" loop controls>
+  <source src="music/Staring at You.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2013</div><img src='images/Cry For Me.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

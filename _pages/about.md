@@ -33,7 +33,7 @@ redirect_from:
 <div style="margin-top: 30px;"></div>
 
 
-<div style="overflow: auto; font-size: 15px;aspect-ratio: 2.65 / 1;">
+<div style="overflow: auto; font-size: 15px;aspect-ratio: 2.7 / 1;">
 
 <div class='photo-box'>
   <div class='photo-box-image'><div><img src='images/p/9.jpg' alt="sym" width="100%"></div></div>

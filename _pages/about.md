@@ -451,6 +451,21 @@ HITA
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2017</div><img src='images/Wild.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Wild](https://www.bilibili.com/video/BV18M411o7Wv/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+
+Monogem
+
+<audio class="myAudio" loop controls>
+  <source src="music/Cry For Me.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2013</div><img src='images/Cry For Me.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

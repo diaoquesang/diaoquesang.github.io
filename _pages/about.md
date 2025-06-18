@@ -87,6 +87,7 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
+		<li><i>2025.06</i>: &nbsp;🎉🎉 Our new paper for <a href="https://conferences.miccai.org/2025/en/default.asp">MICCAI 2025</a> was <b>Accepted</b>!</li>
 		<li><i>2025.02</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was selected for <b>Oral Presentation</b>!</li>
 		<li><i>2025.01</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">Computers in Biology and Medicine</a> was selected for <b>ESI Top 1% Highly Cited Paper</b>!</li>
 		<li><i>2025.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was <b>Accepted</b>!</li>
@@ -137,7 +138,7 @@ redirect_from:
 
 <div style="margin-bottom: 5px; font-size: small; margin-top: 0px;"><sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author(s)</div>
 
-## Journal Papers
+## Selected Journal Papers
 
 <div style="max-height: 600px; overflow: auto; font-size: 15px;">
 
@@ -168,7 +169,7 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<s
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
-## Conference Papers
+## Selected Conference Papers
 
 <div style="max-height: 600px; overflow: auto; font-size: 15px;">
 
@@ -183,36 +184,14 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<s
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/NRGMFF.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISBI 2024 (Oral)</div><img src='images/BS-Diff.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[NRGMFF: Enhanced fMRI-Based Brain Disorder Diagnosis via Narrative Report Generation and Multimodal Feature Fusion]() [[🧑🏻‍💻 Code]](https://github.com/BeistMedAI/NRGMFF)
+[BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images](https://ieeexplore.ieee.org/abstract/document/10635371/) [[🧑🏻‍💻 Code]](https://github.com/Benny0323/BS-Diff)
 
-Junhao Jia, **Yifei Sun**, Shuo Jiang, Cheng Yang, Yuting Shi, Feiwei Qin<sup>†</sup>, Changmiao Wang<sup>†</sup>
+Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>
 
-![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Multi--Modal%20Fusion-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/IHFNet.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[IHFNet: Incomplete Multimodal Hierarchical Feature Fusion Network for Mild Cognitive Impairment Conversion Prediction]() [[🧑🏻‍💻 Code]](https://github.com/sunyzhi55/IHFNet)
-
-Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Xiang Wan, Ahmed Elazab, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
-
-![](https://img.shields.io/badge/Multi--Modal%20Fusion-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/FDHIFusion.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[FDHIFusion: A Frequency Domain High-order Interaction Network for Infrared and Visible Image Fusion]() [[🧑🏻‍💻 Code]](https://github.com/RicoVVV/FDHIFusion)
-
-Yuxin Zhang, Ruiquan Ge<sup>†</sup>, **Yifei Sun**, Yunzhan Fu, Zhihui Wang, Ahmed Elazab, Changmiao Wang<sup>†</sup>
-
-![](https://img.shields.io/badge/Unsupervised-224B8D) ![](https://img.shields.io/badge/Multi--Modal%20Fusion-224B8D)
+![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
 </div>
 </div>
 
@@ -227,27 +206,6 @@ Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, X
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISBI 2024 (Oral)</div><img src='images/BS-Diff.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images](https://ieeexplore.ieee.org/abstract/document/10635371/) [[🧑🏻‍💻 Code]](https://github.com/Benny0323/BS-Diff)
-
-Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>
-
-![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICSIP 2023</div><img src='images/RTUNet++.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[RTUNet++: Assessment of Osteosarcoma MRI Image Segmentation leveraging Hybrid CNN-Transformer Approach with Dense Skip Connection](https://ieeexplore.ieee.org/abstract/document/10270849)
-
-Binfeng Zou, Yifei Chen, Zhanghao Chen, **Yifei Sun**, Yifan Huang, Feiwei Qin<sup>†</sup>, Changmiao Wang
-
-![](https://img.shields.io/badge/Segmentation-224B8D)
-</div>
-</div>
 
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>

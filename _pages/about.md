@@ -164,7 +164,7 @@ redirect_from:
 
 Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<sup>†</sup>, Xianjun Fu, Yuxing Dai, Feiwei Qin<sup>†</sup>, Yong Peng, Yu Gao
 
-*Accepted by Computers in Biology and Medicine (CIBM) 2024 (ESI Highly Cited Paper)*
+*Computers in Biology and Medicine (CIBM) 2024 (ESI Highly Cited Paper)*
 
 ![](https://img.shields.io/badge/Object%20Detection-224B8D)
 </div>
@@ -184,7 +184,7 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<s
 
 **Yifei Sun**, Zhanghao Chen, Hao Zheng, Yuqing Lu, Lixin Duan, Fenglei Fan, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
 
-*Accepted by International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2025*
+*International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2025*
 
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
 </div>
@@ -197,7 +197,7 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<s
 
 Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>
 
-*Accepted by IEEE International Symposium on Biomedical Imaging (ISBI) 2025 (Oral)*
+*IEEE International Symposium on Biomedical Imaging (ISBI) 2025 (Oral)*
 
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
 </div>
@@ -210,7 +210,7 @@ Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, 
 
 Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge<sup>†</sup>, Changmiao Wang<sup>†</sup>, Xiaopeng Fan
 
-*Accepted by IEEE International Symposium on Biomedical Imaging (ISBI) 2024 (Oral)*
+*IEEE International Symposium on Biomedical Imaging (ISBI) 2024 (Oral)*
 
 ![](https://img.shields.io/badge/Multi--Modal%20Fusion-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
 </div>

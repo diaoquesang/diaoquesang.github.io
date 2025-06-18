@@ -89,7 +89,7 @@ redirect_from:
 	<ul>
 		<li><i>2025.06</i>: &nbsp;🎉🎉 Our new paper for <a href="https://conferences.miccai.org/2025/en/default.asp">MICCAI 2025</a> was <b>Accepted</b>!</li>
 		<li><i>2025.02</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was selected for <b>Oral Presentation</b>!</li>
-		<li><i>2025.01</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">Computers in Biology and Medicine</a> was selected for <b>ESI Top 1% Highly Cited Paper</b>!</li>
+		<li><i>2025.01</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">CIBM 2024</a> was selected for <b>ESI Top 1% Highly Cited Paper</b>!</li>
 		<li><i>2025.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was <b>Accepted</b>!</li>
 		<li><i>2024.04</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was selected for <b>Oral Presentation</b>!</li>
 		<li><i>2024.02</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was <b>Accepted</b>!</li>
@@ -151,16 +151,20 @@ redirect_from:
 
 **Yifei Sun**, Zhanghao Chen, Hao Zheng, Wenming Deng, Jin Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
 
+*Under Review*
+
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Computers in Biology and Medicine (ESI Highly Cited Paper)</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CIBM 2024 (ESI Highly Cited Paper)</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Accurate leukocyte detection based on deformable-DETR and multi-level feature fusion for aiding diagnosis of blood diseases](https://www.sciencedirect.com/science/article/pii/S0010482524000015) [[🧑🏻‍💻 Code]](https://github.com/justlfc03/mfds-detr)
 
 Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<sup>†</sup>, Xianjun Fu, Yuxing Dai, Feiwei Qin<sup>†</sup>, Yong Peng, Yu Gao
+
+*Accepted by Computers in Biology and Medicine (CIBM) 2024 (ESI Highly Cited Paper)*
 
 ![](https://img.shields.io/badge/Object%20Detection-224B8D)
 </div>
@@ -180,6 +184,8 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<s
 
 **Yifei Sun**, Zhanghao Chen, Hao Zheng, Yuqing Lu, Lixin Duan, Fenglei Fan, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
 
+*Accepted by International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2025*
+
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
 </div>
 </div>
@@ -191,6 +197,8 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<s
 
 Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>
 
+*Accepted by IEEE International Symposium on Biomedical Imaging (ISBI) 2025 (Oral)*
+
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
 </div>
 </div>
@@ -201,6 +209,8 @@ Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, 
 [ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction](http://arxiv.org/abs/2501.11276) [[🧑🏻‍💻 Code]](https://github.com/justinhxy/ITFC)
 
 Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge<sup>†</sup>, Changmiao Wang<sup>†</sup>, Xiaopeng Fan
+
+*Accepted by IEEE International Symposium on Biomedical Imaging (ISBI) 2024 (Oral)*
 
 ![](https://img.shields.io/badge/Multi--Modal%20Fusion-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
 </div>

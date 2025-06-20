@@ -90,10 +90,10 @@ redirect_from:
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
 		<li><i>2025.06</i>: &nbsp;🎉🎉 Our new paper for <a href="https://conferences.miccai.org/2025/en/default.asp">MICCAI 2025</a> was <b>Accepted</b>!</li>
-		<li><i>2025.02</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was selected for <b>Oral Presentation</b>!</li>
+		<li><i>2025.02</i>: &nbsp;🎉🎉 Our paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was selected for <b>Oral Presentation</b>!</li>
 		<li><i>2025.01</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">CIBM 2024</a> was selected for <b>ESI Top 1% Highly Cited Paper</b>!</li>
 		<li><i>2025.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was <b>Accepted</b>!</li>
-		<li><i>2024.04</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was selected for <b>Oral Presentation</b>!</li>
+		<li><i>2024.04</i>: &nbsp;🎉🎉 Our paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was selected for <b>Oral Presentation</b>!</li>
 		<li><i>2024.02</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was <b>Accepted</b>!</li>
 		<li><i>2024.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">Computers in Biology and Medicine</a> was <b>Accepted</b>!</li>
 		<li><i>2023.06</i>: &nbsp;🎉🎉 Our new paper for <a href="https://www.icsip.org/2023.html">ICSIP 2023</a> was <b>Accepted</b>!</li>	

@@ -130,7 +130,7 @@ redirect_from:
 		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>)</li>
 		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>)</li>
 		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>)</li>
-		<li><i>2024</i>: <a href="http://gjcxcy.bjtu.edu.cn/">National Undergraduate Innovation and Entrepreneurship Training Program</a> (<b>Project Leader</b>)</li>
+		<li><i>2024</i>: <a href="http://gjcxcy.bjtu.edu.cn/">National Undergraduate Innovation and Entrepreneurship Training Program of China</a> (<b>Project Leader</b>)</li>
 		<li><i>2024</i>: <a href="https://joint.hdu.edu.cn/2024/0307/c6515a261379/page.htm">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>)</li>
 	</ul>
 </div>

@@ -38,6 +38,7 @@ redirect_from:
 <div style="overflow: auto; font-size: 15px;aspect-ratio: 2.7 / 1;">
 
 <div class='photo-box'>
+  <div class='photo-box-image'><div><img src='images/p/10.jpg' alt="sym" width="100%"></div></div>
   <div class='photo-box-image'><div><img src='images/p/9.jpg' alt="sym" width="100%"></div></div>
   <div class='photo-box-image'><div><img src='images/p/8.jpg' alt="sym" width="100%"></div></div>
   <div class='photo-box-image'><div><img src='images/p/7.jpg' alt="sym" width="100%"></div></div>

@@ -109,15 +109,15 @@ redirect_from:
 		<li><i>2025</i>: <a href="https://mp.weixin.qq.com/s/KN5BBltP9OrdEPli11RE6A">Top 10 Student Candidates of HDU</a> (<b>Top 15</b>)</li>
 		<li><i>2025</i>: <a href="https://tuanwei.hdu.edu.cn/2025/0425/c275a277893/page.htm">HDU Stars of Innovation</a> (<b>Top 10</b>)</li>
 		<li><i>2025</i>: <a href="https://mp.weixin.qq.com/s/lcgUXEJ5ITtSLiq1ltnagw">Top 10 Students of HDU-ITMO Joint Institute</a> (<b>Top 1.25%</b>)</li>
-		<li><i>2025</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>Top 5%</b>)</li>
-		<li><i>2024</i>: <a href="http://www.moe.gov.cn/srcsite/A05/s7505/202412/t20241230_1172663.html">National Scholarship</a> (<b>Top 0.4%</b>)</li>
-		<li><i>2024</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>Top 5%</b>)</li>
+		<li><i>2025</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>Top 5%</b>, <b>CNY 1,500.00</b>)</li>
+		<li><i>2024</i>: <a href="http://www.moe.gov.cn/srcsite/A05/s7505/202412/t20241230_1172663.html">National Scholarship of China</a> (<b>Top 0.4%</b>, <b>CNY 10,000.00</b>)</li>
+		<li><i>2024</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>Top 5%</b>, <b>CNY 1,500.00</b>)</li>
 		<li><i>2024</i>: <a href="https://tuanwei.hdu.edu.cn/2024/0409/c275a263268/page.htm">HDU Stars of Innovation Candidate</a> (<b>Top 15</b>)</li>
 		<li><i>2024</i>: <a href="https://mp.weixin.qq.com/s/RFjA5qvCV8Tyaz0dk7Jwhg">Top 10 Students of HDU-ITMO Joint Institute</a> (<b>Top 1.25%</b>)</li>
-		<li><i>2024</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>Top 5%</b>)</li>
-		<li><i>2023</i>: <a href="https://student.hdu.edu.cn/2023/1110/c727a252884/page.htm">Zhejiang Provincial Government Scholarship</a> (<b>Top 3%</b>)</li>
-		<li><i>2023</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>Top 5%</b>)</li>
-		<li><i>2023</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>Top 5%</b>)</li>
+		<li><i>2024</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>Top 5%</b>, <b>CNY 1,500.00</b>)</li>
+		<li><i>2023</i>: <a href="https://student.hdu.edu.cn/2023/1110/c727a252884/page.htm">Zhejiang Provincial Government Scholarship</a> (<b>Top 3%</b>, <b>CNY 6,000.00</b>)</li>
+		<li><i>2023</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>Top 5%</b>, <b>CNY 1,500.00</b>)</li>
+		<li><i>2023</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>Top 5%</b>, <b>CNY 1,500.00</b>)</li>
 	</ul>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
@@ -127,12 +127,12 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>)</li>
-		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>)</li>
-		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>)</li>
-		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>)</li>
-		<li><i>2024</i>: <a href="http://gjcxcy.bjtu.edu.cn/">National Undergraduate Innovation and Entrepreneurship Training Program of China</a> (<b>Project Leader</b>)</li>
-		<li><i>2024</i>: <a href="https://joint.hdu.edu.cn/2024/0307/c6515a261379/page.htm">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>)</li>
+		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>, <b>CNY 10,000.00</b>)</li>
+		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>, <b>CNY 10,000.00</b>)</li>
+		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>, <b>CNY 10,000.00</b>)</li>
+		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>, <b>CNY 10,000.00</b>)</li>
+		<li><i>2024</i>: <a href="http://gjcxcy.bjtu.edu.cn/">National Undergraduate Innovation and Entrepreneurship Training Program of China</a> (<b>Project Leader</b>, <b>CNY 10,000.00</b>)</li>
+		<li><i>2024</i>: <a href="https://joint.hdu.edu.cn/2024/0307/c6515a261379/page.htm">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>, <b>CNY 10,000.00</b>)</li>
 	</ul>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>

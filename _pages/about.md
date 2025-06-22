@@ -246,6 +246,8 @@ Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, X
   
 Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 
+<i><b>Third Prize</b> of the 16th China College Students’ Service Outsourcing Innovation and Entrepreneurship Competition</i>
+
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
 </div>
 </div>
@@ -256,6 +258,8 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 [Diffusion Model-Based Bone Suppression System for Chest X-Ray](https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/4a5f20b16deaf9eafb948c8b39ea3a49b681b701/docs/Diffusion%20Model-Based%20Bone%20Suppression%20System%20for%20Chest%20X-Ray.pdf)
   
 **Yifei Sun**, Ruihan Yang, Zhanghao Chen
+
+<i><b>Bronze Award</b> of the China International College Students’ Innovation Competition 2024</i>
 
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
 </div>

@@ -290,12 +290,14 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 
 <div style="max-height: 600px; overflow: auto; font-size: 15px;">
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/Deadman.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Deadman 2025</div><img src='images/Deadman.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [Deadman](https://www.bilibili.com/video/BV1xg76zSErE/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
   
 蔡徐坤
+
+<i>Deadman 2025</i>
 
 <audio class="myAudio" loop controls>
   <source src="music/Deadman.mp3" type="audio/mpeg">
@@ -305,12 +307,14 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/zhuyu.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">纯妹妹 2025</div><img src='images/zhuyu.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [珠玉](https://www.bilibili.com/video/BV13KJwzdEap/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
   
 单依纯
+
+<i>纯妹妹 2025</i>
 
 <audio class="myAudio" loop controls>
   <source src="music/zhuyu.mp3" type="audio/mpeg">
@@ -320,42 +324,15 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/Battleplan Extinguished Sins.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[Battleplan Extinguished Sins](https://www.bilibili.com/video/BV1HWNHevEgG/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
-  
-塞壬唱片-MSR/Nocturne & Heretic/FROOT JOOCE
 
-<audio class="myAudio" loop controls>
-  <source src="music/Battleplan Extinguished Sins.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024</div><img src='images/fudahuang.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[赴大荒](https://www.bilibili.com/video/BV1kz421d74X/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
-
-塞壬唱片-MSR / Kirara Magic
-
-<audio class="myAudio" loop controls>
-  <source src="music/fudahuang.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2023</div><img src='images/shun.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">瞬 2023</div><img src='images/shun.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [瞬](https://www.bilibili.com/video/BV1fV41157dV/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
   
 郑润泽
+
+<i>瞬 2023</i>
 
 <audio class="myAudio" loop controls>
   <source src="music/shun.mp3" type="audio/mpeg">
@@ -365,27 +342,14 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2023</div><img src='images/Visage.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Visage](https://www.bilibili.com/video/BV1hz4y1N7jp/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
-
-塞壬唱片-MSR / Elvin Shen
-
-<audio class="myAudio" loop controls>
-  <source src="music/Visage.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2021</div><img src='images/Radiant.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Radiant 2021</div><img src='images/Radiant.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [Radiant](https://www.bilibili.com/video/BV1QU4y1u7D7/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
   
 塞壬唱片-MSR/Mary Clare
+
+<i>Radiant 2021</i>
 
 <audio class="myAudio" loop controls>
   <source src="music/Radiant.mp3" type="audio/mpeg">
@@ -395,27 +359,15 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2021</div><img src='images/haidi.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[海底](https://www.bilibili.com/video/BV1qp4y1t7DJ/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
-  
-凤凰传奇
 
-<audio class="myAudio" loop controls>
-  <source src="music/haidi.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2018</div><img src='images/chiling.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">赤伶 2018</div><img src='images/chiling.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [赤伶](https://www.bilibili.com/video/BV1cPRsYSEUA/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
 
 HITA
+
+<i>赤伶 2018</i>
 
 <audio class="myAudio" loop controls>
   <source src="music/chiling.mp3" type="audio/mpeg">
@@ -425,12 +377,14 @@ HITA
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2017</div><img src='images/Wild.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Wild 2017</div><img src='images/Wild.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Wild](https://www.bilibili.com/video/BV18M411o7Wv/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
 
 Monogem
+
+<i>Wild 2017</i>
 
 <audio class="myAudio" loop controls>
   <source src="music/Wild.mp3" type="audio/mpeg">
@@ -440,12 +394,14 @@ Monogem
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2013</div><img src='images/Staring at You.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Speak A Little Louder 2013</div><img src='images/Staring at You.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Staring at You](https://www.bilibili.com/video/BV1FQ4y1h7y2/?spm_id_from=333.788.videopod.sections&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
 
 Diane Birchz
+
+<i>Speak A Little Louder 2013</i>
 
 <audio class="myAudio" loop controls>
   <source src="music/Staring at You.mp3" type="audio/mpeg">
@@ -455,12 +411,14 @@ Diane Birchz
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2013</div><img src='images/Cry For Me.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pureness 2013</div><img src='images/Cry For Me.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Cry For Me](https://www.bilibili.com/video/BV1EP9qY5EcX/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
 
 Michita
+
+<i>Pureness 2013</i>
 
 <audio class="myAudio" loop controls>
   <source src="music/Cry For Me.mp3" type="audio/mpeg">

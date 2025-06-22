@@ -153,7 +153,7 @@ redirect_from:
 
 **Yifei Sun**, Zhanghao Chen, Hao Zheng, Wenming Deng, Jin Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
 
-*Under Review*
+<i>Under Review</i>
 
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
 </div>
@@ -166,7 +166,7 @@ redirect_from:
 
 Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<sup>†</sup>, Xianjun Fu, Yuxing Dai, Feiwei Qin<sup>†</sup>, Yong Peng, Yu Gao
 
-*Computers in Biology and Medicine (**CIBM**) 2024 (**ESI Highly Cited Paper**)*
+<i>Computers in Biology and Medicine</i> (<b>CIBM</b>) 2024 (<b>ESI Highly Cited Paper</b>)
 
 ![](https://img.shields.io/badge/Object%20Detection-224B8D)
 </div>
@@ -186,7 +186,7 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<s
 
 **Yifei Sun**, Zhanghao Chen, Hao Zheng, Yuqing Lu, Lixin Duan, Fenglei Fan, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
 
-*International Conference on Medical Image Computing and Computer Assisted Intervention (**MICCAI**) 2025*
+<i>International Conference on Medical Image Computing and Computer Assisted Intervention (<b>MICCAI</b>) 2025</i>
 
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
 </div>
@@ -199,7 +199,7 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<s
 
 Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>
 
-*IEEE International Symposium on Biomedical Imaging (**ISBI**) 2025 (**Oral**)*
+<i>IEEE International Symposium on Biomedical Imaging (<b>ISBI</b>) 2025 (<b>Oral</b>)</i>
 
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
 </div>
@@ -212,7 +212,7 @@ Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, 
 
 Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge<sup>†</sup>, Changmiao Wang<sup>†</sup>, Xiaopeng Fan
 
-*IEEE International Symposium on Biomedical Imaging (**ISBI**) 2024 (**Oral**)*
+<i>IEEE International Symposium on Biomedical Imaging (<b>ISBI</b>) 2024 (<b>Oral</b>)</i>
 
 ![](https://img.shields.io/badge/Multi--Modal%20Fusion-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
 </div>

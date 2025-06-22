@@ -141,41 +141,6 @@ redirect_from:
 
 <div style="margin-bottom: 5px; font-size: small; margin-top: 0px;"><sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author(s)</div>
 
-## Selected Journal Papers
-
-<div style="max-height: 600px; overflow: auto; font-size: 15px;">
-
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/BS-LDM.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models](https://arxiv.org/abs/2412.15670) [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/BS-LDM) [[🌐 Project Page]](https://benny0323.github.io/BS-LDM-Project-Page/)
-
-**Yifei Sun**, Zhanghao Chen, Hao Zheng, Wenming Deng, Jin Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
-
-<i>Under Review</i>
-
-![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CIBM 2024 (ESI Highly Cited Paper)</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Accurate leukocyte detection based on deformable-DETR and multi-level feature fusion for aiding diagnosis of blood diseases](https://www.sciencedirect.com/science/article/pii/S0010482524000015) [[🧑🏻‍💻 Code]](https://github.com/justlfc03/mfds-detr)
-
-Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<sup>†</sup>, Xianjun Fu, Yuxing Dai, Feiwei Qin<sup>†</sup>, Yong Peng, Yu Gao
-
-<i>Computers in Biology and Medicine</i> (<b>CIBM</b>) 2024 (<b>ESI Highly Cited Paper</b>)
-
-![](https://img.shields.io/badge/Object%20Detection-224B8D)
-</div>
-</div>
-
-</div>
-<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
-
 ## Selected Conference Papers
 
 <div style="max-height: 600px; overflow: auto; font-size: 15px;">
@@ -219,10 +184,41 @@ Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, X
 </div>
 </div>
 
-
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
+## Selected Journal Papers
+
+<div style="max-height: 600px; overflow: auto; font-size: 15px;">
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/BS-LDM.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models](https://arxiv.org/abs/2412.15670) [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/BS-LDM) [[🌐 Project Page]](https://benny0323.github.io/BS-LDM-Project-Page/)
+
+**Yifei Sun**, Zhanghao Chen, Hao Zheng, Wenming Deng, Jin Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
+
+<i>Under Review</i>
+
+![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CIBM 2024 (ESI Highly Cited Paper)</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Accurate leukocyte detection based on deformable-DETR and multi-level feature fusion for aiding diagnosis of blood diseases](https://www.sciencedirect.com/science/article/pii/S0010482524000015) [[🧑🏻‍💻 Code]](https://github.com/justlfc03/mfds-detr)
+
+Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<sup>†</sup>, Xianjun Fu, Yuxing Dai, Feiwei Qin<sup>†</sup>, Yong Peng, Yu Gao
+
+<i>Computers in Biology and Medicine</i> (<b>CIBM</b>) 2024 (<b>ESI Highly Cited Paper</b>)
+
+![](https://img.shields.io/badge/Object%20Detection-224B8D)
+</div>
+</div>
+
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
  
 # 🔖 Academic Services

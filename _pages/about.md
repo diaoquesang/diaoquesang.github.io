@@ -293,7 +293,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Deadman 2025</div><img src='images/Deadman.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Deadman](https://www.bilibili.com/video/BV1xg76zSErE/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[Deadman](https://www.bilibili.com/video/BV1xg76zSErE/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/002qU9eL1YKqyS)
   
 蔡徐坤
 
@@ -310,7 +310,7 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">纯妹妹 2025</div><img src='images/zhuyu.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[珠玉](https://www.bilibili.com/video/BV13KJwzdEap/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[珠玉](https://www.bilibili.com/video/BV13KJwzdEap/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/0040lDZ20wEfv1)
   
 单依纯
 
@@ -380,7 +380,7 @@ HITA
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Wild 2017</div><img src='images/Wild.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Wild](https://www.bilibili.com/video/BV18M411o7Wv/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[Wild](https://www.bilibili.com/video/BV18M411o7Wv/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/x0026usw0s4)
 
 Monogem
 
@@ -415,7 +415,6 @@ Diane Birchz
 <div class='paper-box-text' markdown="1">
 
 [Cry For Me](https://www.bilibili.com/video/BV1EP9qY5EcX/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
-
 Michita
 
 <i>Pureness 2013</i>

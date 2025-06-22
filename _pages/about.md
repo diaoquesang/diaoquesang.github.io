@@ -19,7 +19,7 @@ redirect_from:
 
 # 😉 About Me
 
-🌱 Hi, I'm a 3rd-year undergraduate student studying **Computer Science and Technology** at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), supervised by [Prof. Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) in [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) and [Prof. Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505) in [Shenzhen Research Institute of Big Data](https://www.sribd.cn/).
+🌱 Hi, I'm a 3rd-year undergraduate student studying **Computer Science and Technology** at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), supervised by [Prof. Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) in [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) and [Prof. Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505) in [The Chinese University of Hong Kong](https://www.cuhk.edu.cn/).
 
 🔭 I'm currently focused on **Medical Image Analysis**, **Computer Vision**, and **Generative Models**.
 
@@ -68,9 +68,15 @@ redirect_from:
 
 # 💻 Internships
 
-<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/9db94bf4-8568-4636-8692-b903192928ee' width="20%" style="margin: 15px 10px 15px 10px;">
+<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/4a96ec08-666c-493e-9a03-7962a47204f4' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2023.06 - Present</i>: Healthcare Big Data Lab, <a href="https://www.sribd.cn/">Shenzhen Research Institute of Big Data</a>, Shenzhen, China</li>
+		<li><i>2025.06 - Present</i>: Smart Healthcare Artificial Intelligence Research Center, <a href="https://www.zju.edu.cn/">Zhejiang University</a>, Hangzhou, China</li>
+	</ul>
+</div>
+
+<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/d3abf202-2e01-4c71-8050-2b15c7827409' width="20%" style="margin: 15px 10px 15px 10px;">
+	<ul style="margin-top: 15px;">
+		<li><i>2023.06 - Present</i>: Shenzhen Research Institute of Big Data, <a href="https://www.cuhk.edu.cn/">The Chinese University of Hong Kong, Shenzhen</a>, Shenzhen, China</li>
 	</ul>
 </div>
 

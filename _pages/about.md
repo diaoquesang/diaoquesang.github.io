@@ -70,7 +70,7 @@ redirect_from:
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/4a96ec08-666c-493e-9a03-7962a47204f4' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2025.06 - Present</i>: Real Doctor Artificial Intelligence Research Center, <a href="https://www.zju.edu.cn/">Zhejiang University</a>, Hangzhou, China</li>
+		<li><i>2025.06 - Present</i>: Real Doctor AI Research Center, <a href="https://www.zju.edu.cn/">Zhejiang University</a>, Hangzhou, China</li>
 	</ul>
 </div>
 

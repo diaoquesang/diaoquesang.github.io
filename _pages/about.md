@@ -133,6 +133,7 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
+		<li><i>2025</i>: <a href="http://gjcxcy.bjtu.edu.cn/">National Undergraduate Innovation and Entrepreneurship Training Program of China</a> (<b>Key Support Field Project</b>, <b>Key Member</b>, <b>CNY 20,000.00</b>)</li>
 		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>, <b>CNY 10,000.00</b>)</li>
 		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>, <b>CNY 10,000.00</b>)</li>
 		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>, <b>CNY 10,000.00</b>)</li>

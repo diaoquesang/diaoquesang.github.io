@@ -186,6 +186,10 @@ redirect_from:
 <span class="highlight">ISBI 2024 (Oral)</span> <a href="https://ieeexplore.ieee.org/abstract/document/10635371/">BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images</a> <a href="https://github.com/Benny0323/BS-Diff">[🧑🏻‍💻 Code]</a> Zhanghao Chen, <b>Yifei Sun</b>, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>
 </li>
 
+<li>
+<span class="highlight">ICSIP 2023</span> <a href="https://ieeexplore.ieee.org/abstract/document/10270849/">RTUNet++: Assessment of Osteosarcoma MRI Image Segmentation leveraging Hybrid CNN-Transformer Approach with Dense Skip Connection</a> Binfeng Zou, Yifei Chen, Zhanghao Chen, <b>Yifei Sun</b>, Yifan Huang, Feiwei Qin<sup>†</sup>, Changmiao Wang
+</li>
+
 </ul>
 
 </div>

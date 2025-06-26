@@ -171,7 +171,7 @@ redirect_from:
 
 Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>
 
-<i>IEEE International Symposium on Biomedical Imaging (<b>ISBI</b>) 2025 (<b>Oral</b>)</i>
+<i>IEEE International Symposium on Biomedical Imaging (<b>ISBI</b>) 2024 (<b>Oral</b>)</i>
 
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
 </div>
@@ -184,7 +184,7 @@ Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, 
 
 Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge<sup>†</sup>, Changmiao Wang<sup>†</sup>, Xiaopeng Fan
 
-<i>IEEE International Symposium on Biomedical Imaging (<b>ISBI</b>) 2024 (<b>Oral</b>)</i>
+<i>IEEE International Symposium on Biomedical Imaging (<b>ISBI</b>) 2025 (<b>Oral</b>)</i>
 
 ![](https://img.shields.io/badge/Multi--Modal%20Fusion-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
 </div>

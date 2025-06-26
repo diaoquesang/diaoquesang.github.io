@@ -19,8 +19,6 @@ redirect_from:
 
 # 😉 About Me
 
-<div class='about-me'>
-
 🌱 Hi, I'm a 3rd-year undergraduate student studying **Computer Science and Technology** at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), supervised by [Prof. Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) in [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) and [Prof. Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505) in [the Chinese University of Hong Kong](https://www.cuhk.edu.cn/).
 
 
@@ -57,7 +55,6 @@ redirect_from:
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
-</div>
 
 # 📖 Educations
 
@@ -103,14 +100,14 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li><i>2025.06</i>: &nbsp;🎉🎉 Our new paper for <a href="https://conferences.miccai.org/2025/en/default.asp">MICCAI 2025</a> was <b>Accepted</b>!</li>
-		<li><i>2025.02</i>: &nbsp;🎉🎉 Our paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was selected for <b>Oral Presentation</b>!</li>
-		<li><i>2025.01</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">CIBM 2024</a> was selected for <b>ESI Top 1% Highly Cited Paper</b>!</li>
-		<li><i>2025.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was <b>Accepted</b>!</li>
-		<li><i>2024.04</i>: &nbsp;🎉🎉 Our paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was selected for <b>Oral Presentation</b>!</li>
-		<li><i>2024.02</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was <b>Accepted</b>!</li>
-		<li><i>2024.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">Computers in Biology and Medicine</a> was <b>Accepted</b>!</li>
-		<li><i>2023.06</i>: &nbsp;🎉🎉 Our new paper for <a href="https://www.icsip.org/2023.html">ICSIP 2023</a> was <b>Accepted</b>!</li>	
+		<li><i>2025.06</i>: &nbsp;🎉🎉 Our new paper for <a href="https://conferences.miccai.org/2025/en/default.asp">MICCAI 2025</a> was <strong>Accepted</strong>!</li>
+		<li><i>2025.02</i>: &nbsp;🎉🎉 Our paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was selected for <strong>Oral Presentation</strong>!</li>
+		<li><i>2025.01</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">CIBM 2024</a> was selected for <strong>ESI Top 1% Highly Cited Paper</strong>!</li>
+		<li><i>2025.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was <strong>Accepted</strong>!</li>
+		<li><i>2024.04</i>: &nbsp;🎉🎉 Our paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was selected for <strong>Oral Presentation</strong>!</li>
+		<li><i>2024.02</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was <strong>Accepted</strong>!</li>
+		<li><i>2024.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">Computers in Biology and Medicine</a> was <strong>Accepted</strong>!</li>
+		<li><i>2023.06</i>: &nbsp;🎉🎉 Our new paper for <a href="https://www.icsip.org/2023.html">ICSIP 2023</a> was <strong>Accepted</strong>!</li>	
 	</ul>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
@@ -119,18 +116,18 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li><i>2025</i>: <a href="https://mp.weixin.qq.com/s/KN5BBltP9OrdEPli11RE6A">Top 10 Student Candidates of HDU</a> (<b>Top 15</b>)</li>
-		<li><i>2025</i>: <a href="https://tuanwei.hdu.edu.cn/2025/0425/c275a277893/page.htm">HDU Stars of Innovation</a> (<b>Top 10</b>)</li>
-		<li><i>2025</i>: <a href="https://mp.weixin.qq.com/s/lcgUXEJ5ITtSLiq1ltnagw">Top 10 Students of HDU-ITMO Joint Institute</a> (<b>Top 1.25%</b>)</li>
-		<li><i>2025</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>1st in Top 5%</b>, <b>CNY 1,500.00</b>)</li>
-		<li><i>2024</i>: <a href="http://www.moe.gov.cn/srcsite/A05/s7505/202412/t20241230_1172663.html">National Scholarship of China</a> (<b>Top 0.4%</b>, <b>CNY 10,000.00</b>)</li>
-		<li><i>2024</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>1st in Top 5%</b>, <b>CNY 1,500.00</b>)</li>
-		<li><i>2024</i>: <a href="https://tuanwei.hdu.edu.cn/2024/0409/c275a263268/page.htm">HDU Stars of Innovation Candidate</a> (<b>Top 15</b>)</li>
-		<li><i>2024</i>: <a href="https://mp.weixin.qq.com/s/RFjA5qvCV8Tyaz0dk7Jwhg">Top 10 Students of HDU-ITMO Joint Institute</a> (<b>Top 1.25%</b>)</li>
-		<li><i>2024</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>1st in Top 5%</b>, <b>CNY 1,500.00</b>)</li>
-		<li><i>2023</i>: <a href="https://student.hdu.edu.cn/2023/1110/c727a252884/page.htm">Zhejiang Provincial Government Scholarship</a> (<b>Top 3%</b>, <b>CNY 6,000.00</b>)</li>
-		<li><i>2023</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>1st in Top 5%</b>, <b>CNY 1,500.00</b>)</li>
-		<li><i>2023</i>: First-Class Scholarship of Hangzhou Dianzi University (<b>1st in Top 5%</b>, <b>CNY 1,500.00</b>)</li>
+		<li><i>2025</i>: <a href="https://mp.weixin.qq.com/s/KN5BBltP9OrdEPli11RE6A">Top 10 Student Candidates of HDU</a> (<strong>Top 15</strong>)</li>
+		<li><i>2025</i>: <a href="https://tuanwei.hdu.edu.cn/2025/0425/c275a277893/page.htm">HDU Stars of Innovation</a> (<strong>Top 10</strong>)</li>
+		<li><i>2025</i>: <a href="https://mp.weixin.qq.com/s/lcgUXEJ5ITtSLiq1ltnagw">Top 10 Students of HDU-ITMO Joint Institute</a> (<strong>Top 1.25%</strong>)</li>
+		<li><i>2025</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>1st in Top 5%</strong>, <strong>CNY 1,500.00</strong>)</li>
+		<li><i>2024</i>: <a href="http://www.moe.gov.cn/srcsite/A05/s7505/202412/t20241230_1172663.html">National Scholarship of China</a> (<strong>Top 0.4%</strong>, <strong>CNY 10,000.00</strong>)</li>
+		<li><i>2024</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>1st in Top 5%</strong>, <strong>CNY 1,500.00</strong>)</li>
+		<li><i>2024</i>: <a href="https://tuanwei.hdu.edu.cn/2024/0409/c275a263268/page.htm">HDU Stars of Innovation Candidate</a> (<strong>Top 15</strong>)</li>
+		<li><i>2024</i>: <a href="https://mp.weixin.qq.com/s/RFjA5qvCV8Tyaz0dk7Jwhg">Top 10 Students of HDU-ITMO Joint Institute</a> (<strong>Top 1.25%</strong>)</li>
+		<li><i>2024</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>1st in Top 5%</strong>, <strong>CNY 1,500.00</strong>)</li>
+		<li><i>2023</i>: <a href="https://student.hdu.edu.cn/2023/1110/c727a252884/page.htm">Zhejiang Provincial Government Scholarship</a> (<strong>Top 3%</strong>, <strong>CNY 6,000.00</strong>)</li>
+		<li><i>2023</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>1st in Top 5%</strong>, <strong>CNY 1,500.00</strong>)</li>
+		<li><i>2023</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>1st in Top 5%</strong>, <strong>CNY 1,500.00</strong>)</li>
 	</ul>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
@@ -140,13 +137,13 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li><i>2025</i>: <a href="http://gjcxcy.bjtu.edu.cn/">National Undergraduate Innovation and Entrepreneurship Training Program of China</a> (<b>1st in Top 3 Key Support Field Program</b>, <b>Key Member</b>, <b>CNY 20,000.00</b>)</li>
-		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>, <b>CNY 10,000.00</b>)</li>
-		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>, <b>CNY 10,000.00</b>)</li>
-		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>, <b>CNY 10,000.00</b>)</li>
-		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>, <b>CNY 10,000.00</b>)</li>
-		<li><i>2024</i>: <a href="http://gjcxcy.bjtu.edu.cn/">National Undergraduate Innovation and Entrepreneurship Training Program of China</a> (<b>Project Leader</b>, <b>CNY 10,000.00</b>)</li>
-		<li><i>2024</i>: <a href="https://joint.hdu.edu.cn/2024/0307/c6515a261379/page.htm">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<b>Key Member</b>, <b>CNY 10,000.00</b>)</li>
+		<li><i>2025</i>: <a href="http://gjcxcy.bjtu.edu.cn/">National Undergraduate Innovation and Entrepreneurship Training Program of China</a> (<strong>1st in Top 3 Key Support Field Program</strong>, <strong>Key Member</strong>, <strong>CNY 20,000.00</strong>)</li>
+		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
+		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
+		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
+		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
+		<li><i>2024</i>: <a href="http://gjcxcy.bjtu.edu.cn/">National Undergraduate Innovation and Entrepreneurship Training Program of China</a> (<strong>Project Leader</strong>, <strong>CNY 10,000.00</strong>)</li>
+		<li><i>2024</i>: <a href="https://joint.hdu.edu.cn/2024/0307/c6515a261379/page.htm">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
 	</ul>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
@@ -163,9 +160,9 @@ redirect_from:
 
 [GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images]() [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/GL-LCM) [[🌐 Project Page]](https://diaoquesang.github.io/GL-LCM-Project-Page/)
 
-**Yifei Sun**, Zhanghao Chen, Hao Zheng, Yuqing Lu, Lixin Duan, Fenglei Fan, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
+<b>Yifei Sun</b>, Zhanghao Chen, Hao Zheng, Yuqing Lu, Lixin Duan, Fenglei Fan, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
 
-<i>International Conference on Medical Image Computing and Computer Assisted Intervention (<b>MICCAI</b>) 2025</i>
+<i>International Conference on Medical Image Computing and Computer Assisted Intervention (<strong>MICCAI</strong>) 2025</i>
 
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
 </div>
@@ -176,9 +173,9 @@ redirect_from:
 
 [BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images](https://ieeexplore.ieee.org/abstract/document/10635371/) [[🧑🏻‍💻 Code]](https://github.com/Benny0323/BS-Diff)
 
-Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>
+Zhanghao Chen, <b>Yifei Sun</b>, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>
 
-<i>IEEE International Symposium on Biomedical Imaging (<b>ISBI</b>) 2024 (<b>Oral</b>)</i>
+<i>IEEE International Symposium on Biomedical Imaging (<strong>ISBI</strong>) 2024 (<strong>Oral</strong>)</i>
 
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
 </div>
@@ -194,7 +191,7 @@ Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, 
 <ul>
 
 <li>
-<span class="highlight">ISBI 2025 (Oral)</span> <a href="http://arxiv.org/abs/2501.11276">ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction</a> <a href="https://github.com/justinhxy/ITFC">🧑🏻‍💻 Code</a> Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge<sup>†</sup>, Changmiao Wang<sup>†</sup>, Xiaopeng Fan
+<span class="highlight">ISBI 2025 (Oral)</span> <a href="http://arxiv.org/abs/2501.11276">ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction</a> <a href="https://github.com/justinhxy/ITFC">🧑🏻‍💻 Code</a> Xiangyang Hu, Xiangyu Shen, <b>Yifei Sun</b>b>, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge<sup>†</sup>, Changmiao Wang<sup>†</sup>, Xiaopeng Fan
 </li>
 
 </ul>
@@ -210,7 +207,7 @@ Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, 
 
 [BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models](https://arxiv.org/abs/2412.15670) [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/BS-LDM) [[🌐 Project Page]](https://benny0323.github.io/BS-LDM-Project-Page/)
 
-**Yifei Sun**, Zhanghao Chen, Hao Zheng, Wenming Deng, Jin Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
+<b>Yifei Sun</b>, Zhanghao Chen, Hao Zheng, Wenming Deng, Jin Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
 
 <i>Under Review</i>
 
@@ -223,9 +220,9 @@ Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, 
 
 [Accurate leukocyte detection based on deformable-DETR and multi-level feature fusion for aiding diagnosis of blood diseases](https://www.sciencedirect.com/science/article/pii/S0010482524000015) [[🧑🏻‍💻 Code]](https://github.com/justlfc03/mfds-detr)
 
-Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<sup>†</sup>, Xianjun Fu, Yuxing Dai, Feiwei Qin<sup>†</sup>, Yong Peng, Yu Gao
+Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, <b>Yifei Sun</b>, Changmiao Wang<sup>†</sup>, Xianjun Fu, Yuxing Dai, Feiwei Qin<sup>†</sup>, Yong Peng, Yu Gao
 
-<i>Computers in Biology and Medicine</i> (<b>CIBM</b>) 2024 (<b>ESI Highly Cited Paper</b>)
+<i>Computers in Biology and Medicine</i> (<strong>CIBM</strong>) 2024 (<strong>ESI Highly Cited Paper</strong>)
 
 ![](https://img.shields.io/badge/Object%20Detection-224B8D)
 </div>
@@ -248,7 +245,7 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<s
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li>ACM Multimedia (<b>ACM MM</b>) <a href="https://acmmm2025.org/">2025</a></li>
+		<li>ACM Multimedia (<strong>ACM MM</strong>) <a href="https://acmmm2025.org/">2025</a></li>
 	</ul>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
@@ -261,9 +258,9 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<s
   
 [Diffusion Model-Based Bone Suppression System for Chest X-Ray](https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/4a5f20b16deaf9eafb948c8b39ea3a49b681b701/docs/Diffusion%20Model-Based%20Bone%20Suppression%20System%20for%20Chest%20X-Ray.pdf)
   
-**Yifei Sun**, Ruihan Yang, Zhanghao Chen
+<b>Yifei Sun</b>, Ruihan Yang, Zhanghao Chen
 
-<i><b>Bronze Award</b> of the China International College Students’ Innovation Competition 2024</i>
+<i><strong>Bronze Award</strong> of the China International College Students’ Innovation Competition 2024</i>
 
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
 </div>
@@ -274,9 +271,9 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<s
   
 [Intelligent Diagnosis System for Ophthalmic Diseases Based on Binocular Fundus Medical Imaging](https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/9baa0c375b566c0db772ac883e905d871b414e8b/docs/Intelligent%20Diagnosis%20System%20for%20Ophthalmic%20Diseases%20Based%20on%20Binocular%20Fundus%20Medical%20Imaging.pdf)
   
-Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
+Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
 
-<i><b>Third Prize</b> of the 16th China College Students’ Service Outsourcing Innovation and Entrepreneurship Competition</i>
+<i><strong>Third Prize</strong> of the 16th China College Students’ Service Outsourcing Innovation and Entrepreneurship Competition</i>
 
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
 </div>

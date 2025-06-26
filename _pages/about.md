@@ -177,7 +177,7 @@ Zhanghao Chen, **Yifei Sun**, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISBI 2025 (Oral)</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'>
 <div class='paper-box-text' markdown="1">
 
 [ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction](http://arxiv.org/abs/2501.11276) [[🧑🏻‍💻 Code]](https://github.com/justinhxy/ITFC)

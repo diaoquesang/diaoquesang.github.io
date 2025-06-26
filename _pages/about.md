@@ -19,13 +19,18 @@ redirect_from:
 
 # 😉 About Me
 
+<div class='about-me'>
+
 🌱 Hi, I'm a 3rd-year undergraduate student studying **Computer Science and Technology** at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), supervised by [Prof. Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) in [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) and [Prof. Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505) in [the Chinese University of Hong Kong](https://www.cuhk.edu.cn/).
+
 
 🔭 I'm currently focused on **Medical Image Analysis**, **Computer Vision**, and **Generative Models**.
 
 📫 How to reach me: [szhsxhsyf@hdu.edu.cn](mailto:szhsxhsyf@hdu.edu.cn).
 
 🥳 Open Source Projects: [1] [A Paper List for Medical Anomaly Detection](https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection), [2] [Bone Suppression in Chest X-Rays: A Deep Survey](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays), [3] [A Paper List for Prototypical Learning](https://github.com/BeistMedAI/Paper-List-for-Prototypical-Learning), [4] [A Paper List for Cell Detection](https://github.com/li00000011/Paper-List-for-Cell-Detection), [5] [Medical-AI-Guide](https://github.com/diaoquesang/Medical-AI-Guide/).
+
+
 
 <a href='https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
 [![GitHub User's stars](https://img.shields.io/github/stars/diaoquesang)](https://github.com/diaoquesang)
@@ -51,6 +56,8 @@ redirect_from:
 </div>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
+
+</div>
 
 # 📖 Educations
 

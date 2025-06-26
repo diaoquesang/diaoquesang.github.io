@@ -152,7 +152,7 @@ redirect_from:
 
 <div style="margin-bottom: 5px; font-size: small; margin-top: 0px;"><sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author(s)</div>
 
-## Selected Conference Papers
+## Conference Papers
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025</div><img src='images/GL-LCM.jpg' alt="sym" width="100%"></div></div>
@@ -192,7 +192,7 @@ redirect_from:
 
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
-## Selected Journal Papers
+## Journal Papers
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/BS-LDM.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

@@ -168,20 +168,6 @@ redirect_from:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISBI 2024 (Oral)</div><img src='images/BS-Diff.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images](https://ieeexplore.ieee.org/abstract/document/10635371/) [[🧑🏻‍💻 Code]](https://github.com/Benny0323/BS-Diff)
-
-Zhanghao Chen, <b>Yifei Sun</b>, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>
-
-<i>IEEE International Symposium on Biomedical Imaging (<strong>ISBI</strong>) 2024 (<strong>Oral</strong>)</i>
-
-![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
-</div>
-</div>
-
-
 
 
 
@@ -190,8 +176,14 @@ Zhanghao Chen, <b>Yifei Sun</b>, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pa
 	
 <ul>
 
+
+
 <li>
-<span class="highlight">ISBI 2025 (Oral)</span> <a href="http://arxiv.org/abs/2501.11276">ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction</a> <a href="https://github.com/justinhxy/ITFC">🧑🏻‍💻 Code</a> Xiangyang Hu, Xiangyu Shen, <b>Yifei Sun</b>b>, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge<sup>†</sup>, Changmiao Wang<sup>†</sup>, Xiaopeng Fan
+<span class="highlight">ISBI 2025 (Oral)</span> <a href="http://arxiv.org/abs/2501.11276">ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction</a> <a href="https://github.com/justinhxy/ITFC">🧑🏻‍💻 Code</a> Xiangyang Hu, Xiangyu Shen, <b>Yifei Sun</b>, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge<sup>†</sup>, Changmiao Wang<sup>†</sup>, Xiaopeng Fan
+</li>
+
+<li>
+<span class="highlight">ISBI 2024 (Oral)</span> <a href="https://ieeexplore.ieee.org/abstract/document/10635371/">BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images](https://ieeexplore.ieee.org/abstract/document/10635371/</a> <a href="https://github.com/Benny0323/BS-Diff">🧑🏻‍💻 Code</a> Zhanghao Chen, <b>Yifei Sun</b>, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>
 </li>
 
 </ul>
@@ -215,22 +207,14 @@ Zhanghao Chen, <b>Yifei Sun</b>, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pa
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CIBM 2024 (ESI Highly Cited Paper)</div><img src='images/MFDS-DETR.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Accurate leukocyte detection based on deformable-DETR and multi-level feature fusion for aiding diagnosis of blood diseases](https://www.sciencedirect.com/science/article/pii/S0010482524000015) [[🧑🏻‍💻 Code]](https://github.com/justlfc03/mfds-detr)
-
-Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, <b>Yifei Sun</b>, Changmiao Wang<sup>†</sup>, Xianjun Fu, Yuxing Dai, Feiwei Qin<sup>†</sup>, Yong Peng, Yu Gao
-
-<i>Computers in Biology and Medicine</i> (<strong>CIBM</strong>) 2024 (<strong>ESI Highly Cited Paper</strong>)
-
-![](https://img.shields.io/badge/Object%20Detection-224B8D)
-</div>
-</div>
 
 <div style="max-height: 600px; overflow: auto; font-size: 15px;">
 	
 <ul>
+	
+<li>
+<span class="highlight">CIBM 2024 (ESI Highly Cited Paper)</span> <a href="https://www.sciencedirect.com/science/article/pii/S0010482524000015">ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction</a> <a href="https://github.com/justlfc03/mfds-detr">🧑🏻‍💻 Code</a> Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, <b>Yifei Sun</b>, Changmiao Wang<sup>†</sup>, Xianjun Fu, Yuxing Dai, Feiwei Qin<sup>†</sup>, Yong Peng, Yu Gao
+</li>
 
 </ul>
 

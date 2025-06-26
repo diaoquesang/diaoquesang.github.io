@@ -150,7 +150,6 @@ redirect_from:
 
 ## Selected Conference Papers
 
-<div style="max-height: 600px; overflow: auto; font-size: 15px;">
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025</div><img src='images/GL-LCM.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -191,12 +190,15 @@ Xiangyang Hu, Xiangyu Shen, **Yifei Sun**, Xuhao Shan, Wenwen Min, Liyilei Su, X
 </div>
 </div>
 
+<div style="max-height: 600px; overflow: auto; font-size: 15px;">
+	
+<ul>
+
+</ul>
+
 </div>
-<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 ## Selected Journal Papers
-
-<div style="max-height: 600px; overflow: auto; font-size: 15px;">
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/BS-LDM.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -224,8 +226,13 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<s
 </div>
 </div>
 
+<div style="max-height: 600px; overflow: auto; font-size: 15px;">
+	
+<ul>
+
+</ul>
+
 </div>
-<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
  
 # 🔖 Academic Services
@@ -241,20 +248,6 @@ Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, **Yifei Sun**, Changmiao Wang<s
 
 
 # 📱 Software
-<div style="max-height: 600px; overflow: auto; font-size: 15px;">
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.04</div><img src='images/IDSODBBFMI.gif' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[Intelligent Diagnosis System for Ophthalmic Diseases Based on Binocular Fundus Medical Imaging](https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/9baa0c375b566c0db772ac883e905d871b414e8b/docs/Intelligent%20Diagnosis%20System%20for%20Ophthalmic%20Diseases%20Based%20on%20Binocular%20Fundus%20Medical%20Imaging.pdf)
-  
-Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
-
-<i><b>Third Prize</b> of the 16th China College Students’ Service Outsourcing Innovation and Entrepreneurship Competition</i>
-
-![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.11</div><img src='images/DMBBSSCXR.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -269,7 +262,28 @@ Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.04</div><img src='images/IDSODBBFMI.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[Intelligent Diagnosis System for Ophthalmic Diseases Based on Binocular Fundus Medical Imaging](https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/9baa0c375b566c0db772ac883e905d871b414e8b/docs/Intelligent%20Diagnosis%20System%20for%20Ophthalmic%20Diseases%20Based%20on%20Binocular%20Fundus%20Medical%20Imaging.pdf)
+  
+Junhao Jia, Shuo Jiang, **Yifei Sun**, Yuting Shi, Hanwen Zheng
+
+<i><b>Third Prize</b> of the 16th China College Students’ Service Outsourcing Innovation and Entrepreneurship Competition</i>
+
+![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
 </div>
+</div>
+
+
+<div style="max-height: 600px; overflow: auto; font-size: 15px;">
+	
+<ul>
+
+</ul>
+
+</div>
+
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 

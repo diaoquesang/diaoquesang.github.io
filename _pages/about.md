@@ -244,7 +244,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.11</div><img src='images/DMBBSSCXR.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Diffusion Model-Based Bone Suppression System for Chest X-Ray](https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/4a5f20b16deaf9eafb948c8b39ea3a49b681b701/docs/Diffusion%20Model-Based%20Bone%20Suppression%20System%20for%20Chest%20X-Ray.pdf)
+[Diffusion Model-Based Bone Suppression System for Chest X-Ray (V1.0)](https://www.ccopyright.com/)
   
 <b>Yifei Sun</b>, Ruihan Yang, Zhanghao Chen
 
@@ -257,8 +257,8 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.04</div><img src='images/IDSODBBFMI.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Intelligent Diagnosis System for Ophthalmic Diseases Based on Binocular Fundus Medical Imaging](https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/9baa0c375b566c0db772ac883e905d871b414e8b/docs/Intelligent%20Diagnosis%20System%20for%20Ophthalmic%20Diseases%20Based%20on%20Binocular%20Fundus%20Medical%20Imaging.pdf)
-  
+[Intelligent Diagnosis System for Ophthalmic Diseases Based on Binocular Fundus Medical Imaging (V1.0)](https://www.ccopyright.com/)
+
 Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
 
 <i><strong>Third Prize</strong> of the 16th China College Students’ Service Outsourcing Innovation and Entrepreneurship Competition</i>
@@ -271,6 +271,22 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
 <div style="max-height: 600px; overflow: auto; font-size: 15px;">
 	
 <ul>
+
+<li>
+<span class="highlight">2025.02</span> <a href="https://www.ccopyright.com/">Medical Intelligent MRI-PET Cross-Modal Conversion System (V1.0)</a> <b>Yifei Sun</b>, Xiangyang Hu, Xiangyu Shen, Junhao Jia, Yuanhan Wang
+</li>
+
+<li>
+<span class="highlight">2025.02</span> <a href="https://www.ccopyright.com/">Medical Intelligence-Assisted Lung Cancer CT Image Classification Software (V1.0)</a> Yuanhan Wang, Guanyu Zhou, <b>Yifei Sun</b>, Heng Xu, Yutian Wang
+</li>
+
+<li>
+<span class="highlight">2024.08</span> <a href="https://www.ccopyright.com/">Common Portal Platform for the Digital Security Conference (V1.0)</a> <b>Yifei Sun</b>, Linfeng Luo, Ruihan Yang, Yuyun Xiang, Zhihao Wu
+</li>
+
+<li>
+<span class="highlight">2024.08</span> <a href="https://www.ccopyright.com/">Common Portal Applet Software for the Digital Security Conference (V1.0)</a> <b>Yifei Sun</b>, Ruihan Yang, Yuyun Xiang, Linfeng Luo, Zhihao Wu
+</li>
 
 </ul>
 

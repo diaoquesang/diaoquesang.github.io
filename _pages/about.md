@@ -241,19 +241,6 @@ redirect_from:
 
 # 📱 Software
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.11</div><img src='images/DMBBSSCXR.gif' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[Diffusion Model-Based Bone Suppression System for Chest X-Ray (V1.0)](https://www.ccopyright.com/)
-  
-<b>Yifei Sun</b>, Ruihan Yang, Zhanghao Chen
-
-<i><strong>Bronze Award</strong> of the China International College Students’ Innovation Competition 2024</i>
-
-![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.04</div><img src='images/IDSODBBFMI.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
@@ -267,6 +254,18 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.11</div><img src='images/DMBBSSCXR.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[Diffusion Model-Based Bone Suppression System for Chest X-Ray (V1.0)](https://www.ccopyright.com/)
+  
+<b>Yifei Sun</b>, Ruihan Yang, Zhanghao Chen
+
+<i><strong>Bronze Award</strong> of the China International College Students’ Innovation Competition 2024</i>
+
+![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
+</div>
+</div>
 
 <div style="max-height: 600px; overflow: auto; font-size: 15px;">
 	

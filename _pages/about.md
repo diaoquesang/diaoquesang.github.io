@@ -77,7 +77,7 @@ redirect_from:
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/d3abf202-2e01-4c71-8050-2b15c7827409' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2023.06 - Present</i>, Research Intern: <a href="https://www.sribd.cn/">Shenzhen Research Institute of Big Data</a>, <a href="https://www.cuhk.edu.cn/">The Chinese University of Hong Kong, Shenzhen</a>, Shenzhen, China</li>
+		<li><i>2023.06 - Present</i>, Research Intern: <a href="https://www.sribd.cn/"><img src="https://github.com/user-attachments/assets/83d4f53d-1321-4278-90b1-4b0659ad8feb" style="width: 1em;"> Shenzhen Research Institute of Big Data</a>, <a href="https://www.cuhk.edu.cn/">The Chinese University of Hong Kong, Shenzhen</a>, Shenzhen, China</li>
 	</ul>
 </div>
 

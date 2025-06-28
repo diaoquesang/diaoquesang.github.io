@@ -19,7 +19,7 @@ redirect_from:
 
 # 😉 About Me
 
-🌱 Hi, I'm a 3rd-year undergraduate student studying **Computer Science and Technology** at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), supervised by [Prof. Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) in [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) and [Prof. Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505) in <img src="https://github.com/user-attachments/assets/d6e5f702-ea01-4251-9679-f274039bc9e3" style="width: 1em;"> <a href="https://www.cuhk.edu.cn/"> [the Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/).
+🌱 Hi, I'm a 3rd-year undergraduate student studying **Computer Science and Technology** at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), supervised by [Prof. Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) in <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) and [Prof. Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505) in <img src="https://github.com/user-attachments/assets/d6e5f702-ea01-4251-9679-f274039bc9e3" style="width: 1em;"> <a href="https://www.cuhk.edu.cn/"> [the Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/).
 
 🔭 I'm currently focused on **Medical Image Analysis**, **Computer Vision**, and **Generative Models**.
 
@@ -57,13 +57,13 @@ redirect_from:
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/fed68c18-ae52-48d1-9c45-703a3555f77a' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2022.08 - Present</i>, Undergraduate Student: Computer Science and Technology, <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, China</li>
+		<li><i>2022.08 - Present</i>, Undergraduate Student: Computer Science and Technology, <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, China</li>
 	</ul>
 </div>
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/caa9f769-f2fd-482c-aaa5-f9e9d0acc67f' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2022.08 - Present</i>, Undergraduate Student: Computer Science, <a href="https://en.itmo.ru/">ITMO University</a>, Saint Petersburg, Russia</li>
+		<li><i>2022.08 - Present</i>, Undergraduate Student: Computer Science, <img src="https://github.com/user-attachments/assets/18a69d12-eb7f-4b74-af92-4050d7f12382" style="width: 1em;"> <a href="https://en.itmo.ru/">ITMO University</a>, Saint Petersburg, Russia</li>
 	</ul>
 </div>
 

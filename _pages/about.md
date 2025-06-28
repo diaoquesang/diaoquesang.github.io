@@ -23,7 +23,7 @@ redirect_from:
 
 🔭 I'm currently focused on **Medical Image Analysis**, **Computer Vision**, and **Generative Models**.
 
-🔖 Academic Services: Conference Reviewers of ACM Multimedia (**ACM MM**)<sub>[2025](https://acmmm2025.org/)</sub>.
+🔖 Academic Services: Conference Reviewers of **ACM MM**<sub>[2025](https://acmmm2025.org/)</sub>.
 
 📫 How to reach me: [szhsxhsyf@hdu.edu.cn](mailto:szhsxhsyf@hdu.edu.cn).
 

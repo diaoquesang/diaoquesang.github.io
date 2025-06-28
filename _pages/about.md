@@ -84,12 +84,6 @@ redirect_from:
 	</ul>
 </div>
 
-<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/fed68c18-ae52-48d1-9c45-703a3555f77a' width="20%" style="margin: 15px 10px 15px 10px;">
-	<ul style="margin-top: 15px;">
-		<li><i>2022.09 - 2023.09</i>: Smart Car Lab, <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, China</li>
-	</ul>
-</div>
-
 # 🔥 News
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">

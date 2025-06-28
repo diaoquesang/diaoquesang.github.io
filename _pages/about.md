@@ -127,7 +127,7 @@ redirect_from:
 		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
 		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
 		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
-		<li><i>2024</i>: <a href="http://gjcxcy.bjtu.edu.cn/">National Undergraduate Innovation and Entrepreneurship Training Program of China</a> (<strong>Project Leader</strong>, <strong>CNY 10,000.00</strong>)</li>
+		<li><i>2024</i>: <a href="http://gjcxcy.bjtu.edu.cn/">National Undergraduate Innovation and Entrepreneurship Training Program of China</a> (<strong>Early Completion</strong>, <strong>Project Leader</strong>, <strong>CNY 10,000.00</strong>)</li>
 		<li><i>2024</i>: <a href="https://joint.hdu.edu.cn/2024/0307/c6515a261379/page.htm">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
 	</ul>
 </div>
@@ -212,6 +212,37 @@ redirect_from:
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 
+# 🏇🏻 Competition
+
+## International & National Prizes
+
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
+	<ul>
+		<li><i>2025</i>: <a href="http://www.fwwb.org.cn/">China College Students' Service Outsourcing Innovation and Entrepreneurship Competition</a> (<b>National Third Prize</b>, <b>Key Member</b>)</li>
+		<li><i>2025</i>: <a href="https://culsc.cn/#/Home">China Undergraduate Life Sciences Contest (Innovation and Entrepreneurship Category)</a> (<b>National Third Prize</b>, <b>Key Member</b>)</li>
+		<li><i>2024</i>: <a href="https://pilcchina.org/home">China International College Students' Innovation Competition</a> (<b>International Bronze Medal</b>, <b>Project Leader</b>)</li>
+		<li><i>2024</i>: <a href="https://gxict.bupt.edu.cn">ICT Industry-Teaching Integration Innovation Competition</a> (<b>National Second Prize</b>, <b>Key Member</b>)</li>
+		<li><i>2023</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<b>National Gold Medal</b>, <b>Key Member</b>)</li>
+		<li><i>2023</i>: <a href="https://pilcchina.org/home">China International College Students' Innovation Competition</a> (<b>International Bronze Medal</b>, <b>Key Member</b>)</li>
+		<li><i>2023</i>: <a href="https://www.smartcar.zone/index.html">National Smart Car Competition for College Students</a> (<b>National First Prize</b>, <b>Key Member</b>)</li>
+	</ul>
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
+
+## Regional & Provincial Prizes
+
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
+	<ul>
+		<li><i>2025</i>: <a href="http://www.3chuang.net/">National College Student E-Commerce “Innovation, Creativity and Entrepreneurship” Competition</a> (<b>Provincial Second Prize</b>, <b>Key Member</b>)</li>
+		<li><i>2025</i>: <a href="https://tiaozhanbei.net/">"Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition</a> (<b>Provincial Bronze Medal</b>, <b>Project Leader</b>)</li>
+		<li><i>2024</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<b>Provincial Silver Medal</b>, <b>Project Leader</b>)</li>
+		<li><i>2024</i>: <a href="https://tiaozhanbei.net/">"Challenge Cup" China College Student Business Plan Competition</a> (<b>Provincial Bronze Medal</b>, <b>Key Member</b>)</li>
+		<li><i>2024</i>: <a href="http://www.fwwb.org.cn/">China College Students' Service Outsourcing Innovation and Entrepreneurship Competition</a> (<b>Regional Third Prize</b>, <b>Project Leader</b>)</li>
+		<li><i>2023</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<b>Provincial Bronze Medal</b>, <b>Key Member</b>)</li>
+	</ul>
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
+
 # 📱 Software
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.04</div><img src='images/IDSODBBFMI.gif' alt="sym" width="100%"></div></div>
@@ -220,8 +251,6 @@ redirect_from:
 [Intelligent Diagnosis System for Ophthalmic Diseases Based on Binocular Fundus Medical Imaging (V1.0)](https://www.ccopyright.com/)
 
 Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
-
-<i><strong>Third Prize</strong> of the 16th China College Students’ Service Outsourcing Innovation and Entrepreneurship Competition</i>
 
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
 </div>
@@ -234,8 +263,6 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
   
 <b>Yifei Sun</b>, Ruihan Yang, Zhanghao Chen
 
-<i><strong>Bronze Award</strong> of the China International College Students’ Innovation Competition 2024</i>
-
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
 </div>
 </div>
@@ -245,19 +272,19 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
 <ul>
 
 <li>
-<span class="highlight">2025.02</span> <a href="https://www.ccopyright.com/">Medical Intelligent MRI-PET Cross-Modal Conversion System (V1.0)</a> <b>Yifei Sun</b>, Xiangyang Hu, Xiangyu Shen, Junhao Jia, Yuanhan Wang
+<i>2025.02</i>: <a href="https://www.ccopyright.com/">Medical Intelligent MRI-PET Cross-Modal Conversion System (V1.0)</a> <b>Yifei Sun</b>, Xiangyang Hu, Xiangyu Shen, Junhao Jia, Yuanhan Wang
 </li>
 
 <li>
-<span class="highlight">2025.02</span> <a href="https://www.ccopyright.com/">Medical Intelligence-Assisted Lung Cancer CT Image Classification Software (V1.0)</a> Yuanhan Wang, Guanyu Zhou, <b>Yifei Sun</b>, Heng Xu, Yutian Wang
+<i>2025.02</i>: <a href="https://www.ccopyright.com/">Medical Intelligence-Assisted Lung Cancer CT Image Classification Software (V1.0)</a> Yuanhan Wang, Guanyu Zhou, <b>Yifei Sun</b>, Heng Xu, Yutian Wang
 </li>
 
 <li>
-<span class="highlight">2024.08</span> <a href="https://www.ccopyright.com/">Common Portal Platform for the Digital Security Conference (V1.0)</a> <b>Yifei Sun</b>, Linfeng Luo, Ruihan Yang, Yuyun Xiang, Zhihao Wu
+<i>2024.08</i>: <a href="https://www.ccopyright.com/">Common Portal Platform for the Digital Security Conference (V1.0)</a> <b>Yifei Sun</b>, Linfeng Luo, Ruihan Yang, Yuyun Xiang, Zhihao Wu
 </li>
 
 <li>
-<span class="highlight">2024.08</span> <a href="https://www.ccopyright.com/">Common Portal Applet Software for the Digital Security Conference (V1.0)</a> <b>Yifei Sun</b>, Ruihan Yang, Yuyun Xiang, Linfeng Luo, Zhihao Wu
+<i>2024.08</i>: <a href="https://www.ccopyright.com/">Common Portal Applet Software for the Digital Security Conference (V1.0)</a> <b>Yifei Sun</b>, Ruihan Yang, Yuyun Xiang, Linfeng Luo, Zhihao Wu
 </li>
 
 </ul>

@@ -21,11 +21,11 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
-  - title: "Academic Services"
-    url: "/#-academic-services"
-
   - title: "Software"
     url: "/#-software"
+
+  - title: "Competitions"
+    url: "/#-competitions"
 
   - title: "My Favorite Music"
     url: "/#-my-favorite-music"

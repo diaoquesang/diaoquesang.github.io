@@ -211,18 +211,6 @@ redirect_from:
 
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
- 
-# 🔖 Academic Services
-
-## Conference Reviewers
-
-<div style="max-height: 300px; overflow: auto; font-size: 15px;">
-	<ul>
-		<li>ACM Multimedia (<strong>ACM MM</strong>) <a href="https://acmmm2025.org/">2025</a></li>
-	</ul>
-</div>
-<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
-
 
 # 📱 Software
 

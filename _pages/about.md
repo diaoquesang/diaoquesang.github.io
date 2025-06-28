@@ -19,7 +19,7 @@ redirect_from:
 
 # 😉 About Me
 
-🌱 Hi, I'm a 3rd-year undergraduate student studying **Computer Science and Technology** at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), supervised by [Prof. Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) in [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) and [Prof. Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505) in [the Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/).
+🌱 Hi, I'm a 3rd-year undergraduate student studying **Computer Science and Technology** at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), supervised by [Prof. Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) in [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) and [Prof. Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505) in <img src="https://github.com/user-attachments/assets/d6e5f702-ea01-4251-9679-f274039bc9e3" style="width: 1em;"> <a href="https://www.cuhk.edu.cn/"> [the Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/).
 
 🔭 I'm currently focused on **Medical Image Analysis**, **Computer Vision**, and **Generative Models**.
 
@@ -71,13 +71,13 @@ redirect_from:
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/4a96ec08-666c-493e-9a03-7962a47204f4' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2025.06 - Present</i>, Research Intern: <a href="http://realdoctor.zju.edu.cn/index/">Real Doctor AI Research Center</a>, <a href="https://www.zju.edu.cn/">Zhejiang University</a>, Hangzhou, China</li>
+		<li><i>2025.06 - Present</i>, Research Intern: <img src="https://github.com/user-attachments/assets/d30e6690-19ad-4537-8871-95a3dea2c0f0" style="width: 1em;"> <a href="http://realdoctor.zju.edu.cn/index/">Real Doctor AI Research Center</a>, <img src="https://github.com/user-attachments/assets/6d254228-8179-4b4e-a09d-6f68817db962" style="width: 1em;"> <a href="https://www.zju.edu.cn/">Zhejiang University</a>, Hangzhou, China</li>
 	</ul>
 </div>
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/d3abf202-2e01-4c71-8050-2b15c7827409' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2023.06 - Present</i>, Research Intern: <img src="https://github.com/user-attachments/assets/83d4f53d-1321-4278-90b1-4b0659ad8feb" style="width: 1em;"> <a href="https://www.sribd.cn/">Shenzhen Research Institute of Big Data</a>, <a href="https://www.cuhk.edu.cn/">The Chinese University of Hong Kong, Shenzhen</a>, Shenzhen, China</li>
+		<li><i>2023.06 - Present</i>, Research Intern: <img src="https://github.com/user-attachments/assets/83d4f53d-1321-4278-90b1-4b0659ad8feb" style="width: 1em;"> <a href="https://www.sribd.cn/">Shenzhen Research Institute of Big Data</a>, <img src="https://github.com/user-attachments/assets/d6e5f702-ea01-4251-9679-f274039bc9e3" style="width: 1em;"> <a href="https://www.cuhk.edu.cn/">The Chinese University of Hong Kong, Shenzhen</a>, Shenzhen, China</li>
 	</ul>
 </div>
 

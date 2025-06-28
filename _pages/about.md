@@ -270,7 +270,7 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
 		<li><i>2025</i>: <a href="http://www.fwwb.org.cn/">China College Students' Service Outsourcing Innovation and Entrepreneurship Competition</a> (<strong>National Third Prize</strong>, <strong>Key Member</strong>)</li>
 		<li><i>2025</i>: <a href="https://culsc.cn/#/Home">China Undergraduate Life Sciences Contest (Innovation and Entrepreneurship Category)</a> (<strong>National Third Prize</strong>, <strong>Key Member</strong>)</li>
 		<li><i>2024</i>: <a href="https://pilcchina.org/home">China International College Students' Innovation Competition</a> (<strong>International Bronze Medal</strong>, <strong>Project Leader</strong>)</li>
-		<li><i>2024</i>: <a href="https://gxict.bupt.edu.cn">ICT Industry-Teaching Integration Innovation Competition</a> (<strong>National Second Prize</strong>, <strong>Key Member</strong>)</li>
+		<li><i>2024</i>: <a href="https://news.bupt.edu.cn/info/1012/31306.htm">ICT Industry-Teaching Integration Innovation Competition</a> (<strong>National Second Prize</strong>, <strong>Key Member</strong>)</li>
 		<li><i>2023</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<strong>National Gold Medal</strong>, <strong>Key Member</strong>)</li>
 		<li><i>2023</i>: <a href="https://pilcchina.org/home">China International College Students' Innovation Competition</a> (<strong>International Bronze Medal</strong>, <strong>Key Member</strong>)</li>
 		<li><i>2023</i>: <a href="https://www.smartcar.zone/index.html">National Smart Car Competition for College Students</a> (<strong>National First Prize</strong>, <strong>Key Member</strong>)</li>

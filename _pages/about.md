@@ -157,7 +157,7 @@ redirect_from:
 
 
 
-<div style="max-height: 600px; overflow: auto; font-size: 15px;">
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	
 <ul>
 
@@ -197,7 +197,7 @@ redirect_from:
 </div>
 
 
-<div style="max-height: 600px; overflow: auto; font-size: 15px;">
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	
 <ul>
 	
@@ -209,6 +209,25 @@ redirect_from:
 
 </div>
 
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
+
+# 🔬 Patents
+
+## CN Patents
+
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
+	<ul>
+		<li><i>2025</i>: 一种不完整多模态分层特征融合网络的MCI转换分类方法 (<strong>受理</strong>, <strong>第四发明人</strong>)</li>
+		<li><i>2025</i>: 一种基于选择性状态空间融合的眼科影像分类方法 (<strong>公布</strong>, <strong>第二发明人</strong>)</li>
+		<li><i>2025</i>: 一种基于NRGMFF和fMRI的脑疾病分类方法 (<strong>受理</strong>, <strong>第二发明人</strong>)</li>
+		<li><i>2025</i>: 一种基于GL-LCM模型的高分辨率胸部X光图像骨抑制方法 (<strong>初审合格</strong>, <strong>第一发明人</strong>)</li>
+		<li><i>2024</i>: 基于不完整三模态共注意融合的轻度认知障碍转换预测方法 (<strong>公布</strong>, <strong>第四发明人</strong>)</li>
+		<li><i>2024</i>: 一种基于多模态注意力融合网络的ADHD分类诊断方法 (<strong>公布</strong>, <strong>第六发明人</strong>)</li>
+		<li><i>2024</i>: 一种基于BS-LDM模型的高分辨率胸部X光图像骨抑制方法 (<strong>公布</strong>, <strong>第一发明人</strong>)</li>
+		<li><i>2023</i>: 一种基于TC-DiffRecon模型的纹理协调的MRI图像重建方法 (<strong>公布</strong>, <strong>第四发明人</strong>)</li>
+		<li><i>2023</i>: 一种基于条件扩散模型的胸部X光图像骨抑制方法 (<strong>公布</strong>, <strong>第一发明人</strong>)</li>
+	</ul>
+</div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 # 📱 Software
@@ -235,7 +254,7 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
-<div style="max-height: 600px; overflow: auto; font-size: 15px;">
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	
 <ul>
 

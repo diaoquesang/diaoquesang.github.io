@@ -21,6 +21,9 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
+  - title: "Patents"
+    url: "/#-patents"
+
   - title: "Software"
     url: "/#-software"
 

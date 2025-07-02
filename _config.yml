@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yifei Sun (孙逸飞)"
-description              : "Undergraduate student at Hangzhou Dianzi University<br>MICCAI Student Member"
+description              : "Undergraduate Student at Hangzhou Dianzi University<hr style="margin: 0.5em 0;">MICCAI Student Member"
 repository               : "diaoquesang/diaoquesang.github.io"
 google_scholar_stats_use_cdn : true
 

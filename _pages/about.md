@@ -459,7 +459,7 @@ HITA
 
 [桃花诺](https://www.bilibili.com/video/BV1y24y1j7Ba/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/o00230ukvzb)
 
-邓紫棋
+G.E.M. 邓紫棋
 
 <i>上古情歌 电视剧原声带 2017</i>
 

@@ -454,23 +454,6 @@ HITA
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">上古情歌 电视剧原声带 2017</div><img src='images/taohuanuo.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[桃花诺](https://www.bilibili.com/video/BV1y24y1j7Ba/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/o00230ukvzb)
-
-G.E.M. 邓紫棋
-
-<i>上古情歌 电视剧原声带 2017</i>
-
-<audio class="myAudio" loop controls>
-  <source src="music/taohuanuo.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Wild 2017</div><img src='images/Wild.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

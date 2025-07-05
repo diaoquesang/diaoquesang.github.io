@@ -329,7 +329,7 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
   document.addEventListener('DOMContentLoaded', function() {
     var audios = document.getElementsByClassName('myAudio');
     for (var i = 0; i < audios.length; i++) {
-                audios[i].volume = 0.2; // 设置音量为20%
+                audios[i].volume = 0.3; // 设置音量为30%
             }
   });
 </script>

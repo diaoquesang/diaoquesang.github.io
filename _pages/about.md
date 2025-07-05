@@ -472,6 +472,23 @@ Monogem
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">越难越爱 Love Collection 精选 2014</div><img src='images/yuenanyueai.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[越难越爱](https://www.bilibili.com/video/BV1k14y1r7Pa/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/j0034ce6bmx)
+
+吴若希
+
+<i>越难越爱 Love Collection 精选 2014</i>
+
+<audio class="myAudio" loop controls>
+  <source src="music/yuenanyueai.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Speak A Little Louder 2013</div><img src='images/Staring at You.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

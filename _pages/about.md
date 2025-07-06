@@ -165,15 +165,16 @@ redirect_from:
 
 
 <li>
-<span class="highlight">ISBI 2025 (Oral)</span> <a href="http://arxiv.org/abs/2501.11276">ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction</a> <a href="https://github.com/justinhxy/ITFC">[🧑🏻‍💻 Code]</a> Xiangyang Hu, Xiangyu Shen, <b>Yifei Sun</b>, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge<sup>†</sup>, Changmiao Wang<sup>†</sup>, Xiaopeng Fan
+<span class="highlight">ISBI 2025 (Oral)</span> <a href="http://arxiv.org/abs/2501.11276">ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction</a> <a href="https://github.com/justinhxy/ITFC">[🧑🏻‍💻 Code]</a> Xiangyang Hu, Xiangyu Shen, <b>Yifei Sun</b>, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge<sup>†</sup>, Changmiao Wang<sup>†</sup>, Xiaopeng Fan <i>IEEE International Symposium on Biomedical Imaging (<strong>ISBI</strong>) 2025 (<strong>Oral</strong>)</i>
+
 </li>
 
 <li>
-<span class="highlight">ISBI 2024 (Oral)</span> <a href="https://ieeexplore.ieee.org/abstract/document/10635371/">BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images</a> <a href="https://github.com/Benny0323/BS-Diff">[🧑🏻‍💻 Code]</a> <a href="https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/">[🗒️ Survey]</a> Zhanghao Chen, <b>Yifei Sun</b>, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>
+<span class="highlight">ISBI 2024 (Oral)</span> <a href="https://ieeexplore.ieee.org/abstract/document/10635371/">BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images</a> <a href="https://github.com/Benny0323/BS-Diff">[🧑🏻‍💻 Code]</a> <a href="https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/">[🗒️ Survey]</a> Zhanghao Chen, <b>Yifei Sun</b>, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup> <i>IEEE International Symposium on Biomedical Imaging (<strong>ISBI</strong>) 2024 (<strong>Oral</strong>)</i>
 </li>
 
 <li>
-<span class="highlight">ICSIP 2023</span> <a href="https://ieeexplore.ieee.org/abstract/document/10270849/">RTUNet++: Assessment of Osteosarcoma MRI Image Segmentation leveraging Hybrid CNN-Transformer Approach with Dense Skip Connection</a> Binfeng Zou, Yifei Chen, Zhanghao Chen, <b>Yifei Sun</b>, Yifan Huang, Feiwei Qin<sup>†</sup>, Changmiao Wang
+<span class="highlight">ICSIP 2023</span> <a href="https://ieeexplore.ieee.org/abstract/document/10270849/">RTUNet++: Assessment of Osteosarcoma MRI Image Segmentation leveraging Hybrid CNN-Transformer Approach with Dense Skip Connection</a> Binfeng Zou, Yifei Chen, Zhanghao Chen, <b>Yifei Sun</b>, Yifan Huang, Feiwei Qin<sup>†</sup>, Changmiao Wang <i>International Conference on Signal and Image Processing (<strong>ICSIP</strong>) 2023</i>
 </li>
 
 </ul>
@@ -203,7 +204,7 @@ redirect_from:
 <ul>
 	
 <li>
-<span class="highlight">CIBM 2024 (ESI Highly Cited Paper)</span> <a href="https://www.sciencedirect.com/science/article/pii/S0010482524000015">ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction</a> <a href="https://github.com/justlfc03/mfds-detr">[🧑🏻‍💻 Code]</a> Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, <b>Yifei Sun</b>, Changmiao Wang<sup>†</sup>, Xianjun Fu, Yuxing Dai, Feiwei Qin<sup>†</sup>, Yong Peng, Yu Gao
+<span class="highlight">CIBM 2024 (ESI Highly Cited Paper)</span> <a href="https://www.sciencedirect.com/science/article/pii/S0010482524000015">ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction</a> <a href="https://github.com/justlfc03/mfds-detr">[🧑🏻‍💻 Code]</a> Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, <b>Yifei Sun</b>, Changmiao Wang<sup>†</sup>, Xianjun Fu, Yuxing Dai, Feiwei Qin<sup>†</sup>, Yong Peng, Yu Gao <i>Computers in Biology and Medicine (<strong>CIBM</strong>) 2024 (<strong>ESI Highly Cited Paper</strong>)</i>
 </li>
 
 </ul>

@@ -335,8 +335,6 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
   });
 </script>
 
-<div style="max-height: 600px; overflow: auto; font-size: 15px;">
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Deadman 2025</div><img src='images/Deadman.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
@@ -523,9 +521,5 @@ Michita
 
 </div>
 </div>
-
-</div>
-<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
-
 
 

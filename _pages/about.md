@@ -488,6 +488,23 @@ Monogem
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">中国之星 第3期 2015</div><img src='images/geini.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[给你一点颜色](https://www.bilibili.com/video/BV1oG411H7PW/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/g00411qzdec)
+
+Monogem
+
+<i>中国之星 第3期 2015</i>
+
+<audio class="myAudio" loop controls>
+  <source src="music/geini.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">越难越爱 Love Collection 精选 2014</div><img src='images/yuenanyueai.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

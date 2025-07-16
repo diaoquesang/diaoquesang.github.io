@@ -406,7 +406,7 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">如果可以 2021</div><img src='images/ruguokeyi.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[如果可以](https://www.bilibili.com/video/BV1PT421X7EZ/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[如果可以](https://www.bilibili.com/video/BV1PT421X7EZ/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/o0041k2q3in)
   
 韦礼安
 

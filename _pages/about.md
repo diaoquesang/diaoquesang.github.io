@@ -150,7 +150,7 @@ redirect_from:
 
 <i>International Conference on Medical Image Computing and Computer Assisted Intervention (<strong>MICCAI</strong>) 2025</i>
 
-![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
+![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Segmentation-224B8D)
 </div>
 </div>
 
@@ -241,7 +241,7 @@ redirect_from:
 
 Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
 
-![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Classification-224B8D)
+![](https://img.shields.io/badge/Classification-224B8D) ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
 </div>
 </div>
 

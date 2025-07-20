@@ -165,7 +165,7 @@ redirect_from:
 
 
 <li>
-<span class="highlight">ISBI 2025 (Oral)</span> <a href="http://arxiv.org/abs/2501.11276">ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction</a> <a href="https://github.com/justinhxy/ITFC">[🧑🏻‍💻 Code]</a> Xiangyang Hu, Xiangyu Shen, <b>Yifei Sun</b>, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge<sup>†</sup>, Changmiao Wang<sup>†</sup>, Xiaopeng Fan <i>IEEE International Symposium on Biomedical Imaging (<strong>ISBI</strong>) 2025 (<strong>Oral</strong>)</i>
+<span class="highlight">ISBI 2025 (Oral)</span> <a href="https://ieeexplore.ieee.org/abstract/document/10980706">ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction</a> <a href="https://github.com/justinhxy/ITFC">[🧑🏻‍💻 Code]</a> Xiangyang Hu, Xiangyu Shen, <b>Yifei Sun</b>, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge<sup>†</sup>, Changmiao Wang<sup>†</sup>, Xiaopeng Fan <i>IEEE International Symposium on Biomedical Imaging (<strong>ISBI</strong>) 2025 (<strong>Oral</strong>)</i>
 
 </li>
 

@@ -543,7 +543,7 @@ Michita
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">下一个天亮 2008</div><img src='images/aiqingxunxi.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[爱情讯息](https://www.bilibili.com/video/BV1q77VzFEpS/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[爱情讯息](https://www.bilibili.com/video/BV1q77VzFEpS/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/k0017duyjn6)
 
 郭静
 

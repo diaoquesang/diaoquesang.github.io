@@ -540,6 +540,23 @@ Michita
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">在树上唱歌 2009</div><img src='images/xinqiang.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[心墙](https://www.bilibili.com/video/BV1YWV8zxEA8?spm_id_from=333.788.videopod.sections&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/o0011gdh97u)
+
+郭静
+
+<i>在树上唱歌 2009</i>
+
+<audio class="myAudio" loop controls>
+  <source src="music/xinqiang.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">下一个天亮 2008</div><img src='images/aiqingxunxi.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

@@ -25,7 +25,7 @@ redirect_from:
 
 🔖 Academic Services: Conference Reviewers of **ACM MM**<sub>[2025](https://acmmm2025.org/)</sub>.
 
-📫 How to reach me: [szhsxhsyf@hdu.edu.cn](mailto:szhsxhsyf@hdu.edu.cn).
+📫 How to reach me: [diaoquesang@gmail.com](mailto:diaoquesang@gmail.com).
 
 
 

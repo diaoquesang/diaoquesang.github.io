@@ -85,10 +85,11 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
+		<li><i>2025.08</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">CIBM 2024</a> was selected for <strong>ESI Top 0.1% Hot Papers</strong>!</li>
 		<li><i>2025.07</i>: &nbsp;🎉🎉 Our new paper for <a href="https://www.embs.org/jbhi/">JBHI 2025</a> was <strong>Accepted</strong>!</li>
 		<li><i>2025.06</i>: &nbsp;🎉🎉 Our new paper for <a href="https://conferences.miccai.org/2025/en/default.asp">MICCAI 2025</a> was <strong>Accepted</strong>!</li>
 		<li><i>2025.02</i>: &nbsp;🎉🎉 Our paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was selected for <strong>Oral Presentation</strong>!</li>
-		<li><i>2025.01</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">CIBM 2024</a> was selected for <strong>ESI Top 1% Highly Cited Paper</strong>!</li>
+		<li><i>2025.01</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">CIBM 2024</a> was selected for <strong>ESI Top 1% Highly Cited Papers</strong>!</li>
 		<li><i>2025.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was <strong>Accepted</strong>!</li>
 		<li><i>2024.04</i>: &nbsp;🎉🎉 Our paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was selected for <strong>Oral Presentation</strong>!</li>
 		<li><i>2024.02</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was <strong>Accepted</strong>!</li>
@@ -204,7 +205,7 @@ redirect_from:
 <ul>
 	
 <li>
-<span class="highlight">CIBM 2024 (ESI Highly Cited Paper)</span> <a href="https://www.sciencedirect.com/science/article/pii/S0010482524000015">Accurate Leukocyte Detection Based on Deformable-DETR and Multi-Level Feature Fusion for Aiding Diagnosis of Blood Diseases</a> <a href="https://github.com/justlfc03/mfds-detr">[🧑🏻‍💻 Code]</a> Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, <b>Yifei Sun</b>, Changmiao Wang<sup>†</sup>, Xianjun Fu, Yuxing Dai, Feiwei Qin<sup>†</sup>, Yong Peng, Yu Gao <i>Computers in Biology and Medicine (<strong>CIBM</strong>) 2024 (<strong>ESI Highly Cited Paper</strong>)</i>
+<span class="highlight">CIBM 2024 (ESI Hot Paper)</span> <a href="https://www.sciencedirect.com/science/article/pii/S0010482524000015">Accurate Leukocyte Detection Based on Deformable-DETR and Multi-Level Feature Fusion for Aiding Diagnosis of Blood Diseases</a> <a href="https://github.com/justlfc03/mfds-detr">[🧑🏻‍💻 Code]</a> Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, <b>Yifei Sun</b>, Changmiao Wang<sup>†</sup>, Xianjun Fu, Yuxing Dai, Feiwei Qin<sup>†</sup>, Yong Peng, Yu Gao <i>Computers in Biology and Medicine (<strong>CIBM</strong>) 2024 (<strong>ESI Hot Paper</strong>)</i>
 </li>
 
 </ul>

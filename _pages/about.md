@@ -171,7 +171,7 @@ redirect_from:
 </li>
 
 <li>
-<span class="highlight">ISBI 2024 (Oral)</span> <a href="https://ieeexplore.ieee.org/abstract/document/10635371/">BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images</a> <a href="https://github.com/Benny0323/BS-Diff">[🧑🏻‍💻 Code]</a> <a href="https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/">[🗒️ Survey]</a> Zhanghao Chen, <b>Yifei Sun</b>, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup> <i>IEEE International Symposium on Biomedical Imaging (<strong>ISBI</strong>) 2024 (<strong>Oral</strong>)</i>
+<span class="highlight">ISBI 2024 (Oral)</span> <a href="https://ieeexplore.ieee.org/abstract/document/10635371/">BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images</a> <a href="https://github.com/Benny0323/BS-Diff">[🧑🏻‍💻 Code]</a> <a href="https://benny0323.github.io/BS-Diff-Project-Page/">[🌐 Project Page]</a> <a href="https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/">[🗒️ Survey]</a> Zhanghao Chen, <b>Yifei Sun</b>, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup> <i>IEEE International Symposium on Biomedical Imaging (<strong>ISBI</strong>) 2024 (<strong>Oral</strong>)</i>
 </li>
 
 <li>

@@ -235,17 +235,6 @@ redirect_from:
 
 # 📱 Software
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.04</div><img src='images/IDSODBBFMI.gif' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[Intelligent Diagnosis System for Ophthalmic Diseases Based on Binocular Fundus Medical Imaging (V1.0)](https://www.ccopyright.com/)
-
-Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
-
-![](https://img.shields.io/badge/Classification-224B8D) ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.11</div><img src='images/DMBBSSCXR.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
@@ -257,9 +246,24 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.04</div><img src='images/IDSODBBFMI.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[Intelligent Diagnosis System for Ophthalmic Diseases Based on Binocular Fundus Medical Imaging (V1.0)](https://www.ccopyright.com/)
+
+Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
+
+![](https://img.shields.io/badge/Classification-224B8D) ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D)
+</div>
+</div>
+
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	
 <ul>
+
+<li>
+<i>2025.08</i>: <a href="https://www.ccopyright.com/">Intelligent Detection System for Fine-Grained Ocular Lesions Oriented to Clinical Interpretability (V1.0)</a> Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
+</li>
 
 <li>
 <i>2025.02</i>: <a href="https://www.ccopyright.com/">Medical Intelligent MRI-PET Cross-Modal Conversion System (V1.0)</a> <b>Yifei Sun</b>, Xiangyang Hu, Xiangyu Shen, Junhao Jia, Yuanhan Wang

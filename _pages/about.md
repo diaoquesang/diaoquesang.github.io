@@ -137,7 +137,7 @@ redirect_from:
 
 # 💡 Publications
 
-<div style="margin-bottom: 5px; font-size: small; margin-top: 0px;"><sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author(s)</div>
+<div style="margin-bottom: 5px; font-size: small; margin-top: 0px;"><sup>*</sup>: Equal Contribution, <sup>†</sup>: Corresponding Author(s)</div>
 
 ## Conference Papers
 

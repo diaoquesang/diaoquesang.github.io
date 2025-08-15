@@ -226,7 +226,7 @@ redirect_from:
 		<li><i>2025</i>: <a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于GL-LCM模型的高分辨率胸部X光图像骨抑制方法</a> (<strong>公开</strong>, <strong>第一发明人</strong>)</li>
 		<li><i>2024</i>: <a href="https://pss-system.cponline.cnipa.gov.cn/">基于不完整三模态共注意融合的轻度认知障碍转换预测方法</a> (<strong>公开</strong>, <strong>第四发明人</strong>)</li>
 		<li><i>2024</i>: <a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于多模态注意力融合网络的ADHD分类诊断方法</a> (<strong>公开</strong>, <strong>第六发明人</strong>)</li>
-		<li><i>2024</i>: <a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于BS-LDM模型的高分辨率胸部X光图像骨抑制方法</a> (<strong>公开</strong>, <strong>第一发明人</strong>)</li>
+		<li><i>2024</i>: <a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于BS-LDM模型的高分辨率胸部X光图像骨抑制方法</a> (<strong>授权</strong>, <strong>第一发明人</strong>)</li>
 		<li><i>2023</i>: <a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于TC-DiffRecon模型的纹理协调的MRI图像重建方法</a> (<strong>公开</strong>, <strong>第四发明人</strong>)</li>
 		<li><i>2023</i>: <a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于条件扩散模型的胸部X光图像骨抑制方法</a> (<strong>公开</strong>, <strong>第一发明人</strong>)</li>
 	</ul>

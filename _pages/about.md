@@ -342,6 +342,24 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
   });
 </script>
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">危机合约净罪作战OST 2025</div><img src='images/Battleplan Extinguished Sins.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[Battleplan Extinguished Sins](https://www.bilibili.com/video/BV1HWNHevEgG/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+  
+塞壬唱片-MSR/Nocturne & Heretic/FROOT JOOCE
+
+<i>危机合约净罪作战OST 2025</i>
+
+<audio class="myAudio" loop controls>
+  <source src="music/Battleplan Extinguished Sins.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Deadman 2025</div><img src='images/Deadman.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   

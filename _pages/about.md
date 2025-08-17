@@ -342,6 +342,22 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
   });
 </script>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">危机合约弧光作战OST 2025</div><img src='images/Battleplan Arclight.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[Battleplan Arclight](https://www.bilibili.com/video/BV1WxbrzmECg?spm_id_from=333.788.videopod.sections&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+  
+塞壬唱片-MSR/Alaina Cross
+
+<i>危机合约弧光作战OST 2025</i>
+
+<audio class="myAudio" loop controls>
+  <source src="music/Battleplan Arclight.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">危机合约净罪作战OST 2025</div><img src='images/Battleplan Extinguished Sins.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

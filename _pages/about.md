@@ -342,14 +342,14 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
   });
 </script>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">in your blue eyes</div><img src='images/in your blue eyes.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">in your blue eyes 2025</div><img src='images/in your blue eyes.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [in your blue eyes](https://www.bilibili.com/video/BV118aXzsEvK/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
   
 Ave Mujica/塞壬唱片-MSR
 
-<i>in your blue eyes</i>
+<i>in your blue eyes 2025</i>
 
 <audio class="myAudio" loop controls>
   <source src="music/in your blue eyes.mp3" type="audio/mpeg">

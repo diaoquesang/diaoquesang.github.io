@@ -342,6 +342,23 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
   });
 </script>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">in your blue eyes</div><img src='images/in your blue eyes.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[in your blue eyes](https://www.bilibili.com/video/BV118aXzsEvK/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+  
+Ave Mujica/塞壬唱片-MSR
+
+<i>in your blue eyes</i>
+
+<audio class="myAudio" loop controls>
+  <source src="music/in your blue eyes.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">危机合约弧光作战OST 2025</div><img src='images/Battleplan Arclight.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   

@@ -262,6 +262,10 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
 <ul>
 
 <li>
+<i>2025.09</i>: <a href="https://www.ccopyright.com/">Medical Intelligent Chest X-Ray Bone Suppression System (V1.0)</a> Ruihan Yang, Linfeng Luo, Xiaoyu Huang, <b>Yifei Sun</b>, Junhao Jia
+</li>
+
+<li>
 <i>2025.08</i>: <a href="https://www.ccopyright.com/">Intelligent Detection System for Fine-Grained Ocular Lesions Oriented to Clinical Interpretability (V1.0)</a> Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
 </li>
 

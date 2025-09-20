@@ -19,7 +19,8 @@ redirect_from:
 
 # 😉 About Me
 
-🌱 Hi, I'm a 4th-year undergraduate student studying **Computer Science and Technology** at <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), supervised by [Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) in <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) and [Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505) in <img src="https://github.com/user-attachments/assets/d6e5f702-ea01-4251-9679-f274039bc9e3" style="width: 1em;"> <a href="https://www.cuhk.edu.cn/"> [the Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/).
+🌱 Hi, I'm a 4th-year undergraduate student studying **Computer Science and Technology** at <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm), supervised by [Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) and [Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505). I'm also an incoming PhD student studying **Computer Science and Technology** at <img src="https://github.com/user-attachments/assets/6f365bf4-e50c-41d9-a569-3a0f71bba898" style="width: 1em;"> [Zhejiang University](https://www.zju.edu.cn), supervised by [Jian Wu（吴健）](https://person.zju.edu.cn/0004274).
+
 
 🔭 I'm currently focused on **Medical Image Analysis**, **Computer Vision**, and **Generative Models**.
 

@@ -57,7 +57,7 @@ redirect_from:
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/fed68c18-ae52-48d1-9c45-703a3555f77a' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>Expected 2026.9 - Expected 2031.6</i>, PhD Student: Computer Science and Technology, <img src="https://github.com/user-attachments/assets/d30e6690-19ad-4537-8871-95a3dea2c0f0" style="width: 1em;"> <a href="https://www.zju.edu.cn">Zhejiang University</a>, Hangzhou, China, Supervised by <a href="https://person.zju.edu.cn/0004274">Jian Wu（吴健）</a></li>
+		<li>Incoming PhD Student: Computer Science and Technology, <img src="https://github.com/user-attachments/assets/d30e6690-19ad-4537-8871-95a3dea2c0f0" style="width: 1em;"> <a href="https://www.zju.edu.cn">Zhejiang University</a>, Hangzhou, China, Supervised by <a href="https://person.zju.edu.cn/0004274">Jian Wu（吴健）</a></li>
 	</ul>
 </div>
 

@@ -57,13 +57,19 @@ redirect_from:
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/fed68c18-ae52-48d1-9c45-703a3555f77a' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2022.08 - Present</i>, Undergraduate Student: Computer Science and Technology, <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, China, Supervised by <a href="https://faculty.hdu.edu.cn/jsjxy/grq/main.htm">Ruiquan Ge（葛瑞泉）</a></li>
+		<li><i>Expected 2026.9 - Expected 2031.6</i>, PhD Student: Computer Science and Technology, <img src="https://github.com/user-attachments/assets/d30e6690-19ad-4537-8871-95a3dea2c0f0" style="width: 1em;"> <a href="https://www.zju.edu.cn">Zhejiang University</a>, Hangzhou, China, Supervised by <a href="https://person.zju.edu.cn/0004274">Jian Wu（吴健）</a></li>
+	</ul>
+</div>
+
+<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/fed68c18-ae52-48d1-9c45-703a3555f77a' width="20%" style="margin: 15px 10px 15px 10px;">
+	<ul style="margin-top: 15px;">
+		<li><i>2022.08 - Expected 2026.6</i>, Undergraduate Student: Computer Science and Technology, <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, China, Supervised by <a href="https://faculty.hdu.edu.cn/jsjxy/grq/main.htm">Ruiquan Ge（葛瑞泉）</a></li>
 	</ul>
 </div>
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/caa9f769-f2fd-482c-aaa5-f9e9d0acc67f' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2022.08 - Present</i>, Undergraduate Student: Computer Science and Technology, <img src="https://github.com/user-attachments/assets/18a69d12-eb7f-4b74-af92-4050d7f12382" style="width: 1em;"> <a href="https://en.itmo.ru/">ITMO University</a>, Saint Petersburg, Russia</li>
+		<li><i>2022.08 - Expected 2026.6</i>, Undergraduate Student: Computer Science and Technology, <img src="https://github.com/user-attachments/assets/18a69d12-eb7f-4b74-af92-4050d7f12382" style="width: 1em;"> <a href="https://en.itmo.ru/">ITMO University</a>, Saint Petersburg, Russia</li>
 	</ul>
 </div>
 
@@ -71,13 +77,13 @@ redirect_from:
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/4a96ec08-666c-493e-9a03-7962a47204f4' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2025.06 - Present</i>, Research Intern: <img src="https://github.com/user-attachments/assets/d30e6690-19ad-4537-8871-95a3dea2c0f0" style="width: 1em;"> <a href="http://realdoctor.zju.edu.cn/index/">Real Doctor AI Research Center</a>, <img src="https://github.com/user-attachments/assets/6d254228-8179-4b4e-a09d-6f68817db962" style="width: 1em;"> <a href="https://www.zju.edu.cn/">Zhejiang University</a>, Hangzhou, China, Supervised by <a href="https://person.zju.edu.cn/0004274">Jian Wu（吴健）</a></li>
+		<li><i>2025.06 - 2025.08</i>, Research Intern: <img src="https://github.com/user-attachments/assets/d30e6690-19ad-4537-8871-95a3dea2c0f0" style="width: 1em;"> <a href="http://realdoctor.zju.edu.cn/index/">Real Doctor AI Research Center</a>, <img src="https://github.com/user-attachments/assets/6d254228-8179-4b4e-a09d-6f68817db962" style="width: 1em;"> <a href="https://www.zju.edu.cn/">Zhejiang University</a>, Hangzhou, China, Supervised by <a href="https://person.zju.edu.cn/0004274">Jian Wu（吴健）</a></li>
 	</ul>
 </div>
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/d3abf202-2e01-4c71-8050-2b15c7827409' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2023.06 - Present</i>, Research Intern: <img src="https://github.com/user-attachments/assets/83d4f53d-1321-4278-90b1-4b0659ad8feb" style="width: 1em;"> <a href="https://www.sribd.cn/">Shenzhen Research Institute of Big Data</a>, <img src="https://github.com/user-attachments/assets/d6e5f702-ea01-4251-9679-f274039bc9e3" style="width: 1em;"> <a href="https://www.cuhk.edu.cn/">The Chinese University of Hong Kong, Shenzhen</a>, Shenzhen, China, Supervised by <a href="https://www.sribd.cn/teacher/505">Changmiao Wang（王昌淼）</a></li>
+		<li><i>2023.06 - 2025.06</i>, Research Intern: <img src="https://github.com/user-attachments/assets/83d4f53d-1321-4278-90b1-4b0659ad8feb" style="width: 1em;"> <a href="https://www.sribd.cn/">Shenzhen Research Institute of Big Data</a>, <img src="https://github.com/user-attachments/assets/d6e5f702-ea01-4251-9679-f274039bc9e3" style="width: 1em;"> <a href="https://www.cuhk.edu.cn/">The Chinese University of Hong Kong, Shenzhen</a>, Shenzhen, China, Supervised by <a href="https://www.sribd.cn/teacher/505">Changmiao Wang（王昌淼）</a></li>
 	</ul>
 </div>
 

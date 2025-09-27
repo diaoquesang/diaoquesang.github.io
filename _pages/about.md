@@ -160,12 +160,14 @@ redirect_from:
 
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Segmentation-224B8D)
 </div>
-</div>
 
 <details close>
-<summary><b>📋 Abstract (Click to Expand)</b></summary>
-Recent studies highlighted a practical setting of unsupervised anomaly detection (UAD) that builds a unified model for multi-class images. Despite various advancements addressing this challenging task, the detection performance under the multi-class setting still lags far behind state-of-the-art class-separated models. Our research aims to bridge this substantial performance gap. In this paper, we present Dinomaly, a minimalist reconstruction-based anomaly detection framework that harnesses pure Transformer architectures without relying on complex designs, additional modules, or specialized tricks. Given this powerful framework consisting of only Attentions and MLPs, we found four simple components that are essential to multi-class anomaly detection: (1) Scalable foundation Transformers that extracts universal and discriminative features, (2) Noisy Bottleneck where pre-existing Dropouts do all the noise injection tricks, (3) Linear Attention that naturally cannot focus, and (4) Loose Reconstruction that does not force layer-to-layer and point-by-point reconstruction. Extensive experiments are conducted across popular anomaly detection benchmarks including MVTec-AD, VisA, and Real-IAD. Our proposed Dinomaly achieves impressive image-level AUROC of 99.6%, 98.7%, and 89.3% on the three datasets respectively, which is not only superior to state-of-the-art multi-class UAD methods, but also achieves the most advanced class-separated UAD records.
+<summary>📋 Abstract (Click to Expand)</summary>
+Chest X-Ray (CXR) imaging for pulmonary diagnosis raises significant challenges, primarily because bone structures can obscure critical details necessary for accurate diagnosis. Recent advances in deep learning, particularly with diffusion models, offer significant promise for effectively minimizing the visibility of bone structures in CXR images, thereby improving clarity and diagnostic accuracy. Nevertheless, existing diffusion-based methods for bone suppression in CXR imaging struggle to balance the complete suppression of bones with preserving local texture details. Additionally, their high computational demand and extended processing time hinder their practical use in clinical settings. To address these limitations, we introduce a Global-Local Latent Consistency Model (GL-LCM) architecture. This model combines lung segmentation, dual-path sampling, and global-local fusion, enabling fast high-resolution bone suppression in CXR images. To tackle potential boundary artifacts and detail blurring in local-path sampling, we further propose Local-Enhanced Guidance, which addresses these issues without additional training. Comprehensive experiments on a self-collected dataset SZCH-X-Rays, and the public dataset JSRT, reveal that our GL-LCM delivers superior bone suppression and remarkable computational efficiency, significantly outperforming several competitive methods. Our code is available at https://github.com/diaoquesang/GL-LCM.
 </details>
+
+</div>
+
 
 
 

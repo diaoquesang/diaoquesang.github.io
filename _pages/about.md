@@ -159,13 +159,13 @@ redirect_from:
 <i>International Conference on Medical Image Computing and Computer Assisted Intervention (<strong>MICCAI</strong>) 2025</i>
 
 ![](https://img.shields.io/badge/Cross--Modal%20Generation-224B8D) ![](https://img.shields.io/badge/Segmentation-224B8D)
-</div>
 
 <details close>
 <summary>📋 Abstract (Click to Expand)</summary>
 Chest X-Ray (CXR) imaging for pulmonary diagnosis raises significant challenges, primarily because bone structures can obscure critical details necessary for accurate diagnosis. Recent advances in deep learning, particularly with diffusion models, offer significant promise for effectively minimizing the visibility of bone structures in CXR images, thereby improving clarity and diagnostic accuracy. Nevertheless, existing diffusion-based methods for bone suppression in CXR imaging struggle to balance the complete suppression of bones with preserving local texture details. Additionally, their high computational demand and extended processing time hinder their practical use in clinical settings. To address these limitations, we introduce a Global-Local Latent Consistency Model (GL-LCM) architecture. This model combines lung segmentation, dual-path sampling, and global-local fusion, enabling fast high-resolution bone suppression in CXR images. To tackle potential boundary artifacts and detail blurring in local-path sampling, we further propose Local-Enhanced Guidance, which addresses these issues without additional training. Comprehensive experiments on a self-collected dataset SZCH-X-Rays, and the public dataset JSRT, reveal that our GL-LCM delivers superior bone suppression and remarkable computational efficiency, significantly outperforming several competitive methods. Our code is available at https://github.com/diaoquesang/GL-LCM.
 </details>
 
+</div>
 </div>
 
 

@@ -196,7 +196,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">JBHI 2025</div><img src='images/BS-LDM.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models](https://ieeexplore.ieee.org/document/11079814) [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/BS-LDM) [[🌐 Page]](https://benny0323.github.io/BS-LDM-Project-Page/) [[🗒️ Survey]](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/)
+[BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models](https://ieeexplore.ieee.org/document/11079814) [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/BS-LDM) [[🌐 Page]](https://benny0323.github.io/BS-LDM-Project-Page/) [[🗒️ Survey]](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/) [[📔 Graph]](https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/main/pdfs/BS-LDM_Graph.pdf)
 
 <b>Yifei Sun</b>, Zhanghao Chen, Hao Zheng, Wenming Deng, Jin Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
 

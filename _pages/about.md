@@ -152,7 +152,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025</div><img src='images/GL-LCM.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images](https://arxiv.org/abs/2508.03357) [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/GL-LCM) [[🌐 Project Page]](https://diaoquesang.github.io/GL-LCM-Project-Page/) [[🗒️ Survey]](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/) [[📜 Poster]](https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/main/pdfs/GL-LCM_Poster.pdf)
+[GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images](https://arxiv.org/abs/2508.03357) [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/GL-LCM) [[🌐 Page]](https://diaoquesang.github.io/GL-LCM-Project-Page/) [[🗒️ Survey]](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/) [[📜 Poster]](https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/main/pdfs/GL-LCM_Poster.pdf)
 
 <b>Yifei Sun</b>, Zhanghao Chen, Hao Zheng, Yuqing Lu, Lixin Duan, Fenglei Fan, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
 
@@ -178,7 +178,7 @@ redirect_from:
 </li>
 
 <li>
-<span class="highlight">ISBI 2024 (Oral)</span> <a href="https://ieeexplore.ieee.org/abstract/document/10635371/">BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images</a> <a href="https://github.com/Benny0323/BS-Diff">[🧑🏻‍💻 Code]</a> <a href="https://benny0323.github.io/BS-Diff-Project-Page/">[🌐 Project Page]</a> <a href="https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/">[🗒️ Survey]</a> Zhanghao Chen, <b>Yifei Sun</b>, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup> <i>IEEE International Symposium on Biomedical Imaging (<strong>ISBI</strong>) 2024 (<strong>Oral</strong>)</i>
+<span class="highlight">ISBI 2024 (Oral)</span> <a href="https://ieeexplore.ieee.org/abstract/document/10635371/">BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images</a> <a href="https://github.com/Benny0323/BS-Diff">[🧑🏻‍💻 Code]</a> <a href="https://benny0323.github.io/BS-Diff-Project-Page/">[🌐 Page]</a> <a href="https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/">[🗒️ Survey]</a> Zhanghao Chen, <b>Yifei Sun</b>, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup> <i>IEEE International Symposium on Biomedical Imaging (<strong>ISBI</strong>) 2024 (<strong>Oral</strong>)</i>
 </li>
 
 <li>
@@ -196,7 +196,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">JBHI 2025</div><img src='images/BS-LDM.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models](https://ieeexplore.ieee.org/document/11079814) [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/BS-LDM) [[🌐 Project Page]](https://benny0323.github.io/BS-LDM-Project-Page/) [[🗒️ Survey]](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/)
+[BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models](https://ieeexplore.ieee.org/document/11079814) [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/BS-LDM) [[🌐 Page]](https://benny0323.github.io/BS-LDM-Project-Page/) [[🗒️ Survey]](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/)
 
 <b>Yifei Sun</b>, Zhanghao Chen, Hao Zheng, Wenming Deng, Jin Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
 

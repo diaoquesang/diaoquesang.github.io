@@ -22,7 +22,7 @@ redirect_from:
 🌱 Hi, I'm a 4th-year undergraduate student studying **Computer Science and Technology** at <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) and <img src="https://github.com/user-attachments/assets/18a69d12-eb7f-4b74-af92-4050d7f12382" style="width: 1em;"> [ITMO University](https://en.itmo.ru), supervised by [Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) and [Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505). I'm also an incoming PhD student studying **Computer Science and Technology** at <img src="https://github.com/user-attachments/assets/6f365bf4-e50c-41d9-a569-3a0f71bba898" style="width: 1em;"> [Zhejiang University](https://www.zju.edu.cn), supervised by [Jian Wu (吴健)](https://person.zju.edu.cn/0004274).
 
 
-🔭 I'm currently focused on **Medical Image Analysis**, **Computer Vision**, and **Generative Models**.
+🔭 I'm currently focused on **Medical Image Analysis**, **Computer Vision**, and **Generative AI**.
 
 🔖 Academic Services: Conference Reviewers of **AAAI**<sub>[2026](https://aaai.org/conference/aaai/aaai-26/)</sub>, **ACM MM**<sub>[2025](https://acmmm2025.org/)</sub>; Journal Reviewers of [**EAAI**](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence).
 

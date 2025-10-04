@@ -110,25 +110,25 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li><i>2025</i>: Top 10 Student Candidate of HDU</a></li>
+		<li><i>2025</i>: HDU Top 10 Student Candidate</a></li>
 		<li><i>2025</i>: HDU Star of Innovation</a></li>
-		<li><i>2025</i>: Top 10 Student of HDU-ITMO Joint Institute</a></li>
-		<li><i>2025</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>CNY 1,500.00</strong>)</li>
+		<li><i>2025</i>: HDU-ITMO Top 10 Student</a></li>
+		<li><i>2025</i>: HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)</li>
 		<li><i>2025</i>: HDU Outstanding Communist Youth League Cadre</li>
 		<li><i>2025</i>: HDU Outstanding Student Union Cadre</li>
 		<li><i>2024</i>: National Scholarship of China</a> (<strong>CNY 10,000.00</strong>)</li>
 		<li><i>2024</i>: HDU-ITMO Star of Scientific Research and Innovation</a></li>
 		<li><i>2024</i>: HDU-ITMO Star of Academic Excellence</a></li>
 		<li><i>2024</i>: HDU-ITMO Star of Service and Management</a></li>
-		<li><i>2024</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>CNY 1,500.00</strong>)</li>
+		<li><i>2024</i>: HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)</li>
 		<li><i>2024</i>: HDU-ITMO Star of Scientific and Technological Innovation</a></li>
 		<li><i>2024</i>: HDU Star of Innovation Candidate</a></li>
-		<li><i>2024</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>CNY 1,500.00</strong>)</li>
-		<li><i>2024</i>: Top 10 Student of HDU-ITMO Joint Institute</a></li>
+		<li><i>2024</i>: HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)</li>
+		<li><i>2024</i>: HDU-ITMO Top 10 Student</a></li>
 		<li><i>2023</i>: Zhejiang Provincial Government Scholarship</a> (<strong>CNY 6,000.00</strong>)</li>
 		<li><i>2023</i>: HDU Merit Student</li>
-		<li><i>2023</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>CNY 1,500.00</strong>)</li>
-		<li><i>2023</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>CNY 1,500.00</strong>)</li>
+		<li><i>2023</i>: HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)</li>
+		<li><i>2023</i>: HDU First-Class Scholarship(<strong>CNY 1,500.00</strong>)</li>
 		<li><i>2022</i>: HDU Advanced Individual in Student Military Training Publicity Work</li>
 	</ul>
 </div>

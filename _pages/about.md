@@ -139,13 +139,13 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li><i>2025</i>: <a href="http://gjcxcy.bjtu.edu.cn/">National Undergraduate Innovation and Entrepreneurship Training Program of China</a> (<strong>1st in Top 3 Key Support Field Program</strong>, <strong>Key Member</strong>, <strong>CNY 20,000.00</strong>)</li>
-		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
-		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
-		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
-		<li><i>2025</i>: <a href="https://i.hdu.edu.cn/mnews/_s2/b3/87/c17a45959/page.psp">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
-		<li><i>2024</i>: <a href="http://gjcxcy.bjtu.edu.cn/">National Undergraduate Innovation and Entrepreneurship Training Program of China</a> (<strong>Early Completion</strong>, <strong>Project Leader</strong>, <strong>CNY 10,000.00</strong>)</li>
-		<li><i>2024</i>: <a href="https://joint.hdu.edu.cn/2024/0307/c6515a261379/page.htm">Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program</a> (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
+		<li><i>2025</i>: National Undergraduate Innovation and Entrepreneurship Training Program of China (<strong>Key Support Field Program</strong>, <strong>Key Member</strong>, <strong>CNY 20,000.00</strong>)</li>
+		<li><i>2025</i>: Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
+		<li><i>2025</i>: Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
+		<li><i>2025</i>: Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
+		<li><i>2025</i>: Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
+		<li><i>2024</i>: National Undergraduate Innovation and Entrepreneurship Training Program of China (<strong>Early Completion</strong>, <strong>Project Leader</strong>, <strong>CNY 10,000.00</strong>)</li>
+		<li><i>2024</i>: Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
 	</ul>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>

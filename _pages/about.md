@@ -82,7 +82,7 @@ redirect_from:
 	</ul>
 </div>
 
-<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/d3abf202-2e01-4c71-8050-2b15c7827409' width="20%" style="margin: 15px 10px 15px 10px;">
+<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/b105cced-5a82-4710-8570-0aaa7ffdb68e' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
 		<li><i>2023.06 - Present</i>, Research Intern: <img src="https://github.com/user-attachments/assets/83d4f53d-1321-4278-90b1-4b0659ad8feb" style="width: 1em;"> <a href="https://www.sribd.cn/">Shenzhen Research Institute of Big Data</a>, <img src="https://github.com/user-attachments/assets/d6e5f702-ea01-4251-9679-f274039bc9e3" style="width: 1em;"> <a href="https://www.cuhk.edu.cn/">The Chinese University of Hong Kong, Shenzhen</a>, Shenzhen, China, Supervised by <a href="https://www.sribd.cn/teacher/505">Changmiao Wang (王昌淼)</a></li>
 	</ul>

@@ -110,18 +110,20 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li><i>2025</i>: <a href="https://mp.weixin.qq.com/s/KN5BBltP9OrdEPli11RE6A">Top 10 Student Candidates of HDU</a> (<strong>Top 15</strong>)</li>
-		<li><i>2025</i>: <a href="https://tuanwei.hdu.edu.cn/2025/0425/c275a277893/page.htm">HDU Stars of Innovation</a> (<strong>Top 10</strong>)</li>
-		<li><i>2025</i>: <a href="https://mp.weixin.qq.com/s/lcgUXEJ5ITtSLiq1ltnagw">Top 10 Students of HDU-ITMO Joint Institute</a> (<strong>Top 1.25%</strong>)</li>
-		<li><i>2025</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>1st in Top 5%</strong>, <strong>CNY 1,500.00</strong>)</li>
-		<li><i>2024</i>: <a href="http://www.moe.gov.cn/srcsite/A05/s7505/202412/t20241230_1172663.html">National Scholarship of China</a> (<strong>Top 0.4%</strong>, <strong>CNY 10,000.00</strong>)</li>
-		<li><i>2024</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>1st in Top 5%</strong>, <strong>CNY 1,500.00</strong>)</li>
-		<li><i>2024</i>: <a href="https://tuanwei.hdu.edu.cn/2024/0409/c275a263268/page.htm">HDU Stars of Innovation Candidate</a> (<strong>Top 15</strong>)</li>
-		<li><i>2024</i>: <a href="https://mp.weixin.qq.com/s/RFjA5qvCV8Tyaz0dk7Jwhg">Top 10 Students of HDU-ITMO Joint Institute</a> (<strong>Top 1.25%</strong>)</li>
-		<li><i>2024</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>1st in Top 5%</strong>, <strong>CNY 1,500.00</strong>)</li>
-		<li><i>2023</i>: <a href="https://student.hdu.edu.cn/2023/1110/c727a252884/page.htm">Zhejiang Provincial Government Scholarship</a> (<strong>Top 3%</strong>, <strong>CNY 6,000.00</strong>)</li>
-		<li><i>2023</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>1st in Top 5%</strong>, <strong>CNY 1,500.00</strong>)</li>
-		<li><i>2023</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>1st in Top 5%</strong>, <strong>CNY 1,500.00</strong>)</li>
+		<li><i>2025</i>: <a href="https://mp.weixin.qq.com/s/KN5BBltP9OrdEPli11RE6A">Top 10 Student Candidate of HDU</a></li>
+		<li><i>2025</i>: <a href="https://tuanwei.hdu.edu.cn/2025/0425/c275a277893/page.htm">HDU Star of Innovation</a></li>
+		<li><i>2025</i>: <a href="https://mp.weixin.qq.com/s/lcgUXEJ5ITtSLiq1ltnagw">Top 10 Student of HDU-ITMO Joint Institute</a></li>
+		<li><i>2025</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>CNY 1,500.00</strong>)</li>
+		<li><i>2024</i>: <a href="http://www.moe.gov.cn/srcsite/A05/s7505/202412/t20241230_1172663.html">National Scholarship of China</a> (<strong>CNY 10,000.00</strong>)</li>
+		<li><i>2024</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>CNY 1,500.00</strong>)</li>
+		<li><i>2024</i>: <a href="https://tuanwei.hdu.edu.cn/2024/0409/c275a263268/page.htm">HDU Star of Innovation Candidate</a></li>
+		<li><i>2024</i>: <a href="https://mp.weixin.qq.com/s/RFjA5qvCV8Tyaz0dk7Jwhg">Top 10 Student of HDU-ITMO Joint Institute</a></li>
+		<li><i>2024</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>CNY 1,500.00</strong>)</li>
+		<li><i>2023</i>: <a href="https://student.hdu.edu.cn/2023/1110/c727a252884/page.htm">Zhejiang Provincial Government Scholarship</a> (<strong>CNY 6,000.00</strong>)</li>
+		<li><i>2023</i>: HDU Merit Student</li>
+		<li><i>2023</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>CNY 1,500.00</strong>)</li>
+		<li><i>2023</i>: First-Class Scholarship of Hangzhou Dianzi University (<strong>CNY 1,500.00</strong>)</li>
+		<li><i>2022</i>: Advanced Individual in Student Military Training Publicity Work</li>
 	</ul>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>

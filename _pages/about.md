@@ -1,4 +1,3 @@
-<img width="4670" height="2730" alt="REAL DOCTOR" src="https://github.com/user-attachments/assets/5f4ee865-0013-4f32-883e-12bd5af86843" />---
 permalink: /
 title: ""
 excerpt: ""

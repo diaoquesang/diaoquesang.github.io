@@ -179,11 +179,12 @@ redirect_from:
 	
 <ul>
 
-
+<li>
+<span class="highlight">BIBM 2025</span> <a href="https://arxiv.org/abs/2509.03214">RTGMFF: Enhanced fMRI-based Brain Disorder Diagnosis via ROI-driven Text Generation and Multimodal Feature Fusion</a> <a href="https://github.com/BeistMedAI/RTGMFF">[🧑🏻‍💻 Code]</a> Junhao Jia, <b>Yifei Sun</b>, Yunyou Liu, Cheng Yang, Changmiao Wang<sup>†</sup>, Feiwei Qin<sup>†</sup>, Yong Peng, Wenwen Min <i>IEEE International Conference on Bioinformatics and Biomedicine (<strong>BIBM</strong>) 2025</i>
+</li>
 
 <li>
 <span class="highlight">ISBI 2025 (Oral)</span> <a href="https://ieeexplore.ieee.org/abstract/document/10980706">ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction</a> <a href="https://github.com/justinhxy/ITFC">[🧑🏻‍💻 Code]</a> Xiangyang Hu, Xiangyu Shen, <b>Yifei Sun</b>, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge<sup>†</sup>, Changmiao Wang<sup>†</sup>, Xiaopeng Fan <i>IEEE International Symposium on Biomedical Imaging (<strong>ISBI</strong>) 2025 (<strong>Oral</strong>)</i>
-
 </li>
 
 <li>

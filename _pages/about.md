@@ -148,7 +148,8 @@ redirect_from:
 		<li><i>2025</i>: Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
 		<li><i>2025</i>: Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
 		<li><i>2025</i>: Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
-		<li><i>2024</i>: National Undergraduate Innovation and Entrepreneurship Training Program of China (<strong>Early Completion</strong>, <strong>Project Leader</strong>, <strong>CNY 10,000.00</strong>)</li>
+		<li><i>2024</i>: "Danghong Cup" Excellence in Scientific Research and Education Special Program of the School of Computer Science at Hangzhou Dianzi University (<strong>Key Member</strong>, <strong>CNY 5,000.00</strong>)</li>
+		<li><i>2024</i>: National Undergraduate Innovation and Entrepreneurship Training Program of China (<strong>Project Leader</strong>, <strong>CNY 10,000.00</strong>)</li>
 		<li><i>2024</i>: Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program (<strong>Key Member</strong>, <strong>CNY 10,000.00</strong>)</li>
 	</ul>
 </div>

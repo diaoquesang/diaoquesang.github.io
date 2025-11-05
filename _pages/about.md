@@ -165,7 +165,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025</div><img src='images/GL-LCM.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images](https://arxiv.org/abs/2508.03357) [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/GL-LCM) [[🌐 Page]](https://diaoquesang.github.io/GL-LCM-Project-Page/) [[🗒️ Survey]](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/) [[📜 Poster]](https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/main/pdfs/GL-LCM_Poster.pdf)
+[GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images](https://papers.miccai.org/miccai-2025/0377-Paper0658.html) [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/GL-LCM) [[🌐 Page]](https://diaoquesang.github.io/GL-LCM-Project-Page/) [[🗒️ Survey]](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/) [[📜 Poster]](https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/main/pdfs/GL-LCM_Poster.pdf)
 
 <b>Yifei Sun</b>, Zhanghao Chen, Hao Zheng, Yuqing Lu, Lixin Duan, Fenglei Fan, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
 

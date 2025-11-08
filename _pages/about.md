@@ -92,7 +92,6 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li><i>2025.10</i>: &nbsp;🎉🎉 Our new paper for <a href="https://aaai.org/conference/aaai/aaai-26">AAAI 2026</a> was <strong>Accepted</strong>!</li>
 		<li><i>2025.10</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biod.whu.edu.cn/bibm2025">BIBM 2025</a> was selected for <strong>Oral Presentation</strong>!</li>
 		<li><i>2025.10</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biod.whu.edu.cn/bibm2025">BIBM 2025</a> was <strong>Accepted</strong>!</li>
 		<li><i>2025.08</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">CIBM 2024</a> was selected for an <strong>ESI Top 0.1% Hot Paper</strong>!</li>
@@ -161,6 +160,18 @@ redirect_from:
 <div style="margin-bottom: 5px; font-size: small; margin-top: 0px;"><sup>*</sup>: Equal Contribution, <sup>†</sup>: Corresponding Author(s)</div>
 
 ## Conference Papers
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='https://github.com/user-attachments/assets/8cfea522-13aa-4efc-9e40-7ae7abedf48b' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[WDT-MD: Wavelet Diffusion Transformers for Microaneurysm Detection in Fundus Images]() [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/WDT-MD) [[🌐 Page]](https://diaoquesang.github.io/WDT-MD-Project-Page/) [[🗒️ Survey]](https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection)
+
+<b>Yifei Sun</b>, Zhanghao Chen, Hao Zheng, Yuqing Lu, Lixin Duan, Fenglei Fan, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
+
+<i>International Conference on Medical Image Computing and Computer Assisted Intervention (<strong>MICCAI</strong>) 2025</i>
+
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025</div><img src='images/GL-LCM.jpg' alt="sym" width="100%"></div></div>

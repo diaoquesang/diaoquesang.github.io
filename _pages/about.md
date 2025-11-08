@@ -166,9 +166,9 @@ redirect_from:
 
 [WDT-MD: Wavelet Diffusion Transformers for Microaneurysm Detection in Fundus Images]() [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/WDT-MD) [[🌐 Page]](https://diaoquesang.github.io/WDT-MD-Project-Page/) [[🗒️ Survey]](https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection)
 
-<b>Yifei Sun</b>, Zhanghao Chen, Hao Zheng, Yuqing Lu, Lixin Duan, Fenglei Fan, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>
+<b>Yifei Sun</b>, Yuzhi He, Junhao Jia, Jinhong Wang, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>, Hongxia Xu<sup>†</sup>
 
-<i>International Conference on Medical Image Computing and Computer Assisted Intervention (<strong>MICCAI</strong>) 2025</i>
+<i>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>) 2026</i>
 
 </div>
 </div>

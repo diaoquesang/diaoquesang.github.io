@@ -26,6 +26,8 @@ redirect_from:
 
 🔖 Academic Services: Conference Reviewers of **AAAI**<sub>[2026](https://aaai.org/conference/aaai/aaai-26/)</sub>, **ACM MM**<sub>[2025](https://acmmm2025.org/)</sub>; Journal Reviewers of [**EAAI**](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence), [**CVIU**](https://www.sciencedirect.com/journal/computer-vision-and-image-understanding).
 
+🧑‍🤝‍🧑 Membership: [**IEEE**](https://www.ieee.org/) Student Member, [**AAAI**](https://aaai.org/) Student Member, [**MICCAI**](https://miccai.org/) Student Member
+
 📫 How to reach me: [diaoquesang@gmail.com](mailto:diaoquesang@gmail.com).
 
 

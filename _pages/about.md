@@ -24,7 +24,7 @@ redirect_from:
 
 🔭 I'm currently focused on **Medical Image Analysis**, **Computer Vision**, and **Generative AI**.
 
-🔖 Academic Services: Conference Reviewers of **AAAI**<sub>[2026](https://aaai.org/conference/aaai/aaai-26/)</sub>, **ACM MM**<sub>[2025](https://acmmm2025.org/)</sub>; Journal Reviewers of [**EAAI**](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence), [**CVIU**](https://www.sciencedirect.com/journal/computer-vision-and-image-understanding).
+🔖 Academic Services: Conference Reviewers of **AAAI**<sub>[2026](https://aaai.org/conference/aaai/aaai-26/)</sub>, **ACM MM**<sub>[2025](https://acmmm2025.org/)</sub>, **ICASSP**<sub>[2026](https://2026.ieeeicassp.org/)</sub>; Journal Reviewers of [**EAAI**](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence), [**CVIU**](https://www.sciencedirect.com/journal/computer-vision-and-image-understanding).
 
 🧑‍🤝‍🧑 Membership: [**IEEE**](https://www.ieee.org/) Student Member, [**AAAI**](https://aaai.org/) Student Member, [**MICCAI**](https://miccai.org/) Student Member
 

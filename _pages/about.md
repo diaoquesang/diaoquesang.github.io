@@ -345,6 +345,8 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
+		<li><i>2025</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<strong>Provincial Bronze Medal</strong>, <strong>Key Member</strong>)</li>
+		<li><i>2025</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<strong>Provincial Bronze Medal</strong>, <strong>Key Member</strong>)</li>
 		<li><i>2025</i>: <a href="https://2025fsyx.sciconf.cn/cn/web/program/29185?class=24947&hall_id=0&date_id=0&is_satellite=0">Artificial Intelligence Application in Medical Imaging Competition of the Radiology Branch of Guangdong Medical Association</a> (<strong>Provincial Third Prize</strong>, <strong>Key Member</strong>)</li>
 		<li><i>2025</i>: <a href="http://www.3chuang.net/">National College Student E-Commerce “Innovation, Creativity and Entrepreneurship” Competition</a> (<strong>Provincial Second Prize</strong>, <strong>Key Member</strong>)</li>
 		<li><i>2025</i>: <a href="https://tiaozhanbei.net/">"Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition</a> (<strong>Provincial Bronze Medal</strong>, <strong>Project Leader</strong>)</li>

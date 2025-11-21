@@ -19,7 +19,7 @@ redirect_from:
 
 # 😉 About Me
 
-🌱 Hi, I'm a 4th-year undergraduate student studying **Computer Science and Technology** at <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) and <img src="https://github.com/user-attachments/assets/18a69d12-eb7f-4b74-af92-4050d7f12382" style="width: 1em;"> [ITMO University](https://en.itmo.ru), supervised by [Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) and [Changmiao Wang (王昌淼)](https://www.sribd.cn/teacher/505). I'm also an incoming PhD student studying **Computer Science and Technology** at <img src="https://github.com/user-attachments/assets/6f365bf4-e50c-41d9-a569-3a0f71bba898" style="width: 1em;"> [Zhejiang University](https://www.zju.edu.cn), supervised by [Jian Wu (吴健)](https://person.zju.edu.cn/0004274).
+🌱 Hi, I'm a 4th-year undergraduate student studying **Computer Science and Technology** at <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) and <img src="https://github.com/user-attachments/assets/18a69d12-eb7f-4b74-af92-4050d7f12382" style="width: 1em;"> [ITMO University](https://en.itmo.ru), supervised by [Ruiquan Ge (葛瑞泉)](https://faculty.hdu.edu.cn/jsjxy/grq/main.htm) and [Changmiao Wang (王昌淼)](https://jiandanjinxin.github.io/changmiaowang/). I'm also an incoming PhD student studying **Computer Science and Technology** at <img src="https://github.com/user-attachments/assets/6f365bf4-e50c-41d9-a569-3a0f71bba898" style="width: 1em;"> [Zhejiang University](https://www.zju.edu.cn), supervised by [Jian Wu (吴健)](https://person.zju.edu.cn/0004274).
 
 
 🔭 I'm currently focused on **Medical Image Analysis**, **Computer Vision**, and **Generative AI**.
@@ -86,7 +86,7 @@ redirect_from:
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/b105cced-5a82-4710-8570-0aaa7ffdb68e' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2023.06 - 2025.06</i>, Research Intern: <img src="https://github.com/user-attachments/assets/83d4f53d-1321-4278-90b1-4b0659ad8feb" style="width: 1em;"> <a href="https://www.sribd.cn/">Shenzhen Research Institute of Big Data</a>, <img src="https://github.com/user-attachments/assets/d6e5f702-ea01-4251-9679-f274039bc9e3" style="width: 1em;"> <a href="https://www.cuhk.edu.cn/">The Chinese University of Hong Kong, Shenzhen</a>, Shenzhen, <img src="https://github.com/user-attachments/assets/a42db054-f18d-4b2b-aac7-2fbf024610dd" style="width: 1em;"> China, Supervised by <a href="https://www.sribd.cn/teacher/505">Changmiao Wang (王昌淼)</a></li>
+		<li><i>2023.06 - 2025.06</i>, Research Intern: <img src="https://github.com/user-attachments/assets/83d4f53d-1321-4278-90b1-4b0659ad8feb" style="width: 1em;"> <a href="https://www.sribd.cn/">Shenzhen Research Institute of Big Data</a>, <img src="https://github.com/user-attachments/assets/d6e5f702-ea01-4251-9679-f274039bc9e3" style="width: 1em;"> <a href="https://www.cuhk.edu.cn/">The Chinese University of Hong Kong, Shenzhen</a>, Shenzhen, <img src="https://github.com/user-attachments/assets/a42db054-f18d-4b2b-aac7-2fbf024610dd" style="width: 1em;"> China, Supervised by <a href="https://jiandanjinxin.github.io/changmiaowang/">Changmiao Wang (王昌淼)</a></li>
 	</ul>
 </div>
 

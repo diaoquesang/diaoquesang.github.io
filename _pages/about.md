@@ -86,7 +86,7 @@ redirect_from:
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/d2dcb86c-a640-4f23-a245-55f038fc16ab' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2025.03 - 2025.08</i>, Research Assistant: <img src="https://github.com/user-attachments/assets/82203a9c-672d-4697-8fad-96b61a7b699b" style="width: 1em;"> <a href="https://tiiri.z2hospital.com/index.html">Transvascular Implantation Devices Research Institute</a>, <img src="https://github.com/user-attachments/assets/6f365bf4-e50c-41d9-a569-3a0f71bba898" style="width: 1em;"> <a href="https://www.zju.edu.cn/">Zhejiang University</a>, Hangzhou, <img src="https://github.com/user-attachments/assets/a42db054-f18d-4b2b-aac7-2fbf024610dd" style="width: 1em;"> China, Supervised by <a href="https://scholar.google.com/citations?user=XlpKptAAAAAJ">Hongxia Xu (徐红霞)</a></li>
+		<li><i>2025.03 - 2025.08</i>, Research Assistant: <img src="https://github.com/user-attachments/assets/82203a9c-672d-4697-8fad-96b61a7b699b" style="width: 1em;"> <a href="https://tiiri.z2hospital.com/index.html">Transvascular Implantation Devices Research Institute</a>, <img src="https://github.com/user-attachments/assets/6f365bf4-e50c-41d9-a569-3a0f71bba898" style="width: 1em;"> <a href="https://www.zju.edu.cn/">Zhejiang University</a>, Hangzhou, <img src="https://github.com/user-attachments/assets/a42db054-f18d-4b2b-aac7-2fbf024610dd" style="width: 1em;"> China, Supervised by <a href="https://person.zju.edu.cn/0004274">Jian Wu (吴健)</a></li>
 	</ul>
 </div>
 

@@ -84,12 +84,6 @@ redirect_from:
 	</ul>
 </div>
 
-<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/d2dcb86c-a640-4f23-a245-55f038fc16ab' width="20%" style="margin: 15px 10px 15px 10px;">
-	<ul style="margin-top: 15px;">
-		<li><i>2025.03 - 2025.08</i>, Research Assistant: <img src="https://github.com/user-attachments/assets/82203a9c-672d-4697-8fad-96b61a7b699b" style="width: 1em;"> <a href="https://tiiri.z2hospital.com/index.html">Transvascular Implantation Devices Research Institute</a>, <img src="https://github.com/user-attachments/assets/6f365bf4-e50c-41d9-a569-3a0f71bba898" style="width: 1em;"> <a href="https://www.zju.edu.cn/">Zhejiang University</a>, Hangzhou, <img src="https://github.com/user-attachments/assets/a42db054-f18d-4b2b-aac7-2fbf024610dd" style="width: 1em;"> China, Supervised by <a href="https://person.zju.edu.cn/0004274">Jian Wu (吴健)</a></li>
-	</ul>
-</div>
-
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/b105cced-5a82-4710-8570-0aaa7ffdb68e' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
 		<li><i>2023.06 - 2025.06</i>, Research Intern: <img src="https://github.com/user-attachments/assets/83d4f53d-1321-4278-90b1-4b0659ad8feb" style="width: 1em;"> <a href="https://www.sribd.cn/">Shenzhen Research Institute of Big Data</a>, <img src="https://github.com/user-attachments/assets/d6e5f702-ea01-4251-9679-f274039bc9e3" style="width: 1em;"> <a href="https://www.cuhk.edu.cn/">The Chinese University of Hong Kong, Shenzhen</a>, Shenzhen, <img src="https://github.com/user-attachments/assets/a42db054-f18d-4b2b-aac7-2fbf024610dd" style="width: 1em;"> China, Supervised by <a href="https://jiandanjinxin.github.io/changmiaowang/">Changmiao Wang (王昌淼)</a></li>

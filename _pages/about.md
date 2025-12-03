@@ -115,6 +115,11 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
+		<li><i>2025</i>: HDU-ITMO Star of Academic Excellence</li>
+		<li><i>2025</i>: HDU-ITMO Star of Scientific Research and Innovation</li>
+		<li><i>2025</i>: HDU-ITMO Star of Practical Dedication</li>
+		<li><i>2025</i>: HDU-ITMO Star of Public Welfare and Dedication</li>
+		<li><i>2025</i>: HDU-ITMO Star of Service Excellence</li>
 		<li><i>2025</i>: National Scholarship of China (<strong>CNY 10,000.00</strong>)</li>
 		<li><i>2025</i>: HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)</li>
 		<li><i>2025</i>: HDU Top 10 Student Candidate</li>
@@ -124,8 +129,8 @@ redirect_from:
 		<li><i>2025</i>: HDU Outstanding Communist Youth League Cadre</li>
 		<li><i>2025</i>: HDU Outstanding Student Union Cadre</li>
 		<li><i>2024</i>: National Scholarship of China (<strong>CNY 10,000.00</strong>)</li>
-		<li><i>2024</i>: HDU-ITMO Star of Scientific Research and Innovation</li>
 		<li><i>2024</i>: HDU-ITMO Star of Academic Excellence</li>
+		<li><i>2024</i>: HDU-ITMO Star of Scientific Research and Innovation</li>
 		<li><i>2024</i>: HDU-ITMO Star of Service and Management</li>
 		<li><i>2024</i>: HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)</li>
 		<li><i>2024</i>: HDU-ITMO Star of Scientific and Technological Innovation</li>

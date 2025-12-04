@@ -521,6 +521,23 @@ Ave Mujica/塞壬唱片-MSR
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Bless The Lords 2022</div><img src='images/blessthelords.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[Bless The Lords](https://www.bilibili.com/video/BV1PT421X7EZ/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/o0041k2q3in)
+  
+Finley & Mark/Billy Squier/The J. Geils Band/Eddie Money
+
+<i>Bless The Lords 2021</i>
+
+<audio class="myAudio" loop controls>
+  <source src="music/blessthelords.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">如果可以 2021</div><img src='images/ruguokeyi.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   

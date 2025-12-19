@@ -66,7 +66,7 @@ redirect_from:
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/caa9f769-f2fd-482c-aaa5-f9e9d0acc67f' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2022.08 - Present</i>, Undergraduate Student: Computer Science and Technology, <img src="https://github.com/user-attachments/assets/18a69d12-eb7f-4b74-af92-4050d7f12382" style="width: 1em;"> <a href="https://en.itmo.ru">ITMO University</a>, Saint Petersburg, <img src="https://github.com/user-attachments/assets/531eb26c-e11d-4df8-98c1-46155587da4a" style="width: 1em;"> Russia</li>
+		<li><i>2022.08 - Present</i>, Undergraduate Student: Computer Science and Technology, <img src="https://github.com/user-attachments/assets/18a69d12-eb7f-4b74-af92-4050d7f12382" style="width: 1em;"> <a href="https://en.itmo.ru">ITMO University</a>, Saint Petersburg, <img src="https://github.com/user-attachments/assets/531eb26c-e11d-4df8-98c1-46155587da4a" style="width: 1em;"> Russia, Supervised by <a href="https://scholar.google.com/citations?user=UPfP7yMAAAAJ">Andrey Zhdanov (Жданов Андрей Дмитриевич)</a></li>
 	</ul>
 </div>
 

@@ -169,7 +169,7 @@ redirect_from:
 
 ## Conference Papers
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='https://github.com/user-attachments/assets/c7ac65d9-08e1-47f9-924a-b824195b82bd' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='https://github.com/user-attachments/assets/0e6e7349-b743-4685-bd25-c90fc3e8e0fd' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [WDT-MD: Wavelet Diffusion Transformers for Microaneurysm Detection in Fundus Images](http://arxiv.org/abs/2511.08987) [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/WDT-MD) [[🌐 Page]](https://diaoquesang.github.io/WDT-MD-Project-Page/) [[🗒️ Survey]](https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection) [[📜 Poster]](https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/main/pdfs/WDT-MD_Poster.pdf)

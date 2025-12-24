@@ -258,6 +258,7 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
+		<li><i>2025</i>: <a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于频域高阶交互的红外-可见光图像融合方法</a> (<strong>公开</strong>, <strong>第三发明人</strong>)</li>
 		<li><i>2025</i>: <a href="https://pss-system.cponline.cnipa.gov.cn/">一种不完整多模态分层特征融合网络的MCI转换分类方法</a> (<strong>公开</strong>, <strong>第四发明人</strong>)</li>
 		<li><i>2025</i>: <a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于选择性状态空间融合的眼科影像分类方法</a> (<strong>公开</strong>, <strong>第二发明人</strong>)</li>
 		<li><i>2025</i>: <a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于NRGMFF和fMRI的脑疾病分类方法</a> (<strong>公开</strong>, <strong>第二发明人</strong>)</li>

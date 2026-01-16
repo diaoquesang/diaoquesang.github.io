@@ -94,6 +94,7 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
+		<li><i>2026.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://2026.ieeeicassp.org/">ICASSP 2026</a> was <strong>Accepted</strong>!</li>
 		<li><i>2025.11</i>: &nbsp;🎉🎉 Our new paper for <a href="https://aaai.org/conference/aaai/aaai-26">AAAI 2026</a> was <strong>Accepted</strong>!</li>
 		<li><i>2025.10</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biod.whu.edu.cn/bibm2025">BIBM 2025</a> was selected for <strong>Oral Presentation</strong>!</li>
 		<li><i>2025.10</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biod.whu.edu.cn/bibm2025">BIBM 2025</a> was <strong>Accepted</strong>!</li>
@@ -200,6 +201,10 @@ redirect_from:
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	
 <ul>
+
+<li>
+<span class="highlight">ICASSP 2026</span> <a href="https://arxiv.org/abs/2509.17050">Geodesic Prototype Matching via Diffusion Maps for Interpretable Fine-Grained Recognition</a> Junhao Jia, Yunyou Liu, <b>Yifei Sun</b>, Huangwei Chen, Feiwei Qin<sup>†</sup>, Changmiao Wang, Yong Peng <i>IEEE International Conference on Acoustics, Speech and Signal Processing (<strong>ICASSP</strong>) 2026</i>
+</li>
 
 <li>
 <span class="highlight">BIBM 2025 (Oral)</span> <a href="https://arxiv.org/abs/2509.03214">RTGMFF: Enhanced fMRI-based Brain Disorder Diagnosis via ROI-driven Text Generation and Multimodal Feature Fusion</a> <a href="https://github.com/BeistMedAI/RTGMFF">[🧑🏻‍💻 Code]</a> Junhao Jia, <b>Yifei Sun</b>, Yunyou Liu, Cheng Yang, Changmiao Wang<sup>†</sup>, Feiwei Qin<sup>†</sup>, Yong Peng, Wenwen Min <i>IEEE International Conference on Bioinformatics and Biomedicine (<strong>BIBM</strong>) 2025 (<strong>Oral</strong>)</i>

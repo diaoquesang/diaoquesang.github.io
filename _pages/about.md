@@ -94,20 +94,20 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li><i>2026.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://2026.ieeeicassp.org/">ICASSP 2026</a> was <strong>Accepted</strong>!</li>
-		<li><i>2025.11</i>: &nbsp;🎉🎉 Our new paper for <a href="https://aaai.org/conference/aaai/aaai-26">AAAI 2026</a> was <strong>Accepted</strong>!</li>
-		<li><i>2025.10</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biod.whu.edu.cn/bibm2025">BIBM 2025</a> was selected for <strong>Oral Presentation</strong>!</li>
-		<li><i>2025.10</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biod.whu.edu.cn/bibm2025">BIBM 2025</a> was <strong>Accepted</strong>!</li>
+		<li><i>2026.01</i>: &nbsp;🎉🎉 Our two papers for <a href="https://2026.ieeeicassp.org/">ICASSP 2026</a> was <strong>Accepted</strong>!</li>
+		<li><i>2025.11</i>: &nbsp;🎉🎉 Our paper for <a href="https://aaai.org/conference/aaai/aaai-26">AAAI 2026</a> was <strong>Accepted</strong>!</li>
+		<li><i>2025.10</i>: &nbsp;🎉🎉 Our paper for <a href="https://biod.whu.edu.cn/bibm2025">BIBM 2025</a> was selected for <strong>Oral Presentation</strong>!</li>
+		<li><i>2025.10</i>: &nbsp;🎉🎉 Our paper for <a href="https://biod.whu.edu.cn/bibm2025">BIBM 2025</a> was <strong>Accepted</strong>!</li>
 		<li><i>2025.08</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">CIBM 2024</a> was selected for an <strong>ESI Top 0.1% Hot Paper</strong>!</li>
-		<li><i>2025.07</i>: &nbsp;🎉🎉 Our new paper for <a href="https://www.embs.org/jbhi/">JBHI 2025</a> was <strong>Accepted</strong>!</li>
-		<li><i>2025.06</i>: &nbsp;🎉🎉 Our new paper for <a href="https://conferences.miccai.org/2025/en/default.asp">MICCAI 2025</a> was <strong>Accepted</strong>!</li>
+		<li><i>2025.07</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.embs.org/jbhi/">JBHI 2025</a> was <strong>Accepted</strong>!</li>
+		<li><i>2025.06</i>: &nbsp;🎉🎉 Our paper for <a href="https://conferences.miccai.org/2025/en/default.asp">MICCAI 2025</a> was <strong>Accepted</strong>!</li>
 		<li><i>2025.02</i>: &nbsp;🎉🎉 Our paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was selected for <strong>Oral Presentation</strong>!</li>
 		<li><i>2025.01</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">CIBM 2024</a> was selected for an <strong>ESI Top 1% Highly Cited Paper</strong>!</li>
-		<li><i>2025.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was <strong>Accepted</strong>!</li>
+		<li><i>2025.01</i>: &nbsp;🎉🎉 Our paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was <strong>Accepted</strong>!</li>
 		<li><i>2024.04</i>: &nbsp;🎉🎉 Our paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was selected for <strong>Oral Presentation</strong>!</li>
-		<li><i>2024.02</i>: &nbsp;🎉🎉 Our new paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was <strong>Accepted</strong>!</li>
-		<li><i>2024.01</i>: &nbsp;🎉🎉 Our new paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">CIBM 2024</a> was <strong>Accepted</strong>!</li>
-		<li><i>2023.06</i>: &nbsp;🎉🎉 Our new paper for <a href="https://www.icsip.org/2023.html">ICSIP 2023</a> was <strong>Accepted</strong>!</li>	
+		<li><i>2024.02</i>: &nbsp;🎉🎉 Our paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was <strong>Accepted</strong>!</li>
+		<li><i>2024.01</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">CIBM 2024</a> was <strong>Accepted</strong>!</li>
+		<li><i>2023.06</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.icsip.org/2023.html">ICSIP 2023</a> was <strong>Accepted</strong>!</li>	
 	</ul>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>

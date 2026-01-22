@@ -94,7 +94,7 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li><i>2026.01</i>: &nbsp;🎉🎉 Our two papers for <a href="https://2026.ieeeicassp.org/">ICASSP 2026</a> was <strong>Accepted</strong>!</li>
+		<li><i>2026.01</i>: &nbsp;🎉🎉 Our 2 papers for <a href="https://2026.ieeeicassp.org/">ICASSP 2026</a> was <strong>Accepted</strong>!</li>
 		<li><i>2025.11</i>: &nbsp;🎉🎉 Our paper for <a href="https://aaai.org/conference/aaai/aaai-26">AAAI 2026</a> was <strong>Accepted</strong>!</li>
 		<li><i>2025.10</i>: &nbsp;🎉🎉 Our paper for <a href="https://biod.whu.edu.cn/bibm2025">BIBM 2025</a> was selected for <strong>Oral Presentation</strong>!</li>
 		<li><i>2025.10</i>: &nbsp;🎉🎉 Our paper for <a href="https://biod.whu.edu.cn/bibm2025">BIBM 2025</a> was <strong>Accepted</strong>!</li>

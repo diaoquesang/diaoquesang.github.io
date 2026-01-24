@@ -43,6 +43,7 @@ redirect_from:
 <div style="overflow: auto; font-size: 15px;aspect-ratio: 2.7 / 1;">
 
 <div class='photo-box'>
+  <div class='photo-box-image'><div><img src='https://github.com/user-attachments/assets/c7b19036-38a4-4d4a-9aa0-3adb49b15721' alt="sym" width="100%"></div></div>
   <div class='photo-box-image'><div><img src='images/p/9.jpg' alt="sym" width="100%"></div></div>
   <div class='photo-box-image'><div><img src='images/p/8.jpg' alt="sym" width="100%"></div></div>
   <div class='photo-box-image'><div><img src='images/p/7.jpg' alt="sym" width="100%"></div></div>

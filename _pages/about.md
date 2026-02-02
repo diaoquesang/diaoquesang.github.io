@@ -79,7 +79,7 @@ redirect_from:
 
 # 💻 Internships
 
-<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/c9d2f952-e95d-47e7-ad79-b5c073b18400' width="20%" style="margin: 15px 10px 15px 10px;">
+<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/a34e995c-cc60-40a8-a191-18e753d0110e' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
 		<li><i>2026.02 - Present</i>, Research Intern: <img src="https://github.com/user-attachments/assets/f1412c9c-78db-47dc-be64-88c31afefb32" style="width: 1em;"> <a href="https://damo.alibaba.com/">DAMO Academy</a>, <img src="https://github.com/user-attachments/assets/7c28eaef-7149-489f-aad6-d413f1ef100d" style="width: 1em;"> <a href="https://www.alibabagroup.com/">Alibaba Group</a>, Hangzhou, <img src="https://github.com/user-attachments/assets/a42db054-f18d-4b2b-aac7-2fbf024610dd" style="width: 1em;"> China, Supervised by <a href="https://person.zju.edu.cn/0004274">Ke Yan (闫轲)</a></li>
 	</ul>

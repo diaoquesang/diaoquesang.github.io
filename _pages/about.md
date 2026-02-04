@@ -351,6 +351,7 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
+		<li><i>2025</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<strong>National Silver Medal</strong>, <strong>Key Member</strong>)</li>
 		<li><i>2025</i>: <a href="https://jsjds.blcu.edu.cn/">Chinese Collegiate Computing Competition</a> (<strong>National Second Prize</strong>, <strong>Key Member</strong>)</li>
 		<li><i>2025</i>: <a href="https://jsjds.blcu.edu.cn/">Chinese Collegiate Computing Competition</a> (<strong>National Third Prize</strong>, <strong>Key Member</strong>)</li>
 		<li><i>2025</i>: <a href="http://www.fwwb.org.cn/">China College Students' Service Outsourcing Innovation and Entrepreneurship Competition</a> (<strong>National Third Prize</strong>, <strong>Key Member</strong>)</li>

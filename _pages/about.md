@@ -37,25 +37,6 @@ redirect_from:
 [![GitHub followers](https://img.shields.io/github/followers/diaoquesang)](https://github.com/diaoquesang)
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=diaoquesang&countColor=%23263759&style=flat&labelStyle=none)](https://visitorbadge.io/status?path=diaoquesang)
 
-<div style="margin-top: 30px;"></div>
-
-
-<div style="overflow: auto; font-size: 15px;aspect-ratio: 2.7 / 1;">
-
-<div class='photo-box'>
-  <div class='photo-box-image'><div><img src='https://github.com/user-attachments/assets/c7b19036-38a4-4d4a-9aa0-3adb49b15721' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><img src='images/p/9.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><img src='images/p/8.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><img src='images/p/7.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><img src='images/p/6.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><img src='images/p/5.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><img src='images/p/4.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><img src='images/p/3.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><img src='images/p/2.jpg' alt="sym" width="100%"></div></div>
-  <div class='photo-box-image'><div><img src='images/p/1.jpg' alt="sym" width="100%"></div></div>
-</div>
-</div>
-<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 # 📖 Educations
 

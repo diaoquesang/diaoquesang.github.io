@@ -470,6 +470,23 @@ Ave Mujica/塞壬唱片-MSR
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">麻绳篇章（纯音乐） 2025</div><img src='images/hxq.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[活下去（纯音乐）](https://www.bilibili.com/video/BV1HxLEzGEEf/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+  
+Eliezer
+
+<i>麻绳篇章（纯音乐） 2025</i>
+
+<audio class="myAudio" loop controls>
+  <source src="music/hxq.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">土坡上的狗尾巴草 2024</div><img src='images/tupo.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   

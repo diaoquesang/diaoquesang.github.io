@@ -470,6 +470,23 @@ Ave Mujica/塞壬唱片-MSR
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">For Cryin' Out Loud! (Explicit) 2025</div><img src='images/fcol.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[For Cryin' Out Loud](https://www.bilibili.com/video/BV1oUYteSEd1/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq_v2/mv/001jy9JQ3JRRyy)
+  
+FINNEAS
+
+<i>For Cryin' Out Loud! (Explicit) 2024</i>
+
+<audio class="myAudio" loop controls>
+  <source src="music/fcol.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">麻绳篇章（纯音乐） 2025</div><img src='images/hxq.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   

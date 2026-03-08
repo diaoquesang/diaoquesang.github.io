@@ -38,7 +38,7 @@ redirect_from:
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=diaoquesang&countColor=%23263759&style=flat&labelStyle=none)](https://visitorbadge.io/status?path=diaoquesang)
 
 
-# 📖 Educations
+# 📖 Education
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/4a96ec08-666c-493e-9a03-7962a47204f4' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
@@ -58,7 +58,7 @@ redirect_from:
 	</ul>
 </div>
 
-# 💻 Internships
+# 💻 Experience
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/a34e995c-cc60-40a8-a191-18e753d0110e' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">

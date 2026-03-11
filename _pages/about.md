@@ -104,6 +104,7 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
+		<li><i>2026</i>: Zhejiang Provincial Outstanding Graduate</li>
 		<li><i>2025</i>: HDU-ITMO Star of Academic Excellence</li>
 		<li><i>2025</i>: HDU-ITMO Star of Scientific Research and Innovation</li>
 		<li><i>2025</i>: HDU-ITMO Star of Practical Dedication</li>

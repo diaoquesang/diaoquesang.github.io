@@ -82,7 +82,8 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li><i>2026.01</i>: &nbsp;🎉🎉 Our 2 papers for <a href="https://2026.ieeeicassp.org/">ICASSP 2026</a> was <strong>Accepted</strong>!</li>
+		<li><i>2026.03</i>: &nbsp;🎉🎉 Our 2 papers for <a href="https://2026.ieeeicassp.org/">ICASSP 2026</a> were selected for <strong>Oral Presentation</strong>!</li>
+		<li><i>2026.01</i>: &nbsp;🎉🎉 Our 2 papers for <a href="https://2026.ieeeicassp.org/">ICASSP 2026</a> were <strong>Accepted</strong>!</li>
 		<li><i>2025.11</i>: &nbsp;🎉🎉 Our paper for <a href="https://aaai.org/conference/aaai/aaai-26">AAAI 2026</a> was <strong>Accepted</strong>!</li>
 		<li><i>2025.10</i>: &nbsp;🎉🎉 Our paper for <a href="https://biod.whu.edu.cn/bibm2025">BIBM 2025</a> was selected for <strong>Oral Presentation</strong>!</li>
 		<li><i>2025.10</i>: &nbsp;🎉🎉 Our paper for <a href="https://biod.whu.edu.cn/bibm2025">BIBM 2025</a> was <strong>Accepted</strong>!</li>
@@ -192,11 +193,11 @@ redirect_from:
 <ul>
 
 <li>
-<span class="highlight">ICASSP 2026</span> <a href="https://arxiv.org/abs/2509.14965">Brain-HGCN: A Hyperbolic Graph Convolutional Network for Brain Functional Network Analysis</a> Junhao Jia, Yunyou Liu, Cheng Yang, <b>Yifei Sun</b>, Feiwei Qin<sup>†</sup>, Changmiao Wang, Yong Peng <i>IEEE International Conference on Acoustics, Speech and Signal Processing (<strong>ICASSP</strong>) 2026</i>
+<span class="highlight">ICASSP 2026</span> <a href="https://arxiv.org/abs/2509.14965">Brain-HGCN: A Hyperbolic Graph Convolutional Network for Brain Functional Network Analysis</a> Junhao Jia, Yunyou Liu, Cheng Yang, <b>Yifei Sun</b>, Feiwei Qin<sup>†</sup>, Changmiao Wang, Yong Peng <i>IEEE International Conference on Acoustics, Speech and Signal Processing (<strong>ICASSP</strong>) 2026 (<strong>Oral</strong>)</i>
 </li>
 
 <li>
-<span class="highlight">ICASSP 2026</span> <a href="https://arxiv.org/abs/2509.17050">Geodesic Prototype Matching via Diffusion Maps for Interpretable Fine-Grained Recognition</a> Junhao Jia, Yunyou Liu, <b>Yifei Sun</b>, Huangwei Chen, Feiwei Qin<sup>†</sup>, Changmiao Wang, Yong Peng <i>IEEE International Conference on Acoustics, Speech and Signal Processing (<strong>ICASSP</strong>) 2026</i>
+<span class="highlight">ICASSP 2026</span> <a href="https://arxiv.org/abs/2509.17050">Geodesic Prototype Matching via Diffusion Maps for Interpretable Fine-Grained Recognition</a> Junhao Jia, Yunyou Liu, <b>Yifei Sun</b>, Huangwei Chen, Feiwei Qin<sup>†</sup>, Changmiao Wang, Yong Peng <i>IEEE International Conference on Acoustics, Speech and Signal Processing (<strong>ICASSP</strong>) 2026 (<strong>Oral</strong>)</i>
 </li>
 
 <li>

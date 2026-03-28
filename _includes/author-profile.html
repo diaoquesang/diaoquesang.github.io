@@ -216,6 +216,9 @@
       {% if author.wikipedia %}
         <a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
       {% endif %}
+      {% if author.wechat %}  
+        <a href="weixin://contacts/profile/{{ author.wechat }}"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></a>  
+      {% endif %}
     </div>
   </div>
 </div>

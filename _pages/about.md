@@ -560,7 +560,7 @@ Eliezer
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Bless The Lords 2022</div><img src='images/blessthelords.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Bless The Lords](https://www.bilibili.com/video/BV1PT421X7EZ/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[Bless The Lords](https://www.bilibili.com/video/BV1sj42197Jk?spm_id_from=333.788.videopod.sections&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
   
 Finley & Mark/Billy Squier/The J. Geils Band/Eddie Money
 

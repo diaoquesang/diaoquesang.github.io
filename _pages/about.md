@@ -242,7 +242,7 @@ redirect_from:
 <ul>
 	
 <li>
-<span class="highlight">CIBM 2024 (ESI Hot Paper)</span> <a href="https://www.sciencedirect.com/science/article/pii/S0010482524000015">Accurate Leukocyte Detection Based on Deformable-DETR and Multi-Level Feature Fusion for Aiding Diagnosis of Blood Diseases</a> <a href="https://github.com/justlfc03/mfds-detr">[🧑🏻‍💻 Code]</a> Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, <b>Yifei Sun</b>, Changmiao Wang<sup>†</sup>, Xianjun Fu, Yuxing Dai, Feiwei Qin<sup>†</sup>, Yong Peng, Yu Gao <i>Computers in Biology and Medicine (<strong>CIBM</strong>) 2024 (<strong>ESI Hot Paper</strong>)</i>
+<span class="highlight">CIBM 2024 (ESI Hot Paper & ESI Highly Cited Paper)</span> <a href="https://www.sciencedirect.com/science/article/pii/S0010482524000015">Accurate Leukocyte Detection Based on Deformable-DETR and Multi-Level Feature Fusion for Aiding Diagnosis of Blood Diseases</a> <a href="https://github.com/justlfc03/mfds-detr">[🧑🏻‍💻 Code]</a> Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, <b>Yifei Sun</b>, Changmiao Wang<sup>†</sup>, Xianjun Fu, Yuxing Dai, Feiwei Qin<sup>†</sup>, Yong Peng, Yu Gao <i>Computers in Biology and Medicine (<strong>CIBM</strong>) 2024 (<strong>ESI Hot Paper & ESI Highly Cited Paper</strong>)</i>
 </li>
 
 </ul>

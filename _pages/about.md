@@ -472,6 +472,23 @@ Ave Mujica/塞壬唱片-MSR
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">揭幕者们OST 2024</div><img src='images/Ambiguous Morality.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[Ambiguous Morality](https://www.bilibili.com/video/BV1N6UhYoENX?spm_id_from=333.788.videopod.sections&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+  
+塞壬唱片-MSR/Adam Gubman/Piper Gubman/Carmela
+
+<i>揭幕者们OST 2024</i>
+
+<audio class="myAudio" loop controls>
+  <source src="music/Ambiguous Morality.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">For Cryin' Out Loud! (Explicit) 2024</div><img src='images/fcol.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   

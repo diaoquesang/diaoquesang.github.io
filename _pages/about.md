@@ -206,10 +206,15 @@ const durationEl = document.getElementById('duration');
 const volumeSlider = document.getElementById('volume-slider');
 const volumeIcon = document.getElementById('volume-icon');
 
-// ===== 初始化 =====
-document.addEventListener('DOMContentLoaded', function () {
+// ===== 初始化（关键修复点）=====
+window.addEventListener('load', function () {
   extractMusicFiles();
-  loadTrack(0);
+
+  if (tracks.length > 0) {
+    loadTrack(0);
+  } else {
+    document.getElementById('track-name').textContent = '没有检测到歌曲';
+  }
 
   audio.volume = 0.2;
   changeVolume(20);
@@ -228,6 +233,39 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+// ===== 抓取歌曲（核心修复）=====
+function extractMusicFiles() {
+  const audioElements = document.querySelectorAll('audio source'); // 更稳！
+  tracks = [];
+
+  audioElements.forEach((source) => {
+    const src = source.getAttribute('src');
+    if (!src) return;
+
+    const box = source.closest('.paper-box');
+
+    // ===== 稳定获取歌曲名 =====
+    let name = 'Unknown';
+    const links = box?.querySelectorAll('.paper-box-text a');
+
+    if (links && links.length) {
+      name = links[0].textContent.trim();
+
+      // 如果第一个是 🎥 视频链接，就取下一个
+      if (name.includes('🎥') && links.length > 1) {
+        name = links[1].textContent.trim();
+      }
+    }
+
+    tracks.push({
+      name: name,
+      file: src
+    });
+  });
+
+  console.log('tracks:', tracks);
+}
+
 // ===== 播放结束逻辑 =====
 function handleEnded() {
   if (playMode === 2) {
@@ -240,8 +278,10 @@ function handleEnded() {
   }
 }
 
-// ===== 手动控制 =====
+// ===== 控制 =====
 function prevTrack() {
+  if (!tracks.length) return;
+
   if (playMode === 1) {
     playRandom();
   } else {
@@ -252,6 +292,8 @@ function prevTrack() {
 }
 
 function nextTrack() {
+  if (!tracks.length) return;
+
   if (playMode === 1) {
     playRandom();
   } else {
@@ -316,11 +358,7 @@ function changeVolume(value) {
 
   if (value > 0) lastVolume = value;
 
-  if (!isMuted) {
-    audio.volume = value / 100;
-  } else {
-    audio.volume = 0;
-  }
+  audio.volume = isMuted ? 0 : value / 100;
 
   updateVolumeIcon();
   updateRangeBackground(volumeSlider, value);
@@ -328,13 +366,7 @@ function changeVolume(value) {
 
 function toggleMute() {
   isMuted = !isMuted;
-
-  if (isMuted) {
-    audio.volume = 0;
-  } else {
-    audio.volume = (volumeSlider.value || lastVolume) / 100;
-  }
-
+  audio.volume = isMuted ? 0 : (volumeSlider.value || lastVolume) / 100;
   updateVolumeIcon();
 }
 
@@ -353,24 +385,6 @@ function updateVolumeIcon() {
 }
 
 // ===== 播放 =====
-function extractMusicFiles() {
-  const audioElements = document.querySelectorAll('.myAudio source');
-  tracks = [];
-
-  audioElements.forEach((source) => {
-    const src = source.getAttribute('src');
-    if (src) {
-      const box = source.closest('.paper-box');
-      const nameEl = box?.querySelector('.paper-box-text a');
-
-      tracks.push({
-        name: nameEl?.textContent.trim() || 'Unknown',
-        file: src
-      });
-    }
-  });
-}
-
 function loadTrack(index) {
   if (!tracks.length) return;
 
@@ -385,6 +399,8 @@ function loadTrack(index) {
 }
 
 function togglePlayPause() {
+  if (!tracks.length) return;
+
   if (audio.paused) audio.play();
   else audio.pause();
 }

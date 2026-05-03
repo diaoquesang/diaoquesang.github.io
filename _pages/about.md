@@ -37,13 +37,12 @@ redirect_from:
 [![GitHub followers](https://img.shields.io/github/followers/diaoquesang)](https://github.com/diaoquesang)
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=diaoquesang&countColor=%23263759&style=flat&labelStyle=none)](https://visitorbadge.io/status?path=diaoquesang)
 
-
 <!-- 引入 Font Awesome -->
 <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <!-- 动态音乐播放条 -->
 <div id="music-player-bar" style="position: sticky; top: 0; z-index: 100; background: #f8f9fa; padding: 10px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <audio id="main-audio" preload="auto">
+  <audio id="main-audio" preload="auto"></audio>
 
   <div style="display: flex; align-items: center; gap: 8px; font-size: 14px;">
     <button id="prev-btn" onclick="prevTrack()"
@@ -61,20 +60,25 @@ redirect_from:
       <i class="fa-solid fa-forward-step"></i>
     </button>
 
-    <button id="shuffle-btn" onclick="toggleShuffle()"
-      style="width:32px; height:32px; display:flex; align-items:center; justify-content:center; border:none; background:none; cursor:pointer; font-size:16px; opacity:0.5; transition:all 0.3s;">
-      <i class="fa-solid fa-shuffle"></i>
-    </button>
-
-    <!-- 单曲循环专属图标 🔂 -->
-    <button id="loop-btn" onclick="toggleLoop()"
-      style="width:32px; height:32px; display:flex; align-items:center; justify-content:center; border:none; background:none; cursor:pointer; font-size:16px; opacity:0.5; transition:all 0.3s;">
-      <i class="fa-solid fa-repeat-1"></i>
+    <!-- 三合一播放模式按钮 -->
+    <button id="mode-btn" onclick="togglePlayMode()"
+      style="width:32px; height:32px; display:flex; align-items:center; justify-content:center; border:none; background:none; cursor:pointer; font-size:16px; color:#007bff; transition:all 0.3s;">
+      <i class="fa-solid fa-repeat"></i>
     </button>
 
     <span id="track-name" style="min-width:140px; font-weight:bold; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">Loading...</span>
 
-    <input type="range" id="volume-slider" min="0" max="100" value="20" style="width:80px;" onchange="changeVolume(this.value)">
+    <!-- 时间 -->
+    <span id="current-time" style="font-size:12px; min-width:40px;">0:00</span>
+    
+    <!-- 进度条 -->
+    <input type="range" id="progress-bar" min="0" max="100" value="0" 
+           style="flex:1; height:6px; cursor:pointer;">
+    
+    <span id="duration" style="font-size:12px; min-width:40px;">0:00</span>
+
+    <!-- 音量 -->
+    <input type="range" id="volume-slider" min="0" max="100" value="20" style="width:80px; margin-left:8px;" onchange="changeVolume(this.value)">
     <span id="volume-display" style="font-size:12px; min-width:35px;">20%</span>
   </div>
 </div>
@@ -83,11 +87,15 @@ redirect_from:
 let tracks = [];
 let currentTrack = 0;
 let isPlaying = false;
-let isShuffle = false;
-let isLoop = false;
 let audio = document.getElementById('main-audio');
+let playMode = 0; // 0=顺序 1=随机 2=单曲循环
 
-// 自动抓取页面音乐文件
+// 进度条元素
+const progressBar = document.getElementById('progress-bar');
+const currentTimeEl = document.getElementById('current-time');
+const durationEl = document.getElementById('duration');
+
+// 提取音乐
 function extractMusicFiles() {
   const audioElements = document.querySelectorAll('.myAudio source');
   tracks = [];
@@ -110,35 +118,30 @@ document.addEventListener('DOMContentLoaded', function () {
   extractMusicFiles();
   loadTrack(0);
   audio.volume = 0.2;
+  updateModeButton();
+
+  // 进度条同步
+  audio.addEventListener('timeupdate', updateProgress);
+  audio.addEventListener('loadedmetadata', updateDuration);
+  
+  // 进度条交互
+  progressBar.addEventListener('input', seek);
 });
 
-// 随机模式切换
-function toggleShuffle() {
-  isShuffle = !isShuffle;
-  if (isShuffle) isLoop = false;
-  updateBtnStyle();
+// 切换播放模式：顺序→随机→单曲循环
+function togglePlayMode() {
+  playMode = (playMode + 1) % 3;
+  updateModeButton();
 }
 
-// 单曲循环切换
-function toggleLoop() {
-  isLoop = !isLoop;
-  if (isLoop) isShuffle = false;
-  updateBtnStyle();
+function updateModeButton() {
+  const icon = document.querySelector('#mode-btn i');
+  if (playMode === 0) icon.className = 'fa-solid fa-repeat';
+  if (playMode === 1) icon.className = 'fa-solid fa-shuffle';
+  if (playMode === 2) icon.className = 'fa-solid fa-arrow-rotate-right';
 }
 
-// 更新按钮高亮/置灰样式
-function updateBtnStyle() {
-  const shuffleBtn = document.getElementById('shuffle-btn');
-  const loopBtn = document.getElementById('loop-btn');
-
-  shuffleBtn.style.opacity = isShuffle ? '1' : '0.5';
-  shuffleBtn.style.color = isShuffle ? '#007bff' : '#000';
-
-  loopBtn.style.opacity = isLoop ? '1' : '0.5';
-  loopBtn.style.color = isLoop ? '#007bff' : '#000';
-}
-
-// 加载指定歌曲
+// 加载歌曲
 function loadTrack(index) {
   if (tracks.length === 0) return;
   currentTrack = index;
@@ -146,21 +149,20 @@ function loadTrack(index) {
   document.getElementById('track-name').textContent = tracks[index].name;
 }
 
-// 生成不重复当前歌曲的随机下标
+// 随机歌曲
 function getRandomIndex() {
   let idx;
-  do {
-    idx = Math.floor(Math.random() * tracks.length);
-  } while (idx === currentTrack && tracks.length > 1);
+  do { idx = Math.floor(Math.random() * tracks.length); }
+  while (idx === currentTrack && tracks.length > 1);
   return idx;
 }
 
 // 上一首
 function prevTrack() {
   if (tracks.length === 0) return;
-  if (isLoop) {
+  if (playMode === 2) {
     audio.currentTime = 0;
-  } else if (isShuffle) {
+  } else if (playMode === 1) {
     loadTrack(getRandomIndex());
   } else {
     currentTrack = (currentTrack - 1 + tracks.length) % tracks.length;
@@ -172,9 +174,9 @@ function prevTrack() {
 // 下一首
 function nextTrack() {
   if (tracks.length === 0) return;
-  if (isLoop) {
+  if (playMode === 2) {
     audio.currentTime = 0;
-  } else if (isShuffle) {
+  } else if (playMode === 1) {
     loadTrack(getRandomIndex());
   } else {
     currentTrack = (currentTrack + 1) % tracks.length;
@@ -183,9 +185,9 @@ function nextTrack() {
   if (isPlaying) audio.play();
 }
 
-// 歌曲播放结束事件
+// 播放结束
 audio.addEventListener('ended', function () {
-  if (isLoop) {
+  if (playMode === 2) {
     audio.currentTime = 0;
     audio.play();
   } else {
@@ -193,7 +195,7 @@ audio.addEventListener('ended', function () {
   }
 });
 
-// 播放/暂停切换
+// 播放暂停
 function togglePlayPause() {
   const btnIcon = document.querySelector('#play-pause-btn i');
   if (isPlaying) {
@@ -208,10 +210,33 @@ function togglePlayPause() {
   isPlaying = !isPlaying;
 }
 
-// 音量调节
+// 音量
 function changeVolume(value) {
   audio.volume = value / 100;
   document.getElementById('volume-display').textContent = value + '%';
+}
+
+// 进度条功能
+function updateProgress() {
+  const percent = (audio.currentTime / audio.duration) * 100;
+  progressBar.value = percent || 0;
+  currentTimeEl.textContent = formatTime(audio.currentTime);
+}
+
+function updateDuration() {
+  durationEl.textContent = formatTime(audio.duration);
+}
+
+function seek() {
+  const time = (progressBar.value / 100) * audio.duration;
+  audio.currentTime = time;
+}
+
+function formatTime(seconds) {
+  if (isNaN(seconds)) return "0:00";
+  const min = Math.floor(seconds / 60);
+  const sec = Math.floor(seconds % 60);
+  return `${min}:${sec < 10 ? '0' + sec : sec}`;
 }
 </script>
 

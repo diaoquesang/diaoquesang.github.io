@@ -235,32 +235,32 @@ window.addEventListener('load', function () {
 
 // ===== 抓取歌曲（核心修复）=====
 function extractMusicFiles() {
-  const audioElements = document.querySelectorAll('audio source'); // 更稳！
-  tracks = [];
+  const audioElements = document.querySelectorAll('audio source');
+  const tracks = [];  // 正确声明，无全局污染
 
   audioElements.forEach((source) => {
     const src = source.getAttribute('src');
     if (!src) return;
 
     const box = source.closest('.paper-box');
-
-    // ===== 稳定获取歌曲名 =====
     let name = 'Unknown';
-    const links = box?.querySelectorAll('.paper-box-text a');
 
-    if (links && links.length) {
-      name = links[0].textContent.trim();
-
-      // 如果第一个是 🎥 视频链接，就取下一个
-      if (name.includes('🎥') && links.length > 1) {
-        name = links[1].textContent.trim();
+    if (box) {
+      const links = box.querySelectorAll('.paper-box-text a');
+      
+      // 自动遍历，跳过所有带 🎥 的链接，永远取第一个正常歌名
+      if (links && links.length) {
+        for (let link of links) {
+          const text = link.textContent.trim();
+          if (!text.includes('🎥')) {
+            name = text;
+            break;
+          }
+        }
       }
     }
 
-    tracks.push({
-      name: name,
-      file: src
-    });
+    tracks.push({ name, file: src });
   });
 
   console.log('tracks:', tracks);

@@ -87,16 +87,20 @@ redirect_from:
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+/* ===== 主布局 ===== */
 .player-row {
   display: flex;
   align-items: center;
   gap: 8px;
   font-size: 14px;
+  min-width: 0; /* ⭐ 防止子元素溢出 */
 }
 
+/* ===== 按钮 ===== */
 button {
   width: 40px;
   height: 40px;
+  flex-shrink: 0; /* ⭐ 不允许压缩 */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,32 +118,52 @@ button:hover {
   color: #007bff;
 }
 
+/* ===== 歌名（关键修复点） ===== */
 .track-name {
-  flex: 1;
-  min-width: 0;
+  flex: 1 1 auto;   /* ⭐ 可以占空间 */
+  min-width: 80px;  /* ⭐ 防止被压成0 */
   font-weight: bold;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
+/* ===== 时间 ===== */
 .time {
   font-size: 12px;
-  min-width: 40px;
+  min-width: 45px;
+  flex-shrink: 0;
 }
 
+/* ===== 音量文字 ===== */
 .volume-text {
   font-size: 12px;
-  min-width: 35px;
+  min-width: 40px;
+  flex-shrink: 0;
 }
 
+/* ===== 音量图标 ===== */
 .volume-icon {
   font-size: 14px;
-  width: 18px;
+  width: 20px;
+  flex-shrink: 0;
   cursor: pointer;
 }
 
-/* ===== range 容器 ===== */
+/* ===== 进度条（核心修复） ===== */
+#progress-bar {
+  flex: 2;              /* ⭐ 占一部分空间 */
+  min-width: 120px;     /* ⭐ 不会消失 */
+  max-width: 300px;     /* ⭐ 不会无限变长 */
+}
+
+/* ===== 音量条 ===== */
+#volume-slider {
+  width: 80px;
+  flex-shrink: 0;
+}
+
+/* ===== range 基础 ===== */
 input[type="range"] {
   -webkit-appearance: none;
   appearance: none;
@@ -149,7 +173,7 @@ input[type="range"] {
   cursor: pointer;
 }
 
-/* ===== 假轨道 ===== */
+/* ===== 轨道 ===== */
 input[type="range"]::before {
   content: "";
   position: absolute;
@@ -158,11 +182,15 @@ input[type="range"]::before {
   top: 50%;
   height: 6px;
   transform: translateY(-50%);
-  background: linear-gradient(to right, #007bff var(--progress, 0%), #ddd var(--progress, 0%));
+  background: linear-gradient(
+    to right,
+    #007bff var(--progress, 0%),
+    #ddd var(--progress, 0%)
+  );
   border-radius: 3px;
 }
 
-/* ===== 滑块 ===== */
+/* ===== 滑块（Chrome） ===== */
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 12px;
@@ -172,13 +200,14 @@ input[type="range"]::-webkit-slider-thumb {
   cursor: pointer;
   position: relative;
   z-index: 2;
+  transition: transform 0.15s ease;
 }
 
 input[type="range"]:hover::-webkit-slider-thumb {
   transform: scale(1.4);
 }
 
-/* Firefox */
+/* ===== 滑块（Firefox） ===== */
 input[type="range"]::-moz-range-thumb {
   width: 12px;
   height: 12px;
@@ -186,6 +215,7 @@ input[type="range"]::-moz-range-thumb {
   border-radius: 50%;
   border: none;
   cursor: pointer;
+  transition: transform 0.15s ease;
 }
 
 input[type="range"]:hover::-moz-range-thumb {

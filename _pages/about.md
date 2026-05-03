@@ -39,115 +39,380 @@ redirect_from:
 
 
 
-<!-- 动态音乐播放条 -->  
-<div id="music-player-bar" style="position: sticky; top: 0; z-index: 100; background: #f8f9fa; padding: 8px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">  
-  <audio id="main-audio" preload="auto"></audio>  
-    
-  <div style="display: flex; align-items: center; gap: 10px; font-size: 14px;">  
-    <button id="prev-btn" onclick="prevTrack()">⏮</button>  
-    <button id="play-pause-btn" onclick="togglePlayPause()">▶</button>  
-    <button id="next-btn" onclick="nextTrack()">⏭</button>  
-    <button id="shuffle-btn" onclick="toggleShuffle()">🔀</button>  
-      
-    <span id="track-name" style="min-width: 150px; font-weight: bold;">Loading...</span>  
-      
-    <input type="range" id="volume-slider" min="0" max="100" value="20"   
-           style="width: 80px;" onchange="changeVolume(this.value)">  
-    <span id="volume-display" style="font-size: 12px;">20%</span>  
-  </div>  
-</div>  
-  
-<script>  
-let tracks = [];  
-let currentTrack = 0;  
-let isPlaying = false;  
-let isShuffle = false;  
-let audio = document.getElementById('main-audio');  
-  
-// 从现有音乐部分自动提取音乐文件  
-function extractMusicFiles() {  
-  const audioElements = document.querySelectorAll('.myAudio source');  
-    
-  tracks = [];  
-  audioElements.forEach((source, index) => {  
-    const src = source.getAttribute('src');  
-    if (src) {  
-      // 找到包含这个音频元素的最近的paper-box  
-      const audioContainer = source.closest('.myAudio');  
-      const paperBox = audioContainer ? audioContainer.closest('.paper-box') : null;  
-        
-      if (paperBox) {  
-        const linkElement = paperBox.querySelector('.paper-box-text a');  
-        const trackName = linkElement ? linkElement.textContent.trim() : 'Unknown Track';  
-          
-        tracks.push({  
-          name: trackName,  
-          file: src  
-        });  
-      }  
-    }  
-  });  
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<div id="music-player-bar">
+  <audio id="main-audio" preload="auto"></audio>
+
+  <div class="player-row">
+
+    <button onclick="prevTrack()"><i class="fa-solid fa-backward-step"></i></button>
+
+    <button id="play-pause-btn" onclick="togglePlayPause()">
+      <i class="fa-solid fa-play"></i>
+    </button>
+
+    <button onclick="nextTrack()"><i class="fa-solid fa-forward-step"></i></button>
+
+    <button id="mode-btn" onclick="togglePlayMode()" class="mode-btn">
+      <i class="fa-solid fa-repeat"></i>
+    </button>
+
+    <span id="track-name" class="track-name">Loading...</span>
+
+    <span id="current-time" class="time">0:00</span>
+
+    <input type="range" id="progress-bar" min="0" max="100" value="0">
+
+    <span id="duration" class="time">0:00</span>
+
+    <i id="volume-icon" onclick="toggleMute()" class="fa-solid fa-volume-low volume-icon"></i>
+
+    <input type="range" id="volume-slider" min="0" max="100" value="20">
+
+    <span id="volume-display" class="volume-text">20%</span>
+  </div>
+</div>
+
+<style>
+#music-player-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #f8f9fa;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-  
-// 初始化  
-document.addEventListener('DOMContentLoaded', function() {  
-  extractMusicFiles();  
-  loadTrack(0);  
-  audio.volume = 0.2;  
-});  
-  
-function loadTrack(index) {  
-  if (tracks.length === 0) return;  
-    
-  currentTrack = index;  
-  audio.src = tracks[index].file;  
-  document.getElementById('track-name').textContent = tracks[index].name;  
-}  
-  
-function togglePlayPause() {  
-  if (isPlaying) {  
-    audio.pause();  
-    document.getElementById('play-pause-btn').textContent = '▶';  
-  } else {  
-    audio.play();  
-    document.getElementById('play-pause-btn').textContent = '⏸';  
-  }  
-  isPlaying = !isPlaying;  
-}  
-  
-function prevTrack() {  
-  if (tracks.length === 0) return;  
-  currentTrack = (currentTrack - 1 + tracks.length) % tracks.length;  
-  loadTrack(currentTrack);  
-  if (isPlaying) audio.play();  
-}  
-  
-function nextTrack() {  
-  if (tracks.length === 0) return;  
-  if (isShuffle) {  
-    currentTrack = Math.floor(Math.random() * tracks.length);  
-  } else {  
-    currentTrack = (currentTrack + 1) % tracks.length;  
-  }  
-  loadTrack(currentTrack);  
-  if (isPlaying) audio.play();  
-}  
-  
-function toggleShuffle() {  
-  isShuffle = !isShuffle;  
-  document.getElementById('shuffle-btn').style.opacity = isShuffle ? '1' : '0.5';  
-}  
-  
-function changeVolume(value) {  
-  audio.volume = value / 100;  
-  document.getElementById('volume-display').textContent = value + '%';  
-}  
-  
-// 自动播放下一首  
-audio.addEventListener('ended', nextTrack);  
+
+.player-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgba(0,0,0,0.05);
+  border-radius: 6px;
+}
+
+.mode-btn {
+  color: #007bff;
+}
+
+.track-name {
+  flex: 1;
+  min-width: 0;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.time {
+  font-size: 12px;
+  min-width: 40px;
+}
+
+.volume-text {
+  font-size: 12px;
+  min-width: 35px;
+}
+
+.volume-icon {
+  font-size: 14px;
+  width: 18px;
+  cursor: pointer;
+}
+
+/* ===== range 容器 ===== */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  position: relative;
+  height: 14px;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* ===== 假轨道 ===== */
+input[type="range"]::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 6px;
+  transform: translateY(-50%);
+  background: linear-gradient(to right, #007bff var(--progress, 0%), #ddd var(--progress, 0%));
+  border-radius: 3px;
+}
+
+/* ===== 滑块 ===== */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #007bff;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+input[type="range"]:hover::-webkit-slider-thumb {
+  transform: scale(1.4);
+}
+
+/* Firefox */
+input[type="range"]::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  background: #007bff;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="range"]:hover::-moz-range-thumb {
+  transform: scale(1.4);
+}
+</style>
+
+<script>
+let tracks = [];
+let currentTrack = 0;
+let audio = document.getElementById('main-audio');
+let playMode = 0; // 0顺序 1随机 2单曲循环
+
+let lastVolume = 20;
+let isMuted = false;
+
+const progressBar = document.getElementById('progress-bar');
+const currentTimeEl = document.getElementById('current-time');
+const durationEl = document.getElementById('duration');
+const volumeSlider = document.getElementById('volume-slider');
+const volumeIcon = document.getElementById('volume-icon');
+
+// ===== 初始化 =====
+document.addEventListener('DOMContentLoaded', function () {
+  extractMusicFiles();
+  loadTrack(0);
+
+  audio.volume = 0.2;
+  changeVolume(20);
+
+  updateModeButton();
+
+  audio.addEventListener('timeupdate', updateProgress);
+  audio.addEventListener('loadedmetadata', updateDuration);
+  audio.addEventListener('ended', handleEnded);
+
+  progressBar.addEventListener('input', handleSeek);
+
+  volumeSlider.addEventListener('input', (e) => {
+    isMuted = false;
+    changeVolume(e.target.value);
+  });
+});
+
+// ===== 播放结束逻辑 =====
+function handleEnded() {
+  if (playMode === 2) {
+    audio.currentTime = 0;
+    audio.play();
+  } else if (playMode === 1) {
+    playRandom();
+  } else {
+    playNextSequential();
+  }
+}
+
+// ===== 手动控制 =====
+function prevTrack() {
+  if (playMode === 1) {
+    playRandom();
+  } else {
+    currentTrack = (currentTrack - 1 + tracks.length) % tracks.length;
+    loadTrack(currentTrack);
+    audio.play();
+  }
+}
+
+function nextTrack() {
+  if (playMode === 1) {
+    playRandom();
+  } else {
+    playNextSequential();
+  }
+}
+
+function playNextSequential() {
+  currentTrack = (currentTrack + 1) % tracks.length;
+  loadTrack(currentTrack);
+  audio.play();
+}
+
+function playRandom() {
+  if (tracks.length <= 1) return;
+
+  let randomIndex;
+  do {
+    randomIndex = Math.floor(Math.random() * tracks.length);
+  } while (randomIndex === currentTrack);
+
+  currentTrack = randomIndex;
+  loadTrack(currentTrack);
+  audio.play();
+}
+
+// ===== 进度 =====
+function updateRangeBackground(el, value) {
+  el.style.setProperty('--progress', value + '%');
+}
+
+function updateProgress() {
+  if (!audio.duration) return;
+
+  const percent = (audio.currentTime / audio.duration) * 100;
+  progressBar.value = percent;
+
+  currentTimeEl.textContent = formatTime(audio.currentTime);
+  updateRangeBackground(progressBar, percent);
+}
+
+function handleSeek() {
+  if (!audio.duration) return;
+
+  const percent = progressBar.value;
+  audio.currentTime = (percent / 100) * audio.duration;
+
+  currentTimeEl.textContent = formatTime(audio.currentTime);
+  updateRangeBackground(progressBar, percent);
+}
+
+function updateDuration() {
+  durationEl.textContent = formatTime(audio.duration);
+}
+
+// ===== 音量 =====
+function changeVolume(value) {
+  value = Number(value);
+
+  volumeSlider.value = value;
+  document.getElementById('volume-display').textContent = value + '%';
+
+  if (value > 0) lastVolume = value;
+
+  if (!isMuted) {
+    audio.volume = value / 100;
+  } else {
+    audio.volume = 0;
+  }
+
+  updateVolumeIcon();
+  updateRangeBackground(volumeSlider, value);
+}
+
+function toggleMute() {
+  isMuted = !isMuted;
+
+  if (isMuted) {
+    audio.volume = 0;
+  } else {
+    audio.volume = (volumeSlider.value || lastVolume) / 100;
+  }
+
+  updateVolumeIcon();
+}
+
+function updateVolumeIcon() {
+  const value = Number(volumeSlider.value);
+
+  if (isMuted) {
+    volumeIcon.className = 'fa-solid fa-volume-xmark volume-icon';
+  } else if (value == 0) {
+    volumeIcon.className = 'fa-solid fa-volume-off volume-icon';
+  } else if (value < 50) {
+    volumeIcon.className = 'fa-solid fa-volume-low volume-icon';
+  } else {
+    volumeIcon.className = 'fa-solid fa-volume-high volume-icon';
+  }
+}
+
+// ===== 播放 =====
+function extractMusicFiles() {
+  const audioElements = document.querySelectorAll('.myAudio source');
+  tracks = [];
+
+  audioElements.forEach((source) => {
+    const src = source.getAttribute('src');
+    if (src) {
+      const box = source.closest('.paper-box');
+      const nameEl = box?.querySelector('.paper-box-text a');
+
+      tracks.push({
+        name: nameEl?.textContent.trim() || 'Unknown',
+        file: src
+      });
+    }
+  });
+}
+
+function loadTrack(index) {
+  if (!tracks.length) return;
+
+  currentTrack = index;
+  audio.src = tracks[index].file;
+  audio.currentTime = 0;
+
+  progressBar.value = 0;
+  updateRangeBackground(progressBar, 0);
+
+  document.getElementById('track-name').textContent = tracks[index].name;
+}
+
+function togglePlayPause() {
+  if (audio.paused) audio.play();
+  else audio.pause();
+}
+
+function togglePlayMode() {
+  playMode = (playMode + 1) % 3;
+  updateModeButton();
+}
+
+function updateModeButton() {
+  const icon = document.querySelector('#mode-btn i');
+
+  if (playMode === 0) icon.className = 'fa-solid fa-repeat';
+  if (playMode === 1) icon.className = 'fa-solid fa-shuffle';
+  if (playMode === 2) icon.className = 'fa-solid fa-arrow-rotate-right';
+}
+
+function formatTime(seconds) {
+  if (isNaN(seconds)) return "0:00";
+
+  const min = Math.floor(seconds / 60);
+  const sec = Math.floor(seconds % 60);
+
+  return `${min}:${sec < 10 ? '0' + sec : sec}`;
+}
 </script>
-
-
 
 # 📖 Education
 

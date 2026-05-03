@@ -239,31 +239,23 @@ function $(id) {
   return document.getElementById(id);
 }
 
-// ===== 安全执行（核心防崩）=====
+// ===== 安全执行 =====
 function safe(fn) {
   try { fn(); } catch (e) {
     console.warn("⚠️ JS保护:", e);
   }
 }
 
+// ===== 安全背景 =====
+function updateRangeBackground(el, value) {
+  if (!el || !el.style || !el.style.setProperty) return;
+  el.style.setProperty('--progress', value + '%');
+}
+
 // ===== Loading =====
 function hideLoading() {
   const el = $('player-loading');
   if (el) el.style.display = 'none';
-}
-
-// ===== ⭐ 完全安全背景（终极版）=====
-function updateRangeBackground(el, value) {
-  if (!el) return;
-  if (typeof el !== 'object') return;
-  if (!el.style) return;
-  if (typeof el.style.setProperty !== 'function') return;
-
-  try {
-    el.style.setProperty('--progress', value + '%');
-  } catch (e) {
-    console.warn('range background error:', e);
-  }
 }
 
 // ===== 抓音乐 =====
@@ -295,7 +287,7 @@ function extractMusicFiles() {
   console.log("tracks:", tracks.length);
 }
 
-// ===== 初始化 =====
+// ===== 初始化播放器 =====
 function initPlayer() {
   audio = $('main-audio');
   if (!audio) {
@@ -306,27 +298,64 @@ function initPlayer() {
   audio.volume = 0.2;
 
   audio.addEventListener('timeupdate', () => safe(updateProgress));
-  audio.addEventListener('loadedmetadata', () => safe(() => {
-    updateDuration();
+  audio.addEventListener('loadedmetadata', () => {
+    safe(updateDuration);
     hideLoading();
-  }));
+  });
   audio.addEventListener('canplay', hideLoading);
   audio.addEventListener('ended', () => safe(handleEnded));
 
   audio.addEventListener('play', updatePlayButton);
   audio.addEventListener('pause', updatePlayButton);
 
-  $('progress-bar')?.addEventListener('input', () => safe(handleSeek));
-
-  $('volume-slider')?.addEventListener('input', (e) => {
-    isMuted = false;
-    safe(() => changeVolume(e.target.value));
-  });
-
-  $('prev-btn')?.addEventListener('click', () => safe(prevTrack));
-  $('next-btn')?.addEventListener('click', () => safe(nextTrack));
-
   updateModeButton();
+}
+
+// ===== ⭐ 控件绑定（核心）=====
+function bindControls() {
+  console.log("🔗 绑定播放器控件");
+
+  const playBtn = $('play-pause-btn');
+  const prevBtn = $('prev-btn');
+  const nextBtn = $('next-btn');
+  const progress = $('progress-bar');
+  const volume = $('volume-slider');
+  const muteBtn = $('volume-icon');
+
+  if (playBtn) playBtn.onclick = togglePlayPause;
+  if (prevBtn) prevBtn.onclick = prevTrack;
+  if (nextBtn) nextBtn.onclick = nextTrack;
+
+  if (progress) {
+    progress.oninput = handleSeek;
+  }
+
+  if (volume) {
+    volume.oninput = (e) => {
+      isMuted = false;
+      changeVolume(e.target.value);
+    };
+  }
+
+  if (muteBtn) {
+    muteBtn.onclick = toggleMute;
+  }
+}
+
+// ===== 等待控件出现 =====
+function waitForControls() {
+  const timer = setInterval(() => {
+    const ready =
+      $('play-pause-btn') &&
+      $('progress-bar') &&
+      $('volume-slider');
+
+    if (ready) {
+      clearInterval(timer);
+      bindControls();
+      console.log("✅ 控件绑定完成");
+    }
+  }, 300);
 }
 
 // ===== 加载歌曲 =====
@@ -356,13 +385,9 @@ function loadTrack(index) {
 // ===== 播放控制 =====
 function togglePlayPause() {
   if (!audio) return;
-
-  safe(() => {
-    audio.paused ? audio.play() : audio.pause();
-  });
+  audio.paused ? audio.play() : audio.pause();
 }
 
-// ===== 播放按钮 =====
 function updatePlayButton() {
   const icon = document.querySelector('#play-pause-btn i');
   if (!icon || !audio) return;
@@ -428,8 +453,7 @@ function updateProgress() {
     updateRangeBackground(bar, percent);
   }
 
-  const timeEl = $('current-time');
-  if (timeEl) timeEl.textContent = formatTime(audio.currentTime);
+  $('current-time') && ($('current-time').textContent = formatTime(audio.currentTime));
 }
 
 function handleSeek() {
@@ -472,7 +496,6 @@ function toggleMute() {
   updateVolumeIcon();
 }
 
-// ===== 音量图标 =====
 function updateVolumeIcon() {
   const icon = $('volume-icon');
   if (!icon) return;
@@ -528,6 +551,7 @@ function waitForAudios() {
 function startPlayer() {
   initPlayer();
   waitForAudios();
+  waitForControls(); // ⭐⭐ 关键
 }
 
 startPlayer();

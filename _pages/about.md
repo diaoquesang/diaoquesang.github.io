@@ -238,7 +238,7 @@ function $(id) {
 }
 
 // ===== 【关键修复】使用第二段代码的稳定初始化时机 =====
-document.addEventListener('DOMContentLoaded', function () {
+window.addEventListener('load', function () {
   try {
     audio = $('main-audio');
     if (!audio) {

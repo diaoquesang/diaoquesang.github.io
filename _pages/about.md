@@ -207,7 +207,7 @@ function $(id) {
   return document.getElementById(id);
 }
 
-// ===== 初始化（最稳：等所有资源加载完）=====
+// ===== 【关键修复】使用第二段代码的稳定初始化时机 =====
 document.addEventListener('DOMContentLoaded', function () {
   try {
     audio = $('main-audio');
@@ -226,16 +226,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function initPlayer() {
   extractMusicFiles();
 
-  // 防止 markdown / 异步渲染
-  if (!tracks.length) {
-    console.warn("tracks 为空，延迟重试...");
-    setTimeout(() => {
-      extractMusicFiles();
-      safeLoadTrack(0);
-    }, 500);
-  } else {
-    safeLoadTrack(0);
-  }
+  safeLoadTrack(0);
 
   audio.volume = 0.2;
   changeVolume(20);
@@ -259,32 +250,22 @@ function initPlayer() {
   }
 }
 
-// ===== 提取音乐 =====
+// ===== 提取音乐（使用第二段的稳定逻辑） =====
 function extractMusicFiles() {
   tracks = [];
+  const audioElements = document.querySelectorAll('.myAudio source');
 
-  const sources = document.querySelectorAll('.myAudio source');
-
-  sources.forEach((source) => {
+  audioElements.forEach((source) => {
     const src = source.getAttribute('src');
     if (!src) return;
 
-    const box = source.closest('.paper-box');
+    const audioContainer = source.closest('.myAudio');
+    const paperBox = audioContainer ? audioContainer.closest('.paper-box') : null;
 
-    let name = 'Unknown';
-
-    if (box) {
-      const link = box.querySelector('.paper-box-text a');
-      if (link) {
-        name = link.textContent.trim();
-      } else {
-        const text = box.querySelector('.paper-box-text');
-        if (text) name = text.textContent.trim();
-        else {
-          const badge = box.querySelector('.badge');
-          if (badge) name = badge.textContent.trim();
-        }
-      }
+    let name = 'Unknown Track';
+    if (paperBox) {
+      const linkElement = paperBox.querySelector('.paper-box-text a');
+      name = linkElement ? linkElement.textContent.trim() : 'Unknown Track';
     }
 
     tracks.push({ name, file: src });
@@ -299,13 +280,6 @@ function safeLoadTrack(index) {
     console.warn("没有音乐");
     return;
   }
-
-  const el = $('track-name');
-  if (!el) {
-    console.error("track-name 不存在");
-    return;
-  }
-
   loadTrack(index);
 }
 
@@ -353,7 +327,7 @@ function playNextSequential() {
   audio.play();
 }
 
-// ===== 随机播放（不重复当前）=====
+// ===== 随机播放 =====
 function playRandom() {
   if (tracks.length <= 1) return;
 
@@ -379,9 +353,9 @@ function handleEnded() {
   }
 }
 
-// ===== ⭐ 修复点：防止 undefined 报错 =====
+// ===== 【关键修复】防止报错 =====
 function updateRangeBackground(el, value) {
-  if (!el) return; // ⭐ 关键修复
+  if (!el || !el.style) return;
   el.style.setProperty('--progress', value + '%');
 }
 
@@ -403,15 +377,11 @@ function updateProgress() {
 
 function handleSeek() {
   if (!audio || !audio.duration) return;
-
   const bar = $('progress-bar');
   if (!bar) return;
 
   const percent = bar.value;
   audio.currentTime = (percent / 100) * audio.duration;
-
-  const current = $('current-time');
-  if (current) current.textContent = formatTime(audio.currentTime);
 }
 
 function updateDuration() {
@@ -422,7 +392,6 @@ function updateDuration() {
 // ===== 音量 =====
 function changeVolume(value) {
   value = Number(value);
-
   const slider = $('volume-slider');
   const display = $('volume-display');
 
@@ -430,7 +399,6 @@ function changeVolume(value) {
   if (display) display.textContent = value + '%';
 
   if (value > 0) lastVolume = value;
-
   audio.volume = isMuted ? 0 : value / 100;
 
   updateVolumeIcon();

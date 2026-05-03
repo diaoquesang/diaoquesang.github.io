@@ -67,14 +67,14 @@ let audio = document.getElementById('main-audio');
 // 从现有音乐部分自动提取音乐文件  
 function extractMusicFiles() {  
   const audioElements = document.querySelectorAll('.myAudio source');  
-  const paperBoxes = document.querySelectorAll('.paper-box');  
+  const musicPaperBoxes = document.querySelectorAll('#-my-favorite-music .paper-box');  
     
   tracks = [];  
   audioElements.forEach((source, index) => {  
     const src = source.getAttribute('src');  
-    if (src && paperBoxes[index]) {  
-      // 从paper-box-text中的链接文本提取歌曲名  
-      const linkElement = paperBoxes[index].querySelector('.paper-box-text a');  
+    if (src && musicPaperBoxes[index]) {  
+      // 只从音乐部分的链接文本提取歌曲名  
+      const linkElement = musicPaperBoxes[index].querySelector('.paper-box-text a');  
       const trackName = linkElement ? linkElement.textContent.trim() : 'Unknown Track';  
         
       tracks.push({  

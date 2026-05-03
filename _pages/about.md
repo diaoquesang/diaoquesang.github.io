@@ -202,33 +202,33 @@ let playMode = 0; // 0顺序 1随机 2单曲循环
 let lastVolume = 20;
 let isMuted = false;
 
-// ===== 安全获取 DOM =====
+// ===== 简化获取 DOM =====
 function $(id) {
   return document.getElementById(id);
 }
 
-// ===== 初始化 =====
+// ===== 初始化（最稳：等所有资源加载完）=====
 window.addEventListener('load', function () {
   try {
     audio = $('main-audio');
-
     if (!audio) {
       console.error("audio element not found");
       return;
     }
 
     initPlayer();
-
   } catch (e) {
     console.error("播放器初始化失败:", e);
   }
 });
 
+// ===== 初始化播放器 =====
 function initPlayer() {
   extractMusicFiles();
 
+  // 防止 markdown / 异步渲染
   if (!tracks.length) {
-    console.warn("第一次没拿到 tracks，延迟重试...");
+    console.warn("tracks 为空，延迟重试...");
     setTimeout(() => {
       extractMusicFiles();
       safeLoadTrack(0);
@@ -239,7 +239,6 @@ function initPlayer() {
 
   audio.volume = 0.2;
   changeVolume(20);
-
   updateModeButton();
 
   audio.addEventListener('timeupdate', updateProgress);
@@ -260,7 +259,7 @@ function initPlayer() {
   }
 }
 
-// ===== 提取音乐（稳）=====
+// ===== 提取音乐 =====
 function extractMusicFiles() {
   tracks = [];
 
@@ -280,9 +279,8 @@ function extractMusicFiles() {
         name = link.textContent.trim();
       } else {
         const text = box.querySelector('.paper-box-text');
-        if (text) {
-          name = text.textContent.trim();
-        } else {
+        if (text) name = text.textContent.trim();
+        else {
           const badge = box.querySelector('.badge');
           if (badge) name = badge.textContent.trim();
         }
@@ -298,7 +296,7 @@ function extractMusicFiles() {
 // ===== 安全加载 =====
 function safeLoadTrack(index) {
   if (!tracks.length) {
-    console.warn("tracks 为空");
+    console.warn("没有音乐");
     return;
   }
 
@@ -317,10 +315,10 @@ function loadTrack(index) {
   audio.src = tracks[index].file;
   audio.currentTime = 0;
 
-  const progressBar = $('progress-bar');
-  if (progressBar) {
-    progressBar.value = 0;
-    updateRangeBackground(progressBar, 0);
+  const bar = $('progress-bar');
+  if (bar) {
+    bar.value = 0;
+    updateRangeBackground(bar, 0);
   }
 
   const el = $('track-name');
@@ -355,7 +353,7 @@ function playNextSequential() {
   audio.play();
 }
 
-// ===== 真·随机（不重复当前）=====
+// ===== 随机播放（不重复当前）=====
 function playRandom() {
   if (tracks.length <= 1) return;
 
@@ -381,12 +379,13 @@ function handleEnded() {
   }
 }
 
-// ===== 进度 =====
+// ===== ⭐ 修复点：防止 undefined 报错 =====
 function updateRangeBackground(el, value) {
-  if (!el) return;
+  if (!el) return; // ⭐ 关键修复
   el.style.setProperty('--progress', value + '%');
 }
 
+// ===== 进度 =====
 function updateProgress() {
   if (!audio || !audio.duration) return;
 
@@ -456,7 +455,7 @@ function updateVolumeIcon() {
   else icon.className = 'fa-solid fa-volume-high volume-icon';
 }
 
-// ===== 模式 =====
+// ===== 播放模式 =====
 function togglePlayMode() {
   playMode = (playMode + 1) % 3;
   updateModeButton();
@@ -471,7 +470,7 @@ function updateModeButton() {
   if (playMode === 2) icon.className = 'fa-solid fa-arrow-rotate-right';
 }
 
-// ===== 工具 =====
+// ===== 时间格式 =====
 function formatTime(seconds) {
   if (isNaN(seconds)) return "0:00";
   const min = Math.floor(seconds / 60);

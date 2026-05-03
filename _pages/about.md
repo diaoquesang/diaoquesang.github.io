@@ -239,6 +239,12 @@ function $(id) {
   return document.getElementById(id);
 }
 
+// ===== Loading 控制（核心新增）=====
+function hideLoading() {
+  const el = $('player-loading');
+  if (el) el.style.display = 'none';
+}
+
 // ===== 安全背景 =====
 function updateRangeBackground(el, value) {
   if (!el) return;
@@ -284,10 +290,14 @@ function initPlayer() {
   audio.volume = 0.2;
 
   audio.addEventListener('timeupdate', updateProgress);
-  audio.addEventListener('loadedmetadata', updateDuration);
+  audio.addEventListener('loadedmetadata', () => {
+    updateDuration();
+    hideLoading(); // ⭐⭐⭐ 关键：音频就绪就隐藏
+  });
+  audio.addEventListener('canplay', hideLoading); // 双保险
   audio.addEventListener('ended', handleEnded);
 
-  // ⭐⭐⭐ 核心：监听播放状态 → 更新按钮
+  // ⭐ 图标同步
   audio.addEventListener('play', updatePlayButton);
   audio.addEventListener('pause', updatePlayButton);
 
@@ -313,6 +323,10 @@ function loadTrack(index) {
   const t = tracks[index];
   if (!t || !t.file) return;
 
+  // ⭐ 先显示 loading
+  const loadingEl = $('player-loading');
+  if (loadingEl) loadingEl.style.display = 'block';
+
   audio.src = t.file;
   audio.currentTime = 0;
 
@@ -323,7 +337,6 @@ function loadTrack(index) {
 
   updateRangeBackground($('progress-bar'), 0);
 
-  // ⭐ 不自动播放
   updatePlayButton();
 }
 
@@ -338,7 +351,6 @@ function togglePlayPause() {
   }
 }
 
-// ⭐⭐⭐ 图标更新（核心）
 function updatePlayButton() {
   const btn = $('play-pause-btn');
   if (!btn) return;
@@ -346,13 +358,12 @@ function updatePlayButton() {
   const icon = btn.querySelector('i');
   if (!icon) return;
 
-  if (audio.paused) {
-    icon.className = 'fa-solid fa-play';
-  } else {
-    icon.className = 'fa-solid fa-pause';
-  }
+  icon.className = audio.paused
+    ? 'fa-solid fa-play'
+    : 'fa-solid fa-pause';
 }
 
+// ===== 上一首 / 下一首 =====
 function prevTrack() {
   if (historyStack.length > 1) {
     historyStack.pop();

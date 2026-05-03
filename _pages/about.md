@@ -228,7 +228,7 @@ let tracks = [];
 let currentTrack = 0;
 let audio = null;
 
-let playMode = 0; // 0顺序 1随机 2单曲循环
+let playMode = 0;
 let historyStack = [];
 
 let lastVolume = 20;
@@ -239,15 +239,15 @@ function $(id) {
   return document.getElementById(id);
 }
 
-// ===== 安全设置进度条背景（绝不报错）=====
+// ===== 安全设置进度条背景 =====
 function updateRangeBackground(el, value) {
-  if (!el) return;  // ⭐⭐ 就这一行，核心
+  if (!el) return;
   el.style.setProperty('--progress', value + '%');
 }
 
 // ===== 抓取音乐 =====
 function extractMusicFiles() {
-  if (tracks.length > 0) return; // ⭐ 只初始化一次
+  if (tracks.length > 0) return;
 
   const audios = document.querySelectorAll('.myAudio');
 
@@ -258,7 +258,6 @@ function extractMusicFiles() {
     let src = source.getAttribute('src');
     if (!src) return;
 
-    // 路径修正
     if (!src.startsWith('http')) {
       if (!src.startsWith('/')) src = '/' + src;
     }
@@ -287,7 +286,6 @@ function initPlayer() {
 
   audio.volume = 0.2;
 
-  // 事件绑定（全部防空）
   audio.addEventListener('timeupdate', updateProgress);
   audio.addEventListener('loadedmetadata', updateDuration);
   audio.addEventListener('ended', handleEnded);
@@ -331,10 +329,12 @@ function loadTrack(index) {
 
   updateRangeBackground($('progress-bar'), 0);
 
-  // ⭐⭐⭐ 关键：触发加载/播放
+  // ⭐ 触发加载/播放
   audio.play().catch(() => {
-    console.log("浏览器阻止自动播放，需要用户点击");
+    console.log("自动播放被阻止，需要用户点击");
   });
+
+  console.log("🎵 播放:", t.file);
 }
 
 // ===== 播放控制 =====
@@ -353,7 +353,6 @@ function prevTrack() {
     historyStack.pop();
     const prev = historyStack.pop();
     loadTrack(prev);
-    audio.play().catch(()=>{});
   }
 }
 
@@ -364,7 +363,6 @@ function nextTrack() {
 
   currentTrack = (currentTrack + 1) % tracks.length;
   loadTrack(currentTrack);
-  audio.play().catch(()=>{});
 }
 
 // ===== 真随机 =====
@@ -383,7 +381,6 @@ function playRandom() {
   } while (used.has(next));
 
   loadTrack(next);
-  audio.play().catch(()=>{});
 }
 
 // ===== 播放结束 =====
@@ -416,8 +413,7 @@ function handleSeek() {
   const bar = $('progress-bar');
   if (!bar || !audio.duration) return;
 
-  const percent = bar.value;
-  audio.currentTime = (percent / 100) * audio.duration;
+  audio.currentTime = (bar.value / 100) * audio.duration;
 }
 
 function updateDuration() {
@@ -484,26 +480,34 @@ function formatTime(seconds) {
   return `${min}:${sec < 10 ? '0' + sec : sec}`;
 }
 
-// ===== ⭐ 终极初始化（不会失效）=====
-function startPlayer() {
-  console.log("🔥 startPlayer 被执行了");
+// ===== ⭐ 等待音频出现（核心）=====
+function waitForAudios() {
+  const timer = setInterval(() => {
+    const audios = document.querySelectorAll('.myAudio');
 
-  initPlayer();
-  extractMusicFiles();
+    if (audios.length > 0) {
+      console.log("🎵 找到音频:", audios.length);
 
-  console.log("tracks:", tracks.length);
+      clearInterval(timer);
 
-  if (tracks.length > 0) {
-    loadTrack(0);
-  } else {
-    console.error("tracks 为空");
-  }
+      extractMusicFiles();
+
+      if (tracks.length > 0) {
+        loadTrack(0);
+      }
+    }
+  }, 300);
 }
 
-// ⭐ 不要再判断时机了，直接执行
+// ===== 启动 =====
+function startPlayer() {
+  console.log("🔥 startPlayer");
+
+  initPlayer();
+  waitForAudios(); // ⭐ 关键
+}
+
 startPlayer();
-
-
 </script>
 
 # 📖 Education

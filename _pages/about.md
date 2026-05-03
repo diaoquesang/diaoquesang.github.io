@@ -147,7 +147,7 @@ input[type="range"] {
   cursor: pointer;
 }
 
-/* ===== 假轨道（完美居中）===== */
+/* ===== 假轨道 ===== */
 input[type="range"]::before {
   content: "";
   position: absolute;
@@ -195,7 +195,7 @@ input[type="range"]:hover::-moz-range-thumb {
 let tracks = [];
 let currentTrack = 0;
 let audio = document.getElementById('main-audio');
-let playMode = 0;
+let playMode = 0; // 0顺序 1随机 2单曲循环
 
 let lastVolume = 20;
 let isMuted = false;
@@ -218,6 +218,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   audio.addEventListener('timeupdate', updateProgress);
   audio.addEventListener('loadedmetadata', updateDuration);
+  audio.addEventListener('ended', handleEnded);
 
   progressBar.addEventListener('input', handleSeek);
 
@@ -227,12 +228,61 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-// ===== 高亮 =====
+// ===== 播放结束逻辑 =====
+function handleEnded() {
+  if (playMode === 2) {
+    audio.currentTime = 0;
+    audio.play();
+  } else if (playMode === 1) {
+    playRandom();
+  } else {
+    playNextSequential();
+  }
+}
+
+// ===== 手动控制 =====
+function prevTrack() {
+  if (playMode === 1) {
+    playRandom();
+  } else {
+    currentTrack = (currentTrack - 1 + tracks.length) % tracks.length;
+    loadTrack(currentTrack);
+    audio.play();
+  }
+}
+
+function nextTrack() {
+  if (playMode === 1) {
+    playRandom();
+  } else {
+    playNextSequential();
+  }
+}
+
+function playNextSequential() {
+  currentTrack = (currentTrack + 1) % tracks.length;
+  loadTrack(currentTrack);
+  audio.play();
+}
+
+function playRandom() {
+  if (tracks.length <= 1) return;
+
+  let randomIndex;
+  do {
+    randomIndex = Math.floor(Math.random() * tracks.length);
+  } while (randomIndex === currentTrack);
+
+  currentTrack = randomIndex;
+  loadTrack(currentTrack);
+  audio.play();
+}
+
+// ===== 进度 =====
 function updateRangeBackground(el, value) {
   el.style.setProperty('--progress', value + '%');
 }
 
-// ===== 进度 =====
 function updateProgress() {
   if (!audio.duration) return;
 
@@ -339,18 +389,6 @@ function togglePlayPause() {
   else audio.pause();
 }
 
-function prevTrack() {
-  currentTrack = (currentTrack - 1 + tracks.length) % tracks.length;
-  loadTrack(currentTrack);
-  audio.play();
-}
-
-function nextTrack() {
-  currentTrack = (currentTrack + 1) % tracks.length;
-  loadTrack(currentTrack);
-  audio.play();
-}
-
 function togglePlayMode() {
   playMode = (playMode + 1) % 3;
   updateModeButton();
@@ -363,8 +401,6 @@ function updateModeButton() {
   if (playMode === 1) icon.className = 'fa-solid fa-shuffle';
   if (playMode === 2) icon.className = 'fa-solid fa-arrow-rotate-right';
 }
-
-audio.addEventListener('ended', nextTrack);
 
 function formatTime(seconds) {
   if (isNaN(seconds)) return "0:00";

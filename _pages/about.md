@@ -276,18 +276,13 @@ function initPlayer() {
 }
 
 // ===== ⭐ 等待 tracks（解决 Markdown 延迟）=====
-function tryInitTracks(retry = 0) {
+function tryInitTracks() {
   extractMusicFiles();
 
   if (tracks.length > 0) {
     loadTrack(0);
-    return;
-  }
-
-  if (retry < 10) {
-    setTimeout(() => tryInitTracks(retry + 1), 200);
   } else {
-    console.error("tracks 仍然为空");
+    setTimeout(tryInitTracks, 300);
   }
 }
 

@@ -239,25 +239,38 @@ function $(id) {
   return document.getElementById(id);
 }
 
-// ===== Loading 控制（核心新增）=====
+// ===== 安全执行（核心防崩）=====
+function safe(fn) {
+  try { fn(); } catch (e) {
+    console.warn("⚠️ JS保护:", e);
+  }
+}
+
+// ===== Loading =====
 function hideLoading() {
   const el = $('player-loading');
   if (el) el.style.display = 'none';
 }
 
-// ===== 安全背景 =====
+// ===== ⭐ 完全安全背景（终极版）=====
 function updateRangeBackground(el, value) {
   if (!el) return;
-  el.style.setProperty('--progress', value + '%');
+  if (typeof el !== 'object') return;
+  if (!el.style) return;
+  if (typeof el.style.setProperty !== 'function') return;
+
+  try {
+    el.style.setProperty('--progress', value + '%');
+  } catch (e) {
+    console.warn('range background error:', e);
+  }
 }
 
 // ===== 抓音乐 =====
 function extractMusicFiles() {
   if (tracks.length > 0) return;
 
-  const audios = document.querySelectorAll('.myAudio');
-
-  audios.forEach(a => {
+  document.querySelectorAll('.myAudio').forEach(a => {
     const source = a.querySelector('source');
     if (!source) return;
 
@@ -269,8 +282,8 @@ function extractMusicFiles() {
     }
 
     const box = a.closest('.paper-box');
-
     let name = 'Unknown';
+
     if (box) {
       const link = box.querySelector('.paper-box-text a');
       if (link) name = link.textContent.trim();
@@ -285,57 +298,57 @@ function extractMusicFiles() {
 // ===== 初始化 =====
 function initPlayer() {
   audio = $('main-audio');
-  if (!audio) return;
+  if (!audio) {
+    console.error("❌ audio 不存在");
+    return;
+  }
 
   audio.volume = 0.2;
 
-  audio.addEventListener('timeupdate', updateProgress);
-  audio.addEventListener('loadedmetadata', () => {
+  audio.addEventListener('timeupdate', () => safe(updateProgress));
+  audio.addEventListener('loadedmetadata', () => safe(() => {
     updateDuration();
-    hideLoading(); // ⭐⭐⭐ 关键：音频就绪就隐藏
-  });
-  audio.addEventListener('canplay', hideLoading); // 双保险
-  audio.addEventListener('ended', handleEnded);
+    hideLoading();
+  }));
+  audio.addEventListener('canplay', hideLoading);
+  audio.addEventListener('ended', () => safe(handleEnded));
 
-  // ⭐ 图标同步
   audio.addEventListener('play', updatePlayButton);
   audio.addEventListener('pause', updatePlayButton);
 
-  const progress = $('progress-bar');
-  if (progress) progress.addEventListener('input', handleSeek);
+  $('progress-bar')?.addEventListener('input', () => safe(handleSeek));
 
-  const volumeSlider = $('volume-slider');
-  if (volumeSlider) {
-    volumeSlider.addEventListener('input', (e) => {
-      isMuted = false;
-      changeVolume(e.target.value);
-    });
-  }
+  $('volume-slider')?.addEventListener('input', (e) => {
+    isMuted = false;
+    safe(() => changeVolume(e.target.value));
+  });
+
+  $('prev-btn')?.addEventListener('click', () => safe(prevTrack));
+  $('next-btn')?.addEventListener('click', () => safe(nextTrack));
 
   updateModeButton();
 }
 
-// ===== 加载歌曲（不自动播放）=====
+// ===== 加载歌曲 =====
 function loadTrack(index) {
-  if (!tracks.length) return;
+  if (!tracks.length || !audio) return;
 
-  currentTrack = index;
   const t = tracks[index];
   if (!t || !t.file) return;
 
-  // ⭐ 先显示 loading
-  const loadingEl = $('player-loading');
-  if (loadingEl) loadingEl.style.display = 'block';
+  currentTrack = index;
+
+  $('player-loading') && ($('player-loading').style.display = 'block');
 
   audio.src = t.file;
   audio.currentTime = 0;
 
   historyStack.push(index);
 
-  const nameEl = $('track-name');
-  if (nameEl) nameEl.textContent = t.name;
+  $('track-name') && ($('track-name').textContent = t.name);
 
-  updateRangeBackground($('progress-bar'), 0);
+  const bar = $('progress-bar');
+  if (bar) updateRangeBackground(bar, 0);
 
   updatePlayButton();
 }
@@ -344,19 +357,15 @@ function loadTrack(index) {
 function togglePlayPause() {
   if (!audio) return;
 
-  if (audio.paused) {
-    audio.play().catch(()=>{});
-  } else {
-    audio.pause();
-  }
+  safe(() => {
+    audio.paused ? audio.play() : audio.pause();
+  });
 }
 
+// ===== 播放按钮 =====
 function updatePlayButton() {
-  const btn = $('play-pause-btn');
-  if (!btn) return;
-
-  const icon = btn.querySelector('i');
-  if (!icon) return;
+  const icon = document.querySelector('#play-pause-btn i');
+  if (!icon || !audio) return;
 
   icon.className = audio.paused
     ? 'fa-solid fa-play'
@@ -388,9 +397,7 @@ function playRandom() {
   let next;
   const used = new Set(historyStack.slice(-tracks.length));
 
-  if (used.size >= tracks.length) {
-    historyStack = [];
-  }
+  if (used.size >= tracks.length) historyStack = [];
 
   do {
     next = Math.floor(Math.random() * tracks.length);
@@ -399,11 +406,11 @@ function playRandom() {
   loadTrack(next);
 }
 
-// ===== 结束 =====
+// ===== 播放结束 =====
 function handleEnded() {
   if (playMode === 2) {
     audio.currentTime = 0;
-    audio.play().catch(()=>{});
+    audio.play();
   } else {
     nextTrack();
   }
@@ -433,44 +440,49 @@ function handleSeek() {
 }
 
 function updateDuration() {
-  const el = $('duration');
-  if (el) el.textContent = formatTime(audio.duration);
+  $('duration') && ($('duration').textContent = formatTime(audio.duration));
 }
 
 // ===== 音量 =====
 function changeVolume(value) {
   value = Number(value);
 
-  const slider = $('volume-slider');
-  if (slider) slider.value = value;
-
-  const display = $('volume-display');
-  if (display) display.textContent = value + '%';
+  $('volume-slider') && ($('volume-slider').value = value);
+  $('volume-display') && ($('volume-display').textContent = value + '%');
 
   if (value > 0) lastVolume = value;
 
-  audio.volume = isMuted ? 0 : value / 100;
+  if (audio) {
+    audio.volume = isMuted ? 0 : value / 100;
+  }
 
   updateVolumeIcon();
-  updateRangeBackground(slider, value);
+
+  const slider = $('volume-slider');
+  if (slider) updateRangeBackground(slider, value);
 }
 
 function toggleMute() {
   isMuted = !isMuted;
-  audio.volume = isMuted ? 0 : lastVolume / 100;
+
+  if (audio) {
+    audio.volume = isMuted ? 0 : lastVolume / 100;
+  }
+
   updateVolumeIcon();
 }
 
+// ===== 音量图标 =====
 function updateVolumeIcon() {
   const icon = $('volume-icon');
   if (!icon) return;
 
   const value = $('volume-slider')?.value || 0;
 
-  if (isMuted) icon.className = 'fa-solid fa-volume-xmark volume-icon';
-  else if (value == 0) icon.className = 'fa-solid fa-volume-off volume-icon';
-  else if (value < 50) icon.className = 'fa-solid fa-volume-low volume-icon';
-  else icon.className = 'fa-solid fa-volume-high volume-icon';
+  if (isMuted) icon.className = 'fa-solid fa-volume-xmark';
+  else if (value == 0) icon.className = 'fa-solid fa-volume-off';
+  else if (value < 50) icon.className = 'fa-solid fa-volume-low';
+  else icon.className = 'fa-solid fa-volume-high';
 }
 
 // ===== 模式 =====
@@ -503,7 +515,6 @@ function waitForAudios() {
 
     if (audios.length > 0) {
       clearInterval(timer);
-
       extractMusicFiles();
 
       if (tracks.length > 0) {

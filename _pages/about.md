@@ -89,12 +89,31 @@ function extractMusicFiles() {
   });  
 }
   
+
+
+let isShuffle = false;  
+  
 // 初始化  
 document.addEventListener('DOMContentLoaded', function() {  
-  extractMusicFiles();  
   loadTrack(0);  
   audio.volume = 0.2;  
+    
+  // 初始化按钮状态  
+  const shuffleBtn = document.getElementById('shuffle-btn');  
+  shuffleBtn.style.opacity = '0.5';  
+  shuffleBtn.style.cursor = 'pointer';  
+  shuffleBtn.style.transition = 'all 0.3s';  
 });  
+  
+function toggleShuffle() {  
+  isShuffle = !isShuffle;  
+  const shuffleBtn = document.getElementById('shuffle-btn');  
+    
+  // 更新视觉效果  
+  shuffleBtn.style.opacity = isShuffle ? '1' : '0.5';  
+  shuffleBtn.style.color = isShuffle ? '#007bff' : '#666';  
+  shuffleBtn.style.transform = isShuffle ? 'scale(1.1)' : 'scale(1)';  
+}
   
 function loadTrack(index) {  
   if (tracks.length === 0) return;  

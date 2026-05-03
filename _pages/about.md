@@ -235,30 +235,31 @@ let lastVolume = 20;
 let isMuted = false;
 
 // ===== DOM =====
-function $(id) {
-  return document.getElementById(id);
-}
+const $ = (id) => document.getElementById(id);
 
-// ===== 安全执行 =====
+// ===== 安全 =====
 function safe(fn) {
-  try { fn(); } catch (e) {
-    console.warn("⚠️ JS保护:", e);
-  }
-}
-
-// ===== 安全背景 =====
-function updateRangeBackground(el, value) {
-  if (!el || !el.style || !el.style.setProperty) return;
-  el.style.setProperty('--progress', value + '%');
+  try { fn(); } catch(e) { console.warn(e); }
 }
 
 // ===== Loading =====
-function hideLoading() {
+function showLoading() {
   const el = $('player-loading');
-  if (el) el.style.display = 'none';
+  if (el && el.style) el.style.display = 'block';
 }
 
-// ===== 抓音乐 =====
+function hideLoading() {
+  const el = $('player-loading');
+  if (el && el.style) el.style.display = 'none';
+}
+
+// ===== 进度条背景 =====
+function updateRangeBackground(el, value) {
+  if (!el || !el.style) return;
+  el.style.setProperty('--progress', value + '%');
+}
+
+// ===== ⭐ 从 DOM 抽取（只执行一次）=====
 function extractMusicFiles() {
   if (tracks.length > 0) return;
 
@@ -284,14 +285,14 @@ function extractMusicFiles() {
     tracks.push({ name, file: src });
   });
 
-  console.log("tracks:", tracks.length);
+  console.log("✅ tracks:", tracks.length);
 }
 
 // ===== 初始化播放器 =====
 function initPlayer() {
   audio = $('main-audio');
   if (!audio) {
-    console.error("❌ audio 不存在");
+    console.error("❌ 没有 main-audio");
     return;
   }
 
@@ -307,42 +308,26 @@ function initPlayer() {
 
   audio.addEventListener('play', updatePlayButton);
   audio.addEventListener('pause', updatePlayButton);
-
-  updateModeButton();
 }
 
-// ===== ⭐ 控件绑定（核心）=====
-function bindControls() {
-  console.log("🔗 绑定播放器控件");
+// ===== ⭐ 等待 .myAudio 出现 =====
+function waitForAudios() {
+  const timer = setInterval(() => {
+    const list = document.querySelectorAll('.myAudio');
 
-  const playBtn = $('play-pause-btn');
-  const prevBtn = $('prev-btn');
-  const nextBtn = $('next-btn');
-  const progress = $('progress-bar');
-  const volume = $('volume-slider');
-  const muteBtn = $('volume-icon');
+    if (list.length > 0) {
+      clearInterval(timer);
 
-  if (playBtn) playBtn.onclick = togglePlayPause;
-  if (prevBtn) prevBtn.onclick = prevTrack;
-  if (nextBtn) nextBtn.onclick = nextTrack;
+      extractMusicFiles();
 
-  if (progress) {
-    progress.oninput = handleSeek;
-  }
-
-  if (volume) {
-    volume.oninput = (e) => {
-      isMuted = false;
-      changeVolume(e.target.value);
-    };
-  }
-
-  if (muteBtn) {
-    muteBtn.onclick = toggleMute;
-  }
+      if (tracks.length > 0) {
+        loadTrack(0);
+      }
+    }
+  }, 300);
 }
 
-// ===== 等待控件出现 =====
+// ===== ⭐ 控件绑定（自动）=====
 function waitForControls() {
   const timer = setInterval(() => {
     const ready =
@@ -358,34 +343,53 @@ function waitForControls() {
   }, 300);
 }
 
+function bindControls() {
+  $('play-pause-btn')?.addEventListener('click', togglePlayPause);
+  $('prev-btn')?.addEventListener('click', prevTrack);
+  $('next-btn')?.addEventListener('click', nextTrack);
+
+  $('progress-bar')?.addEventListener('input', handleSeek);
+
+  $('volume-slider')?.addEventListener('input', (e) => {
+    isMuted = false;
+    changeVolume(e.target.value);
+  });
+
+  $('volume-icon')?.addEventListener('click', toggleMute);
+}
+
 // ===== 加载歌曲 =====
 function loadTrack(index) {
   if (!tracks.length || !audio) return;
 
   const t = tracks[index];
-  if (!t || !t.file) return;
+  if (!t) return;
 
   currentTrack = index;
 
-  $('player-loading') && ($('player-loading').style.display = 'block');
+  showLoading();
 
   audio.src = t.file;
+
+  // ⭐ 关键：解决刷新 loading
+  audio.load();
+
   audio.currentTime = 0;
 
   historyStack.push(index);
 
   $('track-name') && ($('track-name').textContent = t.name);
 
-  const bar = $('progress-bar');
-  if (bar) updateRangeBackground(bar, 0);
-
   updatePlayButton();
+
+  // ⭐ 兜底（防止缓存不触发事件）
+  setTimeout(hideLoading, 3000);
 }
 
 // ===== 播放控制 =====
 function togglePlayPause() {
   if (!audio) return;
-  audio.paused ? audio.play() : audio.pause();
+  audio.paused ? audio.play().catch(()=>{}) : audio.pause();
 }
 
 function updatePlayButton() {
@@ -420,18 +424,14 @@ function playRandom() {
   if (tracks.length <= 1) return;
 
   let next;
-  const used = new Set(historyStack.slice(-tracks.length));
-
-  if (used.size >= tracks.length) historyStack = [];
-
   do {
     next = Math.floor(Math.random() * tracks.length);
-  } while (used.has(next));
+  } while (next === currentTrack);
 
   loadTrack(next);
 }
 
-// ===== 播放结束 =====
+// ===== 结束 =====
 function handleEnded() {
   if (playMode === 2) {
     audio.currentTime = 0;
@@ -488,11 +488,9 @@ function changeVolume(value) {
 
 function toggleMute() {
   isMuted = !isMuted;
-
   if (audio) {
     audio.volume = isMuted ? 0 : lastVolume / 100;
   }
-
   updateVolumeIcon();
 }
 
@@ -531,27 +529,11 @@ function formatTime(seconds) {
   return `${min}:${sec < 10 ? '0' + sec : sec}`;
 }
 
-// ===== 等待音频 =====
-function waitForAudios() {
-  const timer = setInterval(() => {
-    const audios = document.querySelectorAll('.myAudio');
-
-    if (audios.length > 0) {
-      clearInterval(timer);
-      extractMusicFiles();
-
-      if (tracks.length > 0) {
-        loadTrack(0);
-      }
-    }
-  }, 300);
-}
-
 // ===== 启动 =====
 function startPlayer() {
   initPlayer();
   waitForAudios();
-  waitForControls(); // ⭐⭐ 关键
+  waitForControls();
 }
 
 startPlayer();

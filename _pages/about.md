@@ -71,14 +71,17 @@ function extractMusicFiles() {
     
   tracks = [];  
   audioElements.forEach((source, index) => {  
-    if (source.src && paperBoxes[index]) {  
-      const fileName = source.src.split('/').pop().replace('.mp3', '');  
+    // 使用 getAttribute 获取原始路径  
+    const src = source.getAttribute('src');  
+    if (src && paperBoxes[index]) {  
+      const fileName = src.split('/').pop().replace('.mp3', '');  
       tracks.push({  
         name: fileName,  
-        file: source.src  
+        file: src  
       });  
     }  
   });  
+}
   
 // 初始化  
 document.addEventListener('DOMContentLoaded', function() {  

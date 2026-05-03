@@ -43,7 +43,7 @@ redirect_from:
 
 <!-- 动态音乐播放条 -->
 <div id="music-player-bar" style="position: sticky; top: 0; z-index: 100; background: #f8f9fa; padding: 10px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <audio id="main-audio" preload="auto"></audio>
+  <audio id="main-audio" preload="auto">
 
   <div style="display: flex; align-items: center; gap: 8px; font-size: 14px;">
     <button id="prev-btn" onclick="prevTrack()"
@@ -66,10 +66,10 @@ redirect_from:
       <i class="fa-solid fa-shuffle"></i>
     </button>
 
-    <!-- 单曲循环按钮 -->
+    <!-- 单曲循环专属图标 🔂 -->
     <button id="loop-btn" onclick="toggleLoop()"
       style="width:32px; height:32px; display:flex; align-items:center; justify-content:center; border:none; background:none; cursor:pointer; font-size:16px; opacity:0.5; transition:all 0.3s;">
-      <i class="fa-solid fa-repeat"></i>
+      <i class="fa-solid fa-repeat-1"></i>
     </button>
 
     <span id="track-name" style="min-width:140px; font-weight:bold; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">Loading...</span>
@@ -84,10 +84,10 @@ let tracks = [];
 let currentTrack = 0;
 let isPlaying = false;
 let isShuffle = false;
-let isLoop = false; // 单曲循环
+let isLoop = false;
 let audio = document.getElementById('main-audio');
 
-// 提取音乐
+// 自动抓取页面音乐文件
 function extractMusicFiles() {
   const audioElements = document.querySelectorAll('.myAudio source');
   tracks = [];
@@ -112,21 +112,21 @@ document.addEventListener('DOMContentLoaded', function () {
   audio.volume = 0.2;
 });
 
-// 随机模式
+// 随机模式切换
 function toggleShuffle() {
   isShuffle = !isShuffle;
-  if (isShuffle) isLoop = false; // 互斥
+  if (isShuffle) isLoop = false;
   updateBtnStyle();
 }
 
-// 单曲循环
+// 单曲循环切换
 function toggleLoop() {
   isLoop = !isLoop;
-  if (isLoop) isShuffle = false; // 互斥
+  if (isLoop) isShuffle = false;
   updateBtnStyle();
 }
 
-// 更新按钮样式
+// 更新按钮高亮/置灰样式
 function updateBtnStyle() {
   const shuffleBtn = document.getElementById('shuffle-btn');
   const loopBtn = document.getElementById('loop-btn');
@@ -138,7 +138,7 @@ function updateBtnStyle() {
   loopBtn.style.color = isLoop ? '#007bff' : '#000';
 }
 
-// 加载歌曲
+// 加载指定歌曲
 function loadTrack(index) {
   if (tracks.length === 0) return;
   currentTrack = index;
@@ -146,7 +146,7 @@ function loadTrack(index) {
   document.getElementById('track-name').textContent = tracks[index].name;
 }
 
-// 随机索引
+// 生成不重复当前歌曲的随机下标
 function getRandomIndex() {
   let idx;
   do {
@@ -158,7 +158,6 @@ function getRandomIndex() {
 // 上一首
 function prevTrack() {
   if (tracks.length === 0) return;
-
   if (isLoop) {
     audio.currentTime = 0;
   } else if (isShuffle) {
@@ -173,7 +172,6 @@ function prevTrack() {
 // 下一首
 function nextTrack() {
   if (tracks.length === 0) return;
-
   if (isLoop) {
     audio.currentTime = 0;
   } else if (isShuffle) {
@@ -185,10 +183,9 @@ function nextTrack() {
   if (isPlaying) audio.play();
 }
 
-// 播放结束自动处理（核心！）
+// 歌曲播放结束事件
 audio.addEventListener('ended', function () {
   if (isLoop) {
-    // 单曲循环：从头播放
     audio.currentTime = 0;
     audio.play();
   } else {
@@ -196,7 +193,7 @@ audio.addEventListener('ended', function () {
   }
 });
 
-// 播放暂停
+// 播放/暂停切换
 function togglePlayPause() {
   const btnIcon = document.querySelector('#play-pause-btn i');
   if (isPlaying) {
@@ -211,7 +208,7 @@ function togglePlayPause() {
   isPlaying = !isPlaying;
 }
 
-// 音量
+// 音量调节
 function changeVolume(value) {
   audio.volume = value / 100;
   document.getElementById('volume-display').textContent = value + '%';

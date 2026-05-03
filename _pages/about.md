@@ -208,7 +208,7 @@ function $(id) {
 }
 
 // ===== 初始化（最稳：等所有资源加载完）=====
-window.addEventListener('load', function () {
+document.addEventListener('DOMContentLoaded', function () {
   try {
     audio = $('main-audio');
     if (!audio) {

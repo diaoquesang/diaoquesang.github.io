@@ -95,9 +95,9 @@ let isShuffle = false;
   
 // 初始化  
 document.addEventListener('DOMContentLoaded', function() {  
+  extractMusicFiles();  
   loadTrack(0);  
   audio.volume = 0.2;  
-  extractMusicFiles();  
     
   // 初始化按钮状态  
   const shuffleBtn = document.getElementById('shuffle-btn');  

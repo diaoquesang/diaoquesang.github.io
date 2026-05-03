@@ -233,22 +233,29 @@ window.addEventListener('load', function () {
   });
 });
 
-// ===== 抓取歌曲（核心修复）=====
+// ===== 抓取歌曲（完美修复：抓全部音频）=====
 function extractMusicFiles() {
-  const audioElements = document.querySelectorAll('audio source');
+  const audioElements = document.querySelectorAll('audio'); // 直接抓 audio 标签
   tracks = [];
 
-  audioElements.forEach((source) => {
-    const src = source.getAttribute('src');
+  audioElements.forEach((audio) => {
+    // 同时支持两种音频格式：audio.src 或 source.src
+    let src = audio.getAttribute('src');
+    
+    // 如果 audio 没有 src，就去里面找 source
+    if (!src) {
+      const source = audio.querySelector('source');
+      if (source) src = source.getAttribute('src');
+    }
+
     if (!src) return;
 
-    const box = source.closest('.paper-box');
+    const box = audio.closest('.paper-box');
     let name = 'Unknown';
 
     if (box) {
       const links = box.querySelectorAll('.paper-box-text a');
       
-      // 自动遍历，跳过所有带 🎥 的链接，永远取第一个正常歌名
       if (links && links.length) {
         for (let link of links) {
           const text = link.textContent.trim();

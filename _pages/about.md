@@ -38,6 +38,108 @@ redirect_from:
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=diaoquesang&countColor=%23263759&style=flat&labelStyle=none)](https://visitorbadge.io/status?path=diaoquesang)
 
 
+
+<!-- 动态音乐播放条 -->  
+<div id="music-player-bar" style="position: sticky; top: 0; z-index: 100; background: #f8f9fa; padding: 8px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">  
+  <audio id="main-audio" preload="auto"></audio>  
+    
+  <div style="display: flex; align-items: center; gap: 10px; font-size: 14px;">  
+    <button id="prev-btn" onclick="prevTrack()">⏮</button>  
+    <button id="play-pause-btn" onclick="togglePlayPause()">▶</button>  
+    <button id="next-btn" onclick="nextTrack()">⏭</button>  
+    <button id="shuffle-btn" onclick="toggleShuffle()">🔀</button>  
+      
+    <span id="track-name" style="min-width: 150px; font-weight: bold;">Loading...</span>  
+      
+    <input type="range" id="volume-slider" min="0" max="100" value="20"   
+           style="width: 80px;" onchange="changeVolume(this.value)">  
+    <span id="volume-display" style="font-size: 12px;">20%</span>  
+  </div>  
+</div>  
+  
+<script>  
+let tracks = [];  
+let currentTrack = 0;  
+let isPlaying = false;  
+let isShuffle = false;  
+let audio = document.getElementById('main-audio');  
+  
+// 从现有音乐部分自动提取音乐文件  
+function extractMusicFiles() {  
+  const audioElements = document.querySelectorAll('.myAudio source');  
+  const paperBoxes = document.querySelectorAll('.paper-box');  
+    
+  tracks = [];  
+  audioElements.forEach((source, index) => {  
+    if (source.src && paperBoxes[index]) {  
+      const fileName = source.src.split('/').pop().replace('.mp3', '');  
+      tracks.push({  
+        name: fileName,  
+        file: source.src  
+      });  
+    }  
+  });  
+  
+// 初始化  
+document.addEventListener('DOMContentLoaded', function() {  
+  extractMusicFiles();  
+  loadTrack(0);  
+  audio.volume = 0.2;  
+});  
+  
+function loadTrack(index) {  
+  if (tracks.length === 0) return;  
+    
+  currentTrack = index;  
+  audio.src = tracks[index].file;  
+  document.getElementById('track-name').textContent = tracks[index].name;  
+}  
+  
+function togglePlayPause() {  
+  if (isPlaying) {  
+    audio.pause();  
+    document.getElementById('play-pause-btn').textContent = '▶';  
+  } else {  
+    audio.play();  
+    document.getElementById('play-pause-btn').textContent = '⏸';  
+  }  
+  isPlaying = !isPlaying;  
+}  
+  
+function prevTrack() {  
+  if (tracks.length === 0) return;  
+  currentTrack = (currentTrack - 1 + tracks.length) % tracks.length;  
+  loadTrack(currentTrack);  
+  if (isPlaying) audio.play();  
+}  
+  
+function nextTrack() {  
+  if (tracks.length === 0) return;  
+  if (isShuffle) {  
+    currentTrack = Math.floor(Math.random() * tracks.length);  
+  } else {  
+    currentTrack = (currentTrack + 1) % tracks.length;  
+  }  
+  loadTrack(currentTrack);  
+  if (isPlaying) audio.play();  
+}  
+  
+function toggleShuffle() {  
+  isShuffle = !isShuffle;  
+  document.getElementById('shuffle-btn').style.opacity = isShuffle ? '1' : '0.5';  
+}  
+  
+function changeVolume(value) {  
+  audio.volume = value / 100;  
+  document.getElementById('volume-display').textContent = value + '%';  
+}  
+  
+// 自动播放下一首  
+audio.addEventListener('ended', nextTrack);  
+</script>
+
+
+
 # 📖 Education
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/4a96ec08-666c-493e-9a03-7962a47204f4' width="20%" style="margin: 15px 10px 15px 10px;">

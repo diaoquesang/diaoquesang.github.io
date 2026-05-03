@@ -39,40 +39,26 @@ redirect_from:
 
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
 <div id="music-player-bar">
   <audio id="main-audio" preload="auto"></audio>
-
   <div class="player-row">
-
     <button onclick="prevTrack()"><i class="fa-solid fa-backward-step"></i></button>
-
     <button id="play-pause-btn" onclick="togglePlayPause()">
       <i class="fa-solid fa-play"></i>
     </button>
-
     <button onclick="nextTrack()"><i class="fa-solid fa-forward-step"></i></button>
-
     <button id="mode-btn" onclick="togglePlayMode()" class="mode-btn">
       <i class="fa-solid fa-repeat"></i>
     </button>
-
     <span id="track-name" class="track-name">Loading...</span>
-
-    <span id="current-time" class="time">0:00</span>
-
+    <span id="current-time" class="0:00">0:00</span>
     <input type="range" id="progress-bar" min="0" max="100" value="0">
-
     <span id="duration" class="time">0:00</span>
-
     <i id="volume-icon" onclick="toggleMute()" class="fa-solid fa-volume-low volume-icon"></i>
-
     <input type="range" id="volume-slider" min="0" max="100" value="20">
-
     <span id="volume-display" class="volume-text">20%</span>
   </div>
 </div>
-
 <style>
 #music-player-bar {
   position: sticky;
@@ -84,14 +70,12 @@ redirect_from:
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-
 .player-row {
   display: flex;
   align-items: center;
   gap: 8px;
   font-size: 14px;
 }
-
 button {
   width: 40px;
   height: 40px;
@@ -102,16 +86,13 @@ button {
   background: none;
   cursor: pointer;
 }
-
 button:hover {
   background: rgba(0,0,0,0.05);
   border-radius: 6px;
 }
-
 .mode-btn {
   color: #007bff;
 }
-
 .track-name {
   flex: 1;
   min-width: 0;
@@ -120,23 +101,19 @@ button:hover {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
 .time {
   font-size: 12px;
   min-width: 40px;
 }
-
 .volume-text {
   font-size: 12px;
   min-width: 35px;
 }
-
 .volume-icon {
   font-size: 14px;
   width: 18px;
   cursor: pointer;
 }
-
 /* ===== range 容器 ===== */
 input[type="range"] {
   -webkit-appearance: none;
@@ -146,7 +123,6 @@ input[type="range"] {
   background: transparent;
   cursor: pointer;
 }
-
 /* ===== 假轨道 ===== */
 input[type="range"]::before {
   content: "";
@@ -159,7 +135,6 @@ input[type="range"]::before {
   background: linear-gradient(to right, #007bff var(--progress, 0%), #ddd var(--progress, 0%));
   border-radius: 3px;
 }
-
 /* ===== 滑块 ===== */
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
@@ -171,11 +146,9 @@ input[type="range"]::-webkit-slider-thumb {
   position: relative;
   z-index: 2;
 }
-
 input[type="range"]:hover::-webkit-slider-thumb {
   transform: scale(1.4);
 }
-
 /* Firefox */
 input[type="range"]::-moz-range-thumb {
   width: 12px;
@@ -185,18 +158,15 @@ input[type="range"]::-moz-range-thumb {
   border: none;
   cursor: pointer;
 }
-
 input[type="range"]:hover::-moz-range-thumb {
   transform: scale(1.4);
 }
 </style>
-
 <script>
 let tracks = [];
 let currentTrack = 0;
 let audio = document.getElementById('main-audio');
 let playMode = 0; // 0顺序 1随机 2单曲循环
-
 let lastVolume = 20;
 let isMuted = false;
 
@@ -205,72 +175,64 @@ const currentTimeEl = document.getElementById('current-time');
 const durationEl = document.getElementById('duration');
 const volumeSlider = document.getElementById('volume-slider');
 const volumeIcon = document.getElementById('volume-icon');
+const playPauseBtnIcon = document.querySelector('#play-pause-btn i');
 
-// ===== 初始化（关键修复点）=====
+// ===== 初始化 =====
 window.addEventListener('load', function () {
   extractMusicFiles();
-
   if (tracks.length > 0) {
     loadTrack(0);
   } else {
     document.getElementById('track-name').textContent = '没有检测到歌曲';
   }
-
   audio.volume = 0.2;
   changeVolume(20);
-
   updateModeButton();
 
   audio.addEventListener('timeupdate', updateProgress);
   audio.addEventListener('loadedmetadata', updateDuration);
   audio.addEventListener('ended', handleEnded);
+  
+  // 播放状态切换图标
+  audio.addEventListener('play', updatePlayPauseIcon);
+  audio.addEventListener('pause', updatePlayPauseIcon);
 
   progressBar.addEventListener('input', handleSeek);
-
   volumeSlider.addEventListener('input', (e) => {
     isMuted = false;
     changeVolume(e.target.value);
   });
 });
 
-// ===== 抓取歌曲（完美修复：抓全部音频）=====
+// ===== 抓取歌曲 =====
 function extractMusicFiles() {
-  const audioElements = document.querySelectorAll('audio'); // 直接抓 audio 标签
+  const audioElements = document.querySelectorAll('audio.myAudio');
   tracks = [];
-
-  audioElements.forEach((audio) => {
-    // 同时支持两种音频格式：audio.src 或 source.src
-    let src = audio.getAttribute('src');
-    
-    // 如果 audio 没有 src，就去里面找 source
+  audioElements.forEach((audioEl) => {
+    let src = audioEl.getAttribute('src');
     if (!src) {
-      const source = audio.querySelector('source');
+      const source = audioEl.querySelector('source');
       if (source) src = source.getAttribute('src');
     }
-
     if (!src) return;
 
-    const box = audio.closest('.paper-box');
+    const box = audioEl.closest('.paper-box');
     let name = 'Unknown';
-
     if (box) {
       const links = box.querySelectorAll('.paper-box-text a');
-      
-      if (links && links.length) {
+      if (links.length) {
         for (let link of links) {
           const text = link.textContent.trim();
-          if (!text.includes('🎥')) {
+          if (text && !text.includes('🎥')) {
             name = text;
             break;
           }
         }
       }
     }
-
     tracks.push({ name, file: src });
   });
-
-  console.log('tracks:', tracks);
+  console.log('检测到歌曲：', tracks);
 }
 
 // ===== 播放结束逻辑 =====
@@ -288,7 +250,6 @@ function handleEnded() {
 // ===== 控制 =====
 function prevTrack() {
   if (!tracks.length) return;
-
   if (playMode === 1) {
     playRandom();
   } else {
@@ -300,7 +261,6 @@ function prevTrack() {
 
 function nextTrack() {
   if (!tracks.length) return;
-
   if (playMode === 1) {
     playRandom();
   } else {
@@ -316,12 +276,10 @@ function playNextSequential() {
 
 function playRandom() {
   if (tracks.length <= 1) return;
-
   let randomIndex;
   do {
     randomIndex = Math.floor(Math.random() * tracks.length);
   } while (randomIndex === currentTrack);
-
   currentTrack = randomIndex;
   loadTrack(currentTrack);
   audio.play();
@@ -334,20 +292,16 @@ function updateRangeBackground(el, value) {
 
 function updateProgress() {
   if (!audio.duration) return;
-
   const percent = (audio.currentTime / audio.duration) * 100;
   progressBar.value = percent;
-
   currentTimeEl.textContent = formatTime(audio.currentTime);
   updateRangeBackground(progressBar, percent);
 }
 
 function handleSeek() {
   if (!audio.duration) return;
-
   const percent = progressBar.value;
   audio.currentTime = (percent / 100) * audio.duration;
-
   currentTimeEl.textContent = formatTime(audio.currentTime);
   updateRangeBackground(progressBar, percent);
 }
@@ -359,14 +313,10 @@ function updateDuration() {
 // ===== 音量 =====
 function changeVolume(value) {
   value = Number(value);
-
   volumeSlider.value = value;
   document.getElementById('volume-display').textContent = value + '%';
-
   if (value > 0) lastVolume = value;
-
   audio.volume = isMuted ? 0 : value / 100;
-
   updateVolumeIcon();
   updateRangeBackground(volumeSlider, value);
 }
@@ -379,7 +329,6 @@ function toggleMute() {
 
 function updateVolumeIcon() {
   const value = Number(volumeSlider.value);
-
   if (isMuted) {
     volumeIcon.className = 'fa-solid fa-volume-xmark volume-icon';
   } else if (value == 0) {
@@ -394,22 +343,30 @@ function updateVolumeIcon() {
 // ===== 播放 =====
 function loadTrack(index) {
   if (!tracks.length) return;
-
   currentTrack = index;
   audio.src = tracks[index].file;
   audio.currentTime = 0;
-
   progressBar.value = 0;
   updateRangeBackground(progressBar, 0);
-
   document.getElementById('track-name').textContent = tracks[index].name;
 }
 
 function togglePlayPause() {
   if (!tracks.length) return;
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
+}
 
-  if (audio.paused) audio.play();
-  else audio.pause();
+// 修复：自动切换播放/暂停图标
+function updatePlayPauseIcon() {
+  if (audio.paused) {
+    playPauseBtnIcon.className = 'fa-solid fa-play';
+  } else {
+    playPauseBtnIcon.className = 'fa-solid fa-pause';
+  }
 }
 
 function togglePlayMode() {
@@ -419,7 +376,6 @@ function togglePlayMode() {
 
 function updateModeButton() {
   const icon = document.querySelector('#mode-btn i');
-
   if (playMode === 0) icon.className = 'fa-solid fa-repeat';
   if (playMode === 1) icon.className = 'fa-solid fa-shuffle';
   if (playMode === 2) icon.className = 'fa-solid fa-arrow-rotate-right';
@@ -427,13 +383,12 @@ function updateModeButton() {
 
 function formatTime(seconds) {
   if (isNaN(seconds)) return "0:00";
-
   const min = Math.floor(seconds / 60);
   const sec = Math.floor(seconds % 60);
-
   return `${min}:${sec < 10 ? '0' + sec : sec}`;
 }
 </script>
+
 
 
 # 📖 Education

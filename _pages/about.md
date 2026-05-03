@@ -38,135 +38,133 @@ redirect_from:
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=diaoquesang&countColor=%23263759&style=flat&labelStyle=none)](https://visitorbadge.io/status?path=diaoquesang)
 
 
+<!-- 先引入 Font Awesome（必须加） -->
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-<!-- 动态音乐播放条 -->  
-<div id="music-player-bar" style="position: sticky; top: 0; z-index: 100; background: #f8f9fa; padding: 8px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">  
-  <audio id="main-audio" preload="auto"></audio>  
-    
-  <div style="display: flex; align-items: center; gap: 10px; font-size: 14px;">  
-    <button id="prev-btn" onclick="prevTrack()">⏮</button>  
-    <button id="play-pause-btn" onclick="togglePlayPause()">▶</button>  
-    <button id="next-btn" onclick="nextTrack()">⏭</button>  
-    <button id="shuffle-btn" onclick="toggleShuffle()">🔀</button>  
-      
-    <span id="track-name" style="min-width: 150px; font-weight: bold;">Loading...</span>  
-      
-    <input type="range" id="volume-slider" min="0" max="100" value="20"   
-           style="width: 80px;" onchange="changeVolume(this.value)">  
-    <span id="volume-display" style="font-size: 12px;">20%</span>  
-  </div>  
-</div>  
-  
-<script>  
-let tracks = [];  
-let currentTrack = 0;  
-let isPlaying = false;  
-let isShuffle = false;  
-let audio = document.getElementById('main-audio');  
-  
-// 从现有音乐部分自动提取音乐文件  
-function extractMusicFiles() {  
-  const audioElements = document.querySelectorAll('.myAudio source');  
-    
-  tracks = [];  
-  audioElements.forEach((source, index) => {  
-    const src = source.getAttribute('src');  
-    if (src) {  
-      // 找到包含这个音频元素的最近的paper-box  
-      const audioContainer = source.closest('.myAudio');  
-      const paperBox = audioContainer ? audioContainer.closest('.paper-box') : null;  
-        
-      if (paperBox) {  
-        const linkElement = paperBox.querySelector('.paper-box-text a');  
-        const trackName = linkElement ? linkElement.textContent.trim() : 'Unknown Track';  
-          
-        tracks.push({  
-          name: trackName,  
-          file: src  
-        });  
-      }  
-    }  
-  });  
+<!-- 动态音乐播放条 -->
+<div id="music-player-bar" style="position: sticky; top: 0; z-index: 100; background: #f8f9fa; padding: 10px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <audio id="main-audio" preload="auto"></audio>
+
+  <div style="display: flex; align-items: center; gap: 10px; font-size: 14px;">
+    <button id="prev-btn" onclick="prevTrack()"
+      style="width:32px; height:32px; display:flex; align-items:center; justify-content:center; border:none; background:none; cursor:pointer; font-size:16px;">
+      <i class="fa-solid fa-backward-step"></i>
+    </button>
+
+    <button id="play-pause-btn" onclick="togglePlayPause()"
+      style="width:32px; height:32px; display:flex; align-items:center; justify-content:center; border:none; background:none; cursor:pointer; font-size:18px;">
+      <i class="fa-solid fa-play"></i>
+    </button>
+
+    <button id="next-btn" onclick="nextTrack()"
+      style="width:32px; height:32px; display:flex; align-items:center; justify-content:center; border:none; background:none; cursor:pointer; font-size:16px;">
+      <i class="fa-solid fa-forward-step"></i>
+    </button>
+
+    <button id="shuffle-btn" onclick="toggleShuffle()"
+      style="width:32px; height:32px; display:flex; align-items:center; justify-content:center; border:none; background:none; cursor:pointer; font-size:16px; opacity:0.5; transition:all 0.3s;">
+      <i class="fa-solid fa-shuffle"></i>
+    </button>
+
+    <span id="track-name" style="min-width:160px; font-weight:bold; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">Loading...</span>
+
+    <input type="range" id="volume-slider" min="0" max="100" value="20" style="width:80px;" onchange="changeVolume(this.value)">
+    <span id="volume-display" style="font-size:12px; min-width:35px;">20%</span>
+  </div>
+</div>
+
+<script>
+let tracks = [];
+let currentTrack = 0;
+let isPlaying = false;
+let isShuffle = false;
+let audio = document.getElementById('main-audio');
+
+// 提取音乐
+function extractMusicFiles() {
+  const audioElements = document.querySelectorAll('.myAudio source');
+  tracks = [];
+  audioElements.forEach((source) => {
+    const src = source.getAttribute('src');
+    if (src) {
+      const audioContainer = source.closest('.myAudio');
+      const paperBox = audioContainer ? audioContainer.closest('.paper-box') : null;
+      if (paperBox) {
+        const linkElement = paperBox.querySelector('.paper-box-text a');
+        const trackName = linkElement ? linkElement.textContent.trim() : 'Unknown Track';
+        tracks.push({ name: trackName, file: src });
+      }
+    }
+  });
 }
-  
 
+// 初始化
+document.addEventListener('DOMContentLoaded', function () {
+  extractMusicFiles();
+  loadTrack(0);
+  audio.volume = 0.2;
+});
 
-let isShuffle = false;  
-  
-// 初始化  
-document.addEventListener('DOMContentLoaded', function() {  
-  extractMusicFiles();  
-  loadTrack(0);  
-  audio.volume = 0.2;  
-    
-  // 初始化按钮状态  
-  const shuffleBtn = document.getElementById('shuffle-btn');  
-  shuffleBtn.style.opacity = '0.5';  
-  shuffleBtn.style.cursor = 'pointer';  
-  shuffleBtn.style.transition = 'all 0.3s';  
-});  
-  
-function toggleShuffle() {  
-  isShuffle = !isShuffle;  
-  const shuffleBtn = document.getElementById('shuffle-btn');  
-    
-  // 更新视觉效果  
-  shuffleBtn.style.opacity = isShuffle ? '1' : '0.5';  
-  shuffleBtn.style.color = isShuffle ? '#007bff' : '#666';  
-  shuffleBtn.style.transform = isShuffle ? 'scale(1.1)' : 'scale(1)';  
+// 随机播放
+function toggleShuffle() {
+  isShuffle = !isShuffle;
+  const btn = document.getElementById('shuffle-btn');
+  btn.style.opacity = isShuffle ? '1' : '0.5';
+  btn.style.color = isShuffle ? '#007bff' : '#000';
 }
-  
-function loadTrack(index) {  
-  if (tracks.length === 0) return;  
-    
-  currentTrack = index;  
-  audio.src = tracks[index].file;  
-  document.getElementById('track-name').textContent = tracks[index].name;  
-}  
-  
-function togglePlayPause() {  
-  if (isPlaying) {  
-    audio.pause();  
-    document.getElementById('play-pause-btn').textContent = '▶';  
-  } else {  
-    audio.play();  
-    document.getElementById('play-pause-btn').textContent = '⏸';  
-  }  
-  isPlaying = !isPlaying;  
-}  
-  
-function prevTrack() {  
-  if (tracks.length === 0) return;  
-  currentTrack = (currentTrack - 1 + tracks.length) % tracks.length;  
-  loadTrack(currentTrack);  
-  if (isPlaying) audio.play();  
-}  
-  
-function nextTrack() {  
-  if (tracks.length === 0) return;  
-  if (isShuffle) {  
-    currentTrack = Math.floor(Math.random() * tracks.length);  
-  } else {  
-    currentTrack = (currentTrack + 1) % tracks.length;  
-  }  
-  loadTrack(currentTrack);  
-  if (isPlaying) audio.play();  
-}  
-  
-function toggleShuffle() {  
-  isShuffle = !isShuffle;  
-  document.getElementById('shuffle-btn').style.opacity = isShuffle ? '1' : '0.5';  
-}  
-  
-function changeVolume(value) {  
-  audio.volume = value / 100;  
-  document.getElementById('volume-display').textContent = value + '%';  
-}  
-  
-// 自动播放下一首  
-audio.addEventListener('ended', nextTrack);  
+
+// 加载歌曲
+function loadTrack(index) {
+  if (tracks.length === 0) return;
+  currentTrack = index;
+  audio.src = tracks[index].file;
+  document.getElementById('track-name').textContent = tracks[index].name;
+}
+
+// 播放/暂停
+function togglePlayPause() {
+  const btnIcon = document.querySelector('#play-pause-btn i');
+  if (isPlaying) {
+    audio.pause();
+    btnIcon.classList.remove('fa-pause');
+    btnIcon.classList.add('fa-play');
+  } else {
+    audio.play();
+    btnIcon.classList.remove('fa-play');
+    btnIcon.classList.add('fa-pause');
+  }
+  isPlaying = !isPlaying;
+}
+
+// 上一首
+function prevTrack() {
+  if (tracks.length === 0) return;
+  currentTrack = (currentTrack - 1 + tracks.length) % tracks.length;
+  loadTrack(currentTrack);
+  if (isPlaying) audio.play();
+}
+
+// 下一首
+function nextTrack() {
+  if (tracks.length === 0) return;
+  if (isShuffle) {
+    currentTrack = Math.floor(Math.random() * tracks.length);
+  } else {
+    currentTrack = (currentTrack + 1) % tracks.length;
+  }
+  loadTrack(currentTrack);
+  if (isPlaying) audio.play();
+}
+
+// 音量
+function changeVolume(value) {
+  audio.volume = value / 100;
+  document.getElementById('volume-display').textContent = value + '%';
+}
+
+// 自动下一首
+audio.addEventListener('ended', nextTrack);
 </script>
-
 
 
 # 📖 Education

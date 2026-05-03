@@ -241,7 +241,7 @@ function $(id) {
 
 // ===== 安全设置进度条背景（绝不报错）=====
 function updateRangeBackground(el, value) {
-  if (!el) return; // ⭐ 防崩关键
+  if (!el) return;  // ⭐⭐ 就这一行，核心
   el.style.setProperty('--progress', value + '%');
 }
 
@@ -330,6 +330,11 @@ function loadTrack(index) {
   if (nameEl) nameEl.textContent = t.name;
 
   updateRangeBackground($('progress-bar'), 0);
+
+  // ⭐⭐⭐ 关键：触发加载/播放
+  audio.play().catch(() => {
+    console.log("浏览器阻止自动播放，需要用户点击");
+  });
 }
 
 // ===== 播放控制 =====

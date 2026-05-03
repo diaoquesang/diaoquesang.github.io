@@ -241,11 +241,23 @@ function $(id) {
 
 // ===== 初始化 =====
 document.addEventListener('DOMContentLoaded', () => {
-  audio = $('main-audio');
-  if (!audio) return console.error("audio not found");
+  audio = document.getElementById('main-audio');
+  if (!audio) return;
 
   initPlayer();
-  waitForTracks(); // ⭐ 核心
+
+  // ⭐ 唯一需要的初始化方式
+  setTimeout(() => {
+    extractMusicFiles();
+
+    console.log("tracks:", tracks.length);
+
+    if (tracks.length > 0) {
+      loadTrack(0);   // 💥 就靠这一句启动
+    } else {
+      console.error("tracks 还是 0");
+    }
+  }, 500); // ⭐ 给 Markdown 渲染时间
 });
 
 // ===== 等待 Markdown 渲染 =====

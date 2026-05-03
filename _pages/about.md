@@ -236,7 +236,7 @@ window.addEventListener('load', function () {
 // ===== 抓取歌曲（核心修复）=====
 function extractMusicFiles() {
   const audioElements = document.querySelectorAll('audio source');
-  const tracks = [];  // 正确声明，无全局污染
+  tracks = [];
 
   audioElements.forEach((source) => {
     const src = source.getAttribute('src');

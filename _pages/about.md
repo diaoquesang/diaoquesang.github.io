@@ -232,14 +232,14 @@ let playMode = 0; // 0顺序 1随机 2单曲循环
 let lastVolume = 20;
 let isMuted = false;
 
-// ===== 简化获取 DOM =====
+// ===== DOM 简化 =====
 function $(id) {
   return document.getElementById(id);
 }
 
-// ===== 【关键修复】使用第二段代码的稳定初始化时机 =====
+// ===== 初始化 =====
 document.addEventListener('DOMContentLoaded', function () {
-  audio = document.getElementById('main-audio');
+  audio = $('main-audio');
 
   if (!audio) {
     console.error("audio element not found");
@@ -251,9 +251,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // ===== 初始化播放器 =====
 function initPlayer() {
-  extractMusicFiles();
-
-  safeLoadTrack(0);
+  tryInitTracks(); // ⭐ 关键：等 markdown 渲染
 
   audio.volume = 0.2;
   changeVolume(20);
@@ -277,22 +275,48 @@ function initPlayer() {
   }
 }
 
-// ===== 提取音乐（使用第二段的稳定逻辑） =====
+// ===== ⭐ 等待 tracks（解决 Markdown 延迟）=====
+function tryInitTracks(retry = 0) {
+  extractMusicFiles();
+
+  if (tracks.length > 0) {
+    loadTrack(0);
+    return;
+  }
+
+  if (retry < 10) {
+    setTimeout(() => tryInitTracks(retry + 1), 200);
+  } else {
+    console.error("tracks 仍然为空");
+  }
+}
+
+// ===== 提取音乐 =====
 function extractMusicFiles() {
   tracks = [];
-  const audioElements = document.querySelectorAll('.myAudio source');
 
-  audioElements.forEach((source) => {
+  const sources = document.querySelectorAll('.myAudio source');
+
+  sources.forEach((source) => {
     const src = source.getAttribute('src');
     if (!src) return;
 
-    const audioContainer = source.closest('.myAudio');
-    const paperBox = audioContainer ? audioContainer.closest('.paper-box') : null;
+    const box = source.closest('.paper-box');
 
-    let name = 'Unknown Track';
-    if (paperBox) {
-      const linkElement = paperBox.querySelector('.paper-box-text a');
-      name = linkElement ? linkElement.textContent.trim() : 'Unknown Track';
+    let name = 'Unknown';
+
+    if (box) {
+      const link = box.querySelector('.paper-box-text a');
+      if (link) {
+        name = link.textContent.trim();
+      } else {
+        const text = box.querySelector('.paper-box-text');
+        if (text) name = text.textContent.trim();
+        else {
+          const badge = box.querySelector('.badge');
+          if (badge) name = badge.textContent.trim();
+        }
+      }
     }
 
     tracks.push({ name, file: src });
@@ -301,17 +325,10 @@ function extractMusicFiles() {
   console.log("tracks:", tracks);
 }
 
-// ===== 安全加载 =====
-function safeLoadTrack(index) {
-  if (!tracks.length) {
-    console.warn("没有音乐");
-    return;
-  }
-  loadTrack(index);
-}
-
-// ===== 加载歌曲 =====
+// ===== 加载 =====
 function loadTrack(index) {
+  if (!tracks.length || !audio) return;
+
   currentTrack = index;
   audio.src = tracks[index].file;
   audio.currentTime = 0;
@@ -323,27 +340,33 @@ function loadTrack(index) {
   }
 
   const el = $('track-name');
-  if (el) {
-    el.textContent = tracks[index].name || "Unknown";
+  if (el) el.textContent = tracks[index].name || "Unknown";
+}
+
+// ===== 播放 =====
+function togglePlayPause() {
+  if (!audio) return;
+
+  if (audio.paused) {
+    audio.play().catch(()=>{});
+  } else {
+    audio.pause();
   }
 }
 
-// ===== 播放控制 =====
-function togglePlayPause() {
-  if (!audio) return;
-  if (audio.paused) audio.play();
-  else audio.pause();
-}
-
 function prevTrack() {
+  if (!tracks.length) return;
+
   if (playMode === 1) return playRandom();
 
   currentTrack = (currentTrack - 1 + tracks.length) % tracks.length;
   loadTrack(currentTrack);
-  audio.play();
+  audio.play().catch(()=>{});
 }
 
 function nextTrack() {
+  if (!tracks.length) return;
+
   if (playMode === 1) return playRandom();
   playNextSequential();
 }
@@ -351,10 +374,10 @@ function nextTrack() {
 function playNextSequential() {
   currentTrack = (currentTrack + 1) % tracks.length;
   loadTrack(currentTrack);
-  audio.play();
+  audio.play().catch(()=>{});
 }
 
-// ===== 随机播放 =====
+// ===== 随机 =====
 function playRandom() {
   if (tracks.length <= 1) return;
 
@@ -365,25 +388,19 @@ function playRandom() {
 
   currentTrack = next;
   loadTrack(currentTrack);
-  audio.play();
+  audio.play().catch(()=>{});
 }
 
 // ===== 播放结束 =====
 function handleEnded() {
   if (playMode === 2) {
     audio.currentTime = 0;
-    audio.play();
+    audio.play().catch(()=>{});
   } else if (playMode === 1) {
     playRandom();
   } else {
     playNextSequential();
   }
-}
-
-// ===== 【关键修复】防止报错 =====
-function updateRangeBackground(el, value) {
-  if (!el || !el.style) return;
-  el.style.setProperty('--progress', value + '%');
 }
 
 // ===== 进度 =====
@@ -404,6 +421,7 @@ function updateProgress() {
 
 function handleSeek() {
   if (!audio || !audio.duration) return;
+
   const bar = $('progress-bar');
   if (!bar) return;
 
@@ -419,6 +437,7 @@ function updateDuration() {
 // ===== 音量 =====
 function changeVolume(value) {
   value = Number(value);
+
   const slider = $('volume-slider');
   const display = $('volume-display');
 
@@ -426,7 +445,8 @@ function changeVolume(value) {
   if (display) display.textContent = value + '%';
 
   if (value > 0) lastVolume = value;
-  audio.volume = isMuted ? 0 : value / 100;
+
+  if (audio) audio.volume = isMuted ? 0 : value / 100;
 
   updateVolumeIcon();
   updateRangeBackground(slider, value);
@@ -434,7 +454,7 @@ function changeVolume(value) {
 
 function toggleMute() {
   isMuted = !isMuted;
-  audio.volume = isMuted ? 0 : (lastVolume / 100);
+  if (audio) audio.volume = isMuted ? 0 : lastVolume / 100;
   updateVolumeIcon();
 }
 
@@ -450,7 +470,7 @@ function updateVolumeIcon() {
   else icon.className = 'fa-solid fa-volume-high volume-icon';
 }
 
-// ===== 播放模式 =====
+// ===== 模式 =====
 function togglePlayMode() {
   playMode = (playMode + 1) % 3;
   updateModeButton();
@@ -465,7 +485,13 @@ function updateModeButton() {
   if (playMode === 2) icon.className = 'fa-solid fa-arrow-rotate-right';
 }
 
-// ===== 时间格式 =====
+// ===== UI =====
+function updateRangeBackground(el, value) {
+  if (!el) return;
+  el.style.setProperty('--progress', value + '%');
+}
+
+// ===== 时间 =====
 function formatTime(seconds) {
   if (isNaN(seconds)) return "0:00";
   const min = Math.floor(seconds / 60);

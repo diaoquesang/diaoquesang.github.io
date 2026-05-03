@@ -71,12 +71,14 @@ function extractMusicFiles() {
     
   tracks = [];  
   audioElements.forEach((source, index) => {  
-    // 使用 getAttribute 获取原始路径  
     const src = source.getAttribute('src');  
     if (src && paperBoxes[index]) {  
-      const fileName = src.split('/').pop().replace('.mp3', '');  
+      // 从paper-box-text中的链接文本提取歌曲名  
+      const linkElement = paperBoxes[index].querySelector('.paper-box-text a');  
+      const trackName = linkElement ? linkElement.textContent.trim() : 'Unknown Track';  
+        
       tracks.push({  
-        name: fileName,  
+        name: trackName,  
         file: src  
       });  
     }  

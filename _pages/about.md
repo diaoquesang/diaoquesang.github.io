@@ -238,18 +238,15 @@ function $(id) {
 }
 
 // ===== 【关键修复】使用第二段代码的稳定初始化时机 =====
-window.addEventListener('load', function () {
-  try {
-    audio = $('main-audio');
-    if (!audio) {
-      console.error("audio element not found");
-      return;
-    }
+document.addEventListener('DOMContentLoaded', function () {
+  audio = document.getElementById('main-audio');
 
-    initPlayer();
-  } catch (e) {
-    console.error("播放器初始化失败:", e);
+  if (!audio) {
+    console.error("audio element not found");
+    return;
   }
+
+  initPlayer();
 });
 
 // ===== 初始化播放器 =====

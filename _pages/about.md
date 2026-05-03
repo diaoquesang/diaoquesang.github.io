@@ -481,9 +481,12 @@ function formatTime(seconds) {
 
 // ===== ⭐ 终极初始化（不会失效）=====
 function startPlayer() {
-  initPlayer();
+  console.log("🔥 startPlayer 被执行了");
 
+  initPlayer();
   extractMusicFiles();
+
+  console.log("tracks:", tracks.length);
 
   if (tracks.length > 0) {
     loadTrack(0);
@@ -492,12 +495,10 @@ function startPlayer() {
   }
 }
 
-// ⭐ 无论脚本什么时候加载，都能执行
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', startPlayer);
-} else {
-  startPlayer();
-}
+// ⭐ 不要再判断时机了，直接执行
+startPlayer();
+
+
 </script>
 
 # 📖 Education

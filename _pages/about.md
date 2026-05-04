@@ -121,7 +121,7 @@ redirect_from:
   .track-name {
     flex: 0 1 200px;     /* ⭐ 不再无限扩张 */
     max-width: 200px;    /* ⭐ 最大宽度 */
-    min-width: 80px;
+    min-width: 120px;
 
     font-weight: bold;
     white-space: nowrap;
@@ -166,7 +166,7 @@ redirect_from:
   /* ===== 🎯 进度条（完全自适应） ===== */
   #progress-bar {
     flex: 1 1 auto;     /* ⭐ 吃掉所有剩余空间 */
-    min-width: 120px;
+    min-width: 80px;
     /* ❌ 已移除 max-width 限制 */
   }
 

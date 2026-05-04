@@ -485,7 +485,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	
   // ⭐ 修复音量条初始高亮
   setProgress(DOM.volume, DOM.volume.value);
-
+  setProgress(DOM.progress, 0);
 });
 </script>
 

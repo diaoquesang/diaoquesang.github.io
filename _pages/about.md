@@ -281,7 +281,8 @@ document.addEventListener('DOMContentLoaded', () => {
     shuffled: [],
     shuffleIndex: 0,
     lastVolume: 20,
-    isMuted: false
+    isMuted: false,
+    userSetZero: false // ⭐ 区分“用户调成0”和“静音导致0”
   };
 
   // ===== DOM =====
@@ -421,7 +422,11 @@ document.addEventListener('DOMContentLoaded', () => {
   function changeVolume() {
     let v = Number(DOM.volume.value);
 
+    // ⭐ 标记用户是否主动调为0
+    state.userSetZero = (v === 0);
+
     if (v > 0) state.lastVolume = v;
+
     state.isMuted = false;
 
     DOM.audio.volume = v / 100;
@@ -433,23 +438,23 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function toggleMute() {
-  state.isMuted = !state.isMuted;
+    state.isMuted = !state.isMuted;
 
-  let v;
+    let v;
 
-  if (state.isMuted) {
-    v = 0;
-  } else {
-    // ⭐ 核心逻辑
-    v = DOM.volume.value == 0 ? 0 : state.lastVolume;
-  }
+    if (state.isMuted) {
+      v = 0;
+    } else {
+      // ⭐ 核心修复：区分用户行为
+      v = state.userSetZero ? 0 : state.lastVolume;
+    }
 
-  DOM.audio.volume = v / 100;
+    DOM.audio.volume = v / 100;
 
-  setProgress(DOM.volume, v);
-  DOM.volumeDisplay.textContent = v + '%';
+    setProgress(DOM.volume, v);
+    DOM.volumeDisplay.textContent = v + '%';
 
-  updateVolumeIcon();
+    updateVolumeIcon();
   }
 
   function updateVolumeIcon() {
@@ -505,9 +510,9 @@ document.addEventListener('DOMContentLoaded', () => {
     loadTrack(0, false);
   }
 
-  // ⭐ 关键：统一初始化（彻底解决音量/进度不同步）
-  changeVolume();          // 音量 UI + audio 同步
-  setProgress(DOM.progress, 0);  // 进度条初始状态
+  // ⭐ 初始化 UI（关键）
+  changeVolume();                // 同步音量 UI + audio
+  setProgress(DOM.progress, 0);  // 初始化进度条
 
 });
 </script>

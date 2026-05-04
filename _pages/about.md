@@ -242,6 +242,35 @@ input[type="range"]::-moz-range-thumb {
 input[type="range"]:hover::-moz-range-thumb {
   transform: scale(1.4);
 }
+
+/* ===== 🔥 彻底干掉所有默认阴影 ===== */
+
+/* Chrome / Edge track */
+input[type="range"]::-webkit-slider-runnable-track {
+  box-shadow: none;
+}
+
+/* Chrome / Edge thumb */
+input[type="range"]::-webkit-slider-thumb {
+  box-shadow: none;
+}
+
+/* Firefox track */
+input[type="range"]::-moz-range-track {
+  box-shadow: none;
+}
+
+/* Firefox thumb */
+input[type="range"]::-moz-range-thumb {
+  box-shadow: none;
+}
+
+/* 拖动 / 聚焦时也不出现阴影 */
+input[type="range"]:focus,
+input[type="range"]:active {
+  outline: none;
+  box-shadow: none;
+}
 </style>
 
 <script>

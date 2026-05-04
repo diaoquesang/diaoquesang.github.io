@@ -325,8 +325,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const state = {
     tracks: [],
     current: 0,
+
     playMode: 0, // 0顺序 1随机 2单曲循环
-    history: [],
+
     shuffled: [],
     shuffleIndex: 0,
 
@@ -334,7 +335,7 @@ document.addEventListener('DOMContentLoaded', () => {
     isMuted: false,
     userSetZero: false,
 
-    isDragging: false // ⭐ 仅用于UI控制
+    isDragging: false
   };
 
   // ===== DOM =====
@@ -364,7 +365,6 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   function setProgress(el, value) {
-    if (!el) return;
     el.value = value;
     el.style.setProperty('--progress', value + '%');
   }
@@ -388,7 +388,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ===== 真随机 =====
+  // ===== 🎲 真随机 =====
   function shuffleArray(arr) {
     const a = [...arr];
     for (let i = a.length - 1; i > 0; i--) {
@@ -398,14 +398,14 @@ document.addEventListener('DOMContentLoaded', () => {
     return a;
   }
 
-  function buildShuffle() {
+  function buildShuffle(startIndex = 0) {
     state.shuffled = shuffleArray([...Array(state.tracks.length).keys()]);
-    state.shuffleIndex = 0;
-  }
 
-  function getNextShuffle() {
-    if (state.shuffleIndex >= state.shuffled.length) buildShuffle();
-    return state.shuffled[state.shuffleIndex++];
+    // ⭐ 保证当前歌曲在当前位置
+    const pos = state.shuffled.indexOf(startIndex);
+    [state.shuffled[0], state.shuffled[pos]] = [state.shuffled[pos], state.shuffled[0]];
+
+    state.shuffleIndex = 0;
   }
 
   // ===== 加载 =====
@@ -414,7 +414,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!t) return;
 
     state.current = i;
-    state.history.push(i);
 
     DOM.audio.src = t.file;
     DOM.audio.currentTime = 0;
@@ -429,7 +428,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ===== 播放 =====
   function togglePlay() {
-    DOM.audio.paused ? DOM.audio.play().catch(()=>{}) : DOM.audio.pause();
+    DOM.audio.paused
+      ? DOM.audio.play().catch(()=>{})
+      : DOM.audio.pause();
   }
 
   function updatePlayButton() {
@@ -439,21 +440,48 @@ document.addEventListener('DOMContentLoaded', () => {
       : 'fa-solid fa-pause';
   }
 
+  // ===== ▶️ 下一首 =====
   function next() {
-    if (state.playMode === 1) return loadTrack(getNextShuffle());
+
+    // 🎲 随机模式
+    if (state.playMode === 1) {
+
+      if (state.shuffleIndex >= state.shuffled.length - 1) {
+        buildShuffle(state.current);
+      } else {
+        state.shuffleIndex++;
+      }
+
+      return loadTrack(state.shuffled[state.shuffleIndex]);
+    }
+
+    // 🔁 顺序
     loadTrack((state.current + 1) % state.tracks.length);
   }
 
+  // ===== ⏮ 上一首 =====
   function prev() {
-    if (state.history.length > 1) {
-      state.history.pop();
-      loadTrack(state.history.pop());
+
+    // 🎲 随机模式
+    if (state.playMode === 1) {
+
+      state.shuffleIndex--;
+
+      if (state.shuffleIndex < 0) {
+        buildShuffle(state.current);
+        state.shuffleIndex = state.shuffled.length - 1;
+      }
+
+      return loadTrack(state.shuffled[state.shuffleIndex]);
     }
+
+    // 🔁 顺序
+    loadTrack((state.current - 1 + state.tracks.length) % state.tracks.length);
   }
 
   // ===== 进度 =====
   function updateProgress() {
-    if (state.isDragging) return; // ⭐ 防止覆盖拖动UI
+    if (state.isDragging) return;
 
     if (!DOM.audio.duration) return;
 
@@ -467,14 +495,11 @@ document.addEventListener('DOMContentLoaded', () => {
     DOM.duration.textContent = format(DOM.audio.duration);
   }
 
-  // ===== ⭐ 拖动进度条（最终正确语义） =====
-
-  // 开始拖
+  // ===== 拖动进度条 =====
   DOM.progress.addEventListener('mousedown', () => {
     state.isDragging = true;
   });
 
-  // 拖动中（只更新UI，不动播放）
   DOM.progress.addEventListener('input', () => {
     if (!DOM.audio.duration) return;
 
@@ -485,7 +510,6 @@ document.addEventListener('DOMContentLoaded', () => {
     DOM.currentTime.textContent = format(preview);
   });
 
-  // 松手（才跳转）
   document.addEventListener('mouseup', () => {
     if (!state.isDragging) return;
 
@@ -537,23 +561,34 @@ document.addEventListener('DOMContentLoaded', () => {
   function updateVolumeIcon() {
     const v = DOM.volume.value;
 
-    if (state.isMuted) DOM.volumeIcon.className = 'fa-solid fa-volume-xmark volume-icon';
-    else if (v == 0) DOM.volumeIcon.className = 'fa-solid fa-volume-off volume-icon';
-    else if (v < 50) DOM.volumeIcon.className = 'fa-solid fa-volume-low volume-icon';
-    else DOM.volumeIcon.className = 'fa-solid fa-volume-high volume-icon';
+    if (state.isMuted)
+      DOM.volumeIcon.className = 'fa-solid fa-volume-xmark volume-icon';
+    else if (v == 0)
+      DOM.volumeIcon.className = 'fa-solid fa-volume-off volume-icon';
+    else if (v < 50)
+      DOM.volumeIcon.className = 'fa-solid fa-volume-low volume-icon';
+    else
+      DOM.volumeIcon.className = 'fa-solid fa-volume-high volume-icon';
   }
 
   // ===== 模式 =====
   function toggleMode() {
     state.playMode = (state.playMode + 1) % 3;
 
-    if (state.playMode === 1) buildShuffle();
-
     const icon = DOM.modeBtn.querySelector('i');
 
-    if (state.playMode === 0) icon.className = 'fa-solid fa-repeat';
-    if (state.playMode === 1) icon.className = 'fa-solid fa-shuffle';
-    if (state.playMode === 2) icon.className = 'fa-solid fa-arrow-rotate-right';
+    if (state.playMode === 0) {
+      icon.className = 'fa-solid fa-repeat';
+    }
+
+    if (state.playMode === 1) {
+      buildShuffle(state.current);
+      icon.className = 'fa-solid fa-shuffle';
+    }
+
+    if (state.playMode === 2) {
+      icon.className = 'fa-solid fa-arrow-rotate-right';
+    }
   }
 
   // ===== 事件 =====
@@ -586,7 +621,6 @@ document.addEventListener('DOMContentLoaded', () => {
     loadTrack(0, false);
   }
 
-  // 初始化 UI
   changeVolume();
   setProgress(DOM.progress, 0);
 

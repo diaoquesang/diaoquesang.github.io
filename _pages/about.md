@@ -279,7 +279,7 @@ redirect_from:
     box-shadow: none;
   }
   /* ===== 📱 移动端极简播放器（最终版） ===== */
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
 
     /* 隐藏进度条 */
     #progress-bar {

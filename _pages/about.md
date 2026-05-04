@@ -180,6 +180,7 @@ input[type="range"] {
 
   background: transparent !important;
   border: none;
+  margin: 0;
   outline: none;
   box-shadow: none;
   position: relative;

@@ -479,7 +479,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ===== 启动 =====
   extractTracks();
-  if (state.tracks.length > 0) loadTrack(0, false);
+  if (state.tracks.length > 0) {
+	  loadTrack(0, false);
+	}
+	
+  // ⭐ 修复音量条初始高亮
+  setProgress(DOM.volume, DOM.volume.value);
 
 });
 </script>

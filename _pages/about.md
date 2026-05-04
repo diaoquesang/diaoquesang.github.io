@@ -277,13 +277,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const state = {
     tracks: [],
     current: 0,
-    playMode: 0,
+    playMode: 0, // 0顺序 1随机 2单曲循环
     history: [],
     shuffled: [],
     shuffleIndex: 0,
+
     lastVolume: 20,
     isMuted: false,
-    userSetZero: false // ⭐ 区分“用户调成0”和“静音导致0”
+    userSetZero: false,
+
+    isDragging: false // ⭐ 仅用于UI控制
   };
 
   // ===== DOM =====
@@ -402,6 +405,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ===== 进度 =====
   function updateProgress() {
+    if (state.isDragging) return; // ⭐ 防止覆盖拖动UI
+
     if (!DOM.audio.duration) return;
 
     const percent = (DOM.audio.currentTime / DOM.audio.duration) * 100;
@@ -410,20 +415,44 @@ document.addEventListener('DOMContentLoaded', () => {
     DOM.currentTime.textContent = format(DOM.audio.currentTime);
   }
 
-  function seek() {
-    if (!DOM.audio.duration) return;
-    DOM.audio.currentTime = (DOM.progress.value / 100) * DOM.audio.duration;
-  }
-
   function updateDuration() {
     DOM.duration.textContent = format(DOM.audio.duration);
   }
+
+  // ===== ⭐ 拖动进度条（最终正确语义） =====
+
+  // 开始拖
+  DOM.progress.addEventListener('mousedown', () => {
+    state.isDragging = true;
+  });
+
+  // 拖动中（只更新UI，不动播放）
+  DOM.progress.addEventListener('input', () => {
+    if (!DOM.audio.duration) return;
+
+    const percent = DOM.progress.value;
+    const preview = (percent / 100) * DOM.audio.duration;
+
+    setProgress(DOM.progress, percent);
+    DOM.currentTime.textContent = format(preview);
+  });
+
+  // 松手（才跳转）
+  document.addEventListener('mouseup', () => {
+    if (!state.isDragging) return;
+
+    state.isDragging = false;
+
+    if (!DOM.audio.duration) return;
+
+    const percent = DOM.progress.value;
+    DOM.audio.currentTime = (percent / 100) * DOM.audio.duration;
+  });
 
   // ===== 音量 =====
   function changeVolume() {
     let v = Number(DOM.volume.value);
 
-    // ⭐ 标记用户是否主动调为0
     state.userSetZero = (v === 0);
 
     if (v > 0) state.lastVolume = v;
@@ -446,7 +475,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (state.isMuted) {
       v = 0;
     } else {
-      // ⭐ 核心修复：区分用户行为
       v = state.userSetZero ? 0 : state.lastVolume;
     }
 
@@ -486,7 +514,6 @@ document.addEventListener('DOMContentLoaded', () => {
   DOM.nextBtn.addEventListener('click', next);
   DOM.modeBtn.addEventListener('click', toggleMode);
 
-  DOM.progress.addEventListener('input', seek);
   DOM.volume.addEventListener('input', changeVolume);
   DOM.volumeIcon.addEventListener('click', toggleMute);
 
@@ -511,9 +538,9 @@ document.addEventListener('DOMContentLoaded', () => {
     loadTrack(0, false);
   }
 
-  // ⭐ 初始化 UI（关键）
-  changeVolume();                // 同步音量 UI + audio
-  setProgress(DOM.progress, 0);  // 初始化进度条
+  // 初始化 UI
+  changeVolume();
+  setProgress(DOM.progress, 0);
 
 });
 </script>

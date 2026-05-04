@@ -224,319 +224,172 @@ input[type="range"]:hover::-moz-range-thumb {
 </style>
 
 <script>
-let tracks = [];
-let currentTrack = 0;
-let audio = null;
+document.addEventListener('DOMContentLoaded', () => {
 
-let playMode = 0;
-let historyStack = [];
+  // ===== 状态 =====
+  const state = {
+    tracks: [],
+    current: 0,
+    playMode: 0, // 0 顺序 1 随机 2 单曲循环
+    history: [],
+    shuffled: [],
+    volume: 0.2,
+  };
 
-let lastVolume = 20;
-let isMuted = false;
+  // ===== DOM缓存 =====
+  const DOM = {
+    audio: document.getElementById('main-audio'),
+    playBtn: document.getElementById('play-pause-btn'),
+    prevBtn: document.getElementById('prev-btn'),
+    nextBtn: document.getElementById('next-btn'),
+    progress: document.getElementById('progress-bar'),
+    volume: document.getElementById('volume-slider'),
+    name: document.getElementById('track-name'),
+    currentTime: document.getElementById('current-time'),
+    duration: document.getElementById('duration')
+  };
 
-// ===== DOM =====
-const $ = (id) => document.getElementById(id);
-
-// ===== 安全 =====
-function safe(fn) {
-  try { fn(); } catch(e) { console.warn(e); }
-}
-
-// ===== Loading =====
-function showLoading() {
-  const el = $('player-loading');
-  if (el && el.style) el.style.display = 'block';
-}
-
-function hideLoading() {
-  const el = $('player-loading');
-  if (el && el.style) el.style.display = 'none';
-}
-
-// ===== 进度条背景 =====
-function updateRangeBackground(el, value) {
-  if (!el || !el.style) return;
-  el.style.setProperty('--progress', value + '%');
-}
-
-// ===== ⭐ 从 DOM 抽取（只执行一次）=====
-function extractMusicFiles() {
-  if (tracks.length > 0) return;
-
-  document.querySelectorAll('.myAudio').forEach(a => {
-    const source = a.querySelector('source');
-    if (!source) return;
-
-    let src = source.getAttribute('src');
-    if (!src) return;
-
-    if (!src.startsWith('http')) {
-      if (!src.startsWith('/')) src = '/' + src;
-    }
-
-    const box = a.closest('.paper-box');
-    let name = 'Unknown';
-
-    if (box) {
-      const link = box.querySelector('.paper-box-text a');
-      if (link) name = link.textContent.trim();
-    }
-
-    tracks.push({ name, file: src });
-  });
-
-  console.log("✅ tracks:", tracks.length);
-}
-
-// ===== 初始化播放器 =====
-function initPlayer() {
-  audio = $('main-audio');
-  if (!audio) {
-    console.error("❌ 没有 main-audio");
+  if (!DOM.audio) {
+    console.error('❌ audio 不存在');
     return;
   }
 
-  audio.volume = 0.2;
+  // ===== 工具 =====
+  const format = (s) => {
+    if (isNaN(s)) return "0:00";
+    const m = Math.floor(s / 60);
+    const sec = Math.floor(s % 60);
+    return `${m}:${sec < 10 ? '0' + sec : sec}`;
+  };
 
-  audio.addEventListener('timeupdate', () => safe(updateProgress));
-  audio.addEventListener('loadedmetadata', () => {
-    safe(updateDuration);
-    hideLoading();
-  });
-  audio.addEventListener('canplay', hideLoading);
-  audio.addEventListener('ended', () => safe(handleEnded));
+  // ===== 读取歌曲 =====
+  function extractTracks() {
+    const list = document.querySelectorAll('.myAudio source');
 
-  audio.addEventListener('play', updatePlayButton);
-  audio.addEventListener('pause', updatePlayButton);
-}
+    state.tracks = Array.from(list).map(el => {
+      let src = el.getAttribute('src');
 
-// ===== ⭐ 等待 .myAudio 出现 =====
-function waitForAudios() {
-  const timer = setInterval(() => {
-    const list = document.querySelectorAll('.myAudio');
-
-    if (list.length > 0) {
-      clearInterval(timer);
-
-      extractMusicFiles();
-
-      if (tracks.length > 0) {
-        loadTrack(0);
+      // ⭐ GitHub Pages 路径修复
+      if (!src.startsWith('http')) {
+        const base = window.location.pathname.replace(/\/[^/]*$/, '/');
+        src = base + src;
       }
+
+      return {
+        name: el.closest('.paper-box')?.querySelector('a')?.textContent || 'Unknown',
+        file: src
+      };
+    });
+
+    console.log("✅ tracks:", state.tracks.length);
+  }
+
+  // ===== 核心：加载 =====
+  function loadTrack(i, autoPlay = true) {
+    const t = state.tracks[i];
+    if (!t) return;
+
+    state.current = i;
+    state.history.push(i);
+
+    DOM.audio.src = t.file;
+    DOM.audio.currentTime = 0;
+    DOM.audio.load();
+
+    DOM.name && (DOM.name.textContent = t.name);
+
+    if (autoPlay) {
+      DOM.audio.play().catch(()=>{});
     }
-  }, 300);
-}
+  }
 
-// ===== ⭐ 控件绑定（自动）=====
-function waitForControls() {
-  const timer = setInterval(() => {
-    const ready =
-      $('play-pause-btn') &&
-      $('progress-bar') &&
-      $('volume-slider');
+  // ===== 播放控制 =====
+  function togglePlay() {
+    DOM.audio.paused ? DOM.audio.play() : DOM.audio.pause();
+  }
 
-    if (ready) {
-      clearInterval(timer);
-      bindControls();
-      console.log("✅ 控件绑定完成");
+  function next() {
+    if (state.playMode === 1) return shuffleNext();
+
+    let i = (state.current + 1) % state.tracks.length;
+    loadTrack(i);
+  }
+
+  function prev() {
+    if (state.history.length > 1) {
+      state.history.pop();
+      loadTrack(state.history.pop());
     }
-  }, 300);
-}
+  }
 
-function bindControls() {
-  $('play-pause-btn')?.addEventListener('click', togglePlayPause);
-  $('prev-btn')?.addEventListener('click', prevTrack);
-  $('next-btn')?.addEventListener('click', nextTrack);
+  // ===== 真随机（不重复）=====
+  function buildShuffle() {
+    state.shuffled = [...Array(state.tracks.length).keys()]
+      .sort(() => Math.random() - 0.5);
+  }
 
-  $('progress-bar')?.addEventListener('input', handleSeek);
+  function shuffleNext() {
+    if (!state.shuffled.length) buildShuffle();
+    const i = state.shuffled.pop();
+    loadTrack(i);
+  }
 
-  $('volume-slider')?.addEventListener('input', (e) => {
-    isMuted = false;
-    changeVolume(e.target.value);
+  // ===== UI =====
+  function updateProgress() {
+    if (!DOM.audio.duration) return;
+
+    const p = (DOM.audio.currentTime / DOM.audio.duration) * 100;
+
+    if (DOM.progress) {
+      DOM.progress.value = p;
+      DOM.progress.style.background =
+        `linear-gradient(to right, #4ade80 ${p}%, #ccc ${p}%)`;
+    }
+
+    DOM.currentTime && (DOM.currentTime.textContent = format(DOM.audio.currentTime));
+  }
+
+  function seek() {
+    if (!DOM.audio.duration) return;
+    DOM.audio.currentTime = (DOM.progress.value / 100) * DOM.audio.duration;
+  }
+
+  function updateDuration() {
+    DOM.duration && (DOM.duration.textContent = format(DOM.audio.duration));
+  }
+
+  function changeVolume() {
+    const v = DOM.volume.value / 100;
+    DOM.audio.volume = v;
+  }
+
+  // ===== 事件绑定 =====
+  DOM.playBtn?.addEventListener('click', togglePlay);
+  DOM.prevBtn?.addEventListener('click', prev);
+  DOM.nextBtn?.addEventListener('click', next);
+
+  DOM.progress?.addEventListener('input', seek);
+  DOM.volume?.addEventListener('input', changeVolume);
+
+  DOM.audio.addEventListener('timeupdate', updateProgress);
+  DOM.audio.addEventListener('loadedmetadata', updateDuration);
+  DOM.audio.addEventListener('ended', () => {
+    if (state.playMode === 2) {
+      DOM.audio.currentTime = 0;
+      DOM.audio.play();
+    } else {
+      next();
+    }
   });
 
-  $('volume-icon')?.addEventListener('click', toggleMute);
-}
+  // ===== 启动 =====
+  extractTracks();
 
-// ===== 加载歌曲 =====
-function loadTrack(index) {
-  if (!tracks.length || !audio) return;
-
-  const t = tracks[index];
-  if (!t) return;
-
-  currentTrack = index;
-
-  showLoading();
-
-  audio.src = t.file;
-
-  // ⭐ 关键：解决刷新 loading
-  audio.load();
-
-  audio.currentTime = 0;
-
-  historyStack.push(index);
-
-  $('track-name') && ($('track-name').textContent = t.name);
-
-  updatePlayButton();
-
-  // ⭐ 兜底（防止缓存不触发事件）
-  setTimeout(hideLoading, 3000);
-}
-
-// ===== 播放控制 =====
-function togglePlayPause() {
-  if (!audio) return;
-  audio.paused ? audio.play().catch(()=>{}) : audio.pause();
-}
-
-function updatePlayButton() {
-  const icon = document.querySelector('#play-pause-btn i');
-  if (!icon || !audio) return;
-
-  icon.className = audio.paused
-    ? 'fa-solid fa-play'
-    : 'fa-solid fa-pause';
-}
-
-// ===== 上一首 / 下一首 =====
-function prevTrack() {
-  if (historyStack.length > 1) {
-    historyStack.pop();
-    const prev = historyStack.pop();
-    loadTrack(prev);
-  }
-}
-
-function nextTrack() {
-  if (!tracks.length) return;
-
-  if (playMode === 1) return playRandom();
-
-  currentTrack = (currentTrack + 1) % tracks.length;
-  loadTrack(currentTrack);
-}
-
-// ===== 随机 =====
-function playRandom() {
-  if (tracks.length <= 1) return;
-
-  let next;
-  do {
-    next = Math.floor(Math.random() * tracks.length);
-  } while (next === currentTrack);
-
-  loadTrack(next);
-}
-
-// ===== 结束 =====
-function handleEnded() {
-  if (playMode === 2) {
-    audio.currentTime = 0;
-    audio.play();
-  } else {
-    nextTrack();
-  }
-}
-
-// ===== 进度 =====
-function updateProgress() {
-  if (!audio || !audio.duration) return;
-
-  const percent = (audio.currentTime / audio.duration) * 100;
-
-  const bar = $('progress-bar');
-  if (bar) {
-    bar.value = percent;
-    updateRangeBackground(bar, percent);
+  if (state.tracks.length > 0) {
+    loadTrack(0, false); // 不自动播放，避免浏览器拦截
   }
 
-  $('current-time') && ($('current-time').textContent = formatTime(audio.currentTime));
-}
-
-function handleSeek() {
-  const bar = $('progress-bar');
-  if (!bar || !audio.duration) return;
-
-  audio.currentTime = (bar.value / 100) * audio.duration;
-}
-
-function updateDuration() {
-  $('duration') && ($('duration').textContent = formatTime(audio.duration));
-}
-
-// ===== 音量 =====
-function changeVolume(value) {
-  value = Number(value);
-
-  $('volume-slider') && ($('volume-slider').value = value);
-  $('volume-display') && ($('volume-display').textContent = value + '%');
-
-  if (value > 0) lastVolume = value;
-
-  if (audio) {
-    audio.volume = isMuted ? 0 : value / 100;
-  }
-
-  updateVolumeIcon();
-
-  const slider = $('volume-slider');
-  if (slider) updateRangeBackground(slider, value);
-}
-
-function toggleMute() {
-  isMuted = !isMuted;
-  if (audio) {
-    audio.volume = isMuted ? 0 : lastVolume / 100;
-  }
-  updateVolumeIcon();
-}
-
-function updateVolumeIcon() {
-  const icon = $('volume-icon');
-  if (!icon) return;
-
-  const value = $('volume-slider')?.value || 0;
-
-  if (isMuted) icon.className = 'fa-solid fa-volume-xmark';
-  else if (value == 0) icon.className = 'fa-solid fa-volume-off';
-  else if (value < 50) icon.className = 'fa-solid fa-volume-low';
-  else icon.className = 'fa-solid fa-volume-high';
-}
-
-// ===== 模式 =====
-function togglePlayMode() {
-  playMode = (playMode + 1) % 3;
-  updateModeButton();
-}
-
-function updateModeButton() {
-  const icon = document.querySelector('#mode-btn i');
-  if (!icon) return;
-
-  if (playMode === 0) icon.className = 'fa-solid fa-repeat';
-  if (playMode === 1) icon.className = 'fa-solid fa-shuffle';
-  if (playMode === 2) icon.className = 'fa-solid fa-arrow-rotate-right';
-}
-
-// ===== 时间 =====
-function formatTime(seconds) {
-  if (isNaN(seconds)) return "0:00";
-  const min = Math.floor(seconds / 60);
-  const sec = Math.floor(seconds % 60);
-  return `${min}:${sec < 10 ? '0' + sec : sec}`;
-}
-
-// ===== 启动 =====
-function startPlayer() {
-  initPlayer();
-  waitForAudios();
-  waitForControls();
-}
-
-startPlayer();
+});
 </script>
 
 # 📖 Education

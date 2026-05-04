@@ -163,38 +163,44 @@ button:hover {
   flex-shrink: 0;
 }
 
-/* ===== range 基础（关键修复） ===== */
+/* ===================================================== */
+/* ===== 🎯 RANGE 完全重写（核心无敌部分） ===== */
+/* ===================================================== */
+
 input[type="range"] {
   -webkit-appearance: none;
   appearance: none;
-  position: relative;
+  width: 100%;
   height: 14px;
-  background: transparent;
-  cursor: pointer;
-
-  /* ⭐ 去掉灰色边框 */
+  background: transparent !important;
   border: none;
   outline: none;
+  box-shadow: none;
+  position: relative;
+  cursor: pointer;
 }
 
-/* ⭐ 干掉默认轨道（Chrome / Edge） */
+/* ===== 干掉所有浏览器默认轨道 ===== */
 input[type="range"]::-webkit-slider-runnable-track {
   background: transparent;
   border: none;
+  box-shadow: none;
 }
 
-/* ⭐ 干掉默认轨道（Firefox） */
 input[type="range"]::-moz-range-track {
   background: transparent;
   border: none;
+  box-shadow: none;
 }
 
-/* ⭐ 去掉 focus 蓝框 */
-input[type="range"]:focus {
+/* ===== 干掉 focus / active 副作用 ===== */
+input[type="range"]:focus,
+input[type="range"]:active {
   outline: none;
+  box-shadow: none;
 }
 
-/* ===== 自定义轨道 ===== */
+/* ===== ⭐ 自定义轨道（唯一轨道） ===== */
 input[type="range"]::before {
   content: "";
   position: absolute;
@@ -203,29 +209,27 @@ input[type="range"]::before {
   top: 50%;
   height: 6px;
   transform: translateY(-50%);
+  border-radius: 3px;
+
   background: linear-gradient(
     to right,
     #007bff var(--progress, 0%),
     #ddd var(--progress, 0%)
   );
-  border-radius: 3px;
 }
 
-/* ===== 滑块（Chrome） ===== */
+/* ===== 滑块（Chrome / Edge / Safari） ===== */
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 12px;
   height: 12px;
   background: #007bff;
   border-radius: 50%;
-  cursor: pointer;
+  border: none;
+  box-shadow: none;
   position: relative;
   z-index: 2;
   transition: transform 0.15s ease;
-}
-
-input[type="range"]:hover::-webkit-slider-thumb {
-  transform: scale(1.4);
 }
 
 /* ===== 滑块（Firefox） ===== */
@@ -235,41 +239,19 @@ input[type="range"]::-moz-range-thumb {
   background: #007bff;
   border-radius: 50%;
   border: none;
-  cursor: pointer;
+  box-shadow: none;
+  position: relative;
+  z-index: 2;
   transition: transform 0.15s ease;
+}
+
+/* ===== Hover 动效 ===== */
+input[type="range"]:hover::-webkit-slider-thumb {
+  transform: scale(1.4);
 }
 
 input[type="range"]:hover::-moz-range-thumb {
   transform: scale(1.4);
-}
-
-/* ===== 🔥 彻底干掉所有默认阴影 ===== */
-
-/* Chrome / Edge track */
-input[type="range"]::-webkit-slider-runnable-track {
-  box-shadow: none;
-}
-
-/* Chrome / Edge thumb */
-input[type="range"]::-webkit-slider-thumb {
-  box-shadow: none;
-}
-
-/* Firefox track */
-input[type="range"]::-moz-range-track {
-  box-shadow: none;
-}
-
-/* Firefox thumb */
-input[type="range"]::-moz-range-thumb {
-  box-shadow: none;
-}
-
-/* 拖动 / 聚焦时也不出现阴影 */
-input[type="range"]:focus,
-input[type="range"]:active {
-  outline: none;
-  box-shadow: none;
 }
 </style>
 

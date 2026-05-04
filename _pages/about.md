@@ -38,7 +38,6 @@ redirect_from:
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=diaoquesang&countColor=%23263759&style=flat&labelStyle=none)](https://visitorbadge.io/status?path=diaoquesang)
 
 
-
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -230,6 +229,10 @@ redirect_from:
             #007bff var(--progress, 0%),
             #ddd var(--progress, 0%)
     );
+  }
+
+  .time {
+    text-align: center;
   }
 
   /* ===== 滑块（Chrome / Edge / Safari） ===== */
@@ -589,6 +592,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 </script>
+
 
 # 📖 Education
 

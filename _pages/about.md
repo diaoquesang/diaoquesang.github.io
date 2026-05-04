@@ -93,14 +93,14 @@ redirect_from:
   align-items: center;
   gap: 8px;
   font-size: 14px;
-  min-width: 0; /* ⭐ 防止子元素溢出 */
+  min-width: 0;
 }
 
 /* ===== 按钮 ===== */
 button {
   width: 40px;
   height: 40px;
-  flex-shrink: 0; /* ⭐ 不允许压缩 */
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,10 +118,10 @@ button:hover {
   color: #007bff;
 }
 
-/* ===== 歌名（关键修复点） ===== */
+/* ===== 歌名 ===== */
 .track-name {
-  flex: 1 1 auto;   /* ⭐ 可以占空间 */
-  min-width: 80px;  /* ⭐ 防止被压成0 */
+  flex: 1 1 auto;
+  min-width: 80px;
   font-weight: bold;
   white-space: nowrap;
   overflow: hidden;
@@ -150,11 +150,11 @@ button:hover {
   cursor: pointer;
 }
 
-/* ===== 进度条（核心修复） ===== */
+/* ===== 进度条 ===== */
 #progress-bar {
-  flex: 2;              /* ⭐ 占一部分空间 */
-  min-width: 120px;     /* ⭐ 不会消失 */
-  max-width: 300px;     /* ⭐ 不会无限变长 */
+  flex: 2;
+  min-width: 120px;
+  max-width: 300px;
 }
 
 /* ===== 音量条 ===== */
@@ -163,7 +163,7 @@ button:hover {
   flex-shrink: 0;
 }
 
-/* ===== range 基础 ===== */
+/* ===== range 基础（关键修复） ===== */
 input[type="range"] {
   -webkit-appearance: none;
   appearance: none;
@@ -171,9 +171,30 @@ input[type="range"] {
   height: 14px;
   background: transparent;
   cursor: pointer;
+
+  /* ⭐ 去掉灰色边框 */
+  border: none;
+  outline: none;
 }
 
-/* ===== 轨道 ===== */
+/* ⭐ 干掉默认轨道（Chrome / Edge） */
+input[type="range"]::-webkit-slider-runnable-track {
+  background: transparent;
+  border: none;
+}
+
+/* ⭐ 干掉默认轨道（Firefox） */
+input[type="range"]::-moz-range-track {
+  background: transparent;
+  border: none;
+}
+
+/* ⭐ 去掉 focus 蓝框 */
+input[type="range"]:focus {
+  outline: none;
+}
+
+/* ===== 自定义轨道 ===== */
 input[type="range"]::before {
   content: "";
   position: absolute;

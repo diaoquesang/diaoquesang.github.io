@@ -215,8 +215,8 @@ redirect_from:
   input[type="range"]::before {
     content: "";
     position: absolute;
-    left: 0;
-    right: 0;
+    left: calc(var(--thumb-s) / 2);
+    right: calc(var(--thumb-s) / 2);
 
     /* ⭐ 精确垂直居中 */
     top: calc((var(--thumb-s) - var(--track-h)) / 2);

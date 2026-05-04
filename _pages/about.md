@@ -421,9 +421,9 @@ document.addEventListener('DOMContentLoaded', () => {
   function toggleMute() {
     state.isMuted = !state.isMuted;
 
-    DOM.audio.volume = state.isMuted ? 0 : state.lastVolume / 100;
-
     const v = state.isMuted ? 0 : state.lastVolume;
+
+    DOM.audio.volume = v / 100;
 
     setProgress(DOM.volume, v);
     DOM.volumeDisplay.textContent = v + '%';
@@ -479,13 +479,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ===== 启动 =====
   extractTracks();
+
   if (state.tracks.length > 0) {
-	  loadTrack(0, false);
-	}
-	
-  // ⭐ 修复音量条初始高亮
-  setProgress(DOM.volume, DOM.volume.value);
-  setProgress(DOM.progress, 0);
+    loadTrack(0, false);
+  }
+
+  // ⭐ 关键：统一初始化（彻底解决音量/进度不同步）
+  changeVolume();          // 音量 UI + audio 同步
+  setProgress(DOM.progress, 0);  // 进度条初始状态
+
 });
 </script>
 

@@ -164,7 +164,7 @@ button:hover {
 }
 
 /* ===================================================== */
-/* ===== 🎯 RANGE 完整重写（无敌版核心） ===== */
+/* ===== 🎯 RANGE 完整重写（终极稳定版） ===== */
 /* ===================================================== */
 
 input[type="range"] {
@@ -174,7 +174,10 @@ input[type="range"] {
   -webkit-appearance: none;
   appearance: none;
   width: 100%;
+
+  /* ⭐ 核心：统一坐标系 */
   height: var(--thumb-s);
+
   background: transparent !important;
   border: none;
   outline: none;
@@ -196,15 +199,17 @@ input[type="range"]::-moz-range-track {
   box-shadow: none;
 }
 
-/* ===== 自定义轨道 ===== */
+/* ===== ⭐ 自定义轨道（精确居中） ===== */
 input[type="range"]::before {
   content: "";
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%;
+
+  /* ⭐ 不再用 50% + translate */
+  top: calc((var(--thumb-s) - var(--track-h)) / 2);
+
   height: var(--track-h);
-  transform: translateY(-50%);
   border-radius: 3px;
 
   background: linear-gradient(
@@ -226,8 +231,8 @@ input[type="range"]::-webkit-slider-thumb {
   position: relative;
   z-index: 2;
 
-  /* ⭐ 精确居中（核心） */
-  margin-top: calc((var(--track-h) - var(--thumb-s)) / 2);
+  /* ⭐ 关键：取消人为偏移 */
+  margin-top: 0;
 
   transition: transform 0.15s ease;
 }
@@ -241,8 +246,8 @@ input[type="range"]::-moz-range-thumb {
   border: none;
   box-shadow: none;
 
-  /* ⭐ 同步居中 */
-  transform: translateY(calc((var(--track-h) - var(--thumb-s)) / 2));
+  /* ⭐ 同样取消偏移 */
+  transform: none;
 
   transition: transform 0.15s ease;
 }
@@ -253,7 +258,7 @@ input[type="range"]:hover::-webkit-slider-thumb {
 }
 
 input[type="range"]:hover::-moz-range-thumb {
-  transform: translateY(calc((var(--track-h) - var(--thumb-s)) / 2)) scale(1.4);
+  transform: scale(1.4);
 }
 
 /* ===== 干掉 focus 影响 ===== */

@@ -76,198 +76,243 @@ redirect_from:
 </div>
 
 <style>
-#music-player-bar {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: #f8f9fa;
-  padding: 10px;
-  margin: 20px 0;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
+  #music-player-bar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #f8f9fa;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
 
-/* ===== 主布局 ===== */
-.player-row {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 14px;
-  min-width: 0;
-}
+  /* ===== 主布局 ===== */
+  .player-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    min-width: 0;
+  }
 
-/* ===== 按钮 ===== */
-button {
-  width: 40px;
-  height: 40px;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  background: none;
-  cursor: pointer;
-}
+  /* ===== 按钮 ===== */
+  button {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
 
-button:hover {
-  background: rgba(0,0,0,0.05);
-  border-radius: 6px;
-}
+  button:hover {
+    background: rgba(0,0,0,0.05);
+    border-radius: 6px;
+  }
 
-.mode-btn {
-  color: #007bff;
-}
+  .mode-btn {
+    color: #007bff;
+  }
 
-/* ===== 歌名 ===== */
-.track-name {
-  flex: 1 1 auto;
-  min-width: 80px;
-  font-weight: bold;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+  /* ===== 🎯 歌名（限制最大宽度） ===== */
+  .track-name {
+    flex: 0 1 200px;     /* ⭐ 不再无限扩张 */
+    max-width: 200px;    /* ⭐ 最大宽度 */
+    min-width: 80px;
 
-/* ===== 时间 ===== */
-.time {
-  font-size: 12px;
-  min-width: 45px;
-  flex-shrink: 0;
-}
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 
-/* ===== 音量文字 ===== */
-.volume-text {
-  font-size: 12px;
-  min-width: 40px;
-  flex-shrink: 0;
-}
+  /* ===== 时间 ===== */
+  .time {
+    font-size: 12px;
+    min-width: 45px;
+    flex-shrink: 0;
+  }
 
-/* ===== 音量图标 ===== */
-.volume-icon {
-  font-size: 14px;
-  width: 20px;
-  flex-shrink: 0;
-  cursor: pointer;
-}
+  /* ===== 音量文字 ===== */
+  .volume-text {
+    font-size: 12px;
+    min-width: 40px;
+    flex-shrink: 0;
+  }
 
-/* ===== 进度条 ===== */
-#progress-bar {
-  flex: 2;
-  min-width: 120px;
-  max-width: 300px;
-}
+  /* ===== 音量图标 ===== */
+  .volume-icon {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
 
-/* ===== 音量条 ===== */
-#volume-slider {
-  width: 80px;
-  flex-shrink: 0;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-/* ===================================================== */
-/* ===== 🎯 RANGE 完整重写（终极稳定版） ===== */
-/* ===================================================== */
+    font-size: 14px;
+    cursor: pointer;
+  }
 
-input[type="range"] {
-  --track-h: 6px;
-  --thumb-s: 12px;
+  /* 和 button 完全一致的 hover */
+  .volume-icon:hover {
+    background: rgba(0,0,0,0.05);
+    border-radius: 6px;
+  }
 
-  -webkit-appearance: none;
-  appearance: none;
-  width: 100%;
+  /* ===== 🎯 进度条（完全自适应） ===== */
+  #progress-bar {
+    flex: 1 1 auto;     /* ⭐ 吃掉所有剩余空间 */
+    min-width: 120px;
+    /* ❌ 已移除 max-width 限制 */
+  }
 
-  /* ⭐ 核心：统一坐标系 */
-  height: var(--thumb-s);
+  /* ===== 音量条 ===== */
+  #volume-slider {
+    width: 80px;
+    flex-shrink: 0;
+  }
 
-  background: transparent !important;
-  border: none;
-  margin: 0;
-  outline: none;
-  box-shadow: none;
-  position: relative;
-  cursor: pointer;
-}
+  /* ===================================================== */
+  /* ===== 🎯 RANGE 完整重写（稳定对齐版） ===== */
+  /* ===================================================== */
 
-/* ===== 清除默认轨道 ===== */
-input[type="range"]::-webkit-slider-runnable-track {
-  background: transparent;
-  border: none;
-  box-shadow: none;
-}
+  input[type="range"] {
+    --track-h: 6px;
+    --thumb-s: 12px;
 
-input[type="range"]::-moz-range-track {
-  background: transparent;
-  border: none;
-  box-shadow: none;
-}
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: var(--thumb-s);
 
-/* ===== ⭐ 自定义轨道（精确居中） ===== */
-input[type="range"]::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
+    background: transparent !important;
+    border: none;
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+    position: relative;
+    cursor: pointer;
+  }
 
-  /* ⭐ 不再用 50% + translate */
-  top: calc((var(--thumb-s) - var(--track-h)) / 2);
+  /* 清除默认轨道 */
+  input[type="range"]::-webkit-slider-runnable-track {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
 
-  height: var(--track-h);
-  border-radius: 3px;
+  input[type="range"]::-moz-range-track {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
 
-  background: linear-gradient(
-    to right,
-    #007bff var(--progress, 0%),
-    #ddd var(--progress, 0%)
-  );
-}
+  /* ===== 轨道 ===== */
+  input[type="range"]::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
 
-/* ===== 滑块（Chrome / Edge / Safari） ===== */
-input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: var(--thumb-s);
-  height: var(--thumb-s);
-  background: #007bff;
-  border-radius: 50%;
-  border: none;
-  box-shadow: none;
-  position: relative;
-  z-index: 2;
+    /* ⭐ 精确垂直居中 */
+    top: calc((var(--thumb-s) - var(--track-h)) / 2);
 
-  /* ⭐ 关键：取消人为偏移 */
-  margin-top: 0;
+    height: var(--track-h);
+    border-radius: 3px;
 
-  transition: transform 0.15s ease;
-}
+    background: linear-gradient(
+            to right,
+            #007bff var(--progress, 0%),
+            #ddd var(--progress, 0%)
+    );
+  }
 
-/* ===== 滑块（Firefox） ===== */
-input[type="range"]::-moz-range-thumb {
-  width: var(--thumb-s);
-  height: var(--thumb-s);
-  background: #007bff;
-  border-radius: 50%;
-  border: none;
-  box-shadow: none;
+  /* ===== 滑块（Chrome / Edge / Safari） ===== */
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: var(--thumb-s);
+    height: var(--thumb-s);
+    background: #007bff;
+    border-radius: 50%;
+    border: none;
+    box-shadow: none;
+    position: relative;
+    z-index: 2;
 
-  /* ⭐ 同样取消偏移 */
-  transform: none;
+    margin-top: 0; /* ⭐ 不做偏移 */
 
-  transition: transform 0.15s ease;
-}
+    transition: transform 0.15s ease;
+  }
 
-/* ===== hover 动效 ===== */
-input[type="range"]:hover::-webkit-slider-thumb {
-  transform: scale(1.4);
-}
+  /* ===== 滑块（Firefox） ===== */
+  input[type="range"]::-moz-range-thumb {
+    width: var(--thumb-s);
+    height: var(--thumb-s);
+    background: #007bff;
+    border-radius: 50%;
+    border: none;
+    box-shadow: none;
 
-input[type="range"]:hover::-moz-range-thumb {
-  transform: scale(1.4);
-}
+    transform: none;
 
-/* ===== 干掉 focus 影响 ===== */
-input[type="range"]:focus,
-input[type="range"]:active {
-  outline: none;
-  box-shadow: none;
-}
+    transition: transform 0.15s ease;
+  }
+
+  /* ===== hover 动效 ===== */
+  input[type="range"]:hover::-webkit-slider-thumb {
+    transform: scale(1.4);
+  }
+
+  input[type="range"]:hover::-moz-range-thumb {
+    transform: scale(1.4);
+  }
+
+  /* ===== 去掉 focus 影响 ===== */
+  input[type="range"]:focus,
+  input[type="range"]:active {
+    outline: none;
+    box-shadow: none;
+  }
+  /* ===== 📱 移动端极简播放器（最终版） ===== */
+  @media (max-width: 768px) {
+
+    /* 隐藏进度条 */
+    #progress-bar {
+      display: none;
+    }
+
+    /* 隐藏音量条 */
+    #volume-slider {
+      display: none;
+    }
+
+    /* 隐藏时间 */
+    #current-time,
+    #duration {
+      display: none;
+    }
+
+    /* ⭐ 隐藏音量百分比 */
+    #volume-display {
+      display: none;
+    }
+
+    .volume-icon {
+      margin-left: auto;
+    }
+
+    .track-name {
+      flex: 1 1 auto;
+      max-width: none;
+      min-width: 0;
+    }
+
+  }
 </style>
 
 <script>

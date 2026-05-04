@@ -428,16 +428,23 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function toggleMute() {
-    state.isMuted = !state.isMuted;
+  state.isMuted = !state.isMuted;
 
-    const v = state.isMuted ? 0 : state.lastVolume;
+  let v;
 
-    DOM.audio.volume = v / 100;
+  if (state.isMuted) {
+    v = 0;
+  } else {
+    // ⭐ 核心逻辑
+    v = DOM.volume.value == 0 ? 0 : state.lastVolume;
+  }
 
-    setProgress(DOM.volume, v);
-    DOM.volumeDisplay.textContent = v + '%';
+  DOM.audio.volume = v / 100;
 
-    updateVolumeIcon();
+  setProgress(DOM.volume, v);
+  DOM.volumeDisplay.textContent = v + '%';
+
+  updateVolumeIcon();
   }
 
   function updateVolumeIcon() {

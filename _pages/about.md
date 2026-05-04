@@ -164,14 +164,17 @@ button:hover {
 }
 
 /* ===================================================== */
-/* ===== 🎯 RANGE 完全重写（核心无敌部分） ===== */
+/* ===== 🎯 RANGE 完整重写（无敌版核心） ===== */
 /* ===================================================== */
 
 input[type="range"] {
+  --track-h: 6px;
+  --thumb-s: 12px;
+
   -webkit-appearance: none;
   appearance: none;
   width: 100%;
-  height: 14px;
+  height: var(--thumb-s);
   background: transparent !important;
   border: none;
   outline: none;
@@ -180,7 +183,7 @@ input[type="range"] {
   cursor: pointer;
 }
 
-/* ===== 干掉所有浏览器默认轨道 ===== */
+/* ===== 清除默认轨道 ===== */
 input[type="range"]::-webkit-slider-runnable-track {
   background: transparent;
   border: none;
@@ -193,21 +196,14 @@ input[type="range"]::-moz-range-track {
   box-shadow: none;
 }
 
-/* ===== 干掉 focus / active 副作用 ===== */
-input[type="range"]:focus,
-input[type="range"]:active {
-  outline: none;
-  box-shadow: none;
-}
-
-/* ===== ⭐ 自定义轨道（唯一轨道） ===== */
+/* ===== 自定义轨道 ===== */
 input[type="range"]::before {
   content: "";
   position: absolute;
   left: 0;
   right: 0;
   top: 50%;
-  height: 6px;
+  height: var(--track-h);
   transform: translateY(-50%);
   border-radius: 3px;
 
@@ -221,37 +217,50 @@ input[type="range"]::before {
 /* ===== 滑块（Chrome / Edge / Safari） ===== */
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width: 12px;
-  height: 12px;
+  width: var(--thumb-s);
+  height: var(--thumb-s);
   background: #007bff;
   border-radius: 50%;
   border: none;
   box-shadow: none;
   position: relative;
   z-index: 2;
+
+  /* ⭐ 精确居中（核心） */
+  margin-top: calc((var(--track-h) - var(--thumb-s)) / 2);
+
   transition: transform 0.15s ease;
 }
 
 /* ===== 滑块（Firefox） ===== */
 input[type="range"]::-moz-range-thumb {
-  width: 12px;
-  height: 12px;
+  width: var(--thumb-s);
+  height: var(--thumb-s);
   background: #007bff;
   border-radius: 50%;
   border: none;
   box-shadow: none;
-  position: relative;
-  z-index: 2;
+
+  /* ⭐ 同步居中 */
+  transform: translateY(calc((var(--track-h) - var(--thumb-s)) / 2));
+
   transition: transform 0.15s ease;
 }
 
-/* ===== Hover 动效 ===== */
+/* ===== hover 动效 ===== */
 input[type="range"]:hover::-webkit-slider-thumb {
   transform: scale(1.4);
 }
 
 input[type="range"]:hover::-moz-range-thumb {
-  transform: scale(1.4);
+  transform: translateY(calc((var(--track-h) - var(--thumb-s)) / 2)) scale(1.4);
+}
+
+/* ===== 干掉 focus 影响 ===== */
+input[type="range"]:focus,
+input[type="range"]:active {
+  outline: none;
+  box-shadow: none;
 }
 </style>
 

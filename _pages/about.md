@@ -605,18 +605,6 @@ document.addEventListener('DOMContentLoaded', () => {
   DOM.audio.addEventListener('play', updatePlayButton);
   DOM.audio.addEventListener('pause', updatePlayButton);
 
-  // ===== 输出设备变化（蓝牙断开等）=====
-  navigator.mediaDevices?.addEventListener?.('devicechange', () => {
-
-    // 如果正在播放
-    if (!DOM.audio.paused) {
-
-      // 某些浏览器设备丢失后 audio 还会保持 playing 状态
-      // 手动暂停保证 UI 同步
-      DOM.audio.pause();
-
-    }
-  });
 
   DOM.audio.addEventListener('ended', () => {
     if (state.playMode === 2) {

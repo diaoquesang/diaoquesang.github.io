@@ -673,6 +673,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
+		<li><i>2026.05</i>: &nbsp;🎉🎉 Our paper for <a href="https://conferences.miccai.org/2026/en/default.asp">MICCAI 2026</a> was <strong>Early Accepted</strong>!</li>
 		<li><i>2026.03</i>: &nbsp;🎉🎉 Our 2 papers for <a href="https://2026.ieeeicassp.org/">ICASSP 2026</a> were selected for <strong>Oral Presentation</strong>!</li>
 		<li><i>2026.01</i>: &nbsp;🎉🎉 Our 2 papers for <a href="https://2026.ieeeicassp.org/">ICASSP 2026</a> were <strong>Accepted</strong>!</li>
 		<li><i>2025.11</i>: &nbsp;🎉🎉 Our paper for <a href="https://aaai.org/conference/aaai/aaai-26">AAAI 2026</a> was <strong>Accepted</strong>!</li>
@@ -782,6 +783,10 @@ document.addEventListener('DOMContentLoaded', () => {
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	
 <ul>
+
+<li>
+<span class="highlight">MICCAI 2026 (Early Accept)</span> <a href="">Two-Stage Cross-Domain Cervical Abnormality Screening with Cytopathological Image Synthesis and Knowledge Distillation</a> Jincheng Li, Yuzhi He, Yihui Zhan, Xinmei Zhang, <b>Yifei Sun</b>, Zelin Liu, Lichi Zhang, Minye Shao, Lili Zhao<sup>†</sup> <i>International Conference on Medical Image Computing and Computer Assisted Intervention (<strong>MICCAI</strong>) 2026 (<strong>Early Accept</strong>)</i>
+</li>
 
 <li>
 <span class="highlight">ICASSP 2026 (Oral)</span> <a href="https://arxiv.org/abs/2509.14965">Brain-HGCN: A Hyperbolic Graph Convolutional Network for Brain Functional Network Analysis</a> Junhao Jia, Yunyou Liu, Cheng Yang, <b>Yifei Sun</b>, Feiwei Qin<sup>†</sup>, Changmiao Wang, Yong Peng <i>IEEE International Conference on Acoustics, Speech and Signal Processing (<strong>ICASSP</strong>) 2026 (<strong>Oral</strong>)</i>

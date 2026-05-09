@@ -1,703 +1,620 @@
 <style>
-  .myAudio{
-    display:none;
-  }
-	
-  #music-player-bar {
-    position: relative;
-    z-index: 100;
-    background: #f8f9fa;
-    padding: 10px;
-    margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-
-  /* ===== 主布局 ===== */
-  .player-row {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 14px;
-    min-width: 0;
-  }
-
-  /* ===== 按钮 ===== */
-  button {
-    width: 40px;
-    height: 40px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    background: none;
-    cursor: pointer;
-  }
-
-  button:hover {
-    background: rgba(0,0,0,0.05);
-    border-radius: 6px;
-  }
-
-  .mode-btn {
-    color: #007bff;
-  }
-
-  /* ===== 🎯 歌名（限制最大宽度） ===== */
-  .track-name {
-    flex: 0 1 200px;     /* ⭐ 不再无限扩张 */
-    max-width: 200px;    /* ⭐ 最大宽度 */
-    min-width: 120px;
-
-    font-weight: bold;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  /* ===== 时间 ===== */
-  .time {
-    font-size: 12px;
-    min-width: 45px;
-    flex-shrink: 0;
-  }
-
-  /* ===== 音量文字 ===== */
-  .volume-text {
-    font-size: 12px;
-    min-width: 40px;
-    flex-shrink: 0;
-  }
-
-  /* ===== 音量图标 ===== */
-  .volume-icon {
-    width: 40px;
-    height: 40px;
-    flex-shrink: 0;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    font-size: 14px;
-    cursor: pointer;
-  }
-
-  /* 和 button 完全一致的 hover */
-  .volume-icon:hover {
-    background: rgba(0,0,0,0.05);
-    border-radius: 6px;
-  }
-
-  /* ===== 🎯 进度条（完全自适应） ===== */
-  #progress-bar {
-    flex: 1 1 auto;     /* ⭐ 吃掉所有剩余空间 */
-    min-width: 80px;
-    /* ❌ 已移除 max-width 限制 */
-  }
-
-  /* ===== 音量条 ===== */
-  #volume-slider {
-    width: 80px;
-    flex-shrink: 0;
-  }
-
-  /* ===================================================== */
-  /* ===== 🎯 RANGE 完整重写（稳定对齐版） ===== */
-  /* ===================================================== */
-
-  input[type="range"] {
-    --track-h: 6px;
-    --thumb-s: 12px;
-
-    -webkit-appearance: none;
-    appearance: none;
-    width: 100%;
-    height: var(--thumb-s);
-
-    background: transparent !important;
-    border: none;
-    margin: 0;
-    outline: none;
-    box-shadow: none;
-    position: relative;
-    cursor: pointer;
-  }
-
-  /* 清除默认轨道 */
-  input[type="range"]::-webkit-slider-runnable-track {
-    background: transparent;
-    border: none;
-    box-shadow: none;
-  }
-
-  input[type="range"]::-moz-range-track {
-    background: transparent;
-    border: none;
-    box-shadow: none;
-  }
-
-  /* ===== 轨道 ===== */
-  input[type="range"]::before {
-    content: "";
-    position: absolute;
-    left: calc(var(--thumb-s) / 2);
-    right: calc(var(--thumb-s) / 2);
-
-    /* ⭐ 精确垂直居中 */
-    top: calc((var(--thumb-s) - var(--track-h)) / 2);
-
-    height: var(--track-h);
-    border-radius: 3px;
-
-    background: linear-gradient(
-            to right,
-            #007bff var(--progress, 0%),
-            #ddd var(--progress, 0%)
-    );
-  }
-
-  .time {
-    text-align: center;
-  }
-
-  /* ===== 滑块（Chrome / Edge / Safari） ===== */
-  input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    width: var(--thumb-s);
-    height: var(--thumb-s);
-    background: #007bff;
-    border-radius: 50%;
-    border: none;
-    box-shadow: none;
-    position: relative;
-    z-index: 2;
-
-    margin-top: 0; /* ⭐ 不做偏移 */
-
-    transition: transform 0.15s ease;
-  }
-
-  /* ===== 滑块（Firefox） ===== */
-  input[type="range"]::-moz-range-thumb {
-    width: var(--thumb-s);
-    height: var(--thumb-s);
-    background: #007bff;
-    border-radius: 50%;
-    border: none;
-    box-shadow: none;
-
-    transform: none;
-
-    transition: transform 0.15s ease;
-  }
-
-  /* ===== hover 动效 ===== */
-  input[type="range"]:hover::-webkit-slider-thumb {
-    transform: scale(1.4);
-  }
-
-  input[type="range"]:hover::-moz-range-thumb {
-    transform: scale(1.4);
-  }
-
-  /* ===== 去掉 focus 影响 ===== */
-  input[type="range"]:focus,
-  input[type="range"]:active {
-    outline: none;
-    box-shadow: none;
-  }
-  /* ===== 📱 移动端极简播放器（最终版） ===== */
-  @media (max-width: 1000px) {
-
-    /* 隐藏进度条 */
-    #progress-bar {
-      display: none;
+    .myAudio {
+        display: none;
     }
 
-    /* 隐藏音量条 */
-    #volume-slider {
-      display: none;
+    #music-player-bar {
+        position: relative;
+        z-index: 100;
+        background: #f8f9fa;
+        padding: 10px;
+        margin: 20px 0;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
-    /* 隐藏时间 */
-    #current-time,
-    #duration {
-      display: none;
+    /* ===== 主布局 ===== */
+    .player-row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 14px;
+        min-width: 0;
     }
 
-    /* ⭐ 隐藏音量百分比 */
-    #volume-display {
-      display: none;
+    /* ===== 按钮 ===== */
+    button {
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background: none;
+        cursor: pointer;
     }
 
-    .volume-icon {
-      margin-left: auto;
+    button:hover {
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
     }
 
+    .mode-btn {
+        color: #007bff;
+    }
+
+    /* ===== 🎯 歌名（限制最大宽度） ===== */
     .track-name {
-      flex: 1 1 auto;
-      max-width: none;
-      min-width: 0;
+        flex: 0 1 200px; /* ⭐ 不再无限扩张 */
+        max-width: 200px; /* ⭐ 最大宽度 */
+        min-width: 120px;
+
+        font-weight: bold;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
-	  #mini-vis{
-  display:flex;
-  gap:2px;
 
-  height:10px;
+    /* ===== 时间 ===== */
+    .time {
+        font-size: 12px;
+        min-width: 45px;
+        flex-shrink: 0;
+    }
 
-  margin-top:6px;
+    /* ===== 音量文字 ===== */
+    .volume-text {
+        font-size: 12px;
+        min-width: 40px;
+        flex-shrink: 0;
+    }
 
-  opacity:.18;
-}
+    /* ===== 音量图标 ===== */
+    .volume-icon {
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
 
-#mini-vis span{
-  flex:1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-  background:#007bff;
+        font-size: 14px;
+        cursor: pointer;
+    }
 
-  border-radius:999px;
+    /* 和 button 完全一致的 hover */
+    .volume-icon:hover {
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+    }
 
-  height:2px;
+    /* ===== 🎯 进度条（完全自适应） ===== */
+    #progress-bar {
+        flex: 1 1 auto; /* ⭐ 吃掉所有剩余空间 */
+        min-width: 80px;
+        /* ❌ 已移除 max-width 限制 */
+    }
 
-  transition:height .05s linear;
-}
+    /* ===== 音量条 ===== */
+    #volume-slider {
+        width: 80px;
+        flex-shrink: 0;
+    }
 
-  }
+    /* ===================================================== */
+    /* ===== 🎯 RANGE 完整重写（稳定对齐版） ===== */
+    /* ===================================================== */
+
+    input[type="range"] {
+        --track-h: 6px;
+        --thumb-s: 12px;
+
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        height: var(--thumb-s);
+
+        background: transparent !important;
+        border: none;
+        margin: 0;
+        outline: none;
+        box-shadow: none;
+        position: relative;
+        cursor: pointer;
+    }
+
+    /* 清除默认轨道 */
+    input[type="range"]::-webkit-slider-runnable-track {
+        background: transparent;
+        border: none;
+        box-shadow: none;
+    }
+
+    input[type="range"]::-moz-range-track {
+        background: transparent;
+        border: none;
+        box-shadow: none;
+    }
+
+    /* ===== 轨道 ===== */
+    input[type="range"]::before {
+        content: "";
+        position: absolute;
+        left: calc(var(--thumb-s) / 2);
+        right: calc(var(--thumb-s) / 2);
+
+        /* ⭐ 精确垂直居中 */
+        top: calc((var(--thumb-s) - var(--track-h)) / 2);
+
+        height: var(--track-h);
+        border-radius: 3px;
+
+        background: linear-gradient(
+                to right,
+                #007bff var(--progress, 0%),
+                #ddd var(--progress, 0%)
+        );
+    }
+
+    .time {
+        text-align: center;
+    }
+
+    /* ===== 滑块（Chrome / Edge / Safari） ===== */
+    input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: var(--thumb-s);
+        height: var(--thumb-s);
+        background: #007bff;
+        border-radius: 50%;
+        border: none;
+        box-shadow: none;
+        position: relative;
+        z-index: 2;
+
+        margin-top: 0; /* ⭐ 不做偏移 */
+
+        transition: transform 0.15s ease;
+    }
+
+    /* ===== 滑块（Firefox） ===== */
+    input[type="range"]::-moz-range-thumb {
+        width: var(--thumb-s);
+        height: var(--thumb-s);
+        background: #007bff;
+        border-radius: 50%;
+        border: none;
+        box-shadow: none;
+
+        transform: none;
+
+        transition: transform 0.15s ease;
+    }
+
+    /* ===== hover 动效 ===== */
+    input[type="range"]:hover::-webkit-slider-thumb {
+        transform: scale(1.4);
+    }
+
+    input[type="range"]:hover::-moz-range-thumb {
+        transform: scale(1.4);
+    }
+
+    /* ===== 去掉 focus 影响 ===== */
+    input[type="range"]:focus,
+    input[type="range"]:active {
+        outline: none;
+        box-shadow: none;
+    }
+
+    /* ===== 📱 移动端极简播放器（最终版） ===== */
+    @media (max-width: 1000px) {
+
+        /* 隐藏进度条 */
+        #progress-bar {
+            display: none;
+        }
+
+        /* 隐藏音量条 */
+        #volume-slider {
+            display: none;
+        }
+
+        /* 隐藏时间 */
+        #current-time,
+        #duration {
+            display: none;
+        }
+
+        /* ⭐ 隐藏音量百分比 */
+        #volume-display {
+            display: none;
+        }
+
+        .volume-icon {
+            margin-left: auto;
+        }
+
+        .track-name {
+            flex: 1 1 auto;
+            max-width: none;
+            min-width: 0;
+        }
+
+    }
 </style>
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', () => {
+
+        // ===== 状态 =====
+        const state = {
+            tracks: [],
+            current: 0,
+
+            playMode: 0, // 0顺序 1随机 2单曲循环
+
+            shuffled: [],
+            shuffleIndex: 0,
+
+            lastVolume: 20,
+            isMuted: false,
+            userSetZero: false,
+
+            isDragging: false
+        };
+
+        // ===== DOM =====
+        const DOM = {
+            audio: document.getElementById('main-audio'),
+            playBtn: document.getElementById('play-pause-btn'),
+            prevBtn: document.getElementById('prev-btn'),
+            nextBtn: document.getElementById('next-btn'),
+            progress: document.getElementById('progress-bar'),
+            volume: document.getElementById('volume-slider'),
+            volumeIcon: document.getElementById('volume-icon'),
+            name: document.getElementById('track-name'),
+            currentTime: document.getElementById('current-time'),
+            duration: document.getElementById('duration'),
+            modeBtn: document.getElementById('mode-btn'),
+            volumeDisplay: document.getElementById('volume-display')
+        };
+
+        if (!DOM.audio) return;
+
+        // ===== 工具 =====
+        const format = (s) => {
+            if (isNaN(s)) return "0:00";
+            const m = Math.floor(s / 60);
+            const sec = Math.floor(s % 60);
+            return `${m}:${sec < 10 ? '0' + sec : sec}`;
+        };
+
+        function setProgress(el, value) {
+            el.value = value;
+            el.style.setProperty('--progress', value + '%');
+        }
+
+        // ===== 读取歌曲 =====
+        function extractTracks() {
+            const list = document.querySelectorAll('.myAudio source');
+
+            state.tracks = Array.from(list).map(el => {
+                let src = el.getAttribute('src');
+
+                if (!src.startsWith('http')) {
+                    const base = window.location.pathname.replace(/\/[^/]*$/, '/');
+                    src = base + src;
+                }
+
+                return {
+                    name: el.closest('.paper-box')?.querySelector('a')?.textContent || 'Unknown',
+                    file: src
+                };
+            });
+        }
+
+        // ===== 🎲 真随机 =====
+        function shuffleArray(arr) {
+            const a = [...arr];
+            for (let i = a.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [a[i], a[j]] = [a[j], a[i]];
+            }
+            return a;
+        }
+
+        function buildShuffle(startIndex = 0) {
+            state.shuffled = shuffleArray([...Array(state.tracks.length).keys()]);
+
+            // ⭐ 保证当前歌曲在当前位置
+            const pos = state.shuffled.indexOf(startIndex);
+            [state.shuffled[0], state.shuffled[pos]] = [state.shuffled[pos], state.shuffled[0]];
+
+            state.shuffleIndex = 0;
+        }
+
+        // ===== 加载 =====
+        function loadTrack(i, autoPlay = true) {
+            const t = state.tracks[i];
+            if (!t) return;
+
+            state.current = i;
+
+            DOM.audio.src = t.file;
+            DOM.audio.currentTime = 0;
+            DOM.audio.load();
+
+            DOM.name.textContent = t.name;
 
-  // ===== 状态 =====
-  const state = {
-    tracks: [],
-    current: 0,
+            if (autoPlay) DOM.audio.play().catch(() => {
+            });
 
-    playMode: 0, // 0顺序 1随机 2单曲循环
+            updatePlayButton();
+        }
 
-    shuffled: [],
-    shuffleIndex: 0,
+        // ===== 播放 =====
+        function togglePlay() {
+            DOM.audio.paused
+                ? DOM.audio.play().catch(() => {
+                })
+                : DOM.audio.pause();
+        }
 
-    lastVolume: 20,
-    isMuted: false,
-    userSetZero: false,
+        function updatePlayButton() {
+            const icon = DOM.playBtn.querySelector('i');
+            icon.className = DOM.audio.paused
+                ? 'fa-solid fa-play'
+                : 'fa-solid fa-pause';
+        }
 
-    isDragging: false
-  };
+        // ===== ▶️ 下一首 =====
+        function next() {
 
-  // ===== DOM =====
-  const DOM = {
-    audio: document.getElementById('main-audio'),
-    playBtn: document.getElementById('play-pause-btn'),
-    prevBtn: document.getElementById('prev-btn'),
-    nextBtn: document.getElementById('next-btn'),
-    progress: document.getElementById('progress-bar'),
-    volume: document.getElementById('volume-slider'),
-    volumeIcon: document.getElementById('volume-icon'),
-    name: document.getElementById('track-name'),
-    currentTime: document.getElementById('current-time'),
-    duration: document.getElementById('duration'),
-    modeBtn: document.getElementById('mode-btn'),
-    volumeDisplay: document.getElementById('volume-display')
-  };
+            // 🎲 随机模式
+            if (state.playMode === 1) {
 
-  if (!DOM.audio) return;
+                if (state.shuffleIndex >= state.shuffled.length - 1) {
+                    buildShuffle(state.current);
+                } else {
+                    state.shuffleIndex++;
+                }
 
-  /* ===== mini visualizer ===== */
+                return loadTrack(state.shuffled[state.shuffleIndex]);
+            }
 
-const vis =
-  document.getElementById('mini-vis');
+            // 🔁 顺序
+            loadTrack((state.current + 1) % state.tracks.length);
+        }
 
-/* 创建小条 */
+        // ===== ⏮ 上一首 =====
+        function prev() {
 
-for(let i=0;i<20;i++){
+            // 🎲 随机模式
+            if (state.playMode === 1) {
 
-  const bar =
-    document.createElement('span');
+                state.shuffleIndex--;
 
-  vis.appendChild(bar);
-}
+                if (state.shuffleIndex < 0) {
+                    buildShuffle(state.current);
+                    state.shuffleIndex = state.shuffled.length - 1;
+                }
 
-const bars =
-  [...vis.children];
+                return loadTrack(state.shuffled[state.shuffleIndex]);
+            }
 
-/* ===== audio api ===== */
+            // 🔁 顺序
+            loadTrack((state.current - 1 + state.tracks.length) % state.tracks.length);
+        }
 
-const ctx =
-  new AudioContext();
+        // ===== 进度 =====
+        function updateProgress() {
+            if (state.isDragging) return;
 
-const analyser =
-  ctx.createAnalyser();
+            if (!DOM.audio.duration) return;
 
-const source =
-  ctx.createMediaElementSource(DOM.audio);
+            const percent = (DOM.audio.currentTime / DOM.audio.duration) * 100;
 
-source.connect(analyser);
+            setProgress(DOM.progress, percent);
+            DOM.currentTime.textContent = format(DOM.audio.currentTime);
+        }
 
-analyser.connect(ctx.destination);
+        function updateDuration() {
+            DOM.duration.textContent = format(DOM.audio.duration);
+        }
 
-analyser.fftSize = 64;
+        // ===== 拖动进度条 =====
+        DOM.progress.addEventListener('mousedown', () => {
+            state.isDragging = true;
+        });
 
-const data =
-  new Uint8Array(analyser.frequencyBinCount);
+        DOM.progress.addEventListener('input', () => {
+            if (!DOM.audio.duration) return;
 
-/* ===== 播放时恢复 ===== */
+            const percent = DOM.progress.value;
+            const preview = (percent / 100) * DOM.audio.duration;
 
-DOM.audio.addEventListener('play',()=>{
+            setProgress(DOM.progress, percent);
+            DOM.currentTime.textContent = format(preview);
+        });
 
-  ctx.resume();
-});
+        document.addEventListener('mouseup', () => {
+            if (!state.isDragging) return;
 
-/* ===== 动画 ===== */
+            state.isDragging = false;
 
-function animate(){
+            if (!DOM.audio.duration) return;
 
-  requestAnimationFrame(animate);
+            const percent = DOM.progress.value;
+            DOM.audio.currentTime = (percent / 100) * DOM.audio.duration;
+        });
 
-  analyser.getByteFrequencyData(data);
+        // ===== 音量 =====
+        function changeVolume() {
+            let v = Number(DOM.volume.value);
 
-  bars.forEach((bar,i)=>{
+            state.userSetZero = (v === 0);
 
-    const v = data[i];
+            if (v > 0) state.lastVolume = v;
 
-    bar.style.height =
-      (2 + v / 18) + 'px';
-  });
-}
+            state.isMuted = false;
 
-animate();
+            DOM.audio.volume = v / 100;
 
-  // ===== 工具 =====
-  const format = (s) => {
-    if (isNaN(s)) return "0:00";
-    const m = Math.floor(s / 60);
-    const sec = Math.floor(s % 60);
-    return `${m}:${sec < 10 ? '0' + sec : sec}`;
-  };
-
-  function setProgress(el, value) {
-    el.value = value;
-    el.style.setProperty('--progress', value + '%');
-  }
-
-  // ===== 读取歌曲 =====
-  function extractTracks() {
-    const list = document.querySelectorAll('.myAudio source');
-
-    state.tracks = Array.from(list).map(el => {
-      let src = el.getAttribute('src');
-
-      if (!src.startsWith('http')) {
-        const base = window.location.pathname.replace(/\/[^/]*$/, '/');
-        src = base + src;
-      }
-
-      return {
-        name: el.closest('.paper-box')?.querySelector('a')?.textContent || 'Unknown',
-        file: src
-      };
-    });
-  }
+            setProgress(DOM.volume, v);
+            DOM.volumeDisplay.textContent = v + '%';
 
-  // ===== 🎲 真随机 =====
-  function shuffleArray(arr) {
-    const a = [...arr];
-    for (let i = a.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [a[i], a[j]] = [a[j], a[i]];
-    }
-    return a;
-  }
-
-  function buildShuffle(startIndex = 0) {
-    state.shuffled = shuffleArray([...Array(state.tracks.length).keys()]);
-
-    // ⭐ 保证当前歌曲在当前位置
-    const pos = state.shuffled.indexOf(startIndex);
-    [state.shuffled[0], state.shuffled[pos]] = [state.shuffled[pos], state.shuffled[0]];
-
-    state.shuffleIndex = 0;
-  }
+            updateVolumeIcon();
+        }
 
-  // ===== 加载 =====
-  function loadTrack(i, autoPlay = true) {
-    const t = state.tracks[i];
-    if (!t) return;
-
-    state.current = i;
+        function toggleMute() {
+            state.isMuted = !state.isMuted;
 
-    DOM.audio.src = t.file;
-    DOM.audio.currentTime = 0;
-    DOM.audio.load();
+            let v;
 
-    DOM.name.textContent = t.name;
+            if (state.isMuted) {
+                v = 0;
+            } else {
+                v = state.userSetZero ? 0 : state.lastVolume;
+            }
 
-    if (autoPlay) DOM.audio.play().catch(()=>{});
+            DOM.audio.volume = v / 100;
 
-    updatePlayButton();
-  }
+            setProgress(DOM.volume, v);
+            DOM.volumeDisplay.textContent = v + '%';
 
-  // ===== 播放 =====
-  function togglePlay() {
-    DOM.audio.paused
-      ? DOM.audio.play().catch(()=>{})
-      : DOM.audio.pause();
-  }
+            updateVolumeIcon();
+        }
 
-  function updatePlayButton() {
-    const icon = DOM.playBtn.querySelector('i');
-    icon.className = DOM.audio.paused
-      ? 'fa-solid fa-play'
-      : 'fa-solid fa-pause';
-  }
+        function updateVolumeIcon() {
+            const v = DOM.volume.value;
 
-  // ===== ▶️ 下一首 =====
-  function next() {
+            if (state.isMuted)
+                DOM.volumeIcon.className = 'fa-solid fa-volume-xmark volume-icon';
+            else if (v == 0)
+                DOM.volumeIcon.className = 'fa-solid fa-volume-off volume-icon';
+            else if (v < 50)
+                DOM.volumeIcon.className = 'fa-solid fa-volume-low volume-icon';
+            else
+                DOM.volumeIcon.className = 'fa-solid fa-volume-high volume-icon';
+        }
 
-    // 🎲 随机模式
-    if (state.playMode === 1) {
+        // ===== 模式 =====
+        function toggleMode() {
+            state.playMode = (state.playMode + 1) % 3;
 
-      if (state.shuffleIndex >= state.shuffled.length - 1) {
-        buildShuffle(state.current);
-      } else {
-        state.shuffleIndex++;
-      }
+            const icon = DOM.modeBtn.querySelector('i');
 
-      return loadTrack(state.shuffled[state.shuffleIndex]);
-    }
+            if (state.playMode === 0) {
+                icon.className = 'fa-solid fa-repeat';
+            }
 
-    // 🔁 顺序
-    loadTrack((state.current + 1) % state.tracks.length);
-  }
+            if (state.playMode === 1) {
+                buildShuffle(state.current);
+                icon.className = 'fa-solid fa-shuffle';
+            }
 
-  // ===== ⏮ 上一首 =====
-  function prev() {
+            if (state.playMode === 2) {
+                icon.className = 'fa-solid fa-arrow-rotate-right';
+            }
+        }
 
-    // 🎲 随机模式
-    if (state.playMode === 1) {
+        // ===== 事件 =====
+        DOM.playBtn.addEventListener('click', togglePlay);
+        DOM.prevBtn.addEventListener('click', prev);
+        DOM.nextBtn.addEventListener('click', next);
+        DOM.modeBtn.addEventListener('click', toggleMode);
 
-      state.shuffleIndex--;
+        DOM.volume.addEventListener('input', changeVolume);
+        DOM.volumeIcon.addEventListener('click', toggleMute);
 
-      if (state.shuffleIndex < 0) {
-        buildShuffle(state.current);
-        state.shuffleIndex = state.shuffled.length - 1;
-      }
+        DOM.audio.addEventListener('timeupdate', updateProgress);
+        DOM.audio.addEventListener('loadedmetadata', updateDuration);
+        DOM.audio.addEventListener('play', updatePlayButton);
+        DOM.audio.addEventListener('pause', updatePlayButton);
 
-      return loadTrack(state.shuffled[state.shuffleIndex]);
-    }
 
-    // 🔁 顺序
-    loadTrack((state.current - 1 + state.tracks.length) % state.tracks.length);
-  }
-
-  // ===== 进度 =====
-  function updateProgress() {
-    if (state.isDragging) return;
-
-    if (!DOM.audio.duration) return;
-
-    const percent = (DOM.audio.currentTime / DOM.audio.duration) * 100;
-
-    setProgress(DOM.progress, percent);
-    DOM.currentTime.textContent = format(DOM.audio.currentTime);
-  }
-
-  function updateDuration() {
-    DOM.duration.textContent = format(DOM.audio.duration);
-  }
-
-  // ===== 拖动进度条 =====
-  DOM.progress.addEventListener('mousedown', () => {
-    state.isDragging = true;
-  });
-
-  DOM.progress.addEventListener('input', () => {
-    if (!DOM.audio.duration) return;
-
-    const percent = DOM.progress.value;
-    const preview = (percent / 100) * DOM.audio.duration;
-
-    setProgress(DOM.progress, percent);
-    DOM.currentTime.textContent = format(preview);
-  });
-
-  document.addEventListener('mouseup', () => {
-    if (!state.isDragging) return;
-
-    state.isDragging = false;
-
-    if (!DOM.audio.duration) return;
-
-    const percent = DOM.progress.value;
-    DOM.audio.currentTime = (percent / 100) * DOM.audio.duration;
-  });
-
-  // ===== 音量 =====
-  function changeVolume() {
-    let v = Number(DOM.volume.value);
-
-    state.userSetZero = (v === 0);
-
-    if (v > 0) state.lastVolume = v;
-
-    state.isMuted = false;
-
-    DOM.audio.volume = v / 100;
-
-    setProgress(DOM.volume, v);
-    DOM.volumeDisplay.textContent = v + '%';
-
-    updateVolumeIcon();
-  }
-
-  function toggleMute() {
-    state.isMuted = !state.isMuted;
-
-    let v;
-
-    if (state.isMuted) {
-      v = 0;
-    } else {
-      v = state.userSetZero ? 0 : state.lastVolume;
-    }
-
-    DOM.audio.volume = v / 100;
-
-    setProgress(DOM.volume, v);
-    DOM.volumeDisplay.textContent = v + '%';
-
-    updateVolumeIcon();
-  }
-
-  function updateVolumeIcon() {
-    const v = DOM.volume.value;
-
-    if (state.isMuted)
-      DOM.volumeIcon.className = 'fa-solid fa-volume-xmark volume-icon';
-    else if (v == 0)
-      DOM.volumeIcon.className = 'fa-solid fa-volume-off volume-icon';
-    else if (v < 50)
-      DOM.volumeIcon.className = 'fa-solid fa-volume-low volume-icon';
-    else
-      DOM.volumeIcon.className = 'fa-solid fa-volume-high volume-icon';
-  }
-
-  // ===== 模式 =====
-  function toggleMode() {
-    state.playMode = (state.playMode + 1) % 3;
-
-    const icon = DOM.modeBtn.querySelector('i');
-
-    if (state.playMode === 0) {
-      icon.className = 'fa-solid fa-repeat';
-    }
-
-    if (state.playMode === 1) {
-      buildShuffle(state.current);
-      icon.className = 'fa-solid fa-shuffle';
-    }
-
-    if (state.playMode === 2) {
-      icon.className = 'fa-solid fa-arrow-rotate-right';
-    }
-  }
-
-  // ===== 事件 =====
-  DOM.playBtn.addEventListener('click', togglePlay);
-  DOM.prevBtn.addEventListener('click', prev);
-  DOM.nextBtn.addEventListener('click', next);
-  DOM.modeBtn.addEventListener('click', toggleMode);
-
-  DOM.volume.addEventListener('input', changeVolume);
-  DOM.volumeIcon.addEventListener('click', toggleMute);
-
-  DOM.audio.addEventListener('timeupdate', updateProgress);
-  DOM.audio.addEventListener('loadedmetadata', updateDuration);
-  DOM.audio.addEventListener('play', updatePlayButton);
-  DOM.audio.addEventListener('pause', updatePlayButton);
-
-
-  DOM.audio.addEventListener('ended', () => {
-    if (state.playMode === 2) {
-      DOM.audio.currentTime = 0;
-      DOM.audio.play();
-    } else {
-      next();
-    }
-  });
+        DOM.audio.addEventListener('ended', () => {
+            if (state.playMode === 2) {
+                DOM.audio.currentTime = 0;
+                DOM.audio.play();
+            } else {
+                next();
+            }
+        });
 
 // ===== 外部歌曲接入播放器 =====
-function playFromExternal(src) {
+        function playFromExternal(src) {
 
-  const normalize = (s) => {
-    try {
-      return decodeURIComponent(s)
-        .replace(window.location.origin, '')
-        .replace(/^\/+/, '');
-    } catch {
-      return s;
-    }
-  };
+            const normalize = (s) => {
+                try {
+                    return decodeURIComponent(s)
+                        .replace(window.location.origin, '')
+                        .replace(/^\/+/, '');
+                } catch {
+                    return s;
+                }
+            };
 
-  const target = normalize(src);
+            const target = normalize(src);
 
-  const index = state.tracks.findIndex(t => {
-    return normalize(t.file).endsWith(target);
-  });
+            const index = state.tracks.findIndex(t => {
+                return normalize(t.file).endsWith(target);
+            });
 
-  if (index === -1) return;
+            if (index === -1) return;
 
-  // ⭐ 随机模式同步
-  if (state.playMode === 1) {
+            // ⭐ 随机模式同步
+            if (state.playMode === 1) {
 
-    const pos = state.shuffled.indexOf(index);
+                const pos = state.shuffled.indexOf(index);
 
-    if (pos === -1) {
-      buildShuffle(index);
-    } else {
-      state.shuffleIndex = pos;
-    }
-  }
+                if (pos === -1) {
+                    buildShuffle(index);
+                } else {
+                    state.shuffleIndex = pos;
+                }
+            }
 
-  loadTrack(index, true);
-}
+            loadTrack(index, true);
+        }
 
-// ===== 事件委托 =====
-document.addEventListener('click', (e) => {
+        // ===== 事件委托 =====
+        document.addEventListener('click', (e) => {
 
-  const btn = e.target.closest('.queue-track');
+            const btn = e.target.closest('.queue-track');
 
-  if (!btn) return;
+            if (!btn) return;
 
-  e.preventDefault();
+            e.preventDefault();
 
-  // ⭐ 自动寻找当前歌曲的 audio source
-  const box = btn.closest('.paper-box');
+            // ⭐ 自动寻找当前歌曲的 audio source
+            const box = btn.closest('.paper-box');
 
-  if (!box) return;
+            if (!box) return;
 
-  const source = box.querySelector('.myAudio source');
+            const source = box.querySelector('.myAudio source');
 
-  if (!source) return;
+            if (!source) return;
 
-  const src = source.getAttribute('src');
+            const src = source.getAttribute('src');
 
-  if (!src) return;
+            if (!src) return;
 
-  playFromExternal(src);
-});
+            playFromExternal(src);
+        });
 
-  // ===== 启动 =====
-  extractTracks();
+        // ===== 启动 =====
+        extractTracks();
 
-  if (state.tracks.length > 0) {
-    loadTrack(0, false);
-  }
+        if (state.tracks.length > 0) {
+            loadTrack(0, false);
+        }
 
-  changeVolume();
-  setProgress(DOM.progress, 0);
+        changeVolume();
+        setProgress(DOM.progress, 0);
 
-});
+    });
 </script>

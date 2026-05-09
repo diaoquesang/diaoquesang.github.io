@@ -615,6 +615,67 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+// ===== 外部歌曲接入播放器 =====
+function playFromExternal(src) {
+
+  const normalize = (s) => {
+    try {
+      return decodeURIComponent(s)
+        .replace(window.location.origin, '')
+        .replace(/^\/+/, '');
+    } catch {
+      return s;
+    }
+  };
+
+  const target = normalize(src);
+
+  const index = state.tracks.findIndex(t => {
+    return normalize(t.file).endsWith(target);
+  });
+
+  if (index === -1) return;
+
+  // ⭐ 随机模式同步
+  if (state.playMode === 1) {
+
+    const pos = state.shuffled.indexOf(index);
+
+    if (pos === -1) {
+      buildShuffle(index);
+    } else {
+      state.shuffleIndex = pos;
+    }
+  }
+
+  loadTrack(index, true);
+}
+
+// ===== 事件委托 =====
+document.addEventListener('click', (e) => {
+
+  const btn = e.target.closest('.queue-track');
+
+  if (!btn) return;
+
+  e.preventDefault();
+
+  // ⭐ 自动寻找当前歌曲的 audio source
+  const box = btn.closest('.paper-box');
+
+  if (!box) return;
+
+  const source = box.querySelector('.myAudio source');
+
+  if (!source) return;
+
+  const src = source.getAttribute('src');
+
+  if (!src) return;
+
+  playFromExternal(src);
+});
+
   // ===== 启动 =====
   extractTracks();
 
@@ -986,7 +1047,7 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">in your blue eyes 2025</div><img src='images/in your blue eyes.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[in your blue eyes](https://www.bilibili.com/video/BV118aXzsEvK/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[in your blue eyes](https://www.bilibili.com/video/BV118aXzsEvK/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
   
 Ave Mujica/塞壬唱片-MSR
 
@@ -1003,7 +1064,7 @@ Ave Mujica/塞壬唱片-MSR
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">危机合约弧光作战OST 2025</div><img src='images/Battleplan Arclight.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Battleplan Arclight](https://www.bilibili.com/video/BV1WxbrzmECg?spm_id_from=333.788.videopod.sections&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[Battleplan Arclight](https://www.bilibili.com/video/BV1WxbrzmECg?spm_id_from=333.788.videopod.sections&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
   
 塞壬唱片-MSR/Alaina Cross
 
@@ -1020,7 +1081,7 @@ Ave Mujica/塞壬唱片-MSR
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">危机合约净罪作战OST 2025</div><img src='images/Battleplan Extinguished Sins.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Battleplan Extinguished Sins](https://www.bilibili.com/video/BV1HWNHevEgG/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[Battleplan Extinguished Sins](https://www.bilibili.com/video/BV1HWNHevEgG/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
   
 塞壬唱片-MSR/Nocturne & Heretic/FROOT JOOCE
 
@@ -1037,7 +1098,7 @@ Ave Mujica/塞壬唱片-MSR
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Deadman 2025</div><img src='images/Deadman.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Deadman](https://www.bilibili.com/video/BV1xg76zSErE/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/002qU9eL1YKqyS)
+[Deadman](https://www.bilibili.com/video/BV1xg76zSErE/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
   
 蔡徐坤
 
@@ -1054,7 +1115,7 @@ Ave Mujica/塞壬唱片-MSR
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">纯妹妹 2025</div><img src='images/zhuyu.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[珠玉](https://www.bilibili.com/video/BV13KJwzdEap/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/0040lDZ20wEfv1)
+[珠玉](https://www.bilibili.com/video/BV13KJwzdEap/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
   
 单依纯
 
@@ -1071,7 +1132,7 @@ Ave Mujica/塞壬唱片-MSR
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">揭幕者们OST 2024</div><img src='images/Ambiguous Morality.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Ambiguous Morality](https://www.bilibili.com/video/BV1N6UhYoENX?spm_id_from=333.788.videopod.sections&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[Ambiguous Morality](https://www.bilibili.com/video/BV1N6UhYoENX?spm_id_from=333.788.videopod.sections&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
   
 塞壬唱片-MSR/Adam Gubman/Piper Gubman/Carmela
 
@@ -1088,7 +1149,7 @@ Ave Mujica/塞壬唱片-MSR
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">For Cryin' Out Loud! (Explicit) 2024</div><img src='images/fcol.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[For Cryin' Out Loud](https://www.bilibili.com/video/BV1oUYteSEd1/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq_v2/mv/001jy9JQ3JRRyy)
+[For Cryin' Out Loud](https://www.bilibili.com/video/BV1oUYteSEd1/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
   
 FINNEAS
 
@@ -1105,7 +1166,7 @@ FINNEAS
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">麻绳篇章（纯音乐） 2024</div><img src='images/hxq.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[活下去（纯音乐）](https://www.bilibili.com/video/BV1HxLEzGEEf/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[活下去（纯音乐）](https://www.bilibili.com/video/BV1HxLEzGEEf/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
   
 Eliezer
 
@@ -1122,7 +1183,7 @@ Eliezer
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">土坡上的狗尾巴草 2024</div><img src='images/tupo.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[土坡上的狗尾草](https://www.bilibili.com/video/BV1SLBmYQEdW/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[土坡上的狗尾草](https://www.bilibili.com/video/BV1SLBmYQEdW/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
   
 卢润泽
 
@@ -1139,7 +1200,7 @@ Eliezer
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">声生不息·家年华 第3期 2023</div><img src='images/xianhua.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[鲜花](https://www.bilibili.com/video/BV1Jc411m7o2/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/002JTO3R13rcB4)
+[鲜花](https://www.bilibili.com/video/BV1Jc411m7o2/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
   
 韩红/黄绮珊/王心凌/谭维维/郁可唯
 
@@ -1156,7 +1217,7 @@ Eliezer
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">瞬 2023</div><img src='images/shun.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[瞬](https://www.bilibili.com/video/BV1fV41157dV/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[瞬](https://www.bilibili.com/video/BV1fV41157dV/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
   
 郑润泽
 
@@ -1173,7 +1234,7 @@ Eliezer
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Bless The Lords 2022</div><img src='images/blessthelords.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Bless The Lords](https://www.bilibili.com/video/BV1sj42197Jk?spm_id_from=333.788.videopod.sections&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[Bless The Lords](https://www.bilibili.com/video/BV1sj42197Jk?spm_id_from=333.788.videopod.sections&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
   
 Finley & Mark/Billy Squier/The J. Geils Band/Eddie Money
 
@@ -1190,7 +1251,7 @@ Finley & Mark/Billy Squier/The J. Geils Band/Eddie Money
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">如果可以 2021</div><img src='images/ruguokeyi.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[如果可以](https://www.bilibili.com/video/BV1PT421X7EZ/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/o0041k2q3in)
+[如果可以](https://www.bilibili.com/video/BV1PT421X7EZ/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
   
 韦礼安
 
@@ -1207,7 +1268,7 @@ Finley & Mark/Billy Squier/The J. Geils Band/Eddie Money
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Radiant 2021</div><img src='images/Radiant.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Radiant](https://www.bilibili.com/video/BV1QU4y1u7D7/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[Radiant](https://www.bilibili.com/video/BV1QU4y1u7D7/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
   
 塞壬唱片-MSR/Mary Clare
 
@@ -1224,7 +1285,7 @@ Finley & Mark/Billy Squier/The J. Geils Band/Eddie Money
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">冀西南林路行 2020</div><img src='images/shanque.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[山雀](https://www.bilibili.com/video/BV1fpN7eUEm4/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[山雀](https://www.bilibili.com/video/BV1fpN7eUEm4/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
   
 万能青年旅店
 
@@ -1241,7 +1302,7 @@ Finley & Mark/Billy Squier/The J. Geils Band/Eddie Money
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">赤伶 2018</div><img src='images/chiling.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[赤伶](https://www.bilibili.com/video/BV1cPRsYSEUA/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[赤伶](https://www.bilibili.com/video/BV1cPRsYSEUA/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
 
 HITA
 
@@ -1258,7 +1319,7 @@ HITA
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Wild 2017</div><img src='images/Wild.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Wild](https://www.bilibili.com/video/BV18M411o7Wv/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/x0026usw0s4)
+[Wild](https://www.bilibili.com/video/BV18M411o7Wv/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
 
 Monogem
 
@@ -1275,7 +1336,7 @@ Monogem
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">越难越爱 Love Collection 精选 2014</div><img src='images/yuenanyueai.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[越难越爱](https://www.bilibili.com/video/BV1k14y1r7Pa/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/j0034ce6bmx)
+[越难越爱](https://www.bilibili.com/video/BV1k14y1r7Pa/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
 
 吴若希
 
@@ -1292,7 +1353,7 @@ Monogem
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Speak A Little Louder 2013</div><img src='images/Staring at You.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Staring at You](https://www.bilibili.com/video/BV1FQ4y1h7y2/?spm_id_from=333.788.videopod.sections&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[Staring at You](https://www.bilibili.com/video/BV1FQ4y1h7y2/?spm_id_from=333.788.videopod.sections&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
 
 Diane Birchz
 
@@ -1309,7 +1370,7 @@ Diane Birchz
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pureness 2013</div><img src='images/Cry For Me.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Cry For Me](https://www.bilibili.com/video/BV1EP9qY5EcX/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea)
+[Cry For Me](https://www.bilibili.com/video/BV1EP9qY5EcX/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
 
 Michita
 
@@ -1326,7 +1387,7 @@ Michita
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">在树上唱歌 2009</div><img src='images/xinqiang.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[心墙](https://www.bilibili.com/video/BV1YWV8zxEA8?spm_id_from=333.788.videopod.sections&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/o0011gdh97u)
+[心墙](https://www.bilibili.com/video/BV1YWV8zxEA8?spm_id_from=333.788.videopod.sections&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
 
 郭静
 
@@ -1343,7 +1404,7 @@ Michita
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">下一个天亮 2008</div><img src='images/aiqingxunxi.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[爱情讯息](https://www.bilibili.com/video/BV1q77VzFEpS/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/k0017duyjn6)
+[爱情讯息](https://www.bilibili.com/video/BV1q77VzFEpS/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
 
 郭静
 
@@ -1360,7 +1421,7 @@ Michita
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">下一个天亮 2008</div><img src='images/xiayige.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 	
-[下一个天亮](https://www.bilibili.com/video/BV1hTLnzAEKZ/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/i0017n1eqc5)
+[下一个天亮](https://www.bilibili.com/video/BV1hTLnzAEKZ/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
 
 郭静
 
@@ -1377,7 +1438,7 @@ Michita
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">我很忙 2007</div><img src='images/pugongying.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 	
-[蒲公英的约定](https://www.bilibili.com/video/BV1ev4y127BL/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) [[🎥 Music Video]](https://y.qq.com/n/ryqq/mv/f0018dcjvel)
+[蒲公英的约定](https://www.bilibili.com/video/BV1ev4y127BL/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">🎧 Switch to This Track</a>
 
 周杰伦
 

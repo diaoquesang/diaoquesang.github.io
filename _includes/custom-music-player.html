@@ -241,6 +241,28 @@
       max-width: none;
       min-width: 0;
     }
+	  #mini-vis{
+  display:flex;
+  gap:2px;
+
+  height:10px;
+
+  margin-top:6px;
+
+  opacity:.18;
+}
+
+#mini-vis span{
+  flex:1;
+
+  background:#007bff;
+
+  border-radius:999px;
+
+  height:2px;
+
+  transition:height .05s linear;
+}
 
   }
 </style>
@@ -282,6 +304,70 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   if (!DOM.audio) return;
+
+  /* ===== mini visualizer ===== */
+
+const vis =
+  document.getElementById('mini-vis');
+
+/* 创建小条 */
+
+for(let i=0;i<20;i++){
+
+  const bar =
+    document.createElement('span');
+
+  vis.appendChild(bar);
+}
+
+const bars =
+  [...vis.children];
+
+/* ===== audio api ===== */
+
+const ctx =
+  new AudioContext();
+
+const analyser =
+  ctx.createAnalyser();
+
+const source =
+  ctx.createMediaElementSource(DOM.audio);
+
+source.connect(analyser);
+
+analyser.connect(ctx.destination);
+
+analyser.fftSize = 64;
+
+const data =
+  new Uint8Array(analyser.frequencyBinCount);
+
+/* ===== 播放时恢复 ===== */
+
+DOM.audio.addEventListener('play',()=>{
+
+  ctx.resume();
+});
+
+/* ===== 动画 ===== */
+
+function animate(){
+
+  requestAnimationFrame(animate);
+
+  analyser.getByteFrequencyData(data);
+
+  bars.forEach((bar,i)=>{
+
+    const v = data[i];
+
+    bar.style.height =
+      (2 + v / 18) + 'px';
+  });
+}
+
+animate();
 
   // ===== 工具 =====
   const format = (s) => {

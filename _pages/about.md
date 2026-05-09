@@ -75,6 +75,10 @@ redirect_from:
 </div>
 
 <style>
+  .myAudio{
+    display:none;
+  }
+	
   #music-player-bar {
     position: sticky;
     top: 0;

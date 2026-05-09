@@ -45,6 +45,7 @@ redirect_from:
   <audio id="main-audio" preload="auto"></audio>
 
   <div class="player-row">
+  	<div id="mini-vis"></div>
 
     <button id="prev-btn"><i class="fa-solid fa-backward-step"></i></button>
 

@@ -297,7 +297,7 @@ redirect_from:
 
 # 🔬 Patents
 
-## CN Patents
+## CN Invention Patents
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
@@ -314,6 +314,17 @@ redirect_from:
 		<li><i>2023</i>: <a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于条件扩散模型的胸部X光图像骨抑制方法</a> (<strong>公开</strong>, <strong>第一发明人</strong>)</li>
 	</ul>
 </div>
+
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
+
+## CN Design Patents
+
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
+	<ul>
+		<li><i>2025</i>: <a href="https://pss-system.cponline.cnipa.gov.cn/">带有高校数字孪生展厅图形用户界面的电脑</a> (<strong>授权</strong>, <strong>第五发明人</strong>)</li>
+	</ul>
+</div>
+
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 # 📱 Software

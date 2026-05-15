@@ -329,22 +329,22 @@ redirect_from:
 
 # 📱 Software
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.11</div><img src='images/DMBBSSCXR.gif' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[Diffusion Model-Based Bone Suppression System for Chest X-Ray (V1.0)](https://www.ccopyright.com/)
-  
-<b>Yifei Sun</b>, Ruihan Yang, Zhanghao Chen
-
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.04</div><img src='images/IDSODBBFMI.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [Intelligent Diagnosis System for Ophthalmic Diseases Based on Binocular Fundus Medical Imaging (V1.0)](https://www.ccopyright.com/)
 
 Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.11</div><img src='images/DMBBSSCXR.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[Diffusion Model-Based Bone Suppression System for Chest X-Ray (V1.0)](https://www.ccopyright.com/)
+  
+<b>Yifei Sun</b>, Ruihan Yang, Zhanghao Chen
 
 </div>
 </div>

@@ -237,15 +237,15 @@ redirect_from:
 </li>
 
 <li>
-<span class="highlight">ICASSP 2026 (Oral)</span> <a href="https://arxiv.org/abs/2509.14965">Brain-HGCN: A Hyperbolic Graph Convolutional Network for Brain Functional Network Analysis</a> Junhao Jia, Yunyou Liu, Cheng Yang, <b>Yifei Sun</b>, Feiwei Qin<sup>†</sup>, Changmiao Wang, Yong Peng <i>IEEE International Conference on Acoustics, Speech and Signal Processing (<strong>ICASSP</strong>) 2026 (<strong>Oral</strong>)</i>
+<span class="highlight">ICASSP 2026 (Oral)</span> <a href="https://ieeexplore.ieee.org/abstract/document/11464016/">Brain-HGCN: A Hyperbolic Graph Convolutional Network for Brain Functional Network Analysis</a> Junhao Jia, Yunyou Liu, Cheng Yang, <b>Yifei Sun</b>, Feiwei Qin<sup>†</sup>, Changmiao Wang, Yong Peng <i>IEEE International Conference on Acoustics, Speech and Signal Processing (<strong>ICASSP</strong>) 2026 (<strong>Oral</strong>)</i>
 </li>
 
 <li>
-<span class="highlight">ICASSP 2026 (Oral)</span> <a href="https://arxiv.org/abs/2509.17050">Geodesic Prototype Matching via Diffusion Maps for Interpretable Fine-Grained Recognition</a> Junhao Jia, Yunyou Liu, <b>Yifei Sun</b>, Huangwei Chen, Feiwei Qin<sup>†</sup>, Changmiao Wang, Yong Peng <i>IEEE International Conference on Acoustics, Speech and Signal Processing (<strong>ICASSP</strong>) 2026 (<strong>Oral</strong>)</i>
+<span class="highlight">ICASSP 2026 (Oral)</span> <a href="https://ieeexplore.ieee.org/abstract/document/11464862/">Geodesic Prototype Matching via Diffusion Maps for Interpretable Fine-Grained Recognition</a> Junhao Jia, Yunyou Liu, <b>Yifei Sun</b>, Huangwei Chen, Feiwei Qin<sup>†</sup>, Changmiao Wang, Yong Peng <i>IEEE International Conference on Acoustics, Speech and Signal Processing (<strong>ICASSP</strong>) 2026 (<strong>Oral</strong>)</i>
 </li>
 
 <li>
-<span class="highlight">BIBM 2025 (Oral)</span> <a href="https://arxiv.org/abs/2509.03214">RTGMFF: Enhanced fMRI-based Brain Disorder Diagnosis via ROI-driven Text Generation and Multimodal Feature Fusion</a> <a href="https://github.com/BeistMedAI/RTGMFF">[🧑🏻‍💻 Code]</a> Junhao Jia, <b>Yifei Sun</b>, Yunyou Liu, Cheng Yang, Changmiao Wang<sup>†</sup>, Feiwei Qin<sup>†</sup>, Yong Peng, Wenwen Min <i>IEEE International Conference on Bioinformatics and Biomedicine (<strong>BIBM</strong>) 2025 (<strong>Oral</strong>)</i>
+<span class="highlight">BIBM 2025 (Oral)</span> <a href="https://ieeexplore.ieee.org/abstract/document/11356807/">RTGMFF: Enhanced fMRI-based Brain Disorder Diagnosis via ROI-driven Text Generation and Multimodal Feature Fusion</a> <a href="https://github.com/BeistMedAI/RTGMFF">[🧑🏻‍💻 Code]</a> Junhao Jia, <b>Yifei Sun</b>, Yunyou Liu, Cheng Yang, Changmiao Wang<sup>†</sup>, Feiwei Qin<sup>†</sup>, Yong Peng, Wenwen Min <i>IEEE International Conference on Bioinformatics and Biomedicine (<strong>BIBM</strong>) 2025 (<strong>Oral</strong>)</i>
 </li>
 
 <li>

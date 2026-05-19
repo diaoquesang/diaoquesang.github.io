@@ -233,7 +233,7 @@ redirect_from:
 <ul>
 
 <li>
-<span class="highlight">MICCAI 2026 (Early Accept)</span> <a href="">Two-Stage Cross-Domain Cervical Abnormality Screening with Cytopathological Image Synthesis and Knowledge Distillation</a> <a href="https://github.com/reallyanonymous123/MICCAI2026">[🧑🏻‍💻 Code]</a> Jincheng Li<sup>*</sup>, Yuzhi He<sup>*</sup>, Yihui Zhan, Xinmei Zhang, <b>Yifei Sun</b>, Zelin Liu, Lichi Zhang, Minye Shao, Lili Zhao<sup>†</sup> <i>International Conference on Medical Image Computing and Computer Assisted Intervention (<strong>MICCAI</strong>) 2026 (<strong>Early Accept</strong>)</i>
+<span class="highlight">MICCAI 2026 (Early Accept)</span> <a href="">Two-Stage Cross-Domain Cervical Abnormality Screening with Cytopathological Image Synthesis and Knowledge Distillation</a> <a href="https://github.com/ZhanYiHui06/MICCAI2026">[🧑🏻‍💻 Code]</a> Jincheng Li<sup>*</sup>, Yuzhi He<sup>*</sup>, Yihui Zhan, Xinmei Zhang, <b>Yifei Sun</b>, Zelin Liu, Lichi Zhang, Minye Shao, Lili Zhao<sup>†</sup> <i>International Conference on Medical Image Computing and Computer Assisted Intervention (<strong>MICCAI</strong>) 2026 (<strong>Early Accept</strong>)</i>
 </li>
 
 <li>

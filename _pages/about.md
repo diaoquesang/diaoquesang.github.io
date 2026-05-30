@@ -26,7 +26,7 @@ redirect_from:
 
 🔖 Academic Services: Conference Reviewers of **AAAI**<sub>[2026](https://aaai.org/conference/aaai/aaai-26/)</sub>, **ACM MM**<sub>[2026](https://2026.acmmm.org/), [2025](https://acmmm2025.org/)</sub>, **MICCAI**<sub>[2026](https://conferences.miccai.org/2026/en/default.asp)</sub>, **ICASSP**<sub>[2026](https://2026.ieeeicassp.org/)</sub>, **ICME**<sub>[2026](https://2026.ieeeicme.org/)</sub>, **BHI**<sub>[2026](https://bhi.embs.org/2026/)</sub>; Journal Reviewers of [**TCSVT**](https://ieee-cas.org/publication/tcsvt), [**TNNLS**](https://cis.ieee.org/publications/t-neural-networks-and-learning-systems), [**EAAI**](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence), [**JBHI**](https://www.embs.org/jbhi/), [**BSPC**](https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control), [**CVIU**](https://www.sciencedirect.com/journal/computer-vision-and-image-understanding).
 
-🧑‍🤝‍🧑 Membership: [**IEEE**](https://www.ieee.org/) Student Member, [**AAAI**](https://aaai.org/) Student Member, [**MICCAI**](https://miccai.org/) Student Member, [**ZCF**](http://zcfcia.org.cn/) Student Member
+🧑‍🤝‍🧑 Academic Communities: [**IEEE**](https://www.ieee.org/), [**AAAI**](https://aaai.org/), [**MICCAI**](https://miccai.org/), [**CAAI**](https://www.caai.cn/), [**ZCF**](http://zcfcia.org.cn/)
 
 📫 How to reach me: [diaoquesang@gmail.com](mailto:diaoquesang@gmail.com).
 

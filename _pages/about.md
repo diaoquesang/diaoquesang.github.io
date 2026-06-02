@@ -25,7 +25,7 @@ redirect_from:
 
 🔖 Academic Services: Conference Reviewers of **AAAI**<sub>[2026](https://aaai.org/conference/aaai/aaai-26/)</sub>, **ACM MM**<sub>[2026](https://2026.acmmm.org/), [2025](https://acmmm2025.org/)</sub>, **MICCAI**<sub>[2026](https://conferences.miccai.org/2026/en/default.asp)</sub>, **ICASSP**<sub>[2026](https://2026.ieeeicassp.org/)</sub>, **ICME**<sub>[2026](https://2026.ieeeicme.org/)</sub>, **BHI**<sub>[2026](https://bhi.embs.org/2026/)</sub>; Journal Reviewers of [**TCSVT**](https://ieee-cas.org/publication/tcsvt), [**TNNLS**](https://cis.ieee.org/publications/t-neural-networks-and-learning-systems), [**EAAI**](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence), [**JBHI**](https://www.embs.org/jbhi/), [**BSPC**](https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control), [**CVIU**](https://www.sciencedirect.com/journal/computer-vision-and-image-understanding).
 
-🧑‍🤝‍🧑 Academic Communities: [**IEEE**](https://www.ieee.org/), [**AAAI**](https://aaai.org/), [**MICCAI**](https://miccai.org/), [**CAAI**](https://www.caai.cn/), [**ZCF**](http://zcfcia.org.cn/).
+🧑‍🤝‍🧑 Academic Communities: [**IEEE**](https://www.ieee.org/), [**AAAI**](https://aaai.org/), [**MICCAI**](https://miccai.org/), [**CAAI**](https://www.caai.cn/), [**CSIG**](https://www.csig.org.cn), [**ZCF**](http://zcfcia.org.cn/).
 
 📫 How to reach me: [diaoquesang@gmail.com](mailto:diaoquesang@gmail.com).
 
@@ -232,7 +232,7 @@ redirect_from:
 <ul>
 
 <li>
-<span class="highlight">MICCAI 2026 (Early Accept)</span> <a href="">Two-Stage Cross-Domain Cervical Abnormality Screening with Cytopathological Image Synthesis and Knowledge Distillation</a> <a href="https://github.com/ZhanYiHui06/MICCAI2026">[🧑🏻‍💻 Code]</a> Jincheng Li<sup>*</sup>, Yuzhi He<sup>*</sup>, Yihui Zhan, Xinmei Zhang, <b>Yifei Sun</b>, Zelin Liu, Lichi Zhang, Minye Shao, Lili Zhao<sup>†</sup> <i>International Conference on Medical Image Computing and Computer Assisted Intervention (<strong>MICCAI</strong>) 2026 (<strong>Early Accept</strong>)</i>
+<span class="highlight">MICCAI 2026 (Early Accept)</span> <a href="">Two-Stage Cross-Domain Cervical Abnormality Screening with Cytopathological Image Synthesis and Knowledge Distillation</a> <a href="https://github.com/ZhanYiHui06/MICCAI2026">[🧑🏻‍💻 Code]</a> <a href="https://zhanyihui06.github.io/Cross-Domain-Cell-Detection/">[🌐 Page]</a> Jincheng Li<sup>*</sup>, Yuzhi He<sup>*</sup>, Yihui Zhan, Xinmei Zhang, <b>Yifei Sun</b>, Zelin Liu, Lichi Zhang, Minye Shao, Lili Zhao<sup>†</sup> <i>International Conference on Medical Image Computing and Computer Assisted Intervention (<strong>MICCAI</strong>) 2026 (<strong>Early Accept</strong>)</i>
 </li>
 
 <li>

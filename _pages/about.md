@@ -146,7 +146,7 @@ redirect_from:
 	<ul>
 		<li><i>2026</i>: ITMO Bachelor with Honors & Red Diploma</li>
 		<li><i>2026</i>: Zhejiang Provincial Outstanding Graduate</li>
-		<li><i>2026</i>: HDU Postgraduate Admission Incentive Scholarship</li>
+		<li><i>2026</i>: HDU Postgraduate Admission Incentive Scholarship (<strong>CNY 1,000.00</strong>)</li>
 		<li><i>2025</i>: HDU-ITMO Star of Academic Excellence</li>
 		<li><i>2025</i>: HDU-ITMO Star of Scientific Research and Innovation</li>
 		<li><i>2025</i>: HDU-ITMO Star of Practical Dedication</li>

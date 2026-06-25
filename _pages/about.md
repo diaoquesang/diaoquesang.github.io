@@ -144,7 +144,7 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li><i>2026</i>: ITMO Bachelor with Honors & Red Diploma</li>
+		<li><i>2026</i>: ITMO Red Diploma</li>
 		<li><i>2026</i>: Zhejiang Provincial Outstanding Graduate</li>
 		<li><i>2026</i>: HDU Postgraduate Admission Incentive Scholarship (<strong>CNY 1,000.00</strong>)</li>
 		<li><i>2025</i>: HDU-ITMO Star of Academic Excellence</li>

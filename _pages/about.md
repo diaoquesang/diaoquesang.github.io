@@ -86,13 +86,13 @@ redirect_from:
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/caa9f769-f2fd-482c-aaa5-f9e9d0acc67f' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2022.08 - 2026.06</i>, BSc <strong>with Honors</strong>: Computer Science and Technology, <img src="https://github.com/user-attachments/assets/18a69d12-eb7f-4b74-af92-4050d7f12382" style="width: 1em;"> <a href="https://en.itmo.ru">ITMO University</a>, Saint Petersburg, <img src="https://github.com/user-attachments/assets/531eb26c-e11d-4df8-98c1-46155587da4a" style="width: 1em;"> Russia, Supervised by <a href="https://scholar.google.com/citations?user=UPfP7yMAAAAJ">Andrey Zhdanov (Жданов Андрей Дмитриевич)</a> (<strong>Red Diploma</strong>)</li>
+		<li><i>2022.08 - 2026.06</i>, BSc: Computer Science and Technology, <img src="https://github.com/user-attachments/assets/18a69d12-eb7f-4b74-af92-4050d7f12382" style="width: 1em;"> <a href="https://en.itmo.ru">ITMO University</a>, Saint Petersburg, <img src="https://github.com/user-attachments/assets/531eb26c-e11d-4df8-98c1-46155587da4a" style="width: 1em;"> Russia, Supervised by <a href="https://scholar.google.com/citations?user=UPfP7yMAAAAJ">Andrey Zhdanov (Жданов Андрей Дмитриевич)</a></li>
 	</ul>
 </div>
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/fed68c18-ae52-48d1-9c45-703a3555f77a' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2022.08 - 2026.06</i>, BEng: Computer Science and Technology, <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, <img src="https://github.com/user-attachments/assets/a42db054-f18d-4b2b-aac7-2fbf024610dd" style="width: 1em;"> China, Supervised by <a href="https://faculty.hdu.edu.cn/jsjxy/grq/main.htm">Ruiquan Ge (葛瑞泉)</a> (<strong>Zhejiang Provincial Outstanding Graduate</strong>)</li>
+		<li><i>2022.08 - 2026.06</i>, BEng: Computer Science and Technology, <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, <img src="https://github.com/user-attachments/assets/a42db054-f18d-4b2b-aac7-2fbf024610dd" style="width: 1em;"> China, Supervised by <a href="https://faculty.hdu.edu.cn/jsjxy/grq/main.htm">Ruiquan Ge (葛瑞泉)</a></li>
 	</ul>
 </div>
 
@@ -142,37 +142,55 @@ redirect_from:
 
 # 🏅 Honors
 
+## International & National Honors
+
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li><i>2026</i>: ITMO Bachelor with Honors & Red Diploma</li>
+		<li><i>2025</i>: National Scholarship of China</li>
+		<li><i>2024</i>: National Scholarship of China</li>
+	</ul>
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
+
+## Regional & Provincial Honors
+
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
+	<ul>
 		<li><i>2026</i>: Zhejiang Provincial Outstanding Graduate</li>
-		<li><i>2026</i>: HDU Postgraduate Admission Incentive Scholarship (<strong>CNY 1,000.00</strong>)</li>
+		<li><i>2023</i>: Zhejiang Provincial Government Scholarship</li>
+	</ul>
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
+
+## Institutional Honors
+
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
+	<ul>
+		<li><i>2026</i>: ITMO Red Diploma</li>
+		<li><i>2026</i>: HDU Postgraduate Admission Incentive Scholarship</li>
 		<li><i>2025</i>: HDU-ITMO Star of Academic Excellence</li>
 		<li><i>2025</i>: HDU-ITMO Star of Scientific Research and Innovation</li>
 		<li><i>2025</i>: HDU-ITMO Star of Practical Dedication</li>
 		<li><i>2025</i>: HDU-ITMO Star of Public Welfare and Dedication</li>
 		<li><i>2025</i>: HDU-ITMO Star of Service Excellence</li>
-		<li><i>2025</i>: National Scholarship of China (<strong>CNY 10,000.00</strong>)</li>
-		<li><i>2025</i>: HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)</li>
+		<li><i>2025</i>: HDU First-Class Scholarship</li>
 		<li><i>2025</i>: HDU Top 10 Student Candidate</li>
 		<li><i>2025</i>: HDU Star of Innovation</li>
 		<li><i>2025</i>: HDU-ITMO Top 10 Student</li>
-		<li><i>2025</i>: HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)</li>
+		<li><i>2025</i>: HDU First-Class Scholarship</li>
 		<li><i>2025</i>: HDU Outstanding Communist Youth League Cadre</li>
 		<li><i>2025</i>: HDU Outstanding Student Union Cadre</li>
-		<li><i>2024</i>: National Scholarship of China (<strong>CNY 10,000.00</strong>)</li>
 		<li><i>2024</i>: HDU-ITMO Star of Academic Excellence</li>
 		<li><i>2024</i>: HDU-ITMO Star of Scientific Research and Innovation</li>
 		<li><i>2024</i>: HDU-ITMO Star of Service and Management</li>
-		<li><i>2024</i>: HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)</li>
+		<li><i>2024</i>: HDU First-Class Scholarship</li>
 		<li><i>2024</i>: HDU-ITMO Star of Scientific and Technological Innovation</li>
 		<li><i>2024</i>: HDU Star of Innovation Candidate</li>
-		<li><i>2024</i>: HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)</li>
+		<li><i>2024</i>: HDU First-Class Scholarship</li>
 		<li><i>2024</i>: HDU-ITMO Top 10 Student</li>
-		<li><i>2023</i>: Zhejiang Provincial Government Scholarship (<strong>CNY 6,000.00</strong>)</li>
 		<li><i>2023</i>: HDU Merit Student</li>
-		<li><i>2023</i>: HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)</li>
-		<li><i>2023</i>: HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)</li>
+		<li><i>2023</i>: HDU First-Class Scholarship</li>
+		<li><i>2023</i>: HDU First-Class Scholarship</li>
 		<li><i>2022</i>: HDU Advanced Individual in Student Military Training Publicity Work</li>
 	</ul>
 </div>

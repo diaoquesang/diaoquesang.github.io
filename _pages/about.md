@@ -142,59 +142,42 @@ redirect_from:
 
 # 🏅 Honors
 
-## International & National Honors
-
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li><i>2025</i>: National Scholarship of China</li>
-		<li><i>2024</i>: National Scholarship of China</li>
-	</ul>
-</div>
-<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
-
-## Regional & Provincial Honors
-
-<div style="max-height: 300px; overflow: auto; font-size: 15px;">
-	<ul>
+		<li><i>2026</i>: ITMO Bachelor with Honors & Red Diploma</li>
 		<li><i>2026</i>: Zhejiang Provincial Outstanding Graduate</li>
-		<li><i>2023</i>: Zhejiang Provincial Government Scholarship</li>
-	</ul>
-</div>
-<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
-
-## Institutional Honors
-
-<div style="max-height: 300px; overflow: auto; font-size: 15px;">
-	<ul>
-		<li><i>2026</i>: ITMO Red Diploma</li>
-		<li><i>2026</i>: HDU Postgraduate Admission Incentive Scholarship</li>
+		<li><i>2026</i>: HDU Postgraduate Admission Incentive Scholarship (<strong>CNY 1,000.00</strong>)</li>
 		<li><i>2025</i>: HDU-ITMO Star of Academic Excellence</li>
 		<li><i>2025</i>: HDU-ITMO Star of Scientific Research and Innovation</li>
 		<li><i>2025</i>: HDU-ITMO Star of Practical Dedication</li>
 		<li><i>2025</i>: HDU-ITMO Star of Public Welfare and Dedication</li>
 		<li><i>2025</i>: HDU-ITMO Star of Service Excellence</li>
-		<li><i>2025</i>: HDU First-Class Scholarship</li>
+		<li><i>2025</i>: National Scholarship of China (<strong>CNY 10,000.00</strong>)</li>
+		<li><i>2025</i>: HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)</li>
 		<li><i>2025</i>: HDU Top 10 Student Candidate</li>
 		<li><i>2025</i>: HDU Star of Innovation</li>
 		<li><i>2025</i>: HDU-ITMO Top 10 Student</li>
-		<li><i>2025</i>: HDU First-Class Scholarship</li>
+		<li><i>2025</i>: HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)</li>
 		<li><i>2025</i>: HDU Outstanding Communist Youth League Cadre</li>
 		<li><i>2025</i>: HDU Outstanding Student Union Cadre</li>
+		<li><i>2024</i>: National Scholarship of China (<strong>CNY 10,000.00</strong>)</li>
 		<li><i>2024</i>: HDU-ITMO Star of Academic Excellence</li>
 		<li><i>2024</i>: HDU-ITMO Star of Scientific Research and Innovation</li>
 		<li><i>2024</i>: HDU-ITMO Star of Service and Management</li>
-		<li><i>2024</i>: HDU First-Class Scholarship</li>
+		<li><i>2024</i>: HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)</li>
 		<li><i>2024</i>: HDU-ITMO Star of Scientific and Technological Innovation</li>
 		<li><i>2024</i>: HDU Star of Innovation Candidate</li>
-		<li><i>2024</i>: HDU First-Class Scholarship</li>
+		<li><i>2024</i>: HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)</li>
 		<li><i>2024</i>: HDU-ITMO Top 10 Student</li>
+		<li><i>2023</i>: Zhejiang Provincial Government Scholarship (<strong>CNY 6,000.00</strong>)</li>
 		<li><i>2023</i>: HDU Merit Student</li>
-		<li><i>2023</i>: HDU First-Class Scholarship</li>
-		<li><i>2023</i>: HDU First-Class Scholarship</li>
+		<li><i>2023</i>: HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)</li>
+		<li><i>2023</i>: HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)</li>
 		<li><i>2022</i>: HDU Advanced Individual in Student Military Training Publicity Work</li>
 	</ul>
 </div>
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
+
 
 
 # 💰 Funding

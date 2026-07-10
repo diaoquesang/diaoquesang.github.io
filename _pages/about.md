@@ -80,9 +80,7 @@ redirect_from:
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/4a96ec08-666c-493e-9a03-7962a47204f4' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li>Incoming PhD Student: Computer Science and Technology, College of Computer Science and Technology, <img src="https://github.com/user-attachments/assets/6f365bf4-e50c-41d9-a569-3a0f71bba898" style="width: 1em;"> <a href="https://www.zju.edu.cn">Zhejiang University</a>, Hangzhou, <img src="https://github.com/user-attachments/assets/a42db054-f18d-4b2b-aac7-2fbf024610dd" style="width: 1em;"> China, Supervised by <a href="https://person.zju.edu.cn/0004274">Jian Wu (吴健)</a></li>
-		<li>Incoming Interdisciplinary Post-Graduate Program Student: The D. H. Chen School of Universal Health</li>
-
+		<li>Incoming PhD Student: Computer Science and Technology, College of Computer Science and Technology & The D. H. Chen School of Universal Health, <img src="https://github.com/user-attachments/assets/6f365bf4-e50c-41d9-a569-3a0f71bba898" style="width: 1em;"> <a href="https://www.zju.edu.cn">Zhejiang University</a>, Hangzhou, <img src="https://github.com/user-attachments/assets/a42db054-f18d-4b2b-aac7-2fbf024610dd" style="width: 1em;"> China, Supervised by <a href="https://person.zju.edu.cn/0004274">Jian Wu (吴健)</a></li>
 	</ul>
 </div>
 

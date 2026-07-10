@@ -19,7 +19,7 @@ redirect_from:
 
 # 😉 About Me
 
-🌱 Hi, I'm Yifei Sun (孙逸飞), an incoming PhD student in Computer Science and Technology at <img src="https://github.com/user-attachments/assets/6f365bf4-e50c-41d9-a569-3a0f71bba898" style="width: 1em;"> [Zhejiang University](https://www.zju.edu.cn). I received dual bachelor's degrees from <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) and <img src="https://github.com/user-attachments/assets/18a69d12-eb7f-4b74-af92-4050d7f12382" style="width: 1em;"> [ITMO University](https://en.itmo.ru). 
+🌱 Hi, I'm Yifei Sun (孙逸飞), an incoming PhD student in Computer Science and Technology at <img src="https://github.com/user-attachments/assets/6f365bf4-e50c-41d9-a569-3a0f71bba898" style="width: 1em;"> [Zhejiang University](https://www.zju.edu.cn). I received dual bachelor's degrees from <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> [Hangzhou Dianzi University](https://www.hdu.edu.cn) and <img src="https://github.com/user-attachments/assets/18a69d12-eb7f-4b74-af92-4050d7f12382" style="width: 1em;"> [ITMO University](https://en.itmo.ru). 
 
 🔭 I'm currently focused on **Medical Image Analysis**, **Generative AI**, and **Multimodal Learning**.
 
@@ -78,9 +78,9 @@ redirect_from:
 
 # 📖 Education
 
-<div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/4a96ec08-666c-493e-9a03-7962a47204f4' width="20%" style="margin: 15px 10px 15px 10px;">
+<div style="display: flex; align-items: center;"><img src='' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li>Incoming PhD Student: Computer Science and Technology, College of Computer Science and Technology & The D. H. Chen School of Universal Health, <img src="https://github.com/user-attachments/assets/6f365bf4-e50c-41d9-a569-3a0f71bba898" style="width: 1em;"> <a href="https://www.zju.edu.cn">Zhejiang University</a>, Hangzhou, <img src="https://github.com/user-attachments/assets/a42db054-f18d-4b2b-aac7-2fbf024610dd" style="width: 1em;"> China, Supervised by <a href="https://person.zju.edu.cn/0004274">Jian Wu (吴健)</a></li>
+		<li>Incoming PhD Student: Computer Science and Technology, <img src="https://github.com/user-attachments/assets/6f365bf4-e50c-41d9-a569-3a0f71bba898" style="width: 1em;"> <a href="http://http://www.cs.zju.edu.cn/">College of Computer Science and Technology</a> & <img src="https://github.com/user-attachments/assets/557d0561-5a61-43db-af94-59eef8dddf38" style="width: 1em;"> <a href="http://dhcuhs.zju.edu.cn">The D. H. Chen School of Universal Health</a>, <img src="https://github.com/user-attachments/assets/6f365bf4-e50c-41d9-a569-3a0f71bba898" style="width: 1em;"> <a href="https://www.zju.edu.cn">Zhejiang University</a>, Hangzhou, <img src="https://github.com/user-attachments/assets/a42db054-f18d-4b2b-aac7-2fbf024610dd" style="width: 1em;"> China, Supervised by <a href="https://person.zju.edu.cn/0004274">Jian Wu (吴健)</a></li>
 	</ul>
 </div>
 
@@ -92,7 +92,7 @@ redirect_from:
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/fed68c18-ae52-48d1-9c45-703a3555f77a' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2022.08 - 2026.06</i>, BEng: Computer Science and Technology, HDU-ITMO Joint Institute, <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> <a href="https://www.hdu.edu.cn/main.htm">Hangzhou Dianzi University</a>, Hangzhou, <img src="https://github.com/user-attachments/assets/a42db054-f18d-4b2b-aac7-2fbf024610dd" style="width: 1em;"> China, Supervised by <a href="https://faculty.hdu.edu.cn/jsjxy/grq/main.htm">Ruiquan Ge (葛瑞泉)</a></li>
+		<li><i>2022.08 - 2026.06</i>, BEng: Computer Science and Technology, <img src="https://github.com/user-attachments/assets/293dccbc-e99c-4dc8-868f-df559f0eaa82" style="width: 1em;"> <a href="https://itmo.hdu.edu.cn">HDU-ITMO Joint Institute</a>, <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> <a href="https://www.hdu.edu.cn">Hangzhou Dianzi University</a>, Hangzhou, <img src="https://github.com/user-attachments/assets/a42db054-f18d-4b2b-aac7-2fbf024610dd" style="width: 1em;"> China, Supervised by <a href="https://faculty.hdu.edu.cn/jsjxy/grq">Ruiquan Ge (葛瑞泉)</a></li>
 	</ul>
 </div>
 

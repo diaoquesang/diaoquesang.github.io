@@ -120,6 +120,7 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
+		<li><i>2026.07</i>: &nbsp;🎉🎉 Our paper for <a href="https://conferences.miccai.org/2026/en/default.asp">ACM MM 2026</a> was <strong>Accepted</strong>!</li>
 		<li><i>2026.05</i>: &nbsp;🎉🎉 Our paper for <a href="https://conferences.miccai.org/2026/en/default.asp">MICCAI 2026</a> was <strong>Early Accepted</strong>!</li>
 		<li><i>2026.03</i>: &nbsp;🎉🎉 Our 2 papers for <a href="https://2026.ieeeicassp.org/">ICASSP 2026</a> were selected for <strong>Oral Presentation</strong>!</li>
 		<li><i>2026.01</i>: &nbsp;🎉🎉 Our 2 papers for <a href="https://2026.ieeeicassp.org/">ICASSP 2026</a> were <strong>Accepted</strong>!</li>
@@ -232,6 +233,10 @@ redirect_from:
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	
 <ul>
+
+<li>
+<span class="highlight">ACM MM 2026</span> <a href="">MIND: Multimodal Intent-Driven Network via Diffusion Transformers for Medical Image Fusion</a> <a href="">[🧑🏻‍💻 Code]</a> <a href="">[🌐 Page]</a> Yunzhan Fu, Xiangyu Shen, Yifei Sun, Yuhan Chen, Jian Wu<sup>†</sup>, Hongxia Xu<sup>†</sup> <i>ACM International Conference on Multimedia (<strong>ACM MM</strong>) 2026</i>
+</li>
 
 <li>
 <span class="highlight">MICCAI 2026 (Early Accept)</span> <a href="https://arxiv.org/abs/2606.27678">Two-Stage Cross-Domain Cervical Abnormality Screening with Cytopathological Image Synthesis and Knowledge Distillation</a> <a href="https://github.com/ZhanYiHui06/MICCAI2026">[🧑🏻‍💻 Code]</a> <a href="https://zhanyihui06.github.io/Cross-Domain-Cell-Detection/">[🌐 Page]</a> Jincheng Li<sup>*</sup>, Yuzhi He<sup>*</sup>, Yihui Zhan, Xinmei Zhang, <b>Yifei Sun</b>, Zelin Liu, Lichi Zhang, Minye Shao, Lili Zhao<sup>†</sup> <i>International Conference on Medical Image Computing and Computer Assisted Intervention (<strong>MICCAI</strong>) 2026 (<strong>Early Accept</strong>)</i>

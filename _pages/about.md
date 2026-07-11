@@ -449,6 +449,23 @@ Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng
   });
 </script>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">窝囊废 2026</div><img src='images/wnf.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[窝囊废](https://www.bilibili.com/video/BV1j9M468EeF/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">[🎧 Play]</a>
+  
+刘凤瑶/曾一鸣/张玮/李琦/派克特
+
+<i>窝囊废 2026</i>
+
+<audio class="myAudio" loop controls>
+  <source src="music/wnf.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">危机合约涤墨作战OST 2026</div><img src='images/Battleplan Obliteration.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   

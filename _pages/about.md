@@ -307,6 +307,7 @@ redirect_from:
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
+		<li><i>2026</i>: <a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于MIND模型的意图驱动多模态医学图像融合方法及系统</a> (<strong>受理</strong>, <strong>第五发明人</strong>)</li>
 		<li><i>2025</i>: <a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于频域高阶交互的红外-可见光图像融合方法</a> (<strong>授权</strong>, <strong>第三发明人</strong>)</li>
 		<li><i>2025</i>: <a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于双流互补的潜在扩散模型的癫痫病变状态分类方法</a> (<strong>公开</strong>, <strong>第五发明人</strong>)</li>
 		<li><i>2025</i>: <a href="https://pss-system.cponline.cnipa.gov.cn/">一种不完整多模态分层特征融合网络的MCI转换分类方法</a> (<strong>公开</strong>, <strong>第四发明人</strong>)</li>

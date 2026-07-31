@@ -235,7 +235,7 @@ redirect_from:
 <ul>
 
 <li>
-<span class="highlight">ACM MM 2026</span> <a href="">MIND: Multimodal Intent-Driven Network via Diffusion Transformers for Medical Image Fusion</a> <a href="">[🧑🏻‍💻 Code]</a> <a href="">[🌐 Page]</a> Yunzhan Fu, Xiangyu Shen, Yifei Sun, Yuhan Chen, Jian Wu<sup>†</sup>, Hongxia Xu<sup>†</sup> <i>ACM International Conference on Multimedia (<strong>ACM MM</strong>) 2026</i>
+<span class="highlight">ACM MM 2026</span> <a href="https://arxiv.org/abs/2607.28565">MIND: Multimodal Intent-Driven Network via Diffusion Transformers for Medical Image Fusion</a> <a href="">[🧑🏻‍💻 Code]</a> <a href="">[🌐 Page]</a> Yunzhan Fu, Xiangyu Shen, Yifei Sun, Yuhan Chen, Jian Wu<sup>†</sup>, Hongxia Xu<sup>†</sup> <i>ACM International Conference on Multimedia (<strong>ACM MM</strong>) 2026</i>
 </li>
 
 <li>

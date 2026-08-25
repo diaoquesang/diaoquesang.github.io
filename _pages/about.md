@@ -136,6 +136,7 @@ redirect_from:
 		<li><i>2024.04</i>: &nbsp;🎉🎉 Our paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was selected for <strong>Oral Presentation</strong>!</li>
 		<li><i>2024.02</i>: &nbsp;🎉🎉 Our paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was <strong>Accepted</strong>!</li>
 		<li><i>2024.01</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">CIBM 2024</a> was <strong>Accepted</strong>!</li>
+		<li><i>2023.06</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.icsip.org/2023.html">ICSIP 2023</a> was selected for <strong>Oral Presentation</strong>!</li>
 		<li><i>2023.06</i>: &nbsp;🎉🎉 Our paper for <a href="https://www.icsip.org/2023.html">ICSIP 2023</a> was <strong>Accepted</strong>!</li>	
 	</ul>
 </div>
@@ -263,7 +264,7 @@ redirect_from:
 </li>
 
 <li>
-<span class="highlight">ICSIP 2023</span> <a href="https://ieeexplore.ieee.org/abstract/document/10270849/">RTUNet++: Assessment of Osteosarcoma MRI Image Segmentation leveraging Hybrid CNN-Transformer Approach with Dense Skip Connection</a> Binfeng Zou, Yifei Chen, Zhanghao Chen, <b>Yifei Sun</b>, Yifan Huang, Feiwei Qin<sup>†</sup>, Changmiao Wang <i>International Conference on Signal and Image Processing (<strong>ICSIP</strong>) 2023</i>
+<span class="highlight">ICSIP 2023 (Oral)</span> <a href="https://ieeexplore.ieee.org/abstract/document/10270849/">RTUNet++: Assessment of Osteosarcoma MRI Image Segmentation leveraging Hybrid CNN-Transformer Approach with Dense Skip Connection</a> Binfeng Zou, Yifei Chen, Zhanghao Chen, <b>Yifei Sun</b>, Yifan Huang, Feiwei Qin<sup>†</sup>, Changmiao Wang <i>International Conference on Signal and Image Processing (<strong>ICSIP</strong>) 2023 (<strong>Oral</strong>)</i>
 </li>
 
 </ul>

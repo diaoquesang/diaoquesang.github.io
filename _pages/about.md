@@ -19,7 +19,7 @@ redirect_from:
 
 # 😉 About Me
 
-🌱 Hi, I'm Yifei Sun (孙逸飞), a PhD student in Computer Science and Technology at <img src="https://github.com/user-attachments/assets/6f365bf4-e50c-41d9-a569-3a0f71bba898" style="width: 1em;"> [Zhejiang University](https://www.zju.edu.cn). I received dual bachelor's degrees from <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> [Hangzhou Dianzi University](https://www.hdu.edu.cn) and <img src="https://github.com/user-attachments/assets/18a69d12-eb7f-4b74-af92-4050d7f12382" style="width: 1em;"> [ITMO University](https://en.itmo.ru). 
+🌱 Hi, I'm Yifei Sun (孙逸飞), a PhD student in Computer Science and Technology at <img src="https://github.com/user-attachments/assets/6f365bf4-e50c-41d9-a569-3a0f71bba898" style="width: 1em;"> [Zhejiang University](https://www.zju.edu.cn). I received dual bachelor's degrees from <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> [Hangzhou Dianzi University](https://www.hdu.edu.cn) and <img src="https://github.com/user-attachments/assets/18a69d12-eb7f-4b74-af92-4050d7f12382" style="width: 1em;"> [ITMO University](https://itmo.ru/). 
 
 🔭 I'm currently focused on **Medical Image Analysis**, **Generative AI**, and **Multimodal Learning**.
 
@@ -86,7 +86,7 @@ redirect_from:
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/caa9f769-f2fd-482c-aaa5-f9e9d0acc67f' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2022.08 - 2026.06</i>, Bachelor's Degree with Honors (<a href="https://news.itmo.ru/en/news/13306/">Red Diploma</a>): Informatics and Computer Engineering, <img src="https://github.com/user-attachments/assets/18a69d12-eb7f-4b74-af92-4050d7f12382" style="width: 1em;"> <a href="https://en.itmo.ru">ITMO University</a>, Saint Petersburg, <img src="https://github.com/user-attachments/assets/531eb26c-e11d-4df8-98c1-46155587da4a" style="width: 1em;"> Russia, Supervised by <a href="https://scholar.google.com/citations?user=UPfP7yMAAAAJ">Andrey Zhdanov (Жданов Андрей Дмитриевич)</a></li>
+		<li><i>2022.08 - 2026.06</i>, Bachelor's Degree with Honors (<a href="https://news.itmo.ru/en/news/13306/">Red Diploma</a>): Informatics and Computer Engineering, <img src="https://github.com/user-attachments/assets/18a69d12-eb7f-4b74-af92-4050d7f12382" style="width: 1em;"> <a href="https://itmo.ru/">ITMO University</a>, Saint Petersburg, <img src="https://github.com/user-attachments/assets/531eb26c-e11d-4df8-98c1-46155587da4a" style="width: 1em;"> Russia, Supervised by <a href="https://scholar.google.com/citations?user=UPfP7yMAAAAJ">Andrey Zhdanov (Жданов Андрей Дмитриевич)</a></li>
 	</ul>
 </div>
 

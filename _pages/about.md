@@ -750,6 +750,23 @@ Finley & Mark/Billy Squier/The J. Geils Band/Eddie Money
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">敕勒歌 (Live) 2019</div><img src='images/chilege.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[敕勒歌 (Live)](https://www.bilibili.com/video/BV1hC411h7jY/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea) <a href="javascript:void(0)" class="queue-track">[🎧 Play]</a>
+
+谭维维
+
+<i>经典咏流传第二季 第六期 2019</i>
+
+<audio class="myAudio" loop controls>
+  <source src="music/chilege.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">赤伶 2018</div><img src='images/chiling.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

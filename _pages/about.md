@@ -310,6 +310,20 @@ redirect_from:
 
 <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
+## Preprint Papers
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='https://github.com/user-attachments/assets/0e6e7349-b743-4685-bd25-c90fc3e8e0fd' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DeBoneDiT: Depth-Driven Conditional Bridge Diffusion Transformers for Bone Suppression in Chest X-Ray Images](https://arxiv.org/abs/2610.19466) [[🧑🏻‍💻 Code]](https://github.com/diaoquesang/DeBoneDiT) [[📦 Dataset]](https://huggingface.co/datasets/diaoquesang/SZCH-X-Rays) [[🗒️ Survey]](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/)
+
+<b>Yifei Sun</b>, Yuzhi He, Junhao Jia, Jinhong Wang, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>, Hongxia Xu<sup>†</sup>
+
+<i>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>) 2026</i>
+
+</div>
+</div>
+
 # 🔬 Patents
 
 ## CN Invention Patents

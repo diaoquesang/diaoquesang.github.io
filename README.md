@@ -1,7 +1,6 @@
-# Yifei Sun — Homepage v2
+# Yifei Sun — Homepage
 
 完全数据驱动的个人主页：版式与内容分离，**改内容只需要编辑 `_data/*.yml`，不需要碰任何 HTML/Liquid**。
-页面所有文字、链接、图片、歌曲与原版 `diaoquesang.github.io` 逐条一致。
 
 ## 目录结构
 
@@ -51,10 +50,3 @@ npx serve .                                 # 浏览器打开 http://localhost:3
 
 把本目录内容作为仓库根推到 `diaoquesang.github.io`（GitHub Pages 用默认 Jekyll 构建即可，无需 Actions）。
 `_config.yml` 已保留原版 Google/Bing 站点校验，SEO 归属不变。
-
-## 与原版对应的已知小问题（按“内容一致”原则原样保留）
-
-- 浙江大学计算机学院链接为 `http://http://www.cs.zju.edu.cn/`（原版即如此，点开才会发现是坏链）。
-- ACM MM 2026 那条新闻的链接指向 MICCAI 2026 官网（原文即如此）。
-- MIND 论文的 `[🌐 Page]`、`[📜 Poster]` 是空链接（原文即如此）。
-- 原版 `p/` 目录已废弃，新站未带入。

@@ -1,7 +1,7 @@
 # News section — newest first. text_html keeps the original emoji + links.
 
 - date: "2026.07"
-  text_html: '🎉🎉 Our paper for <a href="https://conferences.miccai.org/2026/en/default.asp">ACM MM 2026</a> was <strong>Accepted</strong>!'
+  text_html: '🎉🎉 Our paper for <a href="https://2026.acmmm.org/">ACM MM 2026</a> was <strong>Accepted</strong>!'
 - date: "2026.05"
   text_html: '🎉🎉 Our paper for <a href="https://conferences.miccai.org/2026/en/default.asp">MICCAI 2026</a> was <strong>Early Accepted</strong>!'
 - date: "2026.03"

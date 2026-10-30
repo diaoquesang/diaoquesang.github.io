@@ -1,0 +1,1014 @@
+/* =====================================================================
+   Yifei Sun — personal homepage v2
+   Single hand-written stylesheet. Design tokens at the top; dark theme
+   is just an override of the same variables. No frameworks.
+   ===================================================================== */
+
+:root {
+  --bg: #f5f6f8;
+  --surface: #ffffff;
+  --surface-2: #f0f2f6;
+  --text: #22272f;
+  --muted: #6b7280;
+  --border: #e4e7ec;
+  --accent: #2f6fed;
+  --accent-ink: #1d5bd6;
+  --accent-soft: rgba(47, 111, 237, 0.10);
+  --badge-bg: #22304a;
+  --shadow: 0 1px 2px rgba(16, 24, 40, 0.05), 0 4px 16px rgba(16, 24, 40, 0.06);
+  --shadow-hover: 0 2px 4px rgba(16, 24, 40, 0.07), 0 10px 28px rgba(16, 24, 40, 0.12);
+  --radius: 14px;
+  --sidebar-w: 300px;
+  --content-max: 1400px;
+  --gutter: max(0px, (100vw - var(--content-max)) / 2);
+  --scroll-track: #dfe3ea;
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --bg: #0e1117;
+  --surface: #151a23;
+  --surface-2: #1b2230;
+  --text: #e7eaf0;
+  --muted: #9aa4b5;
+  --border: #262e3d;
+  --accent: #6ea0ff;
+  --accent-ink: #9dbcff;
+  --accent-soft: rgba(110, 160, 255, 0.12);
+  --badge-bg: #101623;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 16px rgba(0, 0, 0, 0.35);
+  --shadow-hover: 0 2px 4px rgba(0, 0, 0, 0.45), 0 10px 28px rgba(0, 0, 0, 0.5);
+  --scroll-track: #2a3345;
+  color-scheme: dark;
+}
+
+/* ---------- base ---------- */
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; background: var(--surface); }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--text);
+  /* "frame" color: gutters now blend with the sidebar into one panel;
+     the reading stage (.main) carries the canvas background */
+  background: var(--surface);
+  padding-bottom: 0; /* the stage (.main) itself extends behind the player — see .main padding-bottom */
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-ink); text-decoration: underline; text-underline-offset: 3px; }
+
+img { max-width: 100%; }
+
+::selection { background: var(--accent-soft); }
+
+/* one slim scrollbar everywhere — the page itself, the sidebar and the scroll
+   boxes all share it (was scoped to .scroll-box only until 2026-10-31) */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: var(--scroll-track); border-radius: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+
+/* Firefox only: it ignores the pseudo-elements above. These two properties are
+   inherited AND make Chrome drop the ::-webkit-scrollbar styling, so they must
+   stay out of the Chrome path — hence the @supports guard. */
+@supports not selector(::-webkit-scrollbar) {
+  html { scrollbar-width: thin; scrollbar-color: var(--scroll-track) transparent; }
+}
+
+/* thin styled scrollbars inside list boxes */
+.scroll-box {
+  max-height: 300px;
+  overflow: auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 6px 10px;
+  box-shadow: var(--shadow);
+}
+
+.scroll-hint {
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* when the JS decides a box is not scrollable the hint is hidden;
+   keep a little breathing room in its place (harmless if :has() is unsupported) */
+.scroll-box:has(+ .scroll-hint[hidden]) { margin-bottom: 6px; }
+
+/* ---------- sidebar ---------- */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: var(--gutter);
+  width: var(--sidebar-w);
+  background: var(--surface);
+  /* border-right removed: the frame/stage color seam already separates them */
+  overflow-y: auto;
+  z-index: 200;
+}
+
+.sidebar-inner {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 24px 22px 16px;
+}
+
+.profile { text-align: center; }
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--accent-soft);
+  box-shadow: var(--shadow);
+}
+
+.profile-name {
+  margin: 10px 0 2px;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.profile-affil {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.profile-bio {
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: var(--accent-ink);
+}
+
+.profile-location {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.nav { margin-top: 18px; }
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  display: block;
+  padding: 6px 13px;
+  margin: 1px 0;
+  border-radius: 9px;
+  color: var(--text);
+  font-size: 14.5px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.nav-link:hover { background: var(--surface-2); text-decoration: none; }
+
+.nav-link.active {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.social {
+  display: grid;
+  grid-template-columns: repeat(4, 34px);
+  justify-content: center;
+  gap: 8px;
+  list-style: none;
+  margin: auto 0 0;
+  padding: 16px 0 0;
+}
+
+.social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 15px;
+  transition: all 0.15s ease;
+}
+
+.social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  text-decoration: none;
+}
+
+.theme-toggle {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.theme-toggle:hover { color: var(--accent); border-color: var(--accent); }
+
+/* ---------- sidebar: compact on short viewports (avoid inner scroll) ---------- */
+@media (max-height: 840px) {
+  .sidebar-inner { padding: 18px 20px 12px; }
+  .avatar { width: 84px; height: 84px; }
+  .profile-bio { display: none; }
+  .nav { margin-top: 14px; }
+  .nav-link { padding: 5px 12px; }
+}
+
+/* 13 nav items since 2026-10-30 (Academic Services / Communities added):
+   go two-column from 900px tall down, otherwise short windows overflow */
+@media (max-height: 900px) {
+  .nav ul { display: grid; grid-template-columns: 1fr 1fr; gap: 0 6px; }
+  .nav-link { padding: 5px 8px; font-size: 13.5px; }
+}
+
+@media (max-height: 720px) {
+  .profile-location { display: none; }
+  .social { padding-top: 12px; gap: 6px; }
+}
+
+/* hamburger (mobile only) */
+.drawer-toggle {
+  display: none;
+  position: fixed;
+  top: 14px;
+  left: 14px;
+  z-index: 300;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+
+/* ---------- main column ---------- */
+.main {
+  margin-left: calc(var(--sidebar-w) + var(--gutter));
+  margin-right: var(--gutter);
+  padding: 42px 56px 74px; /* bottom = player height 58px + 16px so the stage (grey) reaches the viewport bottom: no frame-white band above the player */
+  /* reading stage: canvas color inside the surface "frame" */
+  background: var(--bg);
+  transition: background 0.25s ease;
+}
+
+.page {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+/* section titles */
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 26px;
+  /* top margin is the whole inter-section gap (sibling margins collapse):
+     54px felt a touch loose, tightened on 2026-10-31 */
+  margin: 40px 0 18px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--border);
+  scroll-margin-top: 30px;
+}
+
+.section-title::after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+  margin-left: 4px;
+  border-radius: 2px;
+}
+
+.page h2 {
+  font-size: 19px;
+  margin: 30px 0 12px;
+  color: var(--accent-ink);
+}
+
+.page > h1:first-of-type { margin-top: 0; }
+
+/* about paragraphs (markdownified) — the block margin is the ONLY paragraph
+   gap; the inner <p> used to add 6px on top of it, which read as too loose */
+.md-block { margin: 0 0 14px; }
+.md-block p { margin: 0 0 10px; }
+.md-block p:last-child { margin-bottom: 0; }
+.md-block img { vertical-align: baseline; }
+
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 18px 0 8px;
+}
+
+.badge-row img { height: 20px; }
+
+/* ---------- education / experience rows ---------- */
+/* old banner rows (.timeline-row/.timeline-logo/.timeline-text) replaced by
+   entry cards on 2026-10-30; rules kept for reference:
+.timeline-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 14px 0;
+}
+
+.timeline-logo {
+  width: 26%;
+  max-width: 230px;
+  border-radius: 10px;
+  align-self: center;
+  box-shadow: var(--shadow);
+  background: #fff;
+  padding: 10px 12px;
+  object-fit: contain;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.timeline-text {
+  flex: 1;
+  font-size: 15px;
+  padding-top: 4px;
+}
+
+.timeline-text img { vertical-align: baseline; }
+*/
+
+.entry-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 18px 22px;
+  margin: 12px 0;
+  transition: border-color 0.15s ease;
+}
+
+.entry-card:hover { border-color: var(--accent); }
+
+/* plate sized for banner-style logos: just enough to identify the school —
+   wider plates squeeze the text column and orphan the trailing supervisor name */
+.entry-logo {
+  flex: 0 0 168px;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* fixed white plate: same treatment the timeline logos were approved with */
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  padding: 9px 11px;
+}
+
+.entry-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.entry-body { flex: 1; min-width: 0; }
+
+/* header chips: role (accent) + date (muted) */
+.entry-head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 7px;
+}
+
+.entry-role {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 2px 12px;
+}
+
+.entry-role a { color: inherit; }
+
+.entry-date {
+  display: inline-block;
+  font-size: 12.5px;
+  font-style: italic;
+  color: var(--muted);
+  background: var(--surface-2);
+  border-radius: 999px;
+  padding: 2px 10px;
+}
+
+.entry-text { font-size: 15px; line-height: 1.6; }
+
+/* the inline 1em institution icons were removed from the data on 2026-10-30;
+   this rule stays as a guard in case one is ever reintroduced */
+.entry-text img { display: none; }
+
+@media (max-width: 640px) {
+  .entry-card { flex-direction: column; align-items: stretch; gap: 12px; }
+  .entry-logo { flex: none; width: 100%; height: 84px; }
+}
+
+/* ---------- generic date list ---------- */
+.date-list {
+  list-style: none;
+  margin: 4px 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+.date-list li {
+  display: flex;
+  gap: 12px;
+  /* padding trimmed 1px so the hover ring never nudges the text */
+  padding: 6px 7px;
+  /* same hover language as the cards: border highlight only, no lift */
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: border-color 0.15s ease;
+}
+
+.date-list li:hover { border-color: var(--accent); }
+
+.date-list li:nth-child(even) { background: var(--surface-2); }
+
+.item-date {
+  font-style: italic;
+  color: var(--muted);
+  white-space: nowrap;
+  min-width: 64px;
+}
+
+.item-body { flex: 1; }
+
+/* ---------- featured work cards (papers / software / music) ---------- */
+.work-card {
+  display: flex;
+  gap: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  margin: 16px 0;
+  /* same hover language as .entry-card: border highlight only, no lift */
+  transition: border-color 0.15s ease;
+}
+
+.work-card:hover {
+  border-color: var(--accent);
+}
+
+.work-media {
+  position: relative;
+  flex: 0 0 30%;
+  min-width: 30%;
+  background: var(--badge-bg);
+}
+
+.work-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  aspect-ratio: 5 / 3;
+}
+
+/* paper/software teasers must show the whole figure, never crop;
+   white plate matches the approved timeline-logo shell */
+.work-card .work-media {
+  background: #fff;
+}
+
+.work-card .work-media img {
+  object-fit: contain;
+  padding: 8px;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  padding: 3px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #dbe6ff;
+  background: rgba(20, 30, 52, 0.82);
+  border: 1px solid rgba(120, 150, 210, 0.4);
+  border-radius: 999px;
+  backdrop-filter: blur(3px);
+  max-width: calc(100% - 20px);
+}
+
+.work-body {
+  padding: 16px 20px;
+  flex: 1;
+  min-width: 0;
+}
+
+.work-title {
+  margin: 0 0 8px;
+  font-size: 16.5px;
+  line-height: 1.45;
+  font-weight: 650;
+}
+
+.work-title a { color: var(--text); }
+.work-title a:hover { color: var(--accent); text-decoration: none; }
+
+.res-link {
+  font-size: 13px;
+  white-space: nowrap;
+  margin-left: 4px;
+  color: var(--accent);
+}
+
+.work-authors {
+  margin: 4px 0;
+  font-size: 14.5px;
+  color: var(--text);
+}
+
+.work-venue {
+  margin: 2px 0 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.pub-note {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0 0 6px;
+}
+
+/* ---------- compact paper list rows ---------- */
+.paper-list {
+  list-style: none;
+  margin: 4px 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+.paper-row {
+  /* padding trimmed 1px so the hover ring never nudges the text */
+  padding: 9px 7px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: border-color 0.15s ease;
+}
+
+.paper-row:hover { border-color: var(--accent); }
+
+.paper-row:nth-child(even) { background: var(--surface-2); }
+
+.paper-row-top { line-height: 1.5; }
+
+.highlight {
+  display: inline-block;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 6px;
+  padding: 1px 8px;
+  margin-right: 8px;
+  font-size: 13.5px;
+}
+
+.paper-title { font-weight: 600; }
+
+.paper-authors { font-size: 14px; margin-top: 3px; }
+.paper-venue { font-size: 13.5px; color: var(--muted); margin-top: 1px; }
+.paper-venue i { font-style: italic; }
+
+/* ---------- services: reviewer chips ---------- */
+/* conference cards (.svc-grid/.svc-card) were replaced by journal-style
+   chips on 2026-10-30; rules kept for reference:
+.svc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+  gap: 10px;
+  margin: 10px 0 4px;
+}
+
+.svc-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.svc-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+
+.svc-abbr { font-weight: 700; font-size: 16px; }
+
+.svc-years { font-size: 13px; }
+.svc-years a { color: var(--muted); }
+.svc-years a:hover { color: var(--accent); }
+*/
+
+.jnl-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0 4px;
+}
+
+.jnl-chip {
+  display: inline-block;
+  padding: 4px 13px;
+  /* transparent ring so hover can highlight without moving anything —
+     same rule as .entry-card / .work-card / .comm-card */
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-ink, var(--accent));
+  font-size: 14px;
+  font-weight: 600;
+  transition: border-color 0.15s ease;
+}
+
+.jnl-chip:hover { text-decoration: none; border-color: var(--accent); }
+
+/* muted year list inside a conference chip */
+.chip-years {
+  margin-left: 6px;
+  font-weight: 400;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+/* ---------- communities: membership icon cards ---------- */
+.comm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
+  gap: 10px;
+  margin: 10px 0 4px;
+}
+
+.comm-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 14px 8px 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  color: var(--text);
+  transition: border-color 0.15s ease;
+}
+
+.comm-card:hover { border-color: var(--accent); text-decoration: none; }
+
+/* the plate is the circular-rounded background; the logo sits inside it with an
+   even inset so a square logo's corners never cross the plate's rounded edge */
+.comm-icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff; /* light plate: favicons are authored on varied backgrounds */
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+/* icon failed to load and removed itself: keep the slot for alignment, hide the empty plate */
+.comm-icon:empty { background: transparent; border-color: transparent; padding: 0; }
+
+/* initial-letter fallback removed 2026-10-30 (it showed through the icon plate);
+   .comm-icon keeps its 40x40 box even when the img self-deletes, so card
+   alignment is preserved. Old rule kept for reference:
+.comm-fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+*/
+
+/* the logo itself: fills the plate's inner box, never clipped by the plate */
+.comm-icon img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.comm-icon img[src=""], .comm-icon img:not([src]) { visibility: hidden; }
+
+.comm-name { font-weight: 600; font-size: 14.5px; }
+
+/* ---------- music section ---------- */
+.music-quote {
+  background: var(--surface);
+  /* the 4px accent bar on the left was dropped on 2026-10-31 so this block
+     reads as the same card as education / publications — hover highlights the
+     border instead, with no movement */
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 20px;
+  margin: 10px 0 22px;
+  box-shadow: var(--shadow);
+  transition: border-color 0.15s ease;
+}
+
+.music-quote:hover { border-color: var(--accent); }
+
+.music-quote h3 {
+  margin: 0;
+  font-size: 16.5px;
+  font-weight: 600;
+}
+
+.quote-by {
+  margin: 8px 0 0;
+  text-align: right;
+  color: var(--muted);
+  font-size: 13.5px;
+}
+
+.music-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+  gap: 16px;
+}
+
+.music-grid .work-card { margin: 0; }
+
+/* play button floating on the album cover */
+.play-fab {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  z-index: 3;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0.92;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+  transition: transform 0.15s ease, opacity 0.15s ease, box-shadow 0.15s ease;
+}
+
+.play-fab:hover {
+  transform: scale(1.12);
+  opacity: 1;
+}
+
+.music-card.is-playing .play-fab {
+  opacity: 1;
+  box-shadow: 0 0 0 3px var(--surface), 0 0 0 5px var(--accent), 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+.music-card.is-playing .work-media img {
+  filter: brightness(0.85);
+}
+
+/* ---------- fixed music player bar ---------- */
+#music-player-bar {
+  position: fixed;
+  left: calc(var(--sidebar-w) + var(--gutter));
+  right: var(--gutter);
+  /* flush against the viewport bottom, as the original design */
+  bottom: 0;
+  z-index: 250;
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  /* border-top removed on request: the blurred translucent bar reads as its own layer */
+  padding: 10px 56px;
+}
+
+.player-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  min-width: 0;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.player-row button {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  color: var(--text);
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+.player-row button:hover { background: var(--accent-soft); color: var(--accent); }
+
+.mode-btn { color: var(--accent); }
+
+.track-name {
+  flex: 0 1 200px;
+  max-width: 200px;
+  min-width: 110px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.time { font-size: 12px; min-width: 45px; flex-shrink: 0; text-align: center; color: var(--muted); }
+.volume-text { font-size: 12px; min-width: 40px; flex-shrink: 0; color: var(--muted); }
+
+.volume-icon {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 9px;
+  color: var(--text);
+}
+
+.volume-icon:hover { background: var(--accent-soft); color: var(--accent); }
+
+#progress-bar { flex: 1 1 auto; min-width: 80px; }
+#volume-slider { width: 80px; flex-shrink: 0; }
+
+/* range inputs: custom track via ::before + themed thumb */
+input[type="range"] {
+  --track-h: 6px;
+  --thumb-s: 12px;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: var(--thumb-s);
+  background: transparent;
+  border: none;
+  margin: 0;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type="range"]::-webkit-slider-runnable-track { background: transparent; border: none; }
+input[type="range"]::-moz-range-track { background: transparent; border: none; }
+
+input[type="range"]::before {
+  content: "";
+  position: absolute;
+  left: calc(var(--thumb-s) / 2);
+  right: calc(var(--thumb-s) / 2);
+  top: calc((var(--thumb-s) - var(--track-h)) / 2);
+  height: var(--track-h);
+  border-radius: 3px;
+  background: linear-gradient(to right,
+    var(--accent) var(--progress, 0%), var(--scroll-track) var(--progress, 0%));
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: var(--thumb-s);
+  height: var(--thumb-s);
+  background: var(--accent);
+  border-radius: 50%;
+  border: none;
+  position: relative;
+  z-index: 2;
+  transition: transform 0.15s ease;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: var(--thumb-s);
+  height: var(--thumb-s);
+  background: var(--accent);
+  border-radius: 50%;
+  border: none;
+  transition: transform 0.15s ease;
+}
+
+input[type="range"]:hover::-webkit-slider-thumb { transform: scale(1.4); }
+input[type="range"]:hover::-moz-range-thumb { transform: scale(1.4); }
+input[type="range"]:focus, input[type="range"]:active { outline: none; box-shadow: none; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 1080px) {
+  .main { padding: 84px 26px 74px; } /* keep the stage extending behind the flush player */
+}
+
+@media (max-width: 1000px) {
+  .sidebar {
+    position: fixed;
+    inset: 0 auto 0 0;
+    transform: translateX(-105%);
+    transition: transform 0.25s ease;
+    box-shadow: none;
+    width: min(320px, 86vw);
+  }
+
+  .sidebar.open { transform: translateX(0); box-shadow: 0 0 60px rgba(0, 0, 0, 0.35); }
+
+  .drawer-toggle { display: flex; align-items: center; justify-content: center; }
+
+  .main { margin-left: 0; padding-top: 76px; }
+
+  /* the drawer is full height and the compact player starts at left:0 with a
+     higher z-index, so keep the sidebar's bottom row clear of it: the bar
+     measures 58px, +12px of air (was 12px, which let 8 social buttons and the
+     theme toggle sit behind the player on a 375x667 screen) */
+  .sidebar-inner { padding-bottom: 70px; }
+
+  /* the drawer is only min(320px, 86vw) wide and there is no scrim, so the
+     strip to its right belongs to the page — a swipe there used to scroll the
+     whole document. nav.js already sets body.drawer-open; lock the page while
+     the drawer is up (body overflow propagates to the viewport) and stop the
+     drawer's own scroll from chaining outwards. */
+  body.drawer-open { overflow: hidden; }
+  .sidebar { overscroll-behavior: contain; }
+
+  /* compact player: hide the fine controls, like the original site */
+  #music-player-bar { left: 0; padding: 10px 18px; }
+  #progress-bar, #volume-slider, #current-time, #duration, #volume-display { display: none; }
+  .volume-icon { margin-left: auto; }
+  .track-name { flex: 1 1 auto; max-width: none; min-width: 0; }
+
+  .work-card { flex-direction: column; }
+  .work-media { flex: none; width: 100%; }
+  .work-media { min-width: 0; }
+  .timeline-row { flex-direction: column; }
+  .timeline-logo { width: 70%; max-width: none; }
+  .music-grid { grid-template-columns: 1fr; }
+}
+
+/* footer credit kept intentionally minimal */
+.page-footer-note {
+  margin-top: 60px;
+  font-size: 12.5px;
+  color: var(--muted);
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+# Communities section — memberships as icon cards.
+# Icons live in the repo (images/communities/*.png) instead of hot-linking
+# Google's favicon service, so they render offline and can't break upstream.
+# Refetched/normalised with tools/fetch-community-icons.mjs + tools/normalize-icons.mjs
+# on 2026-10-30. The AAAI mark ships white-on-transparent, so it was dyed the
+# site's navy (001B37) with tools/recolor-icon.mjs to read on the white plate.
+# If an icon cannot load, the <img> removes itself and the card shows its name.
+
+links:
+  - { name: "IEEE", url: "https://www.ieee.org/", domain: "ieee.org", icon: "images/communities/ieee.png" }
+  - { name: "AAAI", url: "https://aaai.org/", domain: "aaai.org", icon: "images/communities/aaai.png" }
+  - { name: "MICCAI", url: "https://miccai.org/", domain: "miccai.org", icon: "images/communities/miccai.png" }
+  - { name: "CAAI", url: "https://www.caai.cn/", domain: "caai.cn", icon: "images/communities/caai.png" }
+  - { name: "CSIG", url: "https://www.csig.org.cn", domain: "csig.org.cn", icon: "images/communities/csig.png" }
+  - { name: "ZCF", url: "http://zcfcia.org.cn/", domain: "zcfcia.org.cn", icon: "images/communities/zcfcia.png" }

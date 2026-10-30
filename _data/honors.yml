@@ -1,0 +1,63 @@
+# Honors section — two scrollable groups.
+
+distinctions:
+  - date: "2026"
+    text_html: "Zhejiang Provincial Outstanding Graduate"
+  - date: "2025"
+    text_html: "HDU-ITMO Star of Academic Excellence"
+  - date: "2025"
+    text_html: "HDU-ITMO Star of Scientific Research and Innovation"
+  - date: "2025"
+    text_html: "HDU-ITMO Star of Practical Dedication"
+  - date: "2025"
+    text_html: "HDU-ITMO Star of Public Welfare and Dedication"
+  - date: "2025"
+    text_html: "HDU-ITMO Star of Service Excellence"
+  - date: "2025"
+    text_html: "HDU Top 10 Student Candidate"
+  - date: "2025"
+    text_html: "HDU Star of Innovation"
+  - date: "2025"
+    text_html: "HDU-ITMO Top 10 Student"
+  - date: "2025"
+    text_html: "HDU Outstanding Communist Youth League Cadre"
+  - date: "2025"
+    text_html: "HDU Outstanding Student Union Cadre"
+  - date: "2024"
+    text_html: "HDU-ITMO Star of Academic Excellence"
+  - date: "2024"
+    text_html: "HDU-ITMO Star of Scientific Research and Innovation"
+  - date: "2024"
+    text_html: "HDU-ITMO Star of Service and Management"
+  - date: "2024"
+    text_html: "HDU-ITMO Star of Scientific and Technological Innovation"
+  - date: "2024"
+    text_html: "HDU Star of Innovation Candidate"
+  - date: "2024"
+    text_html: "HDU-ITMO Top 10 Student"
+  - date: "2023"
+    text_html: "HDU Merit Student"
+  - date: "2022"
+    text_html: "HDU Advanced Individual in Student Military Training Publicity Work"
+
+scholarships:
+  - date: "2026"
+    text_html: 'HDU Postgraduate Admission Incentive Scholarship (<strong>CNY 1,000.00</strong>)'
+  - date: "2025"
+    text_html: 'National Scholarship of China (<strong>CNY 10,000.00</strong>)'
+  - date: "2025"
+    text_html: 'HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)'
+  - date: "2025"
+    text_html: 'HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)'
+  - date: "2024"
+    text_html: 'National Scholarship of China (<strong>CNY 10,000.00</strong>)'
+  - date: "2024"
+    text_html: 'HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)'
+  - date: "2024"
+    text_html: 'HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)'
+  - date: "2023"
+    text_html: 'Zhejiang Provincial Government Scholarship (<strong>CNY 6,000.00</strong>)'
+  - date: "2023"
+    text_html: 'HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)'
+  - date: "2023"
+    text_html: 'HDU First-Class Scholarship (<strong>CNY 1,500.00</strong>)'

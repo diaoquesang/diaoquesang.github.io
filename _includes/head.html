@@ -1,19 +1,49 @@
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% include seo.html %}
+{% if page.title and page.title != "" %}
+  <title>{{ page.title }} · {{ site.title }}</title>
+{% else %}
+  <title>{{ site.title }}</title>
+{% endif %}
+<meta name="description" content="{{ site.description }}">
+<meta name="author" content="{{ site.author.name }}">
 
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% if site.google_site_verification %}
+  <meta name="google-site-verification" content="{{ site.google_site_verification }}">
+{% endif %}
+{% if site.bing_site_verification %}
+  <meta name="msvalidate.01" content="{{ site.bing_site_verification }}">
+{% endif %}
 
+<!-- favicons: tab icon switched from the original cartoon (images/diaoquesang.jpg) to the cat photo -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ base }}images/apple-touch-icon.png">
+<link rel="icon" type="image/jpeg" href="{{ base }}images/favicon-cat.jpg">
+<meta name="theme-color" content="#2f6fed">
+
+<!-- Font Awesome 6 (same CDN as the original site) -->
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- Academic Icons: official DBLP glyph (bundled locally, same as original site) -->
+<link rel="stylesheet" href="{{ base }}assets/css/academicons.min.css">
+
+<link rel="stylesheet" href="{{ base }}assets/css/main.css">
+
+<!-- Apply saved theme before first paint to avoid a flash -->
 <script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  (function () {
+    var t = localStorage.getItem('theme');
+    if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', t);
+  })();
 </script>
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="assets/css/main.css">
-
-<meta http-equiv="cleartype" content="on">
-<head>
-  <base target="_blank">
-</head>
+{% if site.google_analytics_id %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.google_analytics_id }}');
+</script>
+{% endif %}

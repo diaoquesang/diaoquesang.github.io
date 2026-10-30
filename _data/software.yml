@@ -1,0 +1,29 @@
+# Software (copyright) section.
+# featured = card with gif thumbnail; list = compact scroll box.
+
+featured:
+  - badge: "2025.04"
+    image: "images/IDSODBBFMI.gif"
+    title: "Intelligent Diagnosis System for Ophthalmic Diseases Based on Binocular Fundus Medical Imaging (V1.0)"
+    url: "https://www.ccopyright.com/"
+    authors_html: 'Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng'
+
+  - badge: "2024.11"
+    image: "images/DMBBSSCXR.gif"
+    title: "Diffusion Model-Based Bone Suppression System for Chest X-Ray (V1.0)"
+    url: "https://www.ccopyright.com/"
+    authors_html: '<b>Yifei Sun</b>, Ruihan Yang, Zhanghao Chen'
+
+list:
+  - date: "2025.09"
+    text_html: '<a href="https://www.ccopyright.com/">Medical Intelligent Chest X-Ray Bone Suppression System (V1.0)</a> Ruihan Yang, Linfeng Luo, Xiaoyu Huang, <b>Yifei Sun</b>, Junhao Jia'
+  - date: "2025.08"
+    text_html: '<a href="https://www.ccopyright.com/">Intelligent Detection System for Fine-Grained Ocular Lesions Oriented to Clinical Interpretability (V1.0)</a> Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng'
+  - date: "2025.02"
+    text_html: '<a href="https://www.ccopyright.com/">Medical Intelligent MRI-PET Cross-Modal Conversion System (V1.0)</a> <b>Yifei Sun</b>, Xiangyang Hu, Xiangyu Shen, Junhao Jia, Yuanhan Wang'
+  - date: "2025.02"
+    text_html: '<a href="https://www.ccopyright.com/">Medical Intelligence-Assisted Lung Cancer CT Image Classification Software (V1.0)</a> Yuanhan Wang, Guanyu Zhou, <b>Yifei Sun</b>, Heng Xu, Yutian Wang'
+  - date: "2024.08"
+    text_html: '<a href="https://www.ccopyright.com/">Common Portal Platform for the Digital Security Conference (V1.0)</a> <b>Yifei Sun</b>, Linfeng Luo, Ruihan Yang, Yuyun Xiang, Zhihao Wu'
+  - date: "2024.08"
+    text_html: '<a href="https://www.ccopyright.com/">Common Portal Applet Software for the Digital Security Conference (V1.0)</a> <b>Yifei Sun</b>, Ruihan Yang, Yuyun Xiang, Linfeng Luo, Zhihao Wu'

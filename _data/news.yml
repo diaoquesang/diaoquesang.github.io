@@ -1,0 +1,38 @@
+# News section — newest first. text_html keeps the original emoji + links.
+
+- date: "2026.07"
+  text_html: '🎉🎉 Our paper for <a href="https://conferences.miccai.org/2026/en/default.asp">ACM MM 2026</a> was <strong>Accepted</strong>!'
+- date: "2026.05"
+  text_html: '🎉🎉 Our paper for <a href="https://conferences.miccai.org/2026/en/default.asp">MICCAI 2026</a> was <strong>Early Accepted</strong>!'
+- date: "2026.03"
+  text_html: '🎉🎉 Our 2 papers for <a href="https://2026.ieeeicassp.org/">ICASSP 2026</a> were selected for <strong>Oral Presentation</strong>!'
+- date: "2026.01"
+  text_html: '🎉🎉 Our 2 papers for <a href="https://2026.ieeeicassp.org/">ICASSP 2026</a> were <strong>Accepted</strong>!'
+- date: "2025.11"
+  text_html: '🎉🎉 Our paper for <a href="https://aaai.org/conference/aaai/aaai-26">AAAI 2026</a> was <strong>Accepted</strong>!'
+- date: "2025.10"
+  text_html: '🎉🎉 Our paper for <a href="https://biod.whu.edu.cn/bibm2025">BIBM 2025</a> was selected for <strong>Oral Presentation</strong>!'
+- date: "2025.10"
+  text_html: '🎉🎉 Our paper for <a href="https://biod.whu.edu.cn/bibm2025">BIBM 2025</a> was <strong>Accepted</strong>!'
+- date: "2025.08"
+  text_html: '🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">CIBM 2024</a> was selected for an <strong>ESI Top 0.1% Hot Paper</strong>!'
+- date: "2025.07"
+  text_html: '🎉🎉 Our paper for <a href="https://www.embs.org/jbhi/">JBHI 2025</a> was <strong>Accepted</strong>!'
+- date: "2025.06"
+  text_html: '🎉🎉 Our paper for <a href="https://conferences.miccai.org/2025/en/default.asp">MICCAI 2025</a> was <strong>Accepted</strong>!'
+- date: "2025.02"
+  text_html: '🎉🎉 Our paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was selected for <strong>Oral Presentation</strong>!'
+- date: "2025.01"
+  text_html: '🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">CIBM 2024</a> was selected for an <strong>ESI Top 1% Highly Cited Paper</strong>!'
+- date: "2025.01"
+  text_html: '🎉🎉 Our paper for <a href="https://biomedicalimaging.org/2025">ISBI 2025</a> was <strong>Accepted</strong>!'
+- date: "2024.04"
+  text_html: '🎉🎉 Our paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was selected for <strong>Oral Presentation</strong>!'
+- date: "2024.02"
+  text_html: '🎉🎉 Our paper for <a href="https://biomedicalimaging.org/2024">ISBI 2024</a> was <strong>Accepted</strong>!'
+- date: "2024.01"
+  text_html: '🎉🎉 Our paper for <a href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">CIBM 2024</a> was <strong>Accepted</strong>!'
+- date: "2023.06"
+  text_html: '🎉🎉 Our paper for <a href="https://www.icsip.org/2023.html">ICSIP 2023</a> was selected for <strong>Oral Presentation</strong>!'
+- date: "2023.06"
+  text_html: '🎉🎉 Our paper for <a href="https://www.icsip.org/2023.html">ICSIP 2023</a> was <strong>Accepted</strong>!'

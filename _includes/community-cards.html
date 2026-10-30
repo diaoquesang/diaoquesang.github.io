@@ -1,0 +1,14 @@
+{% comment %}Communities section body: membership icon cards.
+Icons are repo-local (images/communities/*.png) and prefixed with page.base so
+they resolve the same on GitHub Pages and in the local preview. If one cannot
+load, the <img> removes itself and the card shows the name alone — the
+initial-letter fallback was dropped on 2026-10-30 (it bled through the plate).{% endcomment %}
+{% assign base = page.base %}
+<div class="comm-grid">
+  {% for c in include.items %}
+    <a class="comm-card" href="{{ c.url }}" target="_blank" rel="noopener" title="{{ c.domain }}">
+      <span class="comm-icon"><img src="{{ base }}{{ c.icon }}" alt="{{ c.name }}" loading="lazy" onerror="this.remove()"></span>
+      <span class="comm-name">{{ c.name }}</span>
+    </a>
+  {% endfor %}
+</div>

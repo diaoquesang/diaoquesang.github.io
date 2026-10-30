@@ -1,14 +1,30 @@
-{% if page.author_profile or layout.author_profile or page.sidebar %}
-  <div class="sidebar sticky">
-  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
-  {% if page.sidebar %}
-    {% for s in page.sidebar %}
-      {% if s.image %}
-        <img src= "{{ s.image }}" alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
-      {% endif %}
-      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
-      {% if s.text %}{{ s.text | markdownify }}{% endif %}
-    {% endfor %}
-  {% endif %}
+{% assign base = page.base %}
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-inner">
+    <div class="profile">
+      <img class="avatar" src="{{ base }}{{ site.author.avatar }}" alt="{{ site.author.name }}">
+      <h1 class="profile-name">{{ site.author.name }}</h1>
+      <p class="profile-affil">{{ site.description }}</p>
+      <p class="profile-bio"><em>{{ site.author.bio }}</em></p>
+      <p class="profile-location"><i class="fa-solid fa-location-dot"></i> {{ site.author.location }}</p>
+    </div>
+
+    <nav class="nav" aria-label="Page navigation">
+      <ul>
+        {% for item in site.data.navigation.main %}
+          <li><a class="nav-link" href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    <ul class="social">
+      {% for s in site.data.social %}
+        <li><a href="{{ s.url }}" title="{{ s.label }}" aria-label="{{ s.label }}" target="_blank" rel="noopener"><i class="{{ s.icon }}"></i></a></li>
+      {% endfor %}
+    </ul>
+
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle color theme">
+      <i class="fa-solid fa-moon"></i><span class="theme-toggle-text">Dark</span>
+    </button>
   </div>
-{% endif %}
+</aside>

@@ -1,0 +1,15 @@
+{% comment %}Education / Experience card: logo plate left + header chips (role, date) + body.
+role_html / date / text_html are explicit fields in education.yml / experience.yml; the
+original sentence began with "<i>date</i>, Role:" — relocated into the chips, not removed.{% endcomment %}
+<div class="entry-card">
+  <div class="entry-logo">
+    <img src="{{ include.item.logo }}" alt="" loading="lazy">
+  </div>
+  <div class="entry-body">
+    <div class="entry-head">
+      <span class="entry-role">{{ include.item.role_html }}</span>
+      <span class="entry-date">{{ include.item.date }}</span>
+    </div>
+    <div class="entry-text">{{ include.item.text_html }}</div>
+  </div>
+</div>

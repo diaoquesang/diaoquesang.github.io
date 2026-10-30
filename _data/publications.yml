@@ -1,0 +1,137 @@
+# Publications section.
+# featured = big card with thumbnail; list = compact row inside a scroll box.
+# resources[].label keeps the original emoji wording; empty url ("") is kept
+# where the original site had an empty link (e.g. MIND Page/Poster).
+
+note_html: '<sup>*</sup>: Equal Contribution, <sup>†</sup>: Corresponding Author(s)'
+
+conferences:
+  featured:
+    - badge: "AAAI 2026"
+      image: "https://github.com/user-attachments/assets/0e6e7349-b743-4685-bd25-c90fc3e8e0fd"
+      title: "WDT-MD: Wavelet Diffusion Transformers for Microaneurysm Detection in Fundus Images"
+      url: "https://ojs.aaai.org/index.php/AAAI/article/view/37882"
+      resources:
+        - { label: "🧑🏻‍💻 Code", url: "https://github.com/diaoquesang/WDT-MD" }
+        - { label: "🌐 Page", url: "https://diaoquesang.github.io/WDT-MD-Project-Page/" }
+        - { label: "🗒️ Survey", url: "https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection" }
+        - { label: "📜 Poster", url: "https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/main/pdfs/WDT-MD_Poster.pdf" }
+      authors_html: '<b>Yifei Sun</b>, Yuzhi He, Junhao Jia, Jinhong Wang, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>, Hongxia Xu<sup>†</sup>'
+      venue_html: '<i>AAAI Conference on Artificial Intelligence</i>'
+
+    - badge: "MICCAI 2025"
+      image: "images/GL-LCM.jpg"
+      title: "GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images"
+      url: "https://papers.miccai.org/miccai-2025/0377-Paper0658.html"
+      resources:
+        - { label: "🧑🏻‍💻 Code", url: "https://github.com/diaoquesang/GL-LCM" }
+        - { label: "🌐 Page", url: "https://diaoquesang.github.io/GL-LCM-Project-Page/" }
+        - { label: "🗒️ Survey", url: "https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/" }
+        - { label: "📜 Poster", url: "https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/main/pdfs/GL-LCM_Poster.pdf" }
+      authors_html: '<b>Yifei Sun</b>, Zhanghao Chen, Hao Zheng, Yuqing Lu, Lixin Duan, Fenglei Fan, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>'
+      venue_html: '<i>International Conference on Medical Image Computing and Computer Assisted Intervention</i>'
+
+  list:
+    - highlight: "ACM MM 2026"
+      title: "MIND: Multimodal Intent-Driven Network via Diffusion Transformers for Medical Image Fusion"
+      url: "https://arxiv.org/abs/2607.28565"
+      resources:
+        - { label: "🧑🏻‍💻 Code", url: "https://github.com/fyyyz24/MIND" }
+        - { label: "🌐 Page", url: "" }
+        - { label: "📜 Poster", url: "" }
+      authors_html: 'Yunzhan Fu, Xiangyu Shen, <b>Yifei Sun</b>, Yuhan Chen, Jian Wu<sup>†</sup>, Hongxia Xu<sup>†</sup>'
+      venue_html: '<i>ACM International Conference on Multimedia</i>'
+
+    - highlight: "MICCAI 2026 (Early Accept)"
+      title: "Two-Stage Cross-Domain Cervical Abnormality Screening with Cytopathological Image Synthesis and Knowledge Distillation"
+      url: "https://papers.miccai.org/miccai-2026/1097-Paper2238.html"
+      resources:
+        - { label: "🧑🏻‍💻 Code", url: "https://github.com/ZhanYiHui06/MICCAI2026" }
+        - { label: "🌐 Page", url: "https://zhanyihui06.github.io/Cross-Domain-Cell-Detection/" }
+        - { label: "🗒️ Survey", url: "https://github.com/li00000011/Paper-List-for-Cell-Detection" }
+        - { label: "📜 Poster", url: "https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/main/pdfs/SC-UNSB_Poster.pdf" }
+      authors_html: 'Jincheng Li<sup>*</sup>, Yuzhi He<sup>*</sup>, Yihui Zhan, Xinmei Zhang, <b>Yifei Sun</b>, Zelin Liu, Lichi Zhang, Minye Shao, Lili Zhao<sup>†</sup>'
+      venue_html: '<i>International Conference on Medical Image Computing and Computer Assisted Intervention</i>'
+
+    - highlight: "ICASSP 2026 (Oral)"
+      title: "Brain-HGCN: A Hyperbolic Graph Convolutional Network for Brain Functional Network Analysis"
+      url: "https://ieeexplore.ieee.org/abstract/document/11464016/"
+      resources: []
+      authors_html: 'Junhao Jia, Yunyou Liu, Cheng Yang, <b>Yifei Sun</b>, Feiwei Qin<sup>†</sup>, Changmiao Wang, Yong Peng'
+      venue_html: '<i>IEEE International Conference on Acoustics, Speech and Signal Processing</i>'
+
+    - highlight: "ICASSP 2026 (Oral)"
+      title: "Geodesic Prototype Matching via Diffusion Maps for Interpretable Fine-Grained Recognition"
+      url: "https://ieeexplore.ieee.org/abstract/document/11464862/"
+      resources: []
+      authors_html: 'Junhao Jia, Yunyou Liu, <b>Yifei Sun</b>, Huangwei Chen, Feiwei Qin<sup>†</sup>, Changmiao Wang, Yong Peng'
+      venue_html: '<i>IEEE International Conference on Acoustics, Speech and Signal Processing</i>'
+
+    - highlight: "BIBM 2025 (Oral)"
+      title: "RTGMFF: Enhanced fMRI-based Brain Disorder Diagnosis via ROI-driven Text Generation and Multimodal Feature Fusion"
+      url: "https://ieeexplore.ieee.org/abstract/document/11356807/"
+      resources:
+        - { label: "🧑🏻‍💻 Code", url: "https://github.com/BeistMedAI/RTGMFF" }
+      authors_html: 'Junhao Jia, <b>Yifei Sun</b>, Yunyou Liu, Cheng Yang, Changmiao Wang<sup>†</sup>, Feiwei Qin<sup>†</sup>, Yong Peng, Wenwen Min'
+      venue_html: '<i>IEEE International Conference on Bioinformatics and Biomedicine</i>'
+
+    - highlight: "ISBI 2025 (Oral)"
+      title: "ITCFN: Incomplete Triple-Modal Co-Attention Fusion Network for Mild Cognitive Impairment Conversion Prediction"
+      url: "https://ieeexplore.ieee.org/abstract/document/10980706"
+      resources:
+        - { label: "🧑🏻‍💻 Code", url: "https://github.com/justinhxy/ITFC" }
+      authors_html: 'Xiangyang Hu, Xiangyu Shen, <b>Yifei Sun</b>, Xuhao Shan, Wenwen Min, Liyilei Su, Xiaomao Fan, Ahmed Elazab, Ruiquan Ge<sup>†</sup>, Changmiao Wang<sup>†</sup>, Xiaopeng Fan'
+      venue_html: '<i>IEEE International Symposium on Biomedical Imaging</i>'
+
+    - highlight: "ISBI 2024 (Oral)"
+      title: "BS-Diff: Effective Bone Suppression Using Conditional Diffusion Models from Chest X-Ray Images"
+      url: "https://ieeexplore.ieee.org/abstract/document/10635371/"
+      resources:
+        - { label: "🧑🏻‍💻 Code", url: "https://github.com/Benny0323/BS-Diff" }
+        - { label: "🌐 Page", url: "https://benny0323.github.io/BS-Diff-Project-Page/" }
+        - { label: "🗒️ Survey", url: "https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/" }
+      authors_html: 'Zhanghao Chen, <b>Yifei Sun</b>, Wenjian Qin, Ruiquan Ge<sup>†</sup>, Cheng Pan, Wenming Deng, Zhou Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>'
+      venue_html: '<i>IEEE International Symposium on Biomedical Imaging</i>'
+
+    - highlight: "ICSIP 2023 (Oral)"
+      title: "RTUNet++: Assessment of Osteosarcoma MRI Image Segmentation leveraging Hybrid CNN-Transformer Approach with Dense Skip Connection"
+      url: "https://ieeexplore.ieee.org/abstract/document/10270849/"
+      resources: []
+      authors_html: 'Binfeng Zou, Yifei Chen, Zhanghao Chen, <b>Yifei Sun</b>, Yifan Huang, Feiwei Qin<sup>†</sup>, Changmiao Wang'
+      venue_html: '<i>International Conference on Signal and Image Processing</i>'
+
+journals:
+  featured:
+    - badge: "JBHI 2025"
+      image: "images/BS-LDM.jpg"
+      title: "BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models"
+      url: "https://ieeexplore.ieee.org/document/11079814"
+      resources:
+        - { label: "🧑🏻‍💻 Code", url: "https://github.com/diaoquesang/BS-LDM" }
+        - { label: "🌐 Page", url: "https://benny0323.github.io/BS-LDM-Project-Page/" }
+        - { label: "🗒️ Survey", url: "https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/" }
+        - { label: "📔 Graph", url: "https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/main/pdfs/BS-LDM_Graph.pdf" }
+      authors_html: '<b>Yifei Sun</b>, Zhanghao Chen, Hao Zheng, Wenming Deng, Jin Liu, Wenwen Min, Ahmed Elazab, Xiang Wan, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>'
+      venue_html: '<i>IEEE Journal of Biomedical and Health Informatics</i>'
+
+  list:
+    - highlight: "CIBM 2024 (ESI Hot Paper & ESI Highly Cited Paper)"
+      title: "Accurate Leukocyte Detection Based on Deformable-DETR and Multi-Level Feature Fusion for Aiding Diagnosis of Blood Diseases"
+      url: "https://www.sciencedirect.com/science/article/pii/S0010482524000015"
+      resources:
+        - { label: "🧑🏻‍💻 Code", url: "https://github.com/justlfc03/mfds-detr" }
+      authors_html: 'Yifei Chen, Chenyan Zhang, Ben Chen, Yiyu Huang, <b>Yifei Sun</b>, Changmiao Wang<sup>†</sup>, Xianjun Fu, Yuxing Dai, Feiwei Qin<sup>†</sup>, Yong Peng, Yu Gao'
+      venue_html: '<i>Computers in Biology and Medicine</i>'
+
+preprints:
+  featured:
+    - badge: "arXiv 2026"
+      image: "https://github.com/user-attachments/assets/f0c4c313-18dd-44ee-b599-b43b5b5536fc"
+      title: "DeBoneDiT: Depth-Driven Conditional Bridge Diffusion Transformers for Bone Suppression in Chest X-Ray Images"
+      url: "https://arxiv.org/abs/2610.19466"
+      resources:
+        - { label: "🧑🏻‍💻 Code", url: "https://github.com/diaoquesang/DeBoneDiT" }
+        - { label: "📦 Dataset", url: "https://huggingface.co/datasets/diaoquesang/SZCH-X-Rays" }
+        - { label: "🗒️ Survey", url: "https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays/" }
+      authors_html: '<b>Yifei Sun</b>, Fenglei Fan, Junhao Jia, Wenming Deng, Hongxia Xu, Changmiao Wang<sup>†</sup>, Ruiquan Ge<sup>†</sup>'
+      venue_html: '<i>arXiv</i>'

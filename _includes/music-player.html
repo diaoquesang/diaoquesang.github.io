@@ -1,0 +1,25 @@
+{% assign base = page.base %}
+<div id="music-player-bar">
+  <audio id="main-audio" preload="auto"></audio>
+
+  <div class="player-row">
+    <button id="prev-btn" aria-label="Previous"><i class="fa-solid fa-backward-step"></i></button>
+    <button id="play-pause-btn" aria-label="Play / Pause"><i class="fa-solid fa-play"></i></button>
+    <button id="next-btn" aria-label="Next"><i class="fa-solid fa-forward-step"></i></button>
+    <button id="mode-btn" class="mode-btn" aria-label="Play mode"><i class="fa-solid fa-repeat"></i></button>
+
+    <span id="track-name" class="track-name">Loading...</span>
+
+    <span id="current-time" class="time">0:00</span>
+    <input type="range" id="progress-bar" min="0" max="100" value="0" aria-label="Seek">
+    <span id="duration" class="time">0:00</span>
+
+    <i id="volume-icon" class="fa-solid fa-volume-low volume-icon"></i>
+    <input type="range" id="volume-slider" min="0" max="100" value="20" aria-label="Volume">
+    <span id="volume-display" class="volume-text">20%</span>
+  </div>
+</div>
+
+<script>window.SITE_BASE = {{ base | default: "" | jsonify }};</script>
+<script id="playlist-data" type="application/json">{{ site.data.music.tracks | jsonify }}</script>
+<script src="{{ base }}assets/js/music-player.js"></script>

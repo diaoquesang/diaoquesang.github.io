@@ -1,0 +1,31 @@
+# About Me section content.
+# *_html fields are inserted as raw HTML — inline <img> tags are 1em "logos"
+# used in the original site; keep them if you want byte-identical rendering.
+
+paragraphs:
+  - >-
+    🌱 Hi, I'm Yifei Sun (孙逸飞), a PhD student in Computer Science and Technology at [Zhejiang University](https://www.zju.edu.cn). I received dual bachelor's degrees from [Hangzhou Dianzi University](https://www.hdu.edu.cn) and [ITMO University](https://itmo.ru/).
+  - >-
+    🔭 I'm currently focused on **Medical Image Analysis**, **Generative AI**, and **Multimodal Learning**.
+  # ---- migrated to standalone sections on 2026-10-30 (kept here for reference) ----
+  # Academic Services -> _data/service.yml   (section #services)
+  #   🔖 Academic Services: Conference Reviewers of **ICLR**<sub>[2027](...)</sub>, ... (full text in service.yml)
+  # Academic Communities -> _data/communities.yml (section #communities)
+  #   🧑‍🤝‍🧑 Academic Communities: IEEE, AAAI, MICCAI, CAAI, CSIG, ZCF (full list in communities.yml)
+  - >-
+    📫 How to reach me: [diaoquesang@gmail.com](mailto:diaoquesang@gmail.com).
+
+# Stat badges row. src / link copied from the original site.
+badges:
+  - alt: "Citations"
+    src: "https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fdiaoquesang%2Fdiaoquesang.github.io%40google-scholar-stats%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"
+    link: "https://scholar.google.com/citations?user=4anytcgAAAAJ&hl=zh-CN"
+  - alt: "GitHub User's stars"
+    src: "https://img.shields.io/github/stars/diaoquesang"
+    link: "https://github.com/diaoquesang"
+  - alt: "GitHub followers"
+    src: "https://img.shields.io/github/followers/diaoquesang"
+    link: "https://github.com/diaoquesang"
+  - alt: "Visitors"
+    src: "https://api.visitorbadge.io/api/visitors?path=diaoquesang&countColor=%23263759&style=flat&labelStyle=none"
+    link: "https://visitorbadge.io/status?path=diaoquesang"

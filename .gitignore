@@ -1,3 +1,5 @@
-_site/
-push.sh
-.DS_Store
+preview/
+node_modules/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata

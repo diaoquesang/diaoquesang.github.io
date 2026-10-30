@@ -1,34 +1,28 @@
-# main links
+# Top navigation (sidebar menu). url = anchor id of a section in _pages/about.md
 main:
   - title: "About Me"
-    url: "/#-about-me"
-
+    url: "#about-me"
   - title: "Education"
-    url: "/#-education"
-    
+    url: "#education"
   - title: "Experience"
-    url: "/#-experience"
-    
+    url: "#experience"
   - title: "News"
-    url: "/#-news"
-    
+    url: "#news"
   - title: "Honors"
-    url: "/#-honors"
-    
+    url: "#honors"
   - title: "Funding"
-    url: "/#-funding"
-
+    url: "#funding"
   - title: "Publications"
-    url: "/#-publications"
-
+    url: "#publications"
   - title: "Patents"
-    url: "/#-patents"
-
+    url: "#patents"
   - title: "Software"
-    url: "/#-software"
-
+    url: "#software"
   - title: "Competitions"
-    url: "/#-competitions"
-
+    url: "#competitions"
+  - title: "Services"
+    url: "#services"
+  - title: "Communities"
+    url: "#communities"
   - title: "My Favorite Music"
-    url: "/#-my-favorite-music"
+    url: "#my-favorite-music"

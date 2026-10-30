@@ -1,164 +1,66 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# =============================================================
+# Site settings — edit here, rarely needed elsewhere
+# =============================================================
+title        : "Yifei Sun (孙逸飞)"
+description  : "Zhejiang University"
+repository   : "diaoquesang/diaoquesang.github.io"
+timezone     : Asia/Shanghai
+encoding     : "utf-8"
+lang         : "en"
 
-# Site Settings
-title                    : "Yifei Sun (孙逸飞)"
-description              : "Zhejiang University"
-repository               : "diaoquesang/diaoquesang.github.io"
-google_scholar_stats_use_cdn : true
+# SEO verification (kept identical to the original site)
+google_site_verification : "5SY2aUF5jGYYojBuBEx0VUKFwkiST80yqbTC2uf6xYA"
+bing_site_verification   : "FB55B19AD13FC5F0DC506AB338336016"
+baidu_site_verification  : ""
 
-# google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+# Google Analytics id, leave empty to disable
+google_analytics_id      : ""
 
-# SEO Related
-google_site_verification :  "5SY2aUF5jGYYojBuBEx0VUKFwkiST80yqbTC2uf6xYA"
-bing_site_verification   :  "FB55B19AD13FC5F0DC506AB338336016"
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
-
-# Site Author
+# =============================================================
+# Author profile — sidebar reads this
+# =============================================================
 author:
-  name             : "Yifei Sun (孙逸飞)"
-  avatar           : "images/avatar.jpg"
-  bio              : "<i>Through hardship, <br>true worth emerges.</i>"
-  location         : "Hangzhou, China"
-  employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=4anytcgAAAAJ"
-  email            : "diaoquesang@gmail.com"
-  researchgate     : "https://www.researchgate.net/profile/Yifei-Sun-61"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "diaoquesang"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : "diaoquesang"
-  dblp             : "https://dblp.org/pid/27/3389-5.html"
-  orcid            : "https://orcid.org/0009-0005-7811-9487"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : "diaoquesang"
-  vine             :
-  weibo            :
-  xing             : 
-  youtube          :
-  wikipedia        :
-  wechat           : # ""
+  name    : "Yifei Sun (孙逸飞)"
+  avatar  : "images/avatar.jpg"
+  bio     : "Through hardship, true worth emerges."
+  location: "Hangzhou, China"
 
+# =============================================================
+# Build / output
+# =============================================================
+permalink: /:categories/:title/
 
-# Reading Files
 include:
-  - .htaccess
   - _pages
-  - files
+
 exclude:
-  - docs
-  - google_scholar_crawler
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - .github
-  - CHANGELOG
-  - Capfile
+  - README.md
   - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
-  - gulpfile.js
-  - log
-  - node_modules
-  - package.json
-  - tmp
+  - Gemfile.lock
   - vendor
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+  - node_modules
+  - scripts
+  - preview
+  - tools
+  # support files for the repo itself, never part of the published site
+  # (same entries the original site excluded):
+  - google_scholar_crawler
+  - .github
 
-
-# Conversion
-markdown: kramdown
+markdown : kramdown
 highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+lsi      : false
 
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-# Defaults
 defaults:
-  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: default
-      author_profile: true
 
-
-# Sass/SCSS
 sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
-
-# Outputting
-permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-redirect-from
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
-
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development

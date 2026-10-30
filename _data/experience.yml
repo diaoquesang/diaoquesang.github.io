@@ -1,0 +1,22 @@
+# Experience section — same shape as education.yml (see its header comment)
+
+- logo: "https://github.com/user-attachments/assets/a34e995c-cc60-40a8-a191-18e753d0110e"
+  date: "2026.02 - 2026.08"
+  role_html: "Research Intern"
+  text_html: |-
+    <a href="https://damo.alibaba.com/">DAMO Academy</a>, <a href="https://www.alibabagroup.com/">Alibaba Group</a>, Hangzhou, China, Supervised by <a href="https://scholar.google.com/citations?user=TVGx4KgAAAAJ">Ke Yan (闫轲)</a>
+  # was: <i>2026.02 - 2026.08</i>, Research Intern: DAMO Academy, ...
+
+- logo: "https://github.com/user-attachments/assets/e67acd1f-481c-4732-9fa8-c45a1ba373b7"
+  date: "2025.03 - 2025.08"
+  role_html: "Research Intern"
+  text_html: |-
+    <a href="http://realdoctor.zju.edu.cn/index/">Real Doctor AI Research Center</a>, <a href="https://www.zju.edu.cn/">Zhejiang University</a>, Hangzhou, China, Supervised by <a href="https://person.zju.edu.cn/0004274">Jian Wu (吴健)</a>
+  # was: <i>2025.03 - 2025.08</i>, Research Intern: Real Doctor AI Research Center, ...
+
+- logo: "https://github.com/user-attachments/assets/b105cced-5a82-4710-8570-0aaa7ffdb68e"
+  date: "2023.06 - 2025.06"
+  role_html: "Research Intern"
+  text_html: |-
+    <a href="https://www.sribd.cn/">Shenzhen Research Institute of Big Data</a>, <a href="https://www.cuhk.edu.cn/">The Chinese University of Hong Kong, Shenzhen</a>, Shenzhen, China, Supervised by <a href="https://jiandanjinxin.github.io/changmiaowang/">Changmiao Wang (王昌淼)</a>
+  # was: <i>2023.06 - 2025.06</i>, Research Intern: Shenzhen Research Institute of Big Data, ...

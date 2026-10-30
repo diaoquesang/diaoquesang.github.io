@@ -1,0 +1,20 @@
+{% assign base = page.base %}
+{% comment %}Featured work card: badge + teaser image + title/links + authors + optional venue{% endcomment %}
+<div class="work-card">
+  <div class="work-media">
+    <span class="badge">{{ include.item.badge }}</span>
+    <img src="{% if include.item.image contains '://' %}{{ include.item.image }}{% else %}{{ base }}{{ include.item.image }}{% endif %}" alt="{{ include.item.title }}" loading="lazy">
+  </div>
+  <div class="work-body">
+    <h3 class="work-title">
+      <a href="{{ include.item.url }}" target="_blank" rel="noopener">{{ include.item.title }}</a>
+      {% for r in include.item.resources %}
+        <a class="res-link" href="{{ r.url }}" target="_blank" rel="noopener">[{{ r.label }}]</a>
+      {% endfor %}
+    </h3>
+    <p class="work-authors">{{ include.item.authors_html }}</p>
+    {% if include.item.venue_html %}
+      <p class="work-venue">{{ include.item.venue_html }}</p>
+    {% endif %}
+  </div>
+</div>

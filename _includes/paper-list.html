@@ -1,0 +1,19 @@
+{% comment %}Scrollable paper list rows (venue badge, title link, resources, authors, venue){% endcomment %}
+<div class="scroll-box">
+  <ul class="paper-list">
+    {% for item in include.items %}
+      <li class="paper-row">
+        <div class="paper-row-top">
+          <span class="highlight">{{ item.highlight }}</span>
+          <a class="paper-title" href="{{ item.url }}">{{ item.title }}</a>
+          {% for r in item.resources %}
+            <a class="res-link" href="{{ r.url }}" target="_blank" rel="noopener">[{{ r.label }}]</a>
+          {% endfor %}
+        </div>
+        <div class="paper-authors">{{ item.authors_html }}</div>
+        <div class="paper-venue">{{ item.venue_html }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+<div class="scroll-hint">⬆ Scrollable</div>

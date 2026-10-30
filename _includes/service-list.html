@@ -1,0 +1,14 @@
+{% comment %}Services section body: conference + journal reviewer chip rows (same chip style){% endcomment %}
+<h2 class="sub-title">Conference Reviewer</h2>
+<div class="jnl-row">
+  {% for c in include.items %}
+    <a class="jnl-chip" href="{{ c.url }}" target="_blank" rel="noopener">{{ c.name }}</a>
+  {% endfor %}
+</div>
+
+<h2 class="sub-title">Journal Reviewer</h2>
+<div class="jnl-row">
+  {% for j in include.journals %}
+    <a class="jnl-chip" href="{{ j.url }}" target="_blank" rel="noopener">{{ j.name }}</a>
+  {% endfor %}
+</div>

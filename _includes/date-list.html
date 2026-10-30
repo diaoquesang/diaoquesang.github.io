@@ -1,0 +1,9 @@
+{% comment %}Scrollable date + rich-text list (news, honors, funding, patents, competitions, software){% endcomment %}
+<div class="scroll-box">
+  <ul class="date-list">
+    {% for item in include.items %}
+      <li><span class="item-date">{{ item.date }}:&nbsp;</span><span class="item-body">{{ item.text_html }}</span></li>
+    {% endfor %}
+  </ul>
+</div>
+<div class="scroll-hint">⬆ Scrollable</div>

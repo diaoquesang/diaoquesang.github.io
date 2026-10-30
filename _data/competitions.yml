@@ -1,0 +1,47 @@
+# Competitions section — two scrollable groups.
+
+national:
+  - date: "2026"
+    text_html: '<a href="https://jsjds.blcu.edu.cn/">Chinese Collegiate Computing Competition</a> (<strong>National Third Prize</strong>, <strong>Key Member</strong>)'
+  - date: "2025"
+    text_html: '<a href="https://cy.ncss.cn/">China International College Students'' Innovation Competition</a> (<strong>National Silver Medal</strong>, <strong>Key Member</strong>)'
+  - date: "2025"
+    text_html: '<a href="https://jsjds.blcu.edu.cn/">Chinese Collegiate Computing Competition</a> (<strong>National Second Prize</strong>, <strong>Key Member</strong>)'
+  - date: "2025"
+    text_html: '<a href="https://jsjds.blcu.edu.cn/">Chinese Collegiate Computing Competition</a> (<strong>National Third Prize</strong>, <strong>Key Member</strong>)'
+  - date: "2025"
+    text_html: '<a href="http://www.fwwb.org.cn/">China College Students'' Service Outsourcing Innovation and Entrepreneurship Competition</a> (<strong>National Third Prize</strong>, <strong>Key Member</strong>)'
+  - date: "2025"
+    text_html: '<a href="https://culsc.cn/#/Home">China Undergraduate Life Sciences Contest (Innovation and Entrepreneurship Category)</a> (<strong>National Third Prize</strong>, <strong>Key Member</strong>)'
+  - date: "2024"
+    text_html: '<a href="https://pilcchina.org/home">China International College Students'' Innovation Competition</a> (<strong>International Bronze Medal</strong>, <strong>Project Leader</strong>)'
+  - date: "2024"
+    text_html: '<a href="https://news.bupt.edu.cn/info/1012/31306.htm">ICT Industry-Teaching Integration Innovation Competition</a> (<strong>National Second Prize</strong>, <strong>Key Member</strong>)'
+  - date: "2023"
+    text_html: '<a href="https://cy.ncss.cn/">China International College Students'' Innovation Competition</a> (<strong>National Gold Medal</strong>, <strong>Key Member</strong>)'
+  - date: "2023"
+    text_html: '<a href="https://pilcchina.org/home">China International College Students'' Innovation Competition</a> (<strong>International Bronze Medal</strong>, <strong>Key Member</strong>)'
+  - date: "2023"
+    text_html: '<a href="https://www.smartcar.zone/index.html">National Smart Car Competition for College Students</a> (<strong>National First Prize</strong>, <strong>Key Member</strong>)'
+
+regional:
+  - date: "2026"
+    text_html: '<a href="https://tiaozhanbei.net/">"Challenge Cup" China College Student Business Plan Competition</a> (<strong>Provincial Bronze Medal</strong>, <strong>Key Member</strong>)'
+  - date: "2025"
+    text_html: '<a href="https://cy.ncss.cn/">China International College Students'' Innovation Competition</a> (<strong>Provincial Bronze Medal</strong>, <strong>Key Member</strong>)'
+  - date: "2025"
+    text_html: '<a href="https://cy.ncss.cn/">China International College Students'' Innovation Competition</a> (<strong>Provincial Bronze Medal</strong>, <strong>Key Member</strong>)'
+  - date: "2025"
+    text_html: '<a href="https://2025fsyx.sciconf.cn/cn/web/program/29185?class=24947&hall_id=0&date_id=0&is_satellite=0">Artificial Intelligence Application in Medical Imaging Competition of the Radiology Branch of Guangdong Medical Association</a> (<strong>Provincial Third Prize</strong>, <strong>Key Member</strong>)'
+  - date: "2025"
+    text_html: '<a href="http://www.3chuang.net/">National College Student E-Commerce “Innovation, Creativity and Entrepreneurship” Competition</a> (<strong>Provincial Second Prize</strong>, <strong>Key Member</strong>)'
+  - date: "2025"
+    text_html: '<a href="https://tiaozhanbei.net/">"Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition</a> (<strong>Provincial Bronze Medal</strong>, <strong>Project Leader</strong>)'
+  - date: "2024"
+    text_html: '<a href="https://cy.ncss.cn/">China International College Students'' Innovation Competition</a> (<strong>Provincial Silver Medal</strong>, <strong>Project Leader</strong>)'
+  - date: "2024"
+    text_html: '<a href="https://tiaozhanbei.net/">"Challenge Cup" China College Student Business Plan Competition</a> (<strong>Provincial Bronze Medal</strong>, <strong>Key Member</strong>)'
+  - date: "2024"
+    text_html: '<a href="http://www.fwwb.org.cn/">China College Students'' Service Outsourcing Innovation and Entrepreneurship Competition</a> (<strong>Regional Third Prize</strong>, <strong>Project Leader</strong>)'
+  - date: "2023"
+    text_html: '<a href="https://cy.ncss.cn/">China International College Students'' Innovation Competition</a> (<strong>Provincial Bronze Medal</strong>, <strong>Key Member</strong>)'

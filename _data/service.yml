@@ -1,0 +1,26 @@
+# Services section — reviewer roles, structured (redesigned 2026-10-30,
+# old one-paragraph text_html kept commented at the bottom for reference).
+# Chips only: conference links point to the stable venue homepage (not per-year sites).
+
+conferences:
+  - { name: "ICLR", url: "https://iclr.cc/", years: ["2027"] }
+  - { name: "AAAI", url: "https://aaai.org/", years: ["2027", "2026"] }
+  - { name: "ACM MM", url: "https://acmmm.org/", years: ["2026", "2025"] }
+  - { name: "MICCAI", url: "https://miccai.org/", years: ["2026"] }
+  - { name: "ICASSP", url: "https://ieeeicassp.org", years: ["2026"] }
+  - { name: "ICME", url: "https://ieeeicme.org/", years: ["2026"] }
+  - { name: "ISBI", url: "https://biomedicalimaging.org/", years: ["2027"] }
+  - { name: "IPCAI", url: "https://sites.google.com/view/ipcai2027", years: ["2027"] } # no generic domain: official series page is this (redirected from www.ipcai.org)
+  - { name: "BHI", url: "https://bhi.embs.org/", years: ["2026"] }
+
+journals:
+  - { name: "TCSVT", url: "https://ieee-cas.org/publication/tcsvt" }
+  - { name: "TNNLS", url: "https://cis.ieee.org/publications/t-neural-networks-and-learning-systems" }
+  - { name: "EAAI", url: "https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" }
+  - { name: "JBHI", url: "https://www.embs.org/jbhi/" }
+  - { name: "BSPC", url: "https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control" }
+  - { name: "CVIU", url: "https://www.sciencedirect.com/journal/computer-vision-and-image-understanding" }
+  - { name: "IJCARS", url: "https://link.springer.com/journal/11548" }
+
+# old flat paragraph (moved from about.yml, superseded by the structured lists above):
+# text_html: 'Conference Reviewers of **ICLR**<sub>[2027](https://iclr.cc/Conferences/2027)</sub>, **AAAI**<sub>[2027](https://aaai.org/conference/aaai/aaai-27/), [2026](https://aaai.org/conference/aaai/aaai-26/)</sub>, **ACM MM**<sub>[2026](https://2026.acmmm.org/), [2025](https://acmmm2025.org/)</sub>, **MICCAI**<sub>[2026](https://conferences.miccai.org/2026/en/default.asp)</sub>, **ICASSP**<sub>[2026](https://2026.ieeeicassp.org/)</sub>, **ICME**<sub>[2026](https://2026.ieeeicme.org/)</sub>, **ISBI**<sub>[2027](https://biomedicalimaging.org/2027/)</sub>, **IPCAI**<sub>[2027](https://sites.google.com/view/ipcai2027)</sub>, **BHI**<sub>[2026](https://bhi.embs.org/2026/)</sub>; Journal Reviewers of [**TCSVT**](https://ieee-cas.org/publication/tcsvt), [**TNNLS**](https://cis.ieee.org/publications/t-neural-networks-and-learning-systems), [**EAAI**](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence), [**JBHI**](https://www.embs.org/jbhi/), [**BSPC**](https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control), [**CVIU**](https://www.sciencedirect.com/journal/computer-vision-and-image-understanding), [**IJCARS**](https://link.springer.com/journal/11548).'

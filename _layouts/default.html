@@ -1,33 +1,26 @@
----
-layout: compress
----
-
 <!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+{% assign base = page.base %}
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  {% include sidebar.html %}
 
-  <body>
+  <button id="drawer-toggle" class="drawer-toggle" aria-label="Open navigation">
+    <i class="fa-solid fa-bars"></i>
+  </button>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+  <main class="main" id="main" role="main">
+    <article class="page">
+      {{ content }}
+    </article>
+  </main>
 
-    <div id="main" role="main">
-      {% include sidebar.html %}
-    
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        <div class="page__inner-wrap">
-          <section class="page__content" itemprop="text">
-            {{ content }}
-          </section>
-        </div>
-      </article>
-    </div>
+  {% include music-player.html %}
 
-    {% include scripts.html %}
-
-  </body>
+  <script src="{{ base }}assets/js/theme.js"></script>
+  <script src="{{ base }}assets/js/nav.js"></script>
+  <script src="{{ base }}assets/js/scroll-hints.js"></script>
+</body>
 </html>

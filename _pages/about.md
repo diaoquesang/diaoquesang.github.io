@@ -92,7 +92,7 @@ redirect_from:
 
 <div style="display: flex; align-items: center;"><img src='https://github.com/user-attachments/assets/fed68c18-ae52-48d1-9c45-703a3555f77a' width="20%" style="margin: 15px 10px 15px 10px;">
 	<ul style="margin-top: 15px;">
-		<li><i>2022.08 - 2026.06</i>, Bachelor's Degree: Computer Science and Technology, <img src="https://github.com/user-attachments/assets/293dccbc-e99c-4dc8-868f-df559f0eaa82" style="width: 1em;"> <a href="https://itmo.hdu.edu.cn">HDU-ITMO Joint Institute</a>, <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> <a href="https://www.hdu.edu.cn">Hangzhou Dianzi University</a>, Hangzhou, <img src="https://github.com/user-attachments/assets/a42db054-f18d-4b2b-aac7-2fbf024610dd" style="width: 1em;"> China, Supervised by <a href="https://faculty.hdu.edu.cn/jsjxy/grq">Ruiquan Ge (葛瑞泉)</a></li>
+		<li><i>2022.08 - 2026.06</i>, Bachelor's Degree: Computer Science and Technology, <img src="https://github.com/user-attachments/assets/90dcee5b-1c54-4f7c-94d2-5b03d04e8f3b" style="width: 1em;"> <a href="https://itmo.hdu.edu.cn">HDU-ITMO Joint Institute</a>, <img src="https://github.com/user-attachments/assets/49def03c-2f58-4c37-88d8-edb2c7ea9e9f" style="width: 1em;"> <a href="https://www.hdu.edu.cn">Hangzhou Dianzi University</a>, Hangzhou, <img src="https://github.com/user-attachments/assets/a42db054-f18d-4b2b-aac7-2fbf024610dd" style="width: 1em;"> China, Supervised by <a href="https://faculty.hdu.edu.cn/jsjxy/grq">Ruiquan Ge (葛瑞泉)</a></li>
 	</ul>
 </div>
 

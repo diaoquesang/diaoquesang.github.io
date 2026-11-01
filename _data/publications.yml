@@ -37,7 +37,7 @@ conferences:
       url: "https://arxiv.org/abs/2607.28565"
       resources:
         - { label: "🧑🏻‍💻 Code", url: "https://github.com/fyyyz24/MIND" }
-        - { label: "🌐 Page", url: "" }
+        - { label: "🌐 Page", url: "https://fyyyz24.github.io/MIND-Project-Page/" }
         - { label: "📜 Poster", url: "https://raw.githubusercontent.com/diaoquesang/diaoquesang.github.io/main/pdfs/MIND_Poster.pdf" }
       authors_html: 'Yunzhan Fu, Xiangyu Shen, <b>Yifei Sun</b>, Yuhan Chen, Jian Wu<sup>†</sup>, Hongxia Xu<sup>†</sup>'
       venue_html: '<i>ACM International Conference on Multimedia</i>'

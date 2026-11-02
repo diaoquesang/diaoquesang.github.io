@@ -40,20 +40,6 @@ redirect_from:
 
 {% include date-list.html items=site.data.news %}
 
-<h1 class="section-title" id="honors">🏅 Honors</h1>
-
-<h2 class="sub-title">Distinctions</h2>
-
-{% include date-list.html items=site.data.honors.distinctions %}
-
-<h2 class="sub-title">Scholarships</h2>
-
-{% include date-list.html items=site.data.honors.scholarships %}
-
-<h1 class="section-title" id="funding">💰 Funding</h1>
-
-{% include date-list.html items=site.data.funding %}
-
 <h1 class="section-title" id="publications">💡 Publications</h1>
 
 <p class="pub-note">{{ site.data.publications.note_html }}</p>
@@ -79,6 +65,24 @@ redirect_from:
 {% for item in site.data.publications.preprints.featured %}
   {% include work-card.html item=item %}
 {% endfor %}
+
+<h1 class="section-title" id="honors">🏅 Honors</h1>
+
+<h2 class="sub-title">Distinctions</h2>
+
+{% include date-list.html items=site.data.honors.distinctions %}
+
+<h2 class="sub-title">Scholarships</h2>
+
+{% include date-list.html items=site.data.honors.scholarships %}
+
+<h1 class="section-title" id="funding">💰 Funding</h1>
+
+{% include date-list.html items=site.data.funding %}
+
+<h1 class="section-title" id="services">🔖 Services</h1>
+
+{% include service-list.html items=site.data.service.conferences journals=site.data.service.journals %}
 
 <h1 class="section-title" id="patents">🔬 Patents</h1>
 
@@ -107,10 +111,6 @@ redirect_from:
 <h2 class="sub-title">Regional &amp; Provincial Prizes</h2>
 
 {% include date-list.html items=site.data.competitions.regional %}
-
-<h1 class="section-title" id="services">🔖 Services</h1>
-
-{% include service-list.html items=site.data.service.conferences journals=site.data.service.journals %}
 
 <h1 class="section-title" id="communities">🧑‍🤝‍🧑 Communities</h1>
 

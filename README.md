@@ -11,12 +11,12 @@ _data/
   social.yml         侧边栏社交图标（可增删排序）
   about.yml          About Me 段落 + 统计徽章
   education.yml      教育经历（logo + 一行富文本）
-  experience.yml     科研/实习经历
+  experience.yml     实习经历
   news.yml           News 列表（新的放最上面）
   honors.yml         Distinctions / Scholarships
   funding.yml        科研项目资助
   publications.yml   论文：featured 大卡片 / list 折叠列表
-  patents.yml        发明专利 / 外观专利
+  patents.yml        专利
   software.yml       软著：featured 卡片 / list
   competitions.yml   国际国家级 / 区域省级奖项
   music.yml          音乐卡片 + 底部播放器歌单（同一份数据驱动）

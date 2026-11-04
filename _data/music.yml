@@ -173,6 +173,14 @@ tracks:
     album: "越难越爱 Love Collection 精选 2014"
     audio: "music/yuenanyueai.mp3"
 
+  - badge: "梦响新歌声第二季 第1期 2013"
+    cover: "images/chenzao.png"
+    title: "趁早 (Live)"
+    url: "https://www.bilibili.com/video/BV1xz426jEmA/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea"
+    artists: "李琦"
+    album: "梦响新歌声第二季 第1期 2013"
+    audio: "music/chenzao.mp3"
+
   - badge: "Speak A Little Louder 2013"
     cover: "images/Staring at You.jpg"
     title: "Staring at You"

@@ -34,7 +34,7 @@ conferences:
   list:
     - highlight: "ACM MM 2026"
       title: "MIND: Multimodal Intent-Driven Network via Diffusion Transformers for Medical Image Fusion"
-      url: "https://arxiv.org/abs/2607.28565"
+      url: "https://dl.acm.org/doi/10.1145/3767308.3836491"
       resources:
         - { label: "🧑🏻‍💻 Code", url: "https://github.com/fyyyz24/MIND" }
         - { label: "🌐 Page", url: "https://fyyyz24.github.io/MIND-Project-Page/" }

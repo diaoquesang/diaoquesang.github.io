@@ -173,6 +173,14 @@ tracks:
     album: "越难越爱 Love Collection 精选 2014"
     audio: "music/yuenanyueai.mp3"
 
+  - badge: "연애의 조건 (Love Options)"
+    cover: "images/loveoptions.jpg"
+    title: "연애의 조건 (LOVE OPTIONS) (恋爱的条件)"
+    url: "https://www.bilibili.com/video/BV1PS4A6DEWc/?spm_id_from=333.337.search-card.all.click&vd_source=3d39889f8509fd4e6637ed46d371b8ea"
+    artists: "BESTie (베스티)"
+    album: "연애의 조건 (Love Options)"
+    audio: "music/loveoptions.mp3"
+
   - badge: "梦响新歌声第二季 第1期 2013"
     cover: "images/chenzao.png"
     title: "趁早 (Live)"

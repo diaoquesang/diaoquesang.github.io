@@ -2,7 +2,15 @@
 <div class="scroll-box">
   <ul class="date-list">
     {% for item in include.items %}
-      <li><span class="item-date">{{ item.date }}:&nbsp;</span><span class="item-body">{{ item.text_html }}</span></li>
+      <li>
+        <span class="item-date">{{ item.date }}:&nbsp;</span>
+        <span class="item-body">
+          {{ item.text_html }}
+          {% comment %}Optional second line, same role as a paper's venue (software
+          registration numbers use it; other sections leave it out entirely).{% endcomment %}
+          {% if item.venue_html %}<span class="item-venue">{{ item.venue_html }}</span>{% endif %}
+        </span>
+      </li>
     {% endfor %}
   </ul>
 </div>

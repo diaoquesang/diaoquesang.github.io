@@ -1,31 +1,49 @@
-# Patents section — two scrollable groups, original status wording (中文) kept.
+# Patents section — one scrollable list, newest 申请日 first (the dates come from the
+# 受理通知书 / 证书 themselves, so the order is verifiable and no finer key is needed).
+# Each row: registered Chinese title + inventor list in pinyin (same shape as the
+# software rows, his own name bolded like everywhere else), then the italic label
+# line with the type and the status — plain, no bold in that muted line
+# (受理=Accepted, 公开=Published, 授权=Granted). The 申请号 are deliberately not stored
+# or shown; the two rows whose notices are not in the folder use the dates and lists
+# he typed in (癫痫 2025.05.26, the design patent 2025.07.17).
 
-invention:
-  - date: "2026"
-    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于MIND模型的意图驱动多模态医学图像融合方法及系统</a> (<strong>受理</strong>, <strong>第五发明人</strong>)'
-  - date: "2025"
-    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于频域高阶交互的红外-可见光图像融合方法</a> (<strong>授权</strong>, <strong>第三发明人</strong>)'
-  - date: "2025"
-    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于双流互补的潜在扩散模型的癫痫病变状态分类方法</a> (<strong>公开</strong>, <strong>第五发明人</strong>)'
-  - date: "2025"
-    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种不完整多模态分层特征融合网络的MCI转换分类方法</a> (<strong>公开</strong>, <strong>第四发明人</strong>)'
-  - date: "2025"
-    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于选择性状态空间融合的眼科影像分类方法</a> (<strong>公开</strong>, <strong>第二发明人</strong>)'
-  - date: "2025"
-    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于NRGMFF和fMRI的脑疾病分类方法</a> (<strong>公开</strong>, <strong>第二发明人</strong>)'
-  - date: "2025"
-    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于GL-LCM模型的高分辨率胸部X光图像骨抑制方法</a> (<strong>公开</strong>, <strong>第一发明人</strong>)'
-  - date: "2024"
-    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">基于不完整三模态共注意融合的轻度认知障碍转换预测方法</a> (<strong>授权</strong>, <strong>第四发明人</strong>)'
-  - date: "2024"
-    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于多模态注意力融合网络的ADHD分类诊断方法</a> (<strong>公开</strong>, <strong>第六发明人</strong>)'
-  - date: "2024"
-    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于BS-LDM模型的高分辨率胸部X光图像骨抑制方法</a> (<strong>授权</strong>, <strong>第一发明人</strong>)'
-  - date: "2023"
-    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于TC-DiffRecon模型的纹理协调的MRI图像重建方法</a> (<strong>公开</strong>, <strong>第四发明人</strong>)'
-  - date: "2023"
-    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于条件扩散模型的胸部X光图像骨抑制方法</a> (<strong>公开</strong>, <strong>第一发明人</strong>)'
-
-design:
-  - date: "2025"
-    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">带有高校数字孪生展厅图形用户界面的电脑</a> (<strong>授权</strong>, <strong>第五发明人</strong>)'
+list:
+  - date: '2026.07'
+    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于MIND模型的意图驱动多模态医学图像融合方法及系统</a> Jian Wu, Yunzhan Fu, Hongxia Xu, Xiangyu Shen, <b>Yifei Sun</b>, Beining Wu, Chunbo Jiang, Xiaohong Jiang'
+    venue_html: '<i>CN Invention Patent (Accepted)</i>'
+  - date: '2025.07'
+    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">带有高校数字孪生展厅图形用户界面的电脑</a> Ying Huang, Fu Li, Wei Chen, Xiangdong Li, <b>Yifei Sun</b>'
+    venue_html: '<i>CN Design Patent (Granted)</i>'
+  - date: '2025.05'
+    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于频域高阶交互的红外-可见光图像融合方法</a> Yunzhan Fu, Yuxin Zhang, <b>Yifei Sun</b>, Ruiquan Ge, Gangyong Jia, Changmiao Wang'
+    venue_html: '<i>CN Invention Patent (Granted)</i>'
+  - date: '2025.05'
+    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于双流互补的潜在扩散模型的癫痫病变状态分类方法</a> Ruiquan Ge, Yongjia Pan, Hao Zheng, Jiazhen Zhang, <b>Yifei Sun</b>, Cheng Yang, Gangyong Jia, Changmiao Wang'
+    venue_html: '<i>CN Invention Patent (Published)</i>'
+  - date: '2025.04'
+    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种不完整多模态分层特征融合网络的MCI转换分类方法</a> Ruiquan Ge, Xiangyang Hu, Xiangyu Shen, <b>Yifei Sun</b>, Gangyong Jia, Changmiao Wang'
+    venue_html: '<i>CN Invention Patent (Published)</i>'
+  - date: '2025.04'
+    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于选择性状态空间融合的眼科影像分类方法</a> Junhao Jia, <b>Yifei Sun</b>, Shuo Jiang, Yanhui Song, Yuting Shi, Hanwen Zheng, Feiwei Qin'
+    venue_html: '<i>CN Invention Patent (Published)</i>'
+  - date: '2025.03'
+    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于NRGMFF和fMRI的脑疾病分类方法</a> Junhao Jia, <b>Yifei Sun</b>, Yanhui Song, Shuo Jiang, Feiwei Qin, Changmiao Wang'
+    venue_html: '<i>CN Invention Patent (Published)</i>'
+  - date: '2025.03'
+    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于GL-LCM模型的高分辨率胸部X光图像骨抑制方法</a> <b>Yifei Sun</b>, Zhanghao Chen, Hao Zheng, Junhao Jia, Ruiquan Ge, Jin Fan, Changmiao Wang'
+    venue_html: '<i>CN Invention Patent (Published)</i>'
+  - date: '2024.12'
+    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">基于不完整三模态共注意融合的轻度认知障碍转换预测方法</a> Ruiquan Ge, Xiangyang Hu, Xiangyu Shen, <b>Yifei Sun</b>, Xuhao Shan, Zhanghao Chen, Gangyong Jia, Xiaopeng Fan'
+    venue_html: '<i>CN Invention Patent (Granted)</i>'
+  - date: '2024.12'
+    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于多模态注意力融合网络的ADHD分类诊断方法</a> Junhao Jia, Feiwei Qin, Ruoyu Liang, Chi Zhang, Changmiao Wang, <b>Yifei Sun</b>, Yong Peng'
+    venue_html: '<i>CN Invention Patent (Published)</i>'
+  - date: '2024.03'
+    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于BS-LDM模型的高分辨率胸部X光图像骨抑制方法</a> <b>Yifei Sun</b>, Zhanghao Chen, Hao Zheng, Ruiquan Ge, Yifei Chen, Jin Fan, Changmiao Wang'
+    venue_html: '<i>CN Invention Patent (Granted)</i>'
+  - date: '2023.12'
+    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于条件扩散模型的胸部X光图像骨抑制方法</a> <b>Yifei Sun</b>, Zhanghao Chen, Ruiquan Ge, Gangyong Jia, Changmiao Wang'
+    venue_html: '<i>CN Invention Patent (Published)</i>'
+  - date: '2023.12'
+    text_html: '<a href="https://pss-system.cponline.cnipa.gov.cn/">一种基于TC-DiffRecon模型的纹理协调的MRI图像重建方法</a> Chenyan Zhang, Yifei Chen, Ruiquan Ge, <b>Yifei Sun</b>, Yiyu Huang, Zhenxiong Fan, Changmiao Wang'
+    venue_html: '<i>CN Invention Patent (Published)</i>'

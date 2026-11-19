@@ -1,29 +1,52 @@
 # Software (copyright) section.
 # featured = card with gif thumbnail; list = compact scroll box.
+# Titles are the registered Chinese names from the certificates — same reasoning as
+# the CN patents: the legal name is Chinese, so it is not translated. Every name
+# carries its registered version suffix (V1.0).
+# venue_html is the italic label line. The 登记号 are kept in reg: for the record;
+# no template reads reg, so they stay off the page. Newest grant first, so the two
+# 2025.02 rows run MRI-PET (2025SR0348057) then CT (2025SR0236997) — CT was granted
+# earlier in the month.
 
 featured:
   - badge: "2025.04"
     image: "images/IDSODBBFMI.gif"
-    title: "Intelligent Diagnosis System for Ophthalmic Diseases Based on Binocular Fundus Medical Imaging (V1.0)"
+    title: "基于双目眼底医学影像的眼科疾病智能诊断系统V1.0"
     url: "https://www.ccopyright.com/"
     authors_html: 'Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng'
+    venue_html: '<i>NCAC Computer Software Copyright Registration</i>'
+    reg: "2025SR0652269"
 
   - badge: "2024.11"
     image: "images/DMBBSSCXR.gif"
-    title: "Diffusion Model-Based Bone Suppression System for Chest X-Ray (V1.0)"
+    title: "基于扩散模型的胸部X射线骨抑制系统V1.0"
     url: "https://www.ccopyright.com/"
     authors_html: '<b>Yifei Sun</b>, Ruihan Yang, Zhanghao Chen'
+    venue_html: '<i>NCAC Computer Software Copyright Registration</i>'
+    reg: "2024SR1799110"
 
 list:
   - date: "2025.09"
-    text_html: '<a href="https://www.ccopyright.com/">Medical Intelligent Chest X-Ray Bone Suppression System (V1.0)</a> Ruihan Yang, Linfeng Luo, Xiaoyu Huang, <b>Yifei Sun</b>, Junhao Jia'
+    text_html: '<a href="https://www.ccopyright.com/">医用智能胸部X射线骨抑制系统V1.0</a> Ruihan Yang, Linfeng Luo, Xiaoyu Huang, <b>Yifei Sun</b>, Junhao Jia'
+    venue_html: '<i>NCAC Computer Software Copyright Registration</i>'
+    reg: "2025SR1694971"
   - date: "2025.08"
-    text_html: '<a href="https://www.ccopyright.com/">Intelligent Detection System for Fine-Grained Ocular Lesions Oriented to Clinical Interpretability (V1.0)</a> Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng'
+    text_html: '<a href="https://www.ccopyright.com/">面向临床可解释性的眼科细粒度病灶智能检测系统V1.0</a> Junhao Jia, Shuo Jiang, <b>Yifei Sun</b>, Yuting Shi, Hanwen Zheng'
+    venue_html: '<i>NCAC Computer Software Copyright Registration</i>'
+    reg: "2025SR1527206"
   - date: "2025.02"
-    text_html: '<a href="https://www.ccopyright.com/">Medical Intelligent MRI-PET Cross-Modal Conversion System (V1.0)</a> <b>Yifei Sun</b>, Xiangyang Hu, Xiangyu Shen, Junhao Jia, Yuanhan Wang'
+    text_html: '<a href="https://www.ccopyright.com/">医用智能MRI-PET跨模态转换系统V1.0</a> <b>Yifei Sun</b>, Xiangyang Hu, Xiangyu Shen, Junhao Jia, Yuanhan Wang'
+    venue_html: '<i>NCAC Computer Software Copyright Registration</i>'
+    reg: "2025SR0348057"
   - date: "2025.02"
-    text_html: '<a href="https://www.ccopyright.com/">Medical Intelligence-Assisted Lung Cancer CT Image Classification Software (V1.0)</a> Yuanhan Wang, Guanyu Zhou, <b>Yifei Sun</b>, Heng Xu, Yutian Wang'
+    text_html: '<a href="https://www.ccopyright.com/">医用智能辅助肺癌CT影像分类软件V1.0</a> Yuanhan Wang, Guanyu Zhou, <b>Yifei Sun</b>, Heng Xu, Yutian Wang'
+    venue_html: '<i>NCAC Computer Software Copyright Registration</i>'
+    reg: "2025SR0236997"
   - date: "2024.08"
-    text_html: '<a href="https://www.ccopyright.com/">Common Portal Platform for the Digital Security Conference (V1.0)</a> <b>Yifei Sun</b>, Linfeng Luo, Ruihan Yang, Yuyun Xiang, Zhihao Wu'
+    text_html: '<a href="https://www.ccopyright.com/">数字安全大会通用门户网站平台V1.0</a> <b>Yifei Sun</b>, Linfeng Luo, Ruihan Yang, Yuyun Xiang, Zhihao Wu'
+    venue_html: '<i>NCAC Computer Software Copyright Registration</i>'
+    reg: "2024SR1245897"
   - date: "2024.08"
-    text_html: '<a href="https://www.ccopyright.com/">Common Portal Applet Software for the Digital Security Conference (V1.0)</a> <b>Yifei Sun</b>, Ruihan Yang, Yuyun Xiang, Linfeng Luo, Zhihao Wu'
+    text_html: '<a href="https://www.ccopyright.com/">数字安全大会通用门户小程序软件V1.0</a> <b>Yifei Sun</b>, Ruihan Yang, Yuyun Xiang, Linfeng Luo, Zhihao Wu'
+    venue_html: '<i>NCAC Computer Software Copyright Registration</i>'
+    reg: "2024SR1238375"

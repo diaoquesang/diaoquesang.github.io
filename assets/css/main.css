@@ -476,6 +476,15 @@ img { max-width: 100%; }
 
 .item-body { flex: 1; }
 
+/* second line of a date-list row (software copyright registration numbers) —
+   the same small muted treatment as .paper-venue / .work-venue */
+.item-venue {
+  display: block;
+  font-size: 13.5px;
+  color: var(--muted);
+  margin-top: 1px;
+}
+
 /* ---------- featured work cards (papers / software / music) ---------- */
 .work-card {
   display: flex;

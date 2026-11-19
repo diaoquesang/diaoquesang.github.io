@@ -86,6 +86,8 @@ redirect_from:
 
 <h1 class="section-title" id="patents">🔬 Patents</h1>
 
+{% comment %}Two-group layout, replaced 2026-11-19 by one list whose rows carry the
+patent type on an italic label line (same as the Software section):
 <h2 class="sub-title">CN Invention Patents</h2>
 
 {% include date-list.html items=site.data.patents.invention %}
@@ -93,8 +95,16 @@ redirect_from:
 <h2 class="sub-title">CN Design Patents</h2>
 
 {% include date-list.html items=site.data.patents.design %}
+{% endcomment %}
+
+{% include date-list.html items=site.data.patents.list %}
 
 <h1 class="section-title" id="software">📱 Software</h1>
+
+{% comment %}Sub-title variant tried 2026-11-19 and dropped: the section holds one
+kind of entry, so the label lives on each card's italic venue line instead.
+<h2 class="sub-title">NCAC Computer Software Copyright Registration</h2>
+{% endcomment %}
 
 {% for item in site.data.software.featured %}
   {% include work-card.html item=item %}

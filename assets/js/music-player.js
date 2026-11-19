@@ -83,6 +83,10 @@ document.addEventListener('DOMContentLoaded', () => {
     cancelRamp(false);
     DOM.audio.volume = volumeTarget();
     state.current = i;
+    // remember the last switched track — every path (auto-advance, prev/next,
+    // queue click) funnels through here. Only the index is stored; the progress
+    // bar deliberately stays per-visit (currentTime resets to 0 below).
+    try { localStorage.setItem('music-last-track', String(i)); } catch (e) { /* private mode */ }
     DOM.audio.src = t.file;
     DOM.audio.currentTime = 0;
     DOM.audio.load();
@@ -461,7 +465,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ===== start =====
   extractTracks();
-  if (state.tracks.length > 0) loadTrack(0, false);
+  // was: loadTrack(0, false) — every visit sat on the first track; now resume
+  // wherever the last switch left off (bounds-checked in case the playlist shrank)
+  let startIdx = 0;
+  try {
+    const saved = parseInt(localStorage.getItem('music-last-track'), 10);
+    if (Number.isFinite(saved) && saved >= 0 && saved < state.tracks.length) startIdx = saved;
+  } catch (e) { /* storage unavailable — start on the first track */ }
+  if (state.tracks.length > 0) loadTrack(startIdx, false);
   changeVolume();
   setProgress(DOM.progress, 0);
 });

@@ -476,6 +476,15 @@ img { max-width: 100%; }
 
 .item-body { flex: 1; }
 
+/* author line inside a date-list row (patents / software) — same treatment as
+   .work-authors on the featured cards, tightened for list rows */
+.item-authors {
+  display: block;
+  font-size: 14.5px;
+  color: var(--text);
+  margin-top: 1px;
+}
+
 /* second line of a date-list row (software copyright registration numbers) —
    the same small muted treatment as .paper-venue / .work-venue */
 .item-venue {

@@ -6,6 +6,9 @@
         <span class="item-date">{{ item.date }}:&nbsp;</span>
         <span class="item-body">
           {{ item.text_html }}
+          {% comment %}Optional author line (patents / software lists), same role as a
+          card's .work-authors — sits between the entry text and the venue line.{% endcomment %}
+          {% if item.authors_html %}<span class="item-authors">{{ item.authors_html }}</span>{% endif %}
           {% comment %}Optional second line, same role as a paper's venue (software
           registration numbers use it; other sections leave it out entirely).{% endcomment %}
           {% if item.venue_html %}<span class="item-venue">{{ item.venue_html }}</span>{% endif %}

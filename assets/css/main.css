@@ -241,9 +241,10 @@ img { max-width: 100%; }
   .nav-link { padding: 5px 12px; }
 }
 
-/* 13 nav items since 2026-10-30 (Academic Services / Communities added):
-   go two-column from 900px tall down, otherwise short windows overflow */
-@media (max-height: 900px) {
+/* 14 nav items since 2026-11-21 (Activities added): go two-column from
+   940px tall down — at 13 items 900px was enough, measured single-column overflow
+   was ~20px at 920px after the 14th item. */
+@media (max-height: 940px) {
   .nav ul { display: grid; grid-template-columns: 1fr 1fr; gap: 0 6px; }
   .nav-link { padding: 5px 8px; font-size: 13.5px; }
 }

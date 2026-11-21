@@ -1,0 +1,14 @@
+# Activities — conference attendance (activity records, not outputs;
+# the section was deliberately kept out of Publications, per 2026-11-21 decision).
+# Newest first, same as every other date list. The venue name links to the
+# official conference page (URLs supplied by him); the place line stays plain.
+
+list:
+  - date: "2026.11"
+    text_html: '<a href="https://conf.ccf.org.cn/web/api/m1546890143594582016178884895006.action">The 4th CCF Digital Medicine Symposium (DMS 2026)</a>, Hangzhou, China'
+  - date: "2026.01"
+    text_html: '<a href="https://aaai.org/conference/aaai/aaai-26">The 40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026)</a>, Singapore'
+  - date: "2025.09"
+    text_html: '<a href="https://conferences.miccai.org/2025/en/default.asp">The 28th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI 2025)</a>, Daejeon, Republic of Korea'
+  - date: "2025.06"
+    text_html: '<a href="https://www.cast.org.cn/xw/dfkx/ZJ/art/2025/art_d7c91912d3b74c10ae75a03b0eee7e96.html">The 4th Zhejiang Young Scientists Open Day</a>, Hangzhou, China'

@@ -126,6 +126,10 @@ kind of entry, so the label lives on each card's italic venue line instead.
 
 {% include community-cards.html items=site.data.communities.links %}
 
+<h1 class="section-title" id="activities">🗓️ Activities</h1>
+
+{% include date-list.html items=site.data.activities.list %}
+
 <h1 class="section-title" id="my-favorite-music">🎼 My Favorite Music</h1>
 
 <div class="music-quote">

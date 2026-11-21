@@ -24,5 +24,7 @@ main:
     url: "#competitions"
   - title: "Communities"
     url: "#communities"
+  - title: "Activities"
+    url: "#activities"
   - title: "My Favorite Music"
     url: "#my-favorite-music"

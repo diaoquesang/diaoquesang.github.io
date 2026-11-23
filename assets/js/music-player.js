@@ -144,6 +144,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (state.playMode === 1) {
       if (state.shuffleIndex >= state.shuffled.length - 1) {
         buildShuffle(state.current);
+        // buildShuffle pins the current track at position 0, so start the fresh
+        // pass at position 1 — otherwise pressing next at the queue end (or an
+        // auto-advance there) reloaded the same song. Kept safe for 1-track queues.
+        state.shuffleIndex = state.shuffled.length > 1 ? 1 : 0;
       } else {
         state.shuffleIndex++;
       }

@@ -844,6 +844,19 @@ img { max-width: 100%; }
   filter: brightness(0.85);
 }
 
+/* the bar's track name was clicked — flash the song's card with the accent ring
+   (music cards have no border shell, so box-shadow carries the highlight; the
+   class is dropped by a timer in music-player.js and this fades it out) */
+.music-card {
+  transition: box-shadow 0.15s ease;
+}
+
+.music-card.is-jumped {
+  box-shadow: 0 0 0 2px var(--accent);
+  /* was rounded (var(--radius)) — he wants the flash a plain rectangle */
+  border-radius: 0;
+}
+
 /* ---------- fixed music player bar ---------- */
 #music-player-bar {
   position: fixed;
@@ -909,6 +922,7 @@ img { max-width: 100%; }
 .mode-btn { color: var(--accent); }
 
 .track-name {
+  /* 280px width trial reverted same day — he didn't like it; back to 200 */
   flex: 0 1 200px;
   max-width: 200px;
   min-width: 110px;
@@ -916,6 +930,25 @@ img { max-width: 100%; }
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  /* click jumps to the song's card (hover pan switched off 2026-11-21) */
+  cursor: pointer;
+  /* the bar is a control, not prose (his call 2026-11-23): no text selection here,
+     which also settles the marquee's two-copy strip copying the name twice —
+     song titles on the cards below stay selectable */
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* hover: text highlights like the bar buttons do, but color only — he dropped
+   the accent-soft chip because its height could not match the 38px buttons */
+.track-name:hover { color: var(--accent); }
+
+/* two-copy layout for the bar title's one-pass marquee (.track-name stays the
+   viewport; the 48px gap must equal NAME_GAP in music-player.js) */
+.marquee-strip {
+  display: inline-flex;
+  white-space: nowrap;
+  gap: 48px;
 }
 
 .time { font-size: 12px; min-width: 45px; flex-shrink: 0; text-align: center; color: var(--muted); }
@@ -998,6 +1031,13 @@ input[type="range"]:focus, input[type="range"]:active { outline: none; box-shado
 /* ---------- responsive ---------- */
 @media (max-width: 1080px) {
   .main { padding: 84px 26px 74px; } /* keep the stage extending behind the flush player */
+  /* the player row mirrors .main exactly — it kept 56px after .main dropped to
+     26px, which is what clipped the volume cluster on 1001–1080px windows.
+     (≤1000px overrides with its own compact 18px padding.) */
+  #music-player-bar { padding-left: 26px; padding-right: 26px; }
+  /* on these windows the volume cluster goes mobile-style: slider and % text
+     hidden, the icon (mute) stays — his call over inventing a slimmer desktop look */
+  #volume-slider, #volume-display { display: none; }
 }
 
 @media (max-width: 1000px) {

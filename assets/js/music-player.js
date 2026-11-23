@@ -53,6 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const prefix = typeof window.SITE_BASE === 'string' ? window.SITE_BASE : '';
     state.tracks = data.map((t) => ({
       name: t.title,
+      artist: t.artists || '', // shown in the bar as "title - artist" since 2026-11-21
       file: new URL(prefix + t.audio, document.baseURI).href, // resolves relative to the page, like the browser would
     }));
   }
@@ -74,6 +75,58 @@ document.addEventListener('DOMContentLoaded', () => {
     state.shuffleIndex = 0;
   }
 
+  // ===== bar title: QQ-Music-style one-pass marquee =====
+  // A too-long name is laid out as two copies with a gap; on track change it
+  // scrolls left exactly one copy+gap — the second copy's head lands where the
+  // first started, which is pixel-identical to rest, so the transform snaps
+  // back with no jump and stays still. Short names keep the plain ellipsis span.
+  const NAME_GAP = 48;   // px between the two occurrences
+  const NAME_SPEED = 42; // px per second
+  let nameTimer = 0, nameAnim = null, barNameText = '';
+  function showBarName(text) {
+    barNameText = text; // kept so a window resize can re-measure with the same title
+    clearTimeout(nameTimer);
+    if (nameAnim) { nameAnim.cancel(); nameAnim = null; }
+    DOM.name.textContent = text; // plain fallback: also what reduced-motion keeps (ellipsis CSS applies)
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const over = DOM.name.scrollWidth - DOM.name.clientWidth;
+    if (over <= 2) return; // fits — nothing to scroll
+    DOM.name.textContent = '';
+    const strip = document.createElement('span');
+    strip.className = 'marquee-strip';
+    const copy = document.createElement('span');
+    copy.textContent = text;
+    const copy2 = copy.cloneNode(true);
+    strip.append(copy, copy2);
+    DOM.name.appendChild(strip);
+    const dist = copy.offsetWidth + NAME_GAP;
+    nameTimer = setTimeout(() => {
+      nameAnim = strip.animate(
+        [{ transform: 'translateX(0)' }, { transform: `translateX(-${dist}px)` }],
+        { duration: (dist / NAME_SPEED) * 1000, easing: 'linear', fill: 'none' }
+      );
+      nameAnim.onfinish = () => { nameAnim = null; strip.style.transform = 'translateX(0)'; }; // identical look, seamless
+    }, 400);
+  }
+
+  // Re-measure the bar title when the window width changes (his rule 2026-11-23:
+  // 400ms after resizing stops, the scroll begins — that IS showBarName's own preroll:
+  // every resize call clearTimeouts the pending one, so text sits still while dragging
+  // and only the last call gets to animate). Fixes the stale-dist bug where widening
+  // after a finished marquee could leave both copies visible, and restores the plain
+  // ellipsis/text when the box grows enough for the name to fit.
+  // (A "skip rebuild when the box did not change" guard was trialled the same day to
+  // kill the flash of the scroll resetting on release — he said 「回退 不要啊」.)
+  window.addEventListener('resize', () => showBarName(barNameText));
+
+  // Coming back to the tab re-runs the title pass once (request 2026-11-23): WAAPI
+  // kept scrolling while the tab was hidden, so on return the pass is often already
+  // finished — this replays it so the name gets introduced again. showBarName's own
+  // fits-or-not measurement is the "不够显示全部" condition: names that fit stay plain.
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden && barNameText) showBarName(barNameText);
+  });
+
   // ===== playback =====
   function loadTrack(i, autoPlay = true) {
     const t = state.tracks[i];
@@ -90,7 +143,8 @@ document.addEventListener('DOMContentLoaded', () => {
     DOM.audio.src = t.file;
     DOM.audio.currentTime = 0;
     DOM.audio.load();
-    DOM.name.textContent = t.name;
+    // was: DOM.name.textContent = t.name; — now "歌名 - 作者"
+    showBarName(t.artist ? t.name + ' - ' + t.artist : t.name);
     if (autoPlay) DOM.audio.play().catch(() => {});
     updatePlayButton();
   }
@@ -465,6 +519,35 @@ document.addEventListener('DOMContentLoaded', () => {
       if (pos === -1) buildShuffle(idx); else state.shuffleIndex = pos;
     }
     loadTrack(idx, true);
+  });
+
+  // ===== bar track name: click jumps to its card =====
+  // (hover pan + hover tooltip were shipped and then switched off on request
+  // 2026-11-21 — kept commented in case he wants them back)
+  let jumpTimer = 0;
+  const nameEl = DOM.name;
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+  // nameEl.title = 'Jump to this song';
+  // nameEl.addEventListener('mouseenter', () => {
+  //   if (reduced.matches) return;
+  //   const over = nameEl.scrollWidth - nameEl.clientWidth;
+  //   if (over <= 2) return; // nothing is hidden — leave it still
+  //   nameEl.style.transition = `text-indent ${Math.min(6, Math.max(1.5, over / 30))}s linear`;
+  //   nameEl.style.textIndent = `-${over}px`;
+  // });
+  // nameEl.addEventListener('mouseleave', () => {
+  //   nameEl.style.transition = 'none';
+  //   nameEl.style.textIndent = '0';
+  // });
+  nameEl.addEventListener('click', () => {
+    const fab = document.querySelector(`.queue-track[data-index="${state.current}"]`);
+    const card = fab && fab.closest('.music-card');
+    if (!card) return;
+    card.scrollIntoView({ behavior: reduced.matches ? 'auto' : 'smooth', block: 'center' });
+    document.querySelectorAll('.music-card.is-jumped').forEach((c) => c.classList.remove('is-jumped'));
+    card.classList.add('is-jumped');
+    clearTimeout(jumpTimer);
+    jumpTimer = setTimeout(() => card.classList.remove('is-jumped'), 1200);
   });
 
   // ===== start =====

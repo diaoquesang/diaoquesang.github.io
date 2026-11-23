@@ -5,11 +5,17 @@
 # on 2026-10-30. The AAAI mark ships white-on-transparent, so it was dyed the
 # site's navy (001B37) with tools/recolor-icon.mjs to read on the white plate.
 # If an icon cannot load, the <img> removes itself and the card shows its name.
+# CCF (added 2026-11-23): the site's www root serves an Aliyun captcha to plain
+# curl, so the logo came from the live browser at
+# https://www.ccf.org.cn/images/images/2023logo.png (1228x182 wordmark); the left
+# emblem cluster (x 0-228) was cropped with sharp, padded to 256x256 and centred —
+# dark navy mark (avgLum 48), reads on the white plate without recoloring.
 
 links:
   - { name: "IEEE", url: "https://www.ieee.org/", domain: "ieee.org", icon: "images/communities/ieee.png" }
   - { name: "AAAI", url: "https://aaai.org/", domain: "aaai.org", icon: "images/communities/aaai.png" }
   - { name: "MICCAI", url: "https://miccai.org/", domain: "miccai.org", icon: "images/communities/miccai.png" }
+  - { name: "CCF", url: "https://www.ccf.org.cn/", domain: "ccf.org.cn", icon: "images/communities/ccf.png" }
   - { name: "CAAI", url: "https://www.caai.cn/", domain: "caai.cn", icon: "images/communities/caai.png" }
   - { name: "CSIG", url: "https://www.csig.org.cn", domain: "csig.org.cn", icon: "images/communities/csig.png" }
   - { name: "ZCF", url: "http://zcfcia.org.cn/", domain: "zcfcia.org.cn", icon: "images/communities/zcfcia.png" }

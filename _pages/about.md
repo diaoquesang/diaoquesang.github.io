@@ -130,7 +130,7 @@ kind of entry, so the label lives on each card's italic venue line instead.
 
 {% include date-list.html items=site.data.activities.list %}
 
-<h1 class="section-title" id="my-favorite-music">🎼 My Favorite Music</h1>
+<h1 class="section-title" id="mixtape">🎼 Mixtape</h1>
 
 <div class="music-quote">
   <h3>{{ site.data.music.quote_html }}</h3>

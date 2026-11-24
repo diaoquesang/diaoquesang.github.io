@@ -26,5 +26,5 @@ main:
     url: "#communities"
   - title: "Activities"
     url: "#activities"
-  - title: "My Favorite Music"
-    url: "#my-favorite-music"
+  - title: "Mixtape"
+    url: "#mixtape"

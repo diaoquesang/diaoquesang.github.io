@@ -6,6 +6,7 @@ conferences:
   - { name: "ICLR", url: "https://iclr.cc/", years: ["2027"] }
   - { name: "CVPR", url: "https://cvpr.thecvf.com/", years: [] } # 2026-11-21 he asked to insert between ICLR and AAAI; review years not yet told to me, not rendered anyway
   - { name: "AAAI", url: "https://aaai.org/", years: ["2027", "2026"] }
+  - { name: "WWW", url: "https://thewebconf.org/", years: [] } # 2026-11-24 he asked to insert between AAAI and ACM MM; yearless series homepage (www.thewebconf.org does not resolve; year sites are www20XX.thewebconf.org)
   - { name: "ACM MM", url: "https://acmmm.org/", years: ["2026", "2025"] }
   - { name: "MICCAI", url: "https://miccai.org/", years: ["2026"] }
   - { name: "ICASSP", url: "https://ieeeicassp.org", years: ["2026"] }

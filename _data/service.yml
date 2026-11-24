@@ -3,17 +3,18 @@
 # Chips only: conference links point to the stable venue homepage (not per-year sites).
 
 conferences:
-  - { name: "ICLR", url: "https://iclr.cc/", years: ["2027"] }
-  - { name: "CVPR", url: "https://cvpr.thecvf.com/", years: [] } # 2026-11-21 he asked to insert between ICLR and AAAI; review years not yet told to me, not rendered anyway
-  - { name: "AAAI", url: "https://aaai.org/", years: ["2027", "2026"] }
-  - { name: "WWW", url: "https://thewebconf.org/", years: [] } # 2026-11-24 he asked to insert between AAAI and ACM MM; yearless series homepage (www.thewebconf.org does not resolve; year sites are www20XX.thewebconf.org)
-  - { name: "ACM MM", url: "https://acmmm.org/", years: ["2026", "2025"] }
-  - { name: "MICCAI", url: "https://miccai.org/", years: ["2026"] }
-  - { name: "ICASSP", url: "https://ieeeicassp.org", years: ["2026"] }
-  - { name: "ICME", url: "https://ieeeicme.org/", years: ["2026"] }
-  - { name: "ISBI", url: "https://biomedicalimaging.org/", years: ["2027"] }
-  - { name: "IPCAI", url: "https://sites.google.com/view/ipcai2027", years: ["2027"] } # no generic domain: official series page is this (redirected from www.ipcai.org)
-  - { name: "BHI", url: "https://bhi.embs.org/", years: ["2026"] }
+  # review years dropped from all entries 2026-11-24 at his request (never rendered anyway)
+  - { name: "ICLR", url: "https://iclr.cc/" }
+  - { name: "CVPR", url: "https://cvpr.thecvf.com/" }
+  - { name: "WWW", url: "https://thewebconf.org/" } # yearless series homepage (www.thewebconf.org does not resolve; year sites are www20XX.thewebconf.org)
+  - { name: "AAAI", url: "https://aaai.org/" }
+  - { name: "ACM MM", url: "https://acmmm.org/" }
+  - { name: "MICCAI", url: "https://miccai.org/" }
+  - { name: "ICASSP", url: "https://ieeeicassp.org" }
+  - { name: "ICME", url: "https://ieeeicme.org/" }
+  - { name: "ISBI", url: "https://biomedicalimaging.org/" }
+  - { name: "IPCAI", url: "https://sites.google.com/view/ipcai2027" } # no generic domain: official series page is this (redirected from www.ipcai.org)
+  - { name: "BHI", url: "https://bhi.embs.org/" }
 
 journals:
   - { name: "TCSVT", url: "https://ieee-cas.org/publication/tcsvt" }
@@ -24,5 +25,5 @@ journals:
   - { name: "CVIU", url: "https://www.sciencedirect.com/journal/computer-vision-and-image-understanding" }
   - { name: "IJCARS", url: "https://link.springer.com/journal/11548" }
 
-# old flat paragraph (moved from about.yml, superseded by the structured lists above):
-# text_html: 'Conference Reviewers of **ICLR**<sub>[2027](https://iclr.cc/Conferences/2027)</sub>, **AAAI**<sub>[2027](https://aaai.org/conference/aaai/aaai-27/), [2026](https://aaai.org/conference/aaai/aaai-26/)</sub>, **ACM MM**<sub>[2026](https://2026.acmmm.org/), [2025](https://acmmm2025.org/)</sub>, **MICCAI**<sub>[2026](https://conferences.miccai.org/2026/en/default.asp)</sub>, **ICASSP**<sub>[2026](https://2026.ieeeicassp.org/)</sub>, **ICME**<sub>[2026](https://2026.ieeeicme.org/)</sub>, **ISBI**<sub>[2027](https://biomedicalimaging.org/2027/)</sub>, **IPCAI**<sub>[2027](https://sites.google.com/view/ipcai2027)</sub>, **BHI**<sub>[2026](https://bhi.embs.org/2026/)</sub>; Journal Reviewers of [**TCSVT**](https://ieee-cas.org/publication/tcsvt), [**TNNLS**](https://cis.ieee.org/publications/t-neural-networks-and-learning-systems), [**EAAI**](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence), [**JBHI**](https://www.embs.org/jbhi/), [**BSPC**](https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control), [**CVIU**](https://www.sciencedirect.com/journal/computer-vision-and-image-understanding), [**IJCARS**](https://link.springer.com/journal/11548).'
+# the old flat paragraph (with per-year conference links) was removed 2026-11-24:
+# he asked not to keep the review-year data at all; git history has the original.
